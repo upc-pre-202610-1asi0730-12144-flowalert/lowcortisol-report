@@ -64,7 +64,8 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   TB1   |            |       |                                                            |
 |   TP1   |            |       |                                                            |
 |   TB2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
@@ -95,7 +96,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 #### Participación por integrante:
 
 
-##### Commits en el project reportCommits en el project report de la TB1:
+##### Commits en el project reportCommits en el project report de la AV1:
 
 <p align="center">
   <img src="assets/md-images-members/Commits en el project report 1.jpeg" alt="Commits en el project report">
@@ -268,8 +269,8 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>TB1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>TB1: En esta primera entrega se desarrollo nuestro proyecto definiendo nuestros segmento objetivos, diseño de entrevistas, usuarios y posibles competidores, permitiendome así poder realizar todo el Needfinding(UserPersona, User Task Matrix, Journey Mapping, Emphaty Mapping), para luego hacer el diagrama C4 del proyecto tanto backend como frontend, además de contribuir con secciones de la landing page (Header, Home, Contact y Footer) y el Event Storming.<br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> TB1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente.  <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> TB1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos.<br> TP1: <br> TB2: <br> TF1:<br><br> Kirk Quiliano <br> TB1: En esta primera entrega se desarrollo nuestro proyecto definiendo segmentos, usuarios y competidores; además realicé entrevistas y, en base a ellas, diseñé la landing page.<br> TP1: <br> TB2: <br> TF1: | TB1: En esta primera entrega (TB1), el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>TB1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>TB1: Trabajé la comunicación escrita realizando el informe en markdown, además de los documentos de Needfinding, partes del Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible.<br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> TB1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema.  <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> TB1: Desarrollé gran parte del Capítulo 1 (excepto la sección 1.3), incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el sprint backlog, la sección de beneficios de la landing page y el Event Storming.<br> TP1: <br> TB2: <br> TF1:<br><br> Kirk Quiliano <br> TB1: Trabajé la comunicación escrita realizando el informe en markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible.<br> TP1: <br> TB2: <br> TF1: | TB1: Durante el TB1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la landing page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>AV1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrollo nuestro proyecto definiendo nuestros segmento objetivos, diseño de entrevistas, usuarios y posibles competidores, permitiendome así poder realizar todo el Needfinding (User Persona, User Task Matrix, Journey Mapping, Empathy Mapping), para luego hacer el diagrama C4 del proyecto tanto backend como frontend, además de contribuir con secciones de la landing page (Header, Home, Contact y Footer) y el Event Storming. <br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente. <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos. <br> TP1: <br> TB2: <br> TF1: <br><br> Kirk Quiliano <br> AV1: En esta primera entrega se desarrollo nuestro proyecto definiendo segmentos, usuarios y competidores; además realicé entrevistas y, en base a ellas, diseñé la landing page. <br> TP1: <br> TB2: <br> TF1: | AV1: En esta primera entrega (AV1), el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>AV1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>AV1: Trabajé la comunicación escrita realizando el informe en markdown, además de los documentos de Needfinding, partes del Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible. <br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> AV1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema. <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> AV1: Desarrollé gran parte del Capítulo 1 (excepto la sección 1.3), incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el sprint backlog, la sección de beneficios de la landing page y el Event Storming. <br> TP1: <br> TB2: <br> TF1: <br><br> Kirk Quiliano <br> AV1: Trabajé la comunicación escrita realizando el informe en markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible. <br> TP1: <br> TB2: <br> TF1: | AV1: Durante el AV1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la landing page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. |
 
 # Capitulo I: Introducción
 
@@ -2674,66 +2675,141 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes construidos para la web de LowCortisol representan 
-la arquitectura logica y funcional del sistema, priorizando la 
-accesibilidad de los controles de seguridad.
+Los wireframes de **LowCortisol** representan la estructura lógica y funcional de la aplicación, priorizando la organización de los elementos de interfaz, la claridad de navegación y la accesibilidad de las acciones principales del sistema. Estas vistas de baja fidelidad permiten identificar la distribución general de los componentes antes de su implementación visual definitiva, tanto en entorno web como móvil.
 
-Inicio: Pantalla de autenticacion diseñada para el acceso seguro de usuarios registrados mediante credenciales de correo y contraseña.
+#### 1. Pantalla de Inicio de Sesión
+* **Propósito:** Permitir el acceso seguro de usuarios registrados mediante credenciales de correo y contraseña.
+* **Elementos clave:** Selector de idioma, campos de correo y contraseña, botón de inicio de sesión y enlace para crear una nueva cuenta.
 
+<p align="center"><strong>Web version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Inicio.png" alt="Inicio-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Login.png" alt="Login-Web-Application-Wireframe" width="700">
 </p>
 
-Register: Formulario de captura de datos para nuevos usuarios que permite la segmentacion segun el tipo de cuenta (Hogar u Organizacion).
-
+<p align="center"><strong>Mobile version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Register.png" alt="Register-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Login.png" alt="Login-Mobile-Application-Wireframe" width="260">
 </p>
 
-Dashboard: Panel principal que muestra el estado global de seguridad y las metricas en tiempo real de agua y gas con un boton de apagado de emergencia.
+---
 
+#### 2. Registro de Usuario
+* **Propósito:** Permitir el registro de nuevos usuarios dentro de la plataforma.
+* **Elementos clave:** Campos para nombre, correo electrónico, teléfono y contraseña, selector de tipo de cuenta, botón para crear la cuenta y enlace para volver al inicio de sesión.
+
+<p align="center"><strong>Web version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Dashboard.png" alt="Dashboard-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Register.png" alt="Register-Web-Application-Wireframe" width="700">
 </p>
 
-Alertas: Listado cronologico de notificaciones e incidentes detectados, permitiendo al usuario identificar rapidamente la ubicacion y severidad del evento.
-
+<p align="center"><strong>Mobile version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Alerts.png" alt="Alertas-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Register.png" alt="Register-Mobile-Application-Wireframe" width="260">
 </p>
 
-Controls: Interfaz de gestion operativa para el accionamiento individual de valvulas y seleccion entre modo de control automatico o manual.
+---
 
+#### 3. Dashboard Principal (Home)
+* **Propósito:** Presentar una vista general del estado del sistema y de la actividad reciente del usuario.
+* **Elementos clave:** Tarjetas informativas de agua y gas, indicador de incidentes activos, resumen del sistema, acciones rápidas, incidentes recientes y notificaciones recientes.
+
+<p align="center"><strong>Web version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Controls.png" alt="Controls-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Home.png" alt="Home-Web-Application-Wireframe" width="700">
 </p>
 
-Profile: Seccion dedicada a la gestion de informacion personal del usuario, preferencias de la cuenta y opciones de cierre de sesion.
-
+<p align="center"><strong>Mobile version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Profile.png" alt="Profile-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Home.png" alt="Home-Mobile-Application-Wireframe" width="260">
 </p>
 
-Devices: Modulo de administracion de hardware donde se monitorea el estado de bateria, señal y conectividad de cada sensor IoT vinculado.
+---
 
+#### 4. Gestión de Dispositivos
+* **Propósito:** Administrar los dispositivos registrados dentro de la red de monitoreo inteligente.
+* **Elementos clave:** Estado de los dispositivos, botón para agregar dispositivos y visualización del estado actual de la red o del contenido disponible.
+
+<p align="center"><strong>Web version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Devices.png" alt="Devices-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Devices.png" alt="Devices-Web-Application-Wireframe" width="700">
 </p>
 
-Reports: Visualizacion de datos historicos mediante graficas de consumo y herramientas para la exportacion de informes detallados en formato PDF.
-
+<p align="center"><strong>Mobile version</strong></p>
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Reports.png" alt="History-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Devices.png" alt="Devices-Mobile-Application-Wireframe" width="260">
 </p>
+
+---
+
+#### 5. Reportes de Consumo
+* **Propósito:** Visualizar el historial y análisis del consumo registrado en la plataforma.
+* **Elementos clave:** Resumen de reportes generados, totales de agua y gas, gráfico de tendencia de consumo, selector de rango temporal y sección de reportes generados.
+
+<p align="center"><strong>Web version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Reports.png" alt="Reports-Web-Application-Wireframe" width="700">
+</p>
+
+<p align="center"><strong>Mobile version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Reports.png" alt="Reports-Mobile-Application-Wireframe" width="260">
+</p>
+
+---
+
+#### 6. Centro de Alertas
+* **Propósito:** Gestionar incidentes detectados por el sistema y dar seguimiento a su estado operativo.
+* **Elementos clave:** Botón para crear incidentes, resumen de incidencias y tablero o historial de incidentes registrados.
+
+<p align="center"><strong>Web version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Alerts.png" alt="Alerts-Web-Application-Wireframe" width="700">
+</p>
+
+<p align="center"><strong>Mobile version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Alerts.png" alt="Alerts-Mobile-Application-Wireframe" width="260">
+</p>
+
+---
+
+#### 7. Perfil de Usuario
+* **Propósito:** Mostrar la información personal del usuario y los principales datos de su cuenta.
+* **Elementos clave:** Avatar o iniciales del usuario, nombre completo, correo electrónico, rol, resumen de la cuenta, accesos rápidos y opción de cierre de sesión.
+
+<p align="center"><strong>Web version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Application-Wireframe-Profile.png" alt="Profile-Web-Application-Wireframe" width="700">
+</p>
+
+<p align="center"><strong>Mobile version</strong></p>
+<p align="center">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireframe-Profile.png" alt="Profile-Mobile-Application-Wireframe" width="260">
+</p>
+
+---
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-En este apartado mostramos el flujo operativo del prototipo de baja fidelidad (wireframes) necesarios para las esperadas expectativas de nuestros segmentos objetivo.
+En este apartado se presentan los wireflows de la aplicación **LowCortisol**, los cuales describen el flujo de navegación e interacción entre las principales pantallas del sistema. Estos diagramas permiten visualizar cómo el usuario recorre la aplicación desde el inicio de sesión hasta los módulos funcionales principales, tanto en la versión web de escritorio como en la versión móvil.
 
+#### Web Wireflow
+El wireflow de escritorio muestra la relación entre las pantallas principales de la aplicación web, incluyendo el acceso mediante **Login** y **Register**, y la navegación posterior hacia los módulos de **Home**, **Devices**, **Reports**, **Alerts** y **Profile**. Su propósito es representar de forma clara la estructura de navegación general del sistema y la continuidad entre las vistas principales.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireflow.png" alt="History-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Application-Wireflow.png" alt="Application-Wireflow">
 </p>
+
+---
+
+#### Mobile Wireflow
+El wireflow móvil representa la lógica de navegación de la aplicación adaptada a dispositivos móviles. En este flujo se observa cómo el usuario puede acceder desde las pantallas de autenticación hacia las vistas principales del sistema, manteniendo una estructura coherente con la versión de escritorio, pero optimizada para una experiencia de uso en pantallas reducidas.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Mobile-Application-Wireflow.png" alt="Mobile-Application-Wireflow">
+</p>
+
+---
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -3226,7 +3302,13 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
 </p>
 
 # Conclusiones
-Hasta el momento, el poryecto LowCortisol ha logrado consolidar una base sólida de investigación, diseño, arquitectura e implementación inicial. El equipo partió de una problemática real relacionada con la detección tardía de fugas de agua y gas en hogares, hoteles, municipalidades y otras infraestructuras, identificando que la falta de monitoreo en tiempo real genera pérdidas económicas, riesgos de inseguridad, desperdicio de recursos y una respuesta de valor clara, por ello nace una plataforma basada en tecnología IoT capaz de monitorear sistemas de agua y gas, emitir alertas inmediatas, permitir acciones remotas y facilitar una gestión preventiva. En los primeros capítulos el equipo desarrolló la base del proyecto mediante el perfil de la startup, misión, valores, objetivos, análisis competitivo, Lean UX, entrevistas entre otros puntos importantes, permitiendo de esta forma validar que los usuarios necesitan una herramienta tecnológica preventiva como la ya planteada anteriormente. Tambien se organizaron los requerimientos mediantes epics, user stories, technical stories, product backlog e impact mapping, definiendo funcionalidades importantes para nuestro poryecto. Finalmente se logró implementar y desplegar la Lnading Page mediante GitHub Pages, evidenciando el uso del Git, GitHub, trabajo colaborativo y organización por Sprint. En conclusión LowCortisol cueta como una base completa de investigación, diseño, arquitectura e implementación inicial, quedando como siguiente paso desarrollar la Web Application, integrar la API y ampliar la presistencia de datos para nuestros diferentes servicios.
+Hasta el momento, el proyecto LowCortisol ha logrado construir una base sólida a nivel de investigación, diseño y una primera implementación. Se partió de una problemática real relacionada con la detección tardía de fugas de agua y gas, identificando impactos como pérdidas económicas, riesgos de seguridad y desperdicio de recursos.
+
+A partir de esto, se definió una propuesta de valor basada en una solución IoT que permite el monitoreo en tiempo real, generación de alertas y control preventivo de los sistemas. Durante el desarrollo, se trabajaron aspectos clave como el perfil de la startup, análisis competitivo, Lean UX y entrevistas, lo que ayudó a validar la necesidad del producto en los usuarios.
+
+También se estructuraron los requerimientos mediante user stories, technical stories y product backlog, dejando claras las funcionalidades principales del sistema. Además, se logró implementar y desplegar la Landing Page, evidenciando el uso de herramientas como GitHub y el trabajo en equipo mediante sprints.
+
+En general, LowCortisol ya cuenta con una buena base para continuar el proyecto. Como siguiente paso, se deberá avanzar en el desarrollo de la aplicación web y la integración de funcionalidades más completas.
 
 # Bibliografía 
 
@@ -3250,6 +3332,19 @@ Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D.
 
 # Anexos
 
+## Anexo A. Videos de Exposiciones
 
+| Entrega | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
 
- 
+---
+
+## Anexo B. Evidencia de Videos entrevistas del Proyecto
+
+## Anexo B. Evidencia de Videos entrevistas del Proyecto
+
+| Sección | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| Needfinding Interviews | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8 <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-needfinding-sprint-1 <br><br> **Formato:** .mp4 | Consolida todas las entrevistas realizadas a los segmentos objetivo del sistema LowCortisol (usuarios residenciales y profesionales de infraestructura). Cada entrevista incluye información del entrevistado, segmento objetivo y fecha de realización. El contenido evidencia necesidades reales relacionadas con seguridad en tuberías de agua y gas, prevención de fugas, monitoreo en tiempo real y automatización de válvulas mediante IoT. Este material sirvió como base para la creación de User Personas, User Journey Mapping, Empathy Mapping y la definición de requerimientos del sistema. | Subir el video en Microsoft Stream o plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. Añadir introducción a la sección, registro individual de entrevistas y análisis general de hallazgos cualitativos y cuantitativos obtenidos durante el proceso de investigación. |
+| Prototypes Navegation | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4 | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
