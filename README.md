@@ -3249,11 +3249,11 @@ La Landing Page fue desarrollada utilizando tecnologías web estándar como HTML
 
 **Repositorio**
 
-https://github.com/upc-pre-202610-1asi0730-12144-LCortisol/Lowcortisol-LadingPage
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 **URL desplegada**
 
-https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/Lowcortisol-LadingPage/  
+https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
