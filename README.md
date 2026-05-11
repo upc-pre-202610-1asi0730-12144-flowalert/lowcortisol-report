@@ -65,9 +65,8 @@
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 |   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TB1   |            |       |                                                            |
 |   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
+|   AV2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
@@ -3489,6 +3488,7 @@ El despliegue permitió validar que la aplicación puede ejecutarse fuera del en
 
 
 # Conclusiones
+
 Hasta el momento, el proyecto LowCortisol ha logrado construir una base sólida a nivel de investigación, diseño y una primera implementación. Se partió de una problemática real relacionada con la detección tardía de fugas de agua y gas, identificando impactos como pérdidas económicas, riesgos de seguridad y desperdicio de recursos.
 
 A partir de esto, se definió una propuesta de valor basada en una solución IoT que permite el monitoreo en tiempo real, generación de alertas y control preventivo de los sistemas. Durante el desarrollo, se trabajaron aspectos clave como el perfil de la startup, análisis competitivo, Lean UX y entrevistas, lo que ayudó a validar la necesidad del producto en los usuarios.
