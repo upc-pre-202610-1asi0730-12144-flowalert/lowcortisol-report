@@ -3402,7 +3402,7 @@ Finalmente, se verificó el correcto funcionamiento del sitio desplegado, compro
 </p>
 
 #### URL del Deployment
-https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/Lowcortisol-LadingPage/  
+https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -3418,6 +3418,75 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
 <p align="center">
   <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
 </p>
+
+### 5.2.1. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el sprint, se realizó el despliegue preliminar de la plataforma **LowCortisol** con el objetivo de validar el funcionamiento de la aplicación en un entorno accesible desde la web. Para esta etapa se desplegaron tanto la aplicación frontend como la Fake API utilizada para simular los servicios backend mientras se desarrolla la API definitiva.
+
+El despliegue permitió comprobar la navegación entre módulos principales, el consumo de datos desde la Fake API, la autenticación simulada, la visualización de sedes, dispositivos, alertas, reportes, planes, soporte y perfil de usuario.
+
+**Evidencias del despliegue:**
+
+* **Frontend desplegado:** aplicación web publicada en Render.
+* **Fake API desplegada:** servicio JSON Server publicado en Render para proveer datos simulados.
+* **Repositorio remoto:** código fuente versionado en GitHub.
+* **Pruebas funcionales preliminares:** navegación por las pantallas principales y validación de carga de datos desde la API.
+
+**URLs del despliegue:**
+
+* Web Application: `https://lowcortisol-webapp.onrender.com`
+* Fake API: `https://lowcortisol-platform.onrender.com/`
+* Repository: `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/tree/main`
+
+**Capturas de evidencia:**
+
+<p align="center"><strong>Frontend deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-webapp-render-sprint2.png" alt="LowCortisol WebApp deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Fake API deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-fakeapi-render-sprint2.png" alt="LowCortisol Fake API deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Application preliminary view</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-application-preview-sprint2.png" alt="LowCortisol application preview" width="700">
+</p>
+
+<p align="center"><strong>Application consuming Fake API data</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-api-data-loaded-sprint2.png" alt="LowCortisol consuming Fake API data" width="700">
+</p>
+
+**Resultado obtenido:**
+
+El despliegue permitió validar que la aplicación puede ejecutarse fuera del entorno local y que los módulos principales consumen información desde la Fake API. Esto evidencia un avance funcional para la revisión del sprint, ya que la solución puede ser mostrada mediante una URL pública y se encuentra preparada para futuras integraciones con el backend real.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
 
 # Conclusiones
 Hasta el momento, el proyecto LowCortisol ha logrado construir una base sólida a nivel de investigación, diseño y una primera implementación. Se partió de una problemática real relacionada con la detección tardía de fugas de agua y gas, identificando impactos como pérdidas económicas, riesgos de seguridad y desperdicio de recursos.
@@ -3457,8 +3526,6 @@ Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D.
 | AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
 
 ---
-
-## Anexo B. Evidencia de Videos entrevistas del Proyecto
 
 ## Anexo B. Evidencia de Videos entrevistas del Proyecto
 
