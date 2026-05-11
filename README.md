@@ -3126,7 +3126,7 @@ El diagrama de clases del backend muestra la estructura principal del sistema, i
 
 Además, el diagrama permite visualizar cómo se relacionan las distintas capas de la arquitectura, separando la lógica de negocio, la coordinación de casos de uso y el acceso a datos mediante componentes como **AppDbContext** y los repositorios concretos. En conjunto, refleja una organización modular, mantenible y alineada con una arquitectura orientada al dominio.
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/backend-class-diagram.puml?v=4)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/backend-class-diagram.puml)
 
 El diagrama de clases del frontend muestra la estructura principal de la capa de presentación, incluyendo las páginas, los servicios de interfaz y los modelos que permiten la interacción con el usuario. Entre los elementos más importantes se encuentran **LoginPage**, **RegisterPage**, **HomePage**, **DevicesPage**, **ReportsPage**, **AlertsPage** y **ProfilePage**, además de servicios como **I18nService**, **BrowserSessionService** y **UiSessionService**.
 
