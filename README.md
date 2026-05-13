@@ -3418,7 +3418,7 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
   <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
 </p>
 
-### 5.2.1. Sprint 2
+### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
@@ -3433,6 +3433,32 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+Completando el segundo Sprint 2, logramos implementar todas las secciones correspondientes
+a nuestra App Web implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances atravez de capturas de pantalla.
+
+
+1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
+
+![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+
+2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
+
+![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
+![Planes-IMG](assets/md-images-chapter5/English.png)
+![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+
+3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
+
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+
+4. Cierre de sesión:
+
+![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
