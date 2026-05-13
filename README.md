@@ -3298,7 +3298,12 @@ detalla la distribución de roles para este primer ciclo:
 #### 5.2.X.5. Execution Evidence for Sprint Review
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+En este segundo Sprint, la dinámica del equipo dio un salto importante hacia la parte técnica y la mejora continua. El foco principal de nuestra colaboración fue la ejecución del nuevo avance funcional y la corrección de la deuda técnica detectada tras una revisión exhaustiva de la rúbrica del curso. Nos organizamos para que los responsables del frontend trabajaran en paralelo con la configuración de la infraestructura en Render, definiendo contratos de datos claros a través de la Fake API. Hubo mucha coordinación para asegurar que las nuevas vistas de monitoreo y gestión de dispositivos consumieran correctamente los recursos simulados, permitiendo validar el flujo de usuario completo. Además, implementamos sesiones de revisión para estandarizar la nomenclatura de los repositorios y asegurar que todos estuviéramos siguiendo el flujo de GitFlow, corrigiendo errores previos de organización para alinearnos estrictamente con los puntos de evaluación de la entrega.
+
+La colaboración también se centró en elevar la calidad de los artefactos técnicos basándonos en la retroalimentación del docente. No nos limitamos a avanzar con código nuevo, sino que trabajamos juntos para refinar las Technical Stories, añadiendo criterios de aceptación técnicos y realistas que antes eran muy vagos. En cuanto al diseño de arquitectura, el equipo debatió la estructura de los Bounded Contexts y pulió los diagramas C4 y de clases, eliminando términos incorrectos como "Module" y agregando los estereotipos necesarios según lo exigido en la rúbrica. Esta sinergia fue clave para lograr que este nuevo avance no sea solo visual, sino que tenga un respaldo arquitectónico sólido y cumpla con los estándares de calidad profesional que el proyecto requiere en esta etapa.
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
