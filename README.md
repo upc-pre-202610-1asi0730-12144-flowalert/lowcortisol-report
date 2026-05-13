@@ -64,9 +64,9 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
 |   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
+|   AV2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
@@ -76,26 +76,65 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- https://github.com/upc-pre-202610-1asi0730-2610-LCortisol/Lowcortisol-report.git
+- https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report
 
-#### Link del repositorio de la Landing Page:
+#### Link del repositorio de la Website:
 
-- https://github.com/upc-pre-202610-1asi0730-2610-LCortisol/Lowcortisol-LadingPage.git
+- https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
-#### Link del repositorio del Frontend:
+#### Link del repositorio del Webapp:
 
-- 
+- https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
 
-#### Link del repositorio del Backend:
+#### Link del repositorio del Platform:
 
-- 
+- https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-platform
 
-### **Entrega TB1:**
-[text]
+### Entrega AV1:
 
-##### Participación por integrante:
+#### Participación por integrante:
 
-- 
+
+##### Commits en el project reportCommits en el project report de la AV1:
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 1.jpeg" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 2.jpeg" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 3.jpeg" alt="Commits en el project report">
+</p>
+
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 4.jpeg" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 5.jpeg" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/Commits en el project report 6.jpeg" alt="Commits en el project report">
+</p>
+
+---
+
+
 
 # Contenido
 
@@ -226,12 +265,11 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 ## Student Outcome
 
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> James Delgado <br>TB1: En esta primera entrega se desarrollo nuestro proyecto definiendo nuestros segmento objetivos, diseño de entrevistas, usuarios y posibles competidores, permitiendome así poder realizar todo el Needfinding(UserPersona, User Task Matrix, Journey Mapping, Emphaty Mapping) , para si luego poder hacer el diagrama C4 de nuestro proyecto tanto el backed como el frontend, además de contruibuir con dos secciones de nuestra landing page(Header, Home y Contact y Footer), añadiendo que hicimos el Event Storming<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> <br> Bruno Montalvo <br> TB1: <br> TP1: <br> TB2: <br> TF1:<br> <br>Kirk Quiliano <br> TB1:En esta primera entrega se desarrollo nuestro proyecto definiedo nuestros segmentos, usuarios y posibles competidos, para esto realize entrevistas y basandome en las entrevistas diseñe nuestra landing page.<br> TP1: <br> TB2: <br> TF1:
-|	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> James Delgado <br>TB1: Trabaje la comunicación escrita realizanod el informe en markdown, además de la realización de los informes para el Needfinding, Parte del Landing Page, conclsuiones del trabajo hecho, el modelo C4, el event storming, etc. Ayudando a amantener un lenguaje comprensible<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> <br> Bruno Montalvo <br> TB1: <br> TP1: <br> TB2: <br> TF1:<br> <br>Kirk Quiliano <br> TB1: Trabaje la comunicación escrita realizando el informe en markdown, ademas de la realización de los informes de style guidelines, ubiqutous langueage, etc. Ayudando a mantener un lenguaje no tan tecnico y mas entendible.<br> TP1: <br> TB2: <br> TF1:|	 |
-
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>AV1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrollo nuestro proyecto definiendo nuestros segmento objetivos, diseño de entrevistas, usuarios y posibles competidores, permitiendome así poder realizar todo el Needfinding (User Persona, User Task Matrix, Journey Mapping, Empathy Mapping), para luego hacer el diagrama C4 del proyecto tanto backend como frontend, además de contribuir con secciones de la landing page (Header, Home, Contact y Footer) y el Event Storming. <br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente. <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos. <br> TP1: <br> TB2: <br> TF1: <br><br> Kirk Quiliano <br> AV1: En esta primera entrega se desarrollo nuestro proyecto definiendo segmentos, usuarios y competidores; además realicé entrevistas y, en base a ellas, diseñé la landing page. <br> TP1: <br> TB2: <br> TF1: | AV1: En esta primera entrega (AV1), el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>AV1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TP1: <br> TB2: <br> TF1: <br><br> James Delgado <br>AV1: Trabajé la comunicación escrita realizando el informe en markdown, además de los documentos de Needfinding, partes del Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible. <br> TP1: <br> TB2: <br> TF1: <br><br> Jean Loa <br> AV1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema. <br> TP1: <br> TB2: <br> TF1: <br><br> Bruno Montalvo <br> AV1: Desarrollé gran parte del Capítulo 1 (excepto la sección 1.3), incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el sprint backlog, la sección de beneficios de la landing page y el Event Storming. <br> TP1: <br> TB2: <br> TF1: <br><br> Kirk Quiliano <br> AV1: Trabajé la comunicación escrita realizando el informe en markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible. <br> TP1: <br> TB2: <br> TF1: | AV1: Durante el AV1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la landing page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. |
 
 # Capitulo I: Introducción
 
@@ -255,19 +293,19 @@ Buscamos brindar mayor seguridad, eficiencia y tranquilidad a las personas y neg
 
 ## Valores
 Nuestros valores principales son los siguientes:  
--Innovación: Uso de tecnología moderna para resolver problemas cotidianos de forma eficiente.  
--Seguridad: Priorizamos la protección de las personas, propiedades y negocios.  
--Responsabilidad: Promovemos el uso adecuado de recursos como el agua y el gas.  
--Colaboración: Valoramos el trabajo en equipo y la relación con usuarios y aliados estratégicos.  
--Calidad: Buscamos ofrecer un servicio confiable, estable y fácil de utilizar.
+- Innovación: Uso de tecnología moderna para resolver problemas cotidianos de forma eficiente.  
+- Seguridad: Priorizamos la protección de las personas, propiedades y negocios.  
+- Responsabilidad: Promovemos el uso adecuado de recursos como el agua y el gas.  
+- Colaboración: Valoramos el trabajo en equipo y la relación con usuarios y aliados estratégicos.  
+- Calidad: Buscamos ofrecer un servicio confiable, estable y fácil de utilizar.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                                | **Conocimientos y habilidades**
 |:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------------|:------------------------------------ |
-| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="">                                                  | text
+| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Miguel.PNG">                                                  | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
 | Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/James.jpeg">               | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
 | Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Jean_Loa.jpg">             | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
-| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Bruno_Montalvo.jpg">       | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
+| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno.png">       | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
 | Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Kirk.png">                 | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
 
 ## 1.2 *Solution Profile*
@@ -276,10 +314,10 @@ En la actualidad, tanto en hogares como en negocios e instituciones, el uso de t
 A nivel mundial, se han desarrollado soluciones basadas en tecnología IoT para el monitoreo de recursos, pero su adopción aún es limitada en muchos contextos debido a costos, falta de conocimiento o baja accesibilidad tecnológica.
 En el contexto local, es común que los usuarios detecten fugas de agua o gas de forma tardía, cuando ya existen consecuencias como:
 
--Incremento excesivo en los recibos de servicios.  
--Daños en infraestructura (paredes, pisos, tuberías).  
--Riesgos para la salud (intoxicación por gas).  
--Posibles accidentes graves como explosiones.
+- Incremento excesivo en los recibos de servicios.  
+- Daños en infraestructura (paredes, pisos, tuberías).  
+- Riesgos para la salud (intoxicación por gas).  
+- Posibles accidentes graves como explosiones.
 
 Además, la dificultad para encontrar técnicos confiables de forma inmediata agrava la situación, incrementando el tiempo de respuesta ante emergencias.
 Por ello, se identifica la necesidad de una solución tecnológica que permita el monitoreo continuo, la detección temprana de anomalías y la respuesta rápida ante incidentes.
@@ -308,37 +346,37 @@ El impacto puede ser económico por altos costos en recibos y reparaciones, oper
 
 ## Objetivos
 ### Corto Plazo
--Desarrollar un producto mínimo viable con las funciones principales del sistema.  
--Implementar registro e inicio de sesión de usuarios.  
--Integrar el monitoreo básico de agua y gas mediante sensores IoT.  
--Configurar alertas iniciales ante fugas o anomalías detectadas.  
--Realizar pruebas con usuarios para validar la usabilidad y funcionamiento del sistema.  
--Recoger retroalimentación para identificar mejoras.
+- Desarrollar un producto mínimo viable con las funciones principales del sistema.  
+- Implementar registro e inicio de sesión de usuarios.  
+- Integrar el monitoreo básico de agua y gas mediante sensores IoT.  
+- Configurar alertas iniciales ante fugas o anomalías detectadas.  
+- Realizar pruebas con usuarios para validar la usabilidad y funcionamiento del sistema.  
+- Recoger retroalimentación para identificar mejoras.
 ### Medio Plazo
--Mejorar la plataforma con nuevas funcionalidades según las necesidades detectadas.  
--Implementar historial de consumo y reportes detallados.
+- Mejorar la plataforma con nuevas funcionalidades según las necesidades detectadas.  
+- Implementar historial de consumo y reportes detallados.
 ### Largo Plazo
--Expandir el servicio a más ciudades del país.  
--Establecer alianzas con municipalidades, negocios y empresas de servicios.  
--Posicionar la marca como referente en monitoreo y prevención de fugas de agua y gas.  
--Desarrollar nuevas soluciones relacionadas con automatización y seguridad inteligente.
+- Expandir el servicio a más ciudades del país.  
+- Establecer alianzas con municipalidades, negocios y empresas de servicios.  
+- Posicionar la marca como referente en monitoreo y prevención de fugas de agua y gas.  
+- Desarrollar nuevas soluciones relacionadas con automatización y seguridad inteligente.
 
 ## Restricciones
--La solución debe desarrollarse como una plataforma web compuesta por una Landing Page, una Web Application y una RESTful API propia integrada entre sí.  
--La interfaz debe ser adaptable a distintos dispositivos, como computadoras, tablets y celulares.  
--El sistema debe mantener una experiencia visual y funcional consistente entre la Landing Page y la Web Application.  
--Los botones de llamada a la acción (Call To Action) de la Landing Page deben redirigir correctamente a las vistas correspondientes dentro de la Web Application.  
--La solución debe integrar al menos un servicio externo de terceros, como mapas, correo, notificaciones o autenticación.  
--El desarrollo debe utilizar tecnologías open-source y herramientas alineadas con lo aprendido en el curso.  
--La lógica del lado servidor debe ser compatible con el enfoque solicitado en el curso, utilizando C# cuando corresponda.  
--El proyecto debe gestionarse en un repositorio público de GitHub con evidencias de colaboración mediante commits.  
--El equipo debe aplicar GitFlow y conventional commits durante el desarrollo del proyecto.  
--El sistema dependerá de conexión a internet para funciones en tiempo real como monitoreo, alertas y sincronización de datos.  
--La instalación de sensores IoT puede representar un costo inicial para los usuarios.  
--Algunas instalaciones antiguas podrían presentar dificultades de compatibilidad con los sensores.  
--El alcance inicial del proyecto estará enfocado en segmentos priorizados y funcionalidades principales del producto mínimo viable.  
--El tiempo disponible del ciclo académico limita la implementación de funcionalidades avanzadas en la primera versión.  
--Será necesario aplicar medidas de seguridad para proteger la información de usuarios y dispositivos conectados.
+- La solución debe desarrollarse como una plataforma web compuesta por una Landing Page, una Web Application y una RESTful API propia integrada entre sí.  
+- La interfaz debe ser adaptable a distintos dispositivos, como computadoras, tablets y celulares.  
+- El sistema debe mantener una experiencia visual y funcional consistente entre la Landing Page y la Web Application.  
+- Los botones de llamada a la acción (Call To Action) de la Landing Page deben redirigir correctamente a las vistas correspondientes dentro de la Web Application.  
+- La solución debe integrar al menos un servicio externo de terceros, como mapas, correo, notificaciones o autenticación.  
+- El desarrollo debe utilizar tecnologías open-source y herramientas alineadas con lo aprendido en el curso.  
+- La lógica del lado servidor debe ser compatible con el enfoque solicitado en el curso, utilizando C# cuando corresponda.  
+- El proyecto debe gestionarse en un repositorio público de GitHub con evidencias de colaboración mediante commits.  
+- El equipo debe aplicar GitFlow y conventional commits durante el desarrollo del proyecto.  
+- El sistema dependerá de conexión a internet para funciones en tiempo real como monitoreo, alertas y sincronización de datos.  
+- La instalación de sensores IoT puede representar un costo inicial para los usuarios.  
+- Algunas instalaciones antiguas podrían presentar dificultades de compatibilidad con los sensores.  
+- El alcance inicial del proyecto estará enfocado en segmentos priorizados y funcionalidades principales del producto mínimo viable.  
+- El tiempo disponible del ciclo académico limita la implementación de funcionalidades avanzadas en la primera versión.  
+- Será necesario aplicar medidas de seguridad para proteger la información de usuarios y dispositivos conectados.
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
@@ -829,7 +867,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 
 #### Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
 
-##### Entrevista 1 - Segmento: Hogares
+##### Entrevista 1 
 
 **Datos del Entrevistado:**
 - Edad: 19
@@ -838,17 +876,18 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 - Distrito: Molina
 
 **Evidencia:**
-- URL: [Entrevista - 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411378_upc_edu_pe/IQD7BHUGgfX-R6Oz1emzH8bFAQ5R1r1xMT7iyeOb6NyvI0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TAg39Z)
-- Duración video: 4:24
-- Screenshot:
-  ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
+- URL: [Entrevista - 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8)
+- Inicio: 0:00
+- Duración video: 4:24 
+- Screenshot: <br> <br>
+ ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
 
 
 **<u>Resumen de la entrevista:</u>**
 Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda con más de 40 años de antigüedad, factor que vuelve las fugas de agua un problema crónico debido al desgaste natural de la red. Describe que la detección actual es tardía y depende de señales visuales como hongos, caída de pintura, baja presión en los grifos o el impacto económico en los recibos mensuales. Para él, el impacto más fuerte es el desperdicio de recursos y el riesgo de seguridad que implican las fugas de gas. Su perfil académico lo hace especialmente receptivo a soluciones tecnológicas avanzadas; espera una herramienta que no solo envíe alertas al móvil e identifique la zona exacta del fallo, sino que también ofrezca la capacidad de cortar el suministro de forma remota (válvulas inteligentes). Yazid valora la eficiencia y la innovación, considerando que una solución así mejoraría drásticamente la seguridad del hogar y reduciría el gasto innecesario de agua.
 
 
-##### Entrevista 2 - Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
+##### Entrevista 2
 
 **Datos del Entrevistado:**
 - Edad: 19
@@ -857,14 +896,16 @@ Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda co
 - Distrito: Ate
 
 **Evidencia:**
-- URL: [Entrevista - 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411378_upc_edu_pe/IQDbk1DYJMu7TqQ7YVonCc7kAfORlvBeEqx0ePXhcOI9QBs?e=UhgedF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- URL: [Entrevista - 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=Rx14th&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjY0LjgzfX0%3D)
+- Inicio: 4:24
 - Duración video: 8:41
-- Screenshot: ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
+- Screenshot: <br> <br> 
+  ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
 
 **<u>Resumen de la entrevista:</u>**
 Jesús es un estudiante con conocimientos técnicos previos que vive en un entorno familiar donde se presentan fugas tanto de agua como de gas, estas últimas generalmente por el uso de mangueras de baja calidad. Explica que mientras la detección de gas es casi inmediata gracias al olfato (menos de 5 minutos), las fugas de agua son más engañosas y pueden tardar hasta una semana en manifestarse mediante salitre o manchas en las paredes. Dado su perfil técnico, él mismo asume el rol de mantenimiento en el hogar para evitar gastos externos. Sin embargo, reconoce las limitaciones de la inspección manual y se muestra muy a favor de implementar sistemas basados en sensores (IoT) que alerten sobre roturas internas no visibles. Propone que este tipo de tecnología debería comercializarse bajo un modelo de suscripción atractivo y destaca que su principal valor sería la tranquilidad y la respuesta inmediata ante emergencias que podrían escalar a desastres.
 
-##### Entrevista 3 - Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
+##### Entrevista 3 
 
 **Datos del Entrevistado:**
 - Edad: 20
@@ -873,15 +914,17 @@ Jesús es un estudiante con conocimientos técnicos previos que vive en un entor
 - Distrito: Santiago de Surco
 
 **Evidencia:**
-- URL: [Entrevista - 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411378_upc_edu_pe/IQCzx8x7QA6FSruSB6l-3xysAbDrym3Es1cHPQIuMX99_28?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NNWf3P)
+- URL: [Entrevista - 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=2cNP0B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjcwNi4wNH19)
+- Inicio: 45:06 
 - Duración video: 6:56
 - Screenshot: ![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
 
 **<u>Resumen de la entrevista:</u>**
 El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, que reside en un hogar donde las fugas de agua ocurren con una frecuencia de cada tres o cuatro meses. Durante la charla, menciona que suele notar el problema de manera reactiva, muchas veces ignorando las primeras señales hasta que el daño es evidente a través de charcos o humedad excesiva. Su gestión actual es mixta: intenta realizar reparaciones menores por cuenta propia, pero debe recurrir a técnicos especializados cuando el problema afecta la estructura interna, lo que ha derivado en costos elevados como el cambio de tuberías o pisos dañados. En cuanto a la tecnología, Frank se muestra muy interesado en una solución de monitoreo en tiempo real, siempre que el costo sea accesible y la interfaz permita personalizar o modelar el plano de su hogar para una mejor ubicación de las averías. Su actitud es pragmática, priorizando la prevención económica y la facilidad de uso de una aplicación móvil.
 
+#### Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
 
-##### Entrevista 1 – Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+##### Entrevista 1 
 
 **Datos del Entrevistado:**
 - Edad: 22
@@ -890,16 +933,18 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - Distrito: La Molina
 
 **Evidencia:**
-- URL: [Entrevista_Leonardo_Daniel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQAACV_KLKrVQ4mW-fkDJBhjAdEzO8O66oc0hGDoY-FjbTI?e=cEBinc)
+- URL: [Entrevista_Leonardo_Daniel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=irdbcO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Nzg2LjV9fQ%3D%3D)
+
+- Inicio: 13:06
 - Duración video: 7:44
-- Screenshot: 
+- Screenshot:  <br> <br>
   ![Entrevistado-1](assets/md-images-chapter2/Interview-Leonardo.png)
 
 
 **<u>Resumen de la entrevista:</u>**
   Leonardo, practicante en el área de infraestructura de una municipalidad de la Molina, explica que el monitoreo de redes de agua se realiza principalmente de forma reactiva, basándose en inspecciones programadas y reportes de los ciudadanos. Señala que las fugas son frecuentes, especialmente en zonas con tuberías antiguas, y muchas veces no se detectan de inmediato, lo que genera pérdidas acumulativas de agua. Además, menciona que los tiempos de respuesta pueden variar considerablemente debido a la coordinación con otras entidades responsables. Indica que el uso de tecnología es limitado y que no cuentan con sistemas de monitoreo en tiempo real. Sin embargo, considera que la implementación de soluciones IoT permitiría mejorar la detección temprana de fallas, optimizar recursos y facilitar la toma de decisiones. También reconoce que existen barreras como el presupuesto, la capacitación del personal y la integración con sistemas ya existentes.
 
-###### Entrevista 2 – Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+###### Entrevista 2 
 
 **Datos del Entrevistado:**
 - Edad: 22
@@ -908,16 +953,17 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - Distrito: ATE
 
 **Evidencia:**
-- URL: [Entrevista_Pool_Enrique](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDfxdo8pQ9SQJk2KH4ElHBpASUK09i9Wp0YcqIypn83PuY?e=GPSgeU)
+- URL: [Entrevista_Pool_Enrique](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=BY8ShX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTI2OC41OX19)
+- Inicio: 20:50 
 - Duración video: 7:12
-- Screenshot:
+- Screenshot: <br> <br>
   ![Entrevistado-2](assets/md-images-chapter2/Interview-Pool.png)
 
 
 **<u>Resumen de la entrevista:</u>**
   Pool, practicante en la Municipalidad de Ate, comenta que la supervisión de redes de agua se realiza principalmente mediante inspecciones y reportes ciudadanos, debido a la ausencia de sistemas de monitoreo continuo. Indica que las fugas son un problema recurrente, sobre todo en infraestructuras antiguas o intervenidas sin una adecuada planificación. Muchas de estas fallas no se detectan a tiempo, lo que incrementa las pérdidas y afecta la eficiencia del sistema. La identificación suele basarse en señales visibles, como humedad o disminución de presión, lo que retrasa la intervención. Además, menciona que el uso de herramientas tecnológicas es limitado. No obstante, muestra una actitud positiva hacia la implementación de soluciones IoT, ya que permitirían un monitoreo constante, una detección más rápida de fallas y una mejor gestión de los recursos.
 
-######  Entrevista 3 – Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+######  Entrevista 3 
 
 **Datos del Entrevistado:**
 - Edad: 22
@@ -926,15 +972,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - Distrito: San Isidro
 
 **Evidencia:**
-- URL del video: [Entrevista-Eduardo-Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDh1SBPb7DSQ73erb_Z8gX_AW--6ocemaj16SMFlCVYJkg?e=BovAyo)
+- URL del video: [Entrevista-Eduardo-Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=tccYlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTY4My4yNH19)
+- Inicio: 28:03
 - Duración: 05:06
-- Screenshot:
+- Screenshot: <br><br>
   ![Entrevistado-3](assets/md-images-chapter2/Interview-Edward.png)
 
 **<u>Resumen de la entrevista:</u>**
   Edward, trabajador del área de mantenimiento en un hotel, señala que las fugas de agua son los problemas más frecuentes en las instalaciones, principalmente en tuberías internas, mientras que las fugas de gas, aunque menos comunes, representan un mayor riesgo. Indica que el monitoreo se realiza de manera manual y depende en gran parte de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Estas fallas pueden afectar directamente la experiencia del cliente, generando incomodidades y posibles costos adicionales para el hotel. Por ello, destaca la importancia de contar con soluciones tecnológicas que permitan una detección temprana de fugas. Considera que la implementación de sistemas IoT ayudaría a mejorar la eficiencia del mantenimiento, reducir riesgos y optimizar la operación del servicio.
 
-###### Entrevista 4 – Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+###### Entrevista 4 
 
 **Datos del Entrevistado:**
 - Nombre: Fabián Raimundo
@@ -943,16 +990,17 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - Ocupación: Practicante del área de Gestión y Servicios – Hotel Sheraton
 
 **Evidencia:**
-- URL: [Entrevista_Fabián_Raimundo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDawspRWjtiR5y7UR6qjti4AcwNYWIz-ajJLLVrggxK-cQ?e=8IlNqo)
+- URL: [Entrevista_Fabián_Raimundo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=hlpMrb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTk5MC40M319)
+- Inicio: 33:10
 - Duración video: 07:26
-- Screenshot:
+- Screenshot: <br> <br>
   ![Entrevistado-4](assets/md-images-chapter2/Interview-Fabian.png)
 
 
 **<u>Resumen de la entrevista:</u>**
   Fabián, practicante en el área de gestión y servicios de un hotel, menciona que los problemas relacionados con fugas de agua y gas ocurren de manera ocasional, siendo las fugas de agua más comunes debido al desgaste de las instalaciones. Señala que la detección de estos problemas se realiza principalmente de forma manual, mediante la observación del personal de mantenimiento o limpieza, así como por reportes de los huéspedes. Aunque el hotel cuenta con un plan de mantenimiento preventivo, reconoce que este no siempre permite anticipar las fallas, por lo que el sistema sigue siendo en gran parte reactivo. Además, indica que la falta de automatización limita la capacidad de respuesta. Sin embargo, muestra interés en la implementación de soluciones IoT con alertas en tiempo real, ya que permitirían mejorar la eficiencia operativa, reducir tiempos de respuesta y optimizar la experiencia del cliente.
 
-###### Entrevista 5 – Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+###### Entrevista 5 
 
 **Datos del Entrevistado:**
 - Edad: 21
@@ -961,9 +1009,10 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - Distrito: Santiago de Surco
 
 **Evidencia:**
-- URL: [Entrevista_Álvaro_Jordán_Villa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDCfKgvsJeSQ5iSLTGtwZuBAdD3tSG00wgIiM6258CkGV0?e=g4vMv6)
+- URL: [Entrevista_Álvaro_Jordán_Villa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=FzYf1n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQzNy4xNn19)
+- Inicio: 40:37
 - Duración video: 4:29
-- Screenshot:
+- Screenshot: <br><br>
   ![Entrevistado-5](assets/md-images-chapter2/Interview-Alvaro.png)
 
 
@@ -2100,6 +2149,23 @@ Then el sistema muestra un resumen general
 
 <tr><td>TS20</td><td>API cambiar suscripción</td><td>Como Developer, quiero cambiar plan.</td><td>Given solicitud<br>When se procesa<br>Then se actualiza</td><td>EP07</td></tr>
 
+<tr><td>TS21</td><td>Configurar sistema de traducciones</td><td>Como Developer, quiero definir textos en múltiples idiomas.</td><td>Given que existen textos en la aplicación<br>When se configuran los archivos de idioma<br>Then el sistema puede mostrar contenido traducido</td><td>EP01</td></tr>
+
+<tr><td>TS22</td><td>Aplicar cambio dinámico de idioma</td><td>Como Developer, quiero actualizar el contenido sin recargar la página.</td><td>Given que el usuario cambia el idioma<br>When se ejecuta la acción<br>Then el sistema actualiza los textos dinámicamente</td><td>EP01</td></tr>
+
+<tr><td>TS23</td><td>Implementar sección de planes</td><td>Como Developer, quiero crear la estructura de la sección planes.</td><td>Given que el usuario accede a la landing<br>When navega a la sección planes<br>Then el sistema muestra la estructura correctamente</td><td>EP04</td></tr>
+
+<tr><td>TS24</td><td>Diseñar cards de planes</td><td>Como Developer, quiero mostrar planes con diseño visual.</td><td>Given que existen planes<br>When se renderiza la sección<br>Then el sistema muestra precios y beneficios</td><td>EP04</td></tr>
+
+<tr><td>TS25</td><td>Diseñar responsive layout</td><td>Como Developer, quiero adaptar la interfaz a distintos dispositivos.</td><td>Given diferentes tamaños de pantalla<br>When el usuario accede<br>Then el sistema ajusta el diseño correctamente</td><td>EP06</td></tr>
+
+<tr><td>TS26</td><td>Ajustar componentes responsive</td><td>Como Developer, quiero adaptar componentes a mobile.</td><td>Given que el usuario usa un dispositivo móvil<br>When visualiza la página<br>Then los componentes se adaptan correctamente</td><td>EP06</td></tr>
+
+<tr><td>TS27</td><td>Implementar navegación con anclas</td><td>Como Developer, quiero navegar entre secciones.</td><td>Given que existen secciones<br>When el usuario hace clic en el menú<br>Then el sistema navega a la sección correspondiente</td><td>EP06</td></tr>
+
+<tr><td>TS28</td><td>Implementar scroll suave</td><td>Como Developer, quiero mejorar la navegación.</td><td>Given que el usuario navega<br>When cambia de sección<br>Then el sistema aplica scroll suave</td><td>EP06</td></tr>
+
+<tr><td>TS29</td><td>Implementar menú responsive</td><td>Como Developer, quiero agregar menú hamburguesa.</td><td>Given que el usuario está en mobile<br>When abre el menú<br>Then el sistema muestra navegación adaptable</td><td>EP06</td></tr>
 </table>
 
 ## 3.2. Impact Mapping
@@ -2107,39 +2173,65 @@ Then el sistema muestra un resumen general
 ![Impact-Map-Image](assets/md-images-chapter3/Impact%20map-Aplicaciones_Web_2026(1).png)
 
 ## 3.3. Product Backlog
-| ID   | Tipo  | Título                         | Descripción                                                                 | Prioridad | Story Points | Epic |
-|------|------|--------------------------------|-----------------------------------------------------------------------------|----------|--------------|------|
-| EP01 | Epic | Gestión de usuarios            | Registro, acceso y administración de cuentas                               | Alta     | -            | -    |
-| US01 | US   | Registro de usuario            | Crear cuenta para acceder a la plataforma                                  | Alta     | 5            | EP01 |
-| US02 | US   | Inicio de sesión               | Acceder con credenciales                                                   | Alta     | 3            | EP01 |
-| US03 | US   | Recuperar contraseña           | Recuperar acceso mediante correo                                           | Media    | 5            | EP01 |
-| US04 | US   | Cerrar sesión                  | Finalizar sesión activa                                                    | Baja     | 1            | EP01 |
-| US05 | US   | Actualizar perfil              | Editar datos personales                                                    | Media    | 3            | EP01 |
-| EP02 | Epic | Monitoreo inteligente          | Supervisión de sensores y consumo                                          | Alta     | -            | -    |
-| US06 | US   | Visualizar estado en tiempo real | Ver consumo y estado de dispositivos                                      | Alta     | 8            | EP02 |
-| US07 | US   | Recibir alertas automáticas    | Notificaciones ante anomalías                                              | Alta     | 5            | EP02 |
-| US08 | US   | Historial de consumo           | Consultar registros históricos                                             | Media    | 5            | EP02 |
-| EP03 | Epic | Control y respuesta            | Acciones correctivas ante incidentes                                       | Alta     | -            | -    |
-| US09 | US   | Cerrar válvula remotamente     | Ejecutar acciones remotas en dispositivos                                  | Alta     | 8            | EP03 |
-| US10 | US   | Solicitar soporte técnico      | Generar solicitudes de ayuda                                               | Media    | 3            | EP03 |
-| EP04 | Epic | Gestión de Suscripciones       | Administración de planes y beneficios                                      | Alta     | -            | -    |
-| US11 | US   | Visualizar planes              | Consultar planes disponibles                                               | Alta     | 3            | EP04 |
-| US12 | US   | Suscribirse a un plan          | Contratar servicios premium                                                | Alta     | 8            | EP04 |
-| US13 | US   | Cambiar de plan               | Modificar suscripción                                                      | Media    | 5            | EP04 |
-| EP05 | Epic | Landing Page                   | Captación de usuarios                                                      | Media    | -            | -    |
-| US14 | US   | Ver propuesta de valor         | Entender beneficios del producto                                           | Alta     | 2            | EP05 |
-| US15 | US   | Navegar por secciones          | Explorar contenido informativo                                             | Media    | 2            | EP05 |
-| US16 | US   | Redirección a registro         | Ir al formulario desde landing                                             | Alta     | 1            | EP05 |
-| EP06 | Epic | Gestión Multiubicación         | Manejo de múltiples sedes                                                  | Media    | -            | -    |
-| US17 | US   | Registrar múltiples sedes      | Crear diferentes ubicaciones                                               | Media    | 5            | EP06 |
-| US18 | US   | Filtrar datos por sede         | Visualizar información específica                                          | Media    | 3            | EP06 |
-| US19 | US   | Ver resumen general            | Dashboard consolidado                                                      | Alta     | 5            | EP06 |
-| EP07 | Epic | API y Backend                 | Servicios RESTful                                                         | Alta     | -            | -    |
-| TS01 | TS   | API registrar usuario         | Endpoint para crear cuentas                                                | Alta     | 5            | EP07 |
-| TS02 | TS   | API obtener sensores          | Consultar estado de sensores                                               | Alta     | 5            | EP07 |
-| TS03 | TS   | API sensores por usuario      | Obtener sensores asociados                                                 | Alta     | 5            | EP07 |
-| TS04 | TS   | API generar alerta            | Registrar incidentes                                                       | Alta     | 3            | EP07 |
-| TS05 | TS   | API consultar historial       | Obtener datos históricos                                                   | Media    | 5            | EP07 |
+
+| ID | Tipo | Título | Descripción | Prioridad | Story Points | Epic |
+|----|------|--------|------------|----------|--------------|------|
+| EP01 | Epic | Gestión de usuarios | Registro, autenticación y gestión de cuentas de usuario | Alta | - | - |
+| US01 | US | Registro de usuario | Crear cuenta para acceder a la plataforma | Alta | 5 | EP01 |
+| US02 | US | Inicio de sesión | Acceder mediante credenciales | Alta | 3 | EP01 |
+| US03 | US | Recuperar contraseña | Recuperar acceso mediante correo electrónico | Media | 5 | EP01 |
+| US04 | US | Cerrar sesión | Finalizar sesión activa | Baja | 1 | EP01 |
+| US05 | US | Actualizar perfil | Editar información personal del usuario | Media | 3 | EP01 |
+| US06 | US | Cambiar idioma | Permitir cambio de idioma en la plataforma | Media | 2 | EP01 |
+| EP02 | Epic | Monitoreo inteligente | Supervisión en tiempo real de sensores y consumo | Alta | - | - |
+| US07 | US | Visualizar estado en tiempo real | Ver consumo y estado de dispositivos | Alta | 8 | EP02 |
+| US08 | US | Recibir alertas automáticas | Notificaciones ante anomalías | Alta | 5 | EP02 |
+| US09 | US | Historial de consumo | Consultar registros históricos | Media | 5 | EP02 |
+| EP03 | Epic | Control y soporte | Acciones correctivas y comunicación con soporte | Alta | - | - |
+| US10 | US | Cerrar válvula remotamente | Ejecutar acciones remotas en dispositivos | Alta | 8 | EP03 |
+| US11 | US | Contactar soporte | Enviar solicitudes o consultas al equipo técnico | Media | 3 | EP03 |
+| EP04 | Epic | Gestión de suscripciones | Administración de planes y servicios | Alta | - | - |
+| US12 | US | Visualizar planes | Consultar planes disponibles | Alta | 3 | EP04 |
+| US13 | US | Suscribirse a un plan | Contratar un plan premium | Alta | 8 | EP04 |
+| US14 | US | Cambiar de plan | Modificar suscripción activa | Media | 5 | EP04 |
+| US15 | US | Solicitar demo | Probar el servicio antes de suscribirse | Baja | 3 | EP04 |
+| EP05 | Epic | Gestión multiubicación | Manejo de múltiples ubicaciones o sedes | Media | - | - |
+| US17 | US | Registrar múltiples sedes | Crear diferentes ubicaciones | Media | 5 | EP05 |
+| US18 | US | Filtrar datos por sede | Visualizar información específica | Media | 3 | EP05 |
+| US19 | US | Ver resumen general | Dashboard consolidado de todas las sedes | Alta | 5 | EP05 |
+| EP06 | Epic | Experiencia Web | Navegación, accesibilidad y diseño responsive | Media | - | - |
+| US20 | US | Acceso multidispositivo | Uso desde distintos dispositivos | Media | 3 | EP06 |
+| US21 | US | Navegación entre secciones | Exploración intuitiva del sistema | Media | 2 | EP06 |
+| EP07 | Epic | API y Backend | Servicios RESTful y lógica del sistema | Alta | - | - |
+| TS01 | TS | API registrar usuario | Endpoint para creación de cuentas | Alta | 5 | EP07 |
+| TS02 | TS | API obtener sensores | Consultar estado de sensores | Alta | 5 | EP07 |
+| TS03 | TS | API sensores por usuario | Obtener sensores asociados | Alta | 5 | EP07 |
+| TS04 | TS | API generar alerta | Registrar incidentes | Alta | 3 | EP07 |
+| TS05 | TS | API historial | Obtener datos históricos | Media | 5 | EP07 |
+| TS06 | TS | API login | Autenticación de usuarios | Alta | 3 | EP07 |
+| TS07 | TS | API logout | Cierre de sesión | Media | 2 | EP07 |
+| TS08 | TS | API recuperar contraseña | Recuperación de acceso | Media | 3 | EP07 |
+| TS09 | TS | API registrar sensor | Registrar sensores en el sistema | Alta | 5 | EP07 |
+| TS10 | TS | API vincular sensor | Asociar sensor a usuario | Alta | 5 | EP07 |
+| TS11 | TS | API actualizar lectura | Actualizar datos de sensores | Alta | 3 | EP07 |
+| TS12 | TS | API desvincular sensor | Eliminar relación sensor-usuario | Media | 3 | EP07 |
+| TS13 | TS | API listar alertas | Consultar alertas generadas | Alta | 3 | EP07 |
+| TS14 | TS | API actualizar alerta | Modificar estado de alertas | Media | 3 | EP07 |
+| TS15 | TS | API configurar umbrales | Definir límites de sensores | Media | 3 | EP07 |
+| TS16 | TS | API reporte por fechas | Generar reportes filtrados | Media | 5 | EP07 |
+| TS17 | TS | API resumen consumo | Obtener métricas de consumo | Media | 5 | EP07 |
+| TS18 | TS | API consultar planes | Obtener planes disponibles | Alta | 3 | EP07 |
+| TS19 | TS | API activar suscripción | Activar plan de usuario | Alta | 5 | EP07 |
+| TS20 | TS | API cambiar suscripción | Modificar plan actual | Media | 5 | EP07 |
+| TS21 | TS | Sistema de traducciones | Definir textos en múltiples idiomas | Media | 3 | EP01 |
+| TS22 | TS | Cambio dinámico idioma | Actualizar contenido sin recarga | Media | 3 | EP01 |
+| TS23 | TS | Sección planes frontend | Crear estructura visual de planes | Media | 3 | EP04 |
+| TS24 | TS | Diseño de planes | Mostrar precios y beneficios | Media | 3 | EP04 |
+| TS25 | TS | Responsive layout | Adaptar interfaz a dispositivos | Media | 3 | EP06 |
+| TS26 | TS | Componentes responsive | Ajustar elementos visuales | Media | 3 | EP06 |
+| TS27 | TS | Navegación con anclas | Implementar navegación interna | Media | 2 | EP06 |
+| TS28 | TS | Scroll suave | Mejorar experiencia de navegación | Baja | 2 | EP06 |
+| TS29 | TS | Menú responsive | Implementar menú hamburguesa | Media | 3 | EP06 |
 
 # Capitulo IV: Product Design
 
@@ -2580,160 +2672,277 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
 
 
 ## 4.4. Web Applications UX/UI Design
+
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes construidos para la web de LowCortisol representan 
-la arquitectura logica y funcional del sistema, priorizando la 
-accesibilidad de los controles de seguridad.
+Los wireframes de **LowCortisol** representan la estructura lógica y funcional de la aplicación, priorizando la organización de los elementos de interfaz, la claridad de navegación y la accesibilidad de las acciones principales del sistema. Estas vistas de baja fidelidad permiten identificar la distribución general de los componentes antes de su implementación visual definitiva.
 
-Inicio: Pantalla de autenticacion diseñada para el acceso seguro de usuarios registrados mediante credenciales de correo y contraseña.
+#### 1. Pantalla de Inicio de Sesión
 
-<p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Inicio.png" alt="Inicio-Aplication-Wireframe">
-</p>
-
-Register: Formulario de captura de datos para nuevos usuarios que permite la segmentacion segun el tipo de cuenta (Hogar u Organizacion).
+* **Propósito:** Permitir el acceso seguro de usuarios registrados mediante credenciales de correo y contraseña.
+* **Elementos clave:** Selector de idioma, campos de correo y contraseña, botón de inicio de sesión, enlace para recuperar contraseña y enlace para crear una nueva cuenta.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Register.png" alt="Register-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Login.png" alt="Login-Webapp-Wireframe" width="700">
 </p>
 
-Dashboard: Panel principal que muestra el estado global de seguridad y las metricas en tiempo real de agua y gas con un boton de apagado de emergencia.
+---
+
+#### 2. Registro de Usuario
+
+* **Propósito:** Permitir el registro de nuevos usuarios dentro de la plataforma.
+* **Elementos clave:** Campos para nombre completo, correo electrónico, teléfono y contraseña, botón de registro y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Dashboard.png" alt="Dashboard-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Register.png" alt="Register-Webapp-Wireframe" width="700">
 </p>
 
-Alertas: Listado cronologico de notificaciones e incidentes detectados, permitiendo al usuario identificar rapidamente la ubicacion y severidad del evento.
+---
+
+#### 3. Recuperación de Contraseña
+
+* **Propósito:** Permitir que el usuario solicite instrucciones de recuperación de acceso mediante su correo electrónico.
+* **Elementos clave:** Campo de correo, botón para enviar recuperación y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Alerts.png" alt="Alertas-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Recover.png" alt="Recover-Webapp-Wireframe" width="700">
 </p>
 
-Controls: Interfaz de gestion operativa para el accionamiento individual de valvulas y seleccion entre modo de control automatico o manual.
+---
+
+#### 4. Panel de Monitoreo
+
+* **Propósito:** Presentar una vista general del estado del sistema, las lecturas recientes, la sesión activa y las anomalías detectadas.
+* **Elementos clave:** Selector de idioma, botón para simular lectura, tarjetas de lecturas recientes, sesión activa, sección de anomalías y barra de navegación inferior.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Controls.png" alt="Controls-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Home.png" alt="Home-Webapp-Wireframe" width="700">
 </p>
 
-Profile: Seccion dedicada a la gestion de informacion personal del usuario, preferencias de la cuenta y opciones de cierre de sesion.
+---
+
+#### 5. Gestión de Sedes
+
+* **Propósito:** Administrar las sedes registradas dentro de la plataforma y visualizar información consolidada de cada una.
+* **Elementos clave:** Botón para registrar sede, filtros por tipo de sede, tarjetas de resumen, listado de sedes, detalle de sede, responsables asignados, dispositivos asignados y resumen consolidado.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Profile.png" alt="Profile-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Workspace.png" alt="Workspace-Webapp-Wireframe" width="700">
 </p>
 
-Devices: Modulo de administracion de hardware donde se monitorea el estado de bateria, señal y conectividad de cada sensor IoT vinculado.
+---
+
+#### 6. Gestión de Dispositivos
+
+* **Propósito:** Administrar hubs, sensores, válvulas y comandos remotos asociados a las sedes.
+* **Elementos clave:** Botón para agregar dispositivo, tarjetas de resumen, listado de dispositivos, detalle del dispositivo, sensores vinculados, control de válvulas y comandos recientes.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Devices.png" alt="Devices-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Devices.png" alt="Devices-Webapp-Wireframe" width="700">
 </p>
 
-Reports: Visualizacion de datos historicos mediante graficas de consumo y herramientas para la exportacion de informes detallados en formato PDF.
+---
+
+#### 7. Centro de Alertas y Notificaciones
+
+* **Propósito:** Gestionar alertas, umbrales, incidentes, canales de notificación y envíos.
+* **Elementos clave:** Botón para crear alerta, tarjetas de resumen, alertas activas, umbrales configurados, incidentes y sección de canales/envíos.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireframe-Reports.png" alt="History-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Notifications.png" alt="Notifications-Webapp-Wireframe" width="700">
 </p>
 
-### 4.4.2. Web Applications Wireflow Diagrams
+---
 
-En este apartado mostramos el flujo operativo del prototipo de baja fidelidad (wireframes) necesarios para las esperadas expectativas de nuestros segmentos objetivo.
+#### 8. Reportes de Consumo
 
+* **Propósito:** Visualizar el historial y los reportes de consumo generados a partir de las lecturas monitoreadas.
+* **Elementos clave:** Botón para generar reporte, tarjetas de reportes generados, lecturas disponibles, anomalías, reportes de consumo y lecturas base.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-Wireflow.png" alt="History-Aplication-Wireframe">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Reports.png" alt="Reports-Webapp-Wireframe" width="700">
 </p>
+
+---
+
+#### 9. Gestión de Planes
+
+* **Propósito:** Administrar la suscripción del usuario, revisar beneficios, pagos y solicitudes de servicio.
+* **Elementos clave:** Plan activo, capacidad disponible, pagos, tarjetas de planes, historial de pagos, solicitudes de servicio y botón para cancelar suscripción.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Plans.png" alt="Plans-Webapp-Wireframe" width="700">
+</p>
+
+---
+
+#### 10. Soporte
+
+* **Propósito:** Gestionar tickets, mensajes y artículos de ayuda para resolver incidencias del usuario.
+* **Elementos clave:** Botón para crear ticket, resumen de tickets, agentes y ayuda, listado de tickets, detalle del ticket, conversación y artículos de ayuda.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Support.png" alt="Support-Webapp-Wireframe" width="700">
+</p>
+
+---
+
+#### 11. Perfil de Usuario
+
+* **Propósito:** Mostrar y actualizar la información personal del usuario, su perfil de acceso y la sesión activa.
+* **Elementos clave:** Tarjeta de usuario, perfil de acceso, formulario de actualización de datos, información de sesión y botón para cerrar sesión.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Wireframe-Profile.png" alt="Profile-Webapp-Wireframe" width="700">
+</p>
+
+---
+
+### 4.4.2. Web Applications Wireflow Diagram
+
+El wireflow de **LowCortisol** describe la relación entre las principales pantallas de la aplicación web y el flujo de navegación del usuario. El recorrido inicia desde las pantallas de autenticación, continúa con la validación de suscripción activa y luego permite el acceso a los módulos principales: panel de monitoreo, sedes, dispositivos, alertas, reportes, planes, soporte y perfil.
+
+Este diagrama permite visualizar cómo el usuario se desplaza entre las pantallas, incluyendo flujos alternativos como registro, recuperación de contraseña, compra o activación de plan y cierre de sesión.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Wireflow.png" alt="Webapp-Wireflow" width="900">
+</p>
+
+---
 
 ### 4.4.3. Web Applications Mock-ups
 
-## 1. Pantalla de Inicio de Sesión
-* **Propósito:** Interfaz de acceso para usuarios registrados.
-* **Elementos clave:** Campos para correo electrónico (`you@example.com`) y contraseña, botón de "Sign in" y enlace de acceso a la pantalla de creación de cuenta.
+Los mockups de **LowCortisol** representan la versión visual de alta fidelidad de las pantallas principales del sistema. A diferencia de los wireframes, estos incorporan estilos finales como colores, tipografía, espaciado, tarjetas, botones, jerarquía visual y componentes interactivos, permitiendo validar la experiencia final del usuario antes de la implementación o entrega.
+
+#### 1. Pantalla de Inicio de Sesión
+
+* **Propósito:** Permitir que los usuarios registrados accedan a la plataforma.
+* **Elementos clave:** Selector de idioma, campos de correo y contraseña, botón de ingreso, enlace de recuperación y enlace de creación de cuenta.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Inicio.png" alt="Inicio-Application-MockUp">
-</p>
-
-
----
-
-## 2. Registro de Usuario
-* **Propósito:** Formulario de alta para nuevos usuarios en la plataforma.
-* **Elementos clave:** Campos de entrada para nombre, correo, teléfono y contraseña, selector de "Account type" y botones de acción para crear cuenta o volver al inicio.
-
-
-<p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Register.png" alt="Register-Application-MockUp">
-</p>
-
-
----
-
-## 3. Dashboard Principal (Home)
-* **Propósito:** Visualización en tiempo real del estado de los sistemas del hogar.
-* **Elementos clave:** Indicadores de estado de agua y gas (porcentaje de apertura), controles táctiles para alternar válvulas y botón de emergencia "Emergency shut-off".
-
-<p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Dashboard.png" alt="Dashboard-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Login.png" alt="Login-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-## 4. Centro de Alertas
-* **Propósito:** Gestión y visualización de incidencias detectadas en el sistema.
-* **Elementos clave:** Registro cronológico de alertas (fugas, presión, batería baja, estado de conexión) con indicación de antigüedad.
+#### 2. Registro de Usuario
+
+* **Propósito:** Permitir la creación de nuevas cuentas dentro de la plataforma.
+* **Elementos clave:** Campos de información personal, botón de registro y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Alerts.png" alt="Alerts-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Register.png" alt="Register-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-## 5. Gestión de Válvulas
-* **Propósito:** Configuración personalizada y control manual o automático de los dispositivos.
-* **Elementos clave:** Interruptores de activación por dispositivo y control deslizante para ajustar el umbral de auto-apagado ("Auto-shut threshold") de cada válvula.
+#### 3. Recuperación de Contraseña
+
+* **Propósito:** Permitir que el usuario solicite recuperación de acceso mediante su correo electrónico.
+* **Elementos clave:** Campo de correo, botón de recuperación y enlace de retorno al login.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Controls.png" alt="Controls-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Recover.png" alt="Recover-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-## 6. Perfil de Usuario
-* **Propósito:** Gestión de la información personal y ajustes de la cuenta.
-* **Elementos clave:** Visualización de los datos del usuario (Jean Franck Loa Rojas), acceso a secciones de dispositivos, reportes y configuración, además del botón de cierre de sesión.
+#### 4. Panel de Monitoreo
+
+* **Propósito:** Presentar el estado general del consumo, sensores, sesiones activas y anomalías detectadas.
+* **Elementos clave:** Botón de simulación de lectura, tarjetas de información, sección de anomalías y navegación principal.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Profile.png" alt="Profile-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Home.png" alt="Home-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-## 7. Gestión de Dispositivos
-* **Propósito:** Administración y verificación del hardware conectado.
-* **Elementos clave:** Listado detallado de dispositivos (válvulas, sensores, hub) indicando si están en línea o fuera de línea, con opción para añadir nuevos dispositivos.
+#### 5. Gestión de Sedes
+
+* **Propósito:** Administrar las sedes, responsables, dispositivos asignados y métricas consolidadas.
+* **Elementos clave:** Filtros de sede, listado, detalle, responsables, dispositivos asignados y resumen consolidado.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Devices.png" alt="Devices-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Workspace.png" alt="Workspace-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-## 8. Reportes de Consumo
-* **Propósito:** Análisis del historial de uso de recursos.
-* **Elementos clave:** Totales acumulados de agua y gas, visualización gráfica de consumo, selectores de rango temporal (7D, 30D, 90D) y opciones para filtrar y exportar los reportes.
+#### 6. Gestión de Dispositivos
+
+* **Propósito:** Controlar hubs, sensores, válvulas y comandos remotos asociados a las sedes.
+* **Elementos clave:** Listado de dispositivos, detalle del dispositivo, sensores vinculados, control de válvulas y comandos recientes.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Application-Web-MockUp-Reports.png" alt="Reports-Application-MockUp">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Devices.png" alt="Devices-Webapp-Mockup" width="700">
 </p>
 
 ---
 
-### 4.4.4. Web Applications User Flow Diagrams
+#### 7. Centro de Alertas y Notificaciones
 
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
+* **Propósito:** Gestionar alertas, umbrales, incidentes y canales de notificación.
+* **Elementos clave:** Resumen de alertas, alertas activas, umbrales configurados, incidentes, canales activos y envíos.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/UserFlowDiagram.png" alt="UserFlowDiagram">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Notifications.png" alt="Notifications-Webapp-Mockup" width="700">
+</p>
+
+---
+
+#### 8. Reportes de Consumo
+
+* **Propósito:** Visualizar reportes de consumo generados a partir de lecturas monitoreadas.
+* **Elementos clave:** Reportes generados, lecturas disponibles, anomalías, reportes de consumo y lecturas base.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Reports.png" alt="Reports-Webapp-Mockup" width="700">
+</p>
+
+---
+
+#### 9. Gestión de Planes
+
+* **Propósito:** Permitir la administración de suscripciones, pagos, beneficios y solicitudes de servicio.
+* **Elementos clave:** Plan activo, capacidad, pagos, tarjetas de planes, historial de pagos, solicitudes de servicio y cancelación de suscripción.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Plans.png" alt="Plans-Webapp-Mockup" width="700">
+</p>
+
+---
+
+#### 10. Soporte
+
+* **Propósito:** Permitir la creación y seguimiento de tickets de soporte.
+* **Elementos clave:** Tickets, agentes disponibles, artículos de ayuda, detalle del ticket, conversación y acciones de resolución o cierre.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Support.png" alt="Support-Webapp-Mockup" width="700">
+</p>
+
+---
+
+#### 11. Perfil de Usuario
+
+* **Propósito:** Mostrar y actualizar la información del usuario, perfil de acceso y sesión activa.
+* **Elementos clave:** Tarjeta de usuario, perfil de acceso, actualización de datos y control de sesión.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Mockup-Profile.png" alt="Profile-Webapp-Mockup" width="700">
+</p>
+
+---
+
+### 4.4.4. Web Applications User Flow Diagram
+
+El user flow diagram representa el recorrido funcional del usuario dentro de **LowCortisol**. El flujo inicia con el acceso a la plataforma, continúa con los procesos de autenticación, registro o recuperación de contraseña, y posteriormente valida si el usuario cuenta con una suscripción activa.
+
+Si el usuario no tiene una suscripción activa, el sistema lo dirige hacia la sección de planes para seleccionar y activar una suscripción. Una vez habilitado el acceso, el usuario puede navegar por los módulos principales del sistema: panel de monitoreo, sedes, dispositivos, alertas, reportes, planes, soporte y perfil. Este diagrama también contempla acciones como la asignación de dispositivos, generación de alertas, creación de reportes, gestión de tickets y cierre de sesión.
+
+<p align="center">
+  <img src="assets/md-images-chapter4/Webapp-Userflow.png" alt="Webapp-Userflow" width="900">
 </p>
 
 ## 4.5. Web Applications Prototyping
@@ -2746,7 +2955,7 @@ El proceso de prototipado también ayudó a identificar ajustes visuales, proble
 
 Las siguientes figuras presentan las principales pantallas del prototipo de la aplicación web LowCortisol.
 
-Link de presentación: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCgw5EGwS0wRoInGuRjHuy6AWZzj81eh2iPlIBeVCZmFHE?e=TuLRn4
+Link de presentación: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
@@ -2757,50 +2966,155 @@ Event Storming es una técnica de modelado que nos permite identificar y organiz
 ![Event Storming](./assets/md-images-chapter4/Cap4.png)
 ![Event Storming](./assets/md-images-chapter4/Cap5.png)
 Link de modelo: https://lucid.app/lucidspark/83c9509f-24aa-47a0-acb8-d565dad1216c/edit?view_items=F0GQ8.VouW7A&page=0_0&invitationId=inv_3993ba91-db9e-419d-8bd7-f08a3754f9ab
+
 ### 4.6.2. Software Architecture Context Diagram
-**Elementos:**
 
-* Usuario Residencial
-* Profesional de Infraestructura
+El diagrama de contexto presenta una visión general del sistema **LowCortisol Platform** y su relación con los actores principales y sistemas externos. Este nivel permite entender el alcance del sistema sin entrar todavía en detalles técnicos internos.
 
-**Sistema Principal:**
+**Actores principales:**
 
-* Sistema de Monitoreo de Agua y Gas
+* **Owner / User:** Usuario principal que utiliza la plataforma para monitorear el consumo de agua y gas, gestionar sedes, dispositivos, alertas, reportes, planes y solicitudes de soporte.
+* **Site Operator:** Usuario encargado de revisar información operativa asociada a una sede, como dispositivos, lecturas, alertas e incidentes.
+* **Support Agent:** Persona encargada de atender tickets de soporte, revisar incidencias y brindar ayuda al usuario.
 
-**Sistemas Externos:**
+**Sistema principal:**
 
-* Sensores IoT
-* Servicio de Notificaciones
-* Sistema de Autenticación
+* **LowCortisol Platform:** Plataforma web orientada al monitoreo inteligente de agua y gas. Permite gestionar sedes, dispositivos IoT, sensores, válvulas, alertas, reportes, suscripciones y soporte.
 
-![Diagrama Contexto](./assets/md-images-chapter4/DContexto.png)
+**Sistemas externos:**
 
-### 4.6.3. Software Architecture Container Diagrams
-Los diagramas de contenedores presentan la descomposición del sistema en sus principales unidades de ejecución y almacenamiento, permitiendo visualizar cómo se contribuyen las responsabilidades entre el frontend y el backend.
-![Diagrama Contenedores](./assets/md-images-chapter4/DContenedores.png)
+* **Email Provider:** Servicio externo utilizado para recuperación de contraseña, envío de alertas y notificaciones.
+* **Payment Provider:** Servicio proyectado para procesar pagos de suscripciones.
+* **IoT Sensor and Device Network:** Red externa de sensores, hubs y válvulas encargada de registrar lecturas de consumo y ejecutar comandos remotos.
+* **Render:** Plataforma cloud usada para desplegar la aplicación web y la API.
 
-### 4.6.4. Software Architecture Components Diagrams
+![Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ContextDiagram.puml)
 
-**Backend:**
-![Diagrama Componentes](./assets/md-images-chapter4/DComponentes.png)
+### 4.6.3. Software Architecture Container Diagram
 
-A continuación las especificaciones de cada Bounded Context, los cuales definen la organización interna de cada módulo tanto en el backend como en la SPA del Frontend
-![Diagrama Componentes](./assets/md-images-chapter4/Componente1.png)
-![Diagrama Componentes](./assets/md-images-chapter4/Componente2.png)
-![Diagrama Componentes](./assets/md-images-chapter4/Componente3.png)
-![Diagrama Componentes](./assets/md-images-chapter4/Componente4.png)
-![Diagrama Componentes](./assets/md-images-chapter4/Componente5.png)
+El diagrama de contenedores muestra la descomposición general de **LowCortisol Platform** en sus principales unidades ejecutables y de almacenamiento. Este nivel permite identificar cómo se distribuyen las responsabilidades entre el frontend, la API, la Fake API actual y la base de datos proyectada.
 
-**Frontend:**
-Aqui cada módulo comparte una misma arquitectura frontend al fin de mantener consistencia, modularidad y facilidad de mantenimiento, pero cada capa cambia su resonsabilidad según su módulo
-![Diagrama Componentes](./assets/md-images-chapter4/CFronted.png)
+**Contenedores principales:**
 
-A continuación las especificaciones de cada Módulo
-![Diagrama Componentes](./assets/md-images-chapter4/C11.png)
-![Diagrama Componentes](./assets/md-images-chapter4/D22.png)
-![Diagrama Componentes](./assets/md-images-chapter4/C33.png)
-![Diagrama Componentes](./assets/md-images-chapter4/D44.png)
-![Diagrama Componentes](./assets/md-images-chapter4/D55.png)
+* **LowCortisol WebApp:** Aplicación frontend desarrollada con Vue 3 y Vite. Permite al usuario iniciar sesión, crear una cuenta, comprar planes, gestionar sedes, administrar dispositivos, revisar alertas, visualizar reportes y acceder al soporte.
+* **LowCortisol Fake API:** API temporal construida con JSON Server y desplegada en Render. Actualmente permite simular recursos REST para usuarios, planes, suscripciones, sedes, dispositivos, lecturas, alertas y soporte.
+* **LowCortisol API:** Backend real proyectado para ser desarrollado con ASP.NET Core Web API. Este contenedor reemplazará a la Fake API y centralizará la lógica de negocio del sistema.
+* **LowCortisol Database:** Base de datos relacional proyectada para almacenar usuarios, perfiles de acceso, planes, suscripciones, sedes, dispositivos, sensores, lecturas, alertas, reportes y tickets de soporte.
+
+**Relaciones principales:**
+
+* Los usuarios acceden a la plataforma mediante la **Single Page Application**.
+* La SPA consume actualmente la **Fake API** mediante HTTPS/JSON.
+* En la arquitectura proyectada, la SPA consumirá la **LowCortisol API** desarrollada en ASP.NET Core.
+* La API real persistirá información en una base de datos relacional y podrá integrarse con servicios externos de correo, pagos y red IoT.
+
+![Container Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ContainerDiagram.puml)
+
+### 4.6.4. Software Architecture Component Diagrams
+
+Los diagramas de componentes presentan la organización interna de cada bounded context de la plataforma. Para evitar diagramas sobrecargados, se decidió separar la arquitectura por contexto y por lado de la aplicación: **frontend** y **backend**.
+
+En el frontend, cada bounded context mantiene una estructura consistente basada en:
+
+* **Presentation Layer:** Contiene páginas, componentes visuales, formularios y navegación del módulo.
+* **Application Layer:** Coordina los casos de uso del módulo mediante stores y facades.
+* **Domain Layer:** Representa los conceptos principales del dominio usados por el frontend.
+* **Infrastructure Layer:** Consume los endpoints del backend o Fake API mediante servicios API.
+* **Shared Layer:** Provee servicios y componentes reutilizables como layout, i18n, manejo de sesión, guards y cliente HTTP.
+
+En el backend proyectado, cada bounded context mantiene una arquitectura basada en:
+
+* **Interface Layer:** Expone endpoints REST mediante controllers de ASP.NET Core.
+* **Application Layer:** Coordina comandos, consultas, DTOs y servicios de aplicación.
+* **Domain Layer:** Contiene entidades, reglas de negocio y servicios de dominio.
+* **Infrastructure Layer:** Implementa repositorios, persistencia y conectores externos.
+* **Database / External Systems:** Representan la persistencia relacional y servicios externos como correo, pagos o red IoT.
+
+Esta organización permite mantener modularidad, separación de responsabilidades y trazabilidad entre historias de usuario, funcionalidades del sistema y componentes técnicos.
+
+#### 4.6.4.1. IAM Bounded Context
+
+El bounded context **IAM** gestiona la identidad y el acceso de los usuarios. Incluye inicio de sesión, registro, recuperación de contraseña, cierre de sesión, perfil de usuario, perfil de acceso y permisos.
+
+En el frontend, el contexto IAM contiene las vistas de autenticación y perfil. La **Presentation Layer** agrupa las páginas de login, registro, recuperación y perfil; la **Application Layer** coordina las acciones mediante store y facade; la **Infrastructure Layer** consume los endpoints de autenticación; y la **Shared Layer** proporciona sesión, traducciones, guards y cliente HTTP.
+
+![IAM Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-IAM.puml)
+
+En el backend proyectado, IAM expone endpoints mediante controllers, coordina los casos de uso de autenticación desde servicios de aplicación, aplica reglas de dominio sobre usuarios, sesiones y perfiles de acceso, y usa infraestructura para persistencia, hashing de contraseñas, generación de tokens y recuperación por correo.
+
+![IAM Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-IAM.puml)
+
+#### 4.6.4.2. Plan Bounded Context
+
+El bounded context **Plan** gestiona los planes, suscripciones, pagos simulados y solicitudes de servicio. Este módulo permite visualizar planes disponibles, comprar una suscripción, cambiar de plan, cancelar una suscripción y revisar pagos.
+
+En el frontend, la **Presentation Layer** contiene la página de planes, tarjetas de planes y formulario de compra. La **Application Layer** coordina la carga de planes, activación de suscripciones y cancelación. La **Domain Layer** representa conceptos como Plan, PlanFeature, Subscription, Payment y ServiceRequest. La **Infrastructure Layer** consume los endpoints relacionados con planes y suscripciones.
+
+![Plan Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Plan.puml)
+
+En el backend proyectado, el contexto Plan expone endpoints de planes, suscripciones, pagos y solicitudes. La capa de aplicación coordina los casos de uso de suscripción, mientras que el dominio contiene reglas como validación de cambio de plan, cancelación y requerimiento de pago. También se considera un conector externo para procesar pagos reales en una futura implementación.
+
+![Plan Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Plan.puml)
+
+#### 4.6.4.3. Workspace Bounded Context
+
+El bounded context **Workspace** gestiona la organización multi-sede de la plataforma. Incluye workspace, sedes, miembros asignados y asignación de dispositivos a sedes.
+
+En el frontend, este contexto permite listar sedes, filtrar por tipo, registrar nuevas sedes, asignar miembros y asociar dispositivos. La **Presentation Layer** contiene las vistas y componentes de interacción; la **Application Layer** coordina las acciones; la **Domain Layer** representa Workspace, Site, SiteMember y SiteDeviceAssignment; y la **Infrastructure Layer** consume endpoints de sedes, miembros y asignaciones.
+
+![Workspace Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Workspace.puml)
+
+En el backend proyectado, Workspace expone controllers para gestionar workspace, sedes, miembros y asignaciones. La capa de aplicación valida operaciones como creación de sedes y asignación de dispositivos, mientras que la capa de dominio mantiene las reglas del contexto. Además, se considera una política de acceso por suscripción para validar límites del plan activo.
+
+![Workspace Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Workspace.puml)
+
+#### 4.6.4.4. Device Control Bounded Context
+
+El bounded context **Device Control** gestiona dispositivos, sensores, válvulas y comandos remotos. Este módulo permite registrar dispositivos, vincular sensores, controlar válvulas y ejecutar comandos de sincronización.
+
+En el frontend, la **Presentation Layer** contiene la página de dispositivos, tarjetas de dispositivos, tarjetas de sensores y controles de válvulas. La **Application Layer** coordina acciones como crear dispositivos, vincular sensores, abrir/cerrar válvulas y ejecutar comandos. La **Domain Layer** representa Device, Sensor, Valve y DeviceCommand. La **Infrastructure Layer** consume endpoints del contexto Device Control.
+
+![Device Control Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-DeviceControl.puml)
+
+En el backend proyectado, Device Control expone endpoints para dispositivos, sensores, válvulas y comandos. La capa de aplicación coordina operaciones remotas, la capa de dominio valida reglas de estado de dispositivos, y la infraestructura se encarga de persistir información y comunicarse con la red IoT mediante un conector especializado.
+
+![Device Control Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-DeviceControl.puml)
+
+#### 4.6.4.5. Monitoring Bounded Context
+
+El bounded context **Monitoring** gestiona las lecturas, sesiones de monitoreo, anomalías, métricas y reportes. Este módulo constituye el núcleo operativo de la plataforma, ya que permite visualizar el estado del consumo de agua y gas.
+
+En el frontend, la **Presentation Layer** contiene el dashboard, la página de reportes, tarjetas de métricas y visualización de consumo. La **Application Layer** coordina la carga de lecturas, anomalías, sesiones activas y reportes. La **Domain Layer** representa MonitoringSession, Reading, Anomaly y Report. La **Infrastructure Layer** consume endpoints de monitoreo.
+
+![Monitoring Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Monitoring.puml)
+
+En el backend proyectado, Monitoring expone endpoints para sesiones, lecturas, anomalías y reportes. La capa de aplicación coordina la generación de métricas y reportes, mientras que la capa de dominio contiene reglas de detección de anomalías. También se considera un conector de ingesta de lecturas desde la red IoT.
+
+![Monitoring Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Monitoring.puml)
+
+#### 4.6.4.6. Notification Bounded Context
+
+El bounded context **Notification** gestiona alertas, umbrales, incidentes, canales de notificación y entregas de alertas. Su objetivo es permitir que el sistema reaccione ante condiciones anómalas o riesgos operativos.
+
+En el frontend, este contexto permite visualizar alertas, crear alertas, resolverlas, cerrarlas, configurar umbrales y revisar incidentes. La **Presentation Layer** contiene la página de alertas y componentes visuales; la **Application Layer** coordina acciones sobre alertas y umbrales; la **Domain Layer** representa Alert, Threshold, Incident, NotificationChannel y AlertDelivery; y la **Infrastructure Layer** consume los endpoints correspondientes.
+
+![Notification Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Notification.puml)
+
+En el backend proyectado, Notification expone endpoints para alertas, umbrales, incidentes, canales y entregas. La capa de dominio incluye reglas para escalar alertas a incidentes. Además, se considera un conector de entrega de notificaciones que puede integrarse con un proveedor externo de correo.
+
+![Notification Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Notification.puml)
+
+#### 4.6.4.7. Support Bounded Context
+
+El bounded context **Support** gestiona tickets, mensajes, conversaciones, agentes de soporte y artículos de ayuda. Este módulo permite atender incidencias, dudas y solicitudes generadas por los usuarios.
+
+En el frontend, la **Presentation Layer** contiene la página de soporte, tarjetas de tickets, artículos de ayuda y área de conversación. La **Application Layer** coordina la creación de tickets, envío de mensajes, resolución y cierre. La **Domain Layer** representa SupportTicket, SupportMessage, SupportAgent, SupportConversation y KnowledgeArticle. La **Infrastructure Layer** consume endpoints del módulo de soporte.
+
+![Support Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Support.puml)
+
+En el backend proyectado, Support expone endpoints para tickets, mensajes, agentes, conversaciones y artículos. La capa de aplicación coordina los casos de uso de soporte, la capa de dominio define reglas como prioridad y asignación, y la infraestructura persiste la información y puede enviar notificaciones mediante un proveedor externo de correo.
+
+![Support Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Support.puml)
 
 ## 4.7. Software Object-Oriented Design
 The object-oriented design of the LowCortisol system is represented through two class diagrams: one for the backend and another for the frontend. This separation allows a clearer view of the responsibilities of each layer of the application.
@@ -2811,19 +3125,19 @@ El diagrama de clases del backend muestra la estructura principal del sistema, i
 
 Además, el diagrama permite visualizar cómo se relacionan las distintas capas de la arquitectura, separando la lógica de negocio, la coordinación de casos de uso y el acceso a datos mediante componentes como **AppDbContext** y los repositorios concretos. En conjunto, refleja una organización modular, mantenible y alineada con una arquitectura orientada al dominio.
 
-![Backend Class Diagram](https://plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-2610-LCortisol/Lowcortisol-app/main/docs/backend-class-diagram.puml)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/backend-class-diagram.puml?v=4)
 
 El diagrama de clases del frontend muestra la estructura principal de la capa de presentación, incluyendo las páginas, los servicios de interfaz y los modelos que permiten la interacción con el usuario. Entre los elementos más importantes se encuentran **LoginPage**, **RegisterPage**, **HomePage**, **DevicesPage**, **ReportsPage**, **AlertsPage** y **ProfilePage**, además de servicios como **I18nService**, **BrowserSessionService** y **UiSessionService**.
 
 Asimismo, el diagrama permite comprender cómo el frontend organiza la navegación, la gestión de sesión, el cambio de idioma y la comunicación con los servicios de aplicación. En conjunto, refleja una interfaz modular, interactiva y alineada con la arquitectura general del sistema.
 
-![Frontend Class Diagram](https://plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-2610-LCortisol/Lowcortisol-app/main/docs/frontend-class-diagram.puml)
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/frontend-class-diagram.puml?v=4)
 
 ## 4.8. Database Design
 
-La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado principalmente a la persistencia de cuentas de usuario y al proceso de autenticación. En la etapa actual del desarrollo, el sistema registra la información de los usuarios en una base de datos SQLite a través de la entidad `AppUser`. Esta estructura permite almacenar datos esenciales de cada cuenta, como el nombre, correo electrónico, número de teléfono, contraseña cifrada y tipo de usuario.
+La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a la persistencia de usuarios, dispositivos, monitoreo, incidentes, notificaciones y reportes de consumo. En la etapa actual del desarrollo, el sistema registra la información en una base de datos SQLite mediante una estructura compuesta por entidades como **user_accounts**, **devices**, **sensors**, **incidents**, **notifications**, **monitoring_sessions**, **sensor_readings**, **consumption_reports** y **report_lines**.
 
-Este diseño respalda las funcionalidades de registro e inicio de sesión, garantizando que las credenciales se almacenen de forma segura mediante técnicas de hash de contraseñas, en lugar de texto plano. Asimismo, la estructura actual fue planteada de manera simple pero escalable, de modo que en futuras etapas puedan añadirse nuevas entidades, como dispositivos, válvulas, alertas y reportes, en caso de que dichos módulos requieran persistencia de datos.
+Este diseño respalda funcionalidades como el registro e inicio de sesión, la gestión de dispositivos, el monitoreo de sensores, la administración de alertas y la generación de reportes. Asimismo, permite almacenar la información de forma estructurada, asegurando integridad relacional mediante claves primarias y foráneas. La base de datos fue diseñada de manera modular y escalable, de modo que pueda ampliarse fácilmente en futuras iteraciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
@@ -2831,7 +3145,7 @@ El diagrama de base de datos representa la estructura de almacenamiento del sist
 
 Además, el diagrama muestra cómo se conectan estas tablas mediante claves primarias y foráneas, reflejando la organización de los datos y la integridad relacional del sistema. En conjunto, esta estructura permite almacenar de forma consistente la información necesaria para el funcionamiento del backend y facilita la escalabilidad y mantenibilidad de la aplicación.
 
-![Database Diagram](https://plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-2610-LCortisol/Lowcortisol-app/main/docs/database-diagram.puml)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/database-diagram.puml?v=4)
 
 # Chapter V: Product Implementation, Validation & Deployment
 
@@ -2934,11 +3248,11 @@ La Landing Page fue desarrollada utilizando tecnologías web estándar como HTML
 
 **Repositorio**
 
-https://github.com/upc-pre-202610-1asi0730-12144-LCortisol/Lowcortisol-LadingPage
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 **URL desplegada**
 
-https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/Lowcortisol-LadingPage/  
+https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2964,12 +3278,12 @@ A continuación, se presenta la tabla resumen del Sprint Planning 1:
 | Location | Reunión virtual (Google Meet) |
 | Prepared By | Condori Torres, Miguel Anibal |
 | Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
-| Sprint 0 Review Summary | Durante inicio del desarrollo del proyecto se organizó el repositorio en GitHub y se establecieron las actividades para cada integrante, definiendo los requisitos iniciales de la Landing Page. |
-| Sprint 0 Retrospective Summary | Durante la fase inicial del proyecto, el equipo logró organizarse adecuadamente y establecer herramientas de trabajo colaborativo como Git y GitHub. Como aspecto positivo, se destaca la buena comunicación inicial y la correcta comprensión del alcance del proyecto. Como oportunidad de mejora, se identificó la necesidad de mejorar la planificación del tiempo y la asignación de responsabilidades para optimizar el desarrollo en los siguientes sprints.
+| Sprint 1 Review Summary | Durante inicio del desarrollo del proyecto se organizó el repositorio en GitHub y se establecieron las actividades para cada integrante, definiendo los requisitos iniciales de la Landing Page. |
+| sprint 1 Retrospective Summary | Durante la fase inicial del proyecto, el equipo logró organizarse adecuadamente y establecer herramientas de trabajo colaborativo como Git y GitHub. Como aspecto positivo, se destaca la buena comunicación inicial y la correcta comprensión del alcance del proyecto. Como oportunidad de mejora, se identificó la necesidad de mejorar la planificación del tiempo y la asignación de responsabilidades para optimizar el desarrollo en los siguientes sprints.
 |  | Sprint Goal & User Stories |
 | Sprint 1 Goal | Desarrollar y desplegar una Landing Page funcional que presente la propuesta de valor del proyecto, incluyendo sus secciones principales y un diseño estructurado. Este objetivo se considerará cumplido cuando la página sea accesible mediante un metodo de despliegue que permita la navegación entre secciones sin errores y comunique claramente los beneficios del producto.
 | Sprint 1 Velocity | 10 Story Points |
-| Sum of Story Points | 5 Story Points |
+| Sum of Story Points | 10 Story Points |
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -2996,7 +3310,33 @@ detalla la distribución de roles para este primer ciclo:
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
 #### 5.2.1.3. Sprint Backlog 1. 
-#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación correspondientes al Sprint Review. A continuación, se detallan los commits realizados por el equipo.
+
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|----------|--------|----------|---------------|--------------------|--------------------|
+| Lowcortisol-LadingPage | develop / section-payment | 77f8ae2 | feat: event carousel | Se implementó un carrusel de eventos en la sección beneficios para mejorar la visualización de información dinámica. | 25/04/2026 |
+| Lowcortisol-LadingPage | develop | b198c08 | fix: landing page update | Se realizaron ajustes generales en la landing page para mejorar estructura y estilos. | 25/04/2026 |
+| Lowcortisol-LadingPage | develop | 6bd24d1 | feat: add English button | Se agregó un botón de cambio de idioma para permitir visualización en inglés. | 23/04/2026 |
+| Lowcortisol-LadingPage | RamaBruno | b5c977c | feat: features section | Se añadieron nuevas funcionalidades en la sección de beneficios. | 22/04/2026 |
+| Lowcortisol-LadingPage | RamaBruno | b0237ea | style: responsive benefits | Se ajustó el diseño responsive de la sección beneficios para mejorar visualización en móviles. | 22/04/2026 |
+| Lowcortisol-LadingPage | RamaBruno | 9cb7c89 | feat: HTML y CSS beneficios | Se implementó la estructura HTML y estilos CSS de la sección beneficios. | 22/04/2026 |
+| Lowcortisol-LadingPage | Soluciones-Kirk | 86876ff | fix: imágenes solución | Se corrigieron imágenes dentro de la sección soluciones para mejorar la presentación visual. | 21/04/2026 |
+| Lowcortisol-LadingPage | landing-page-james | 48838f6 | style: footer logo | Se realizaron cambios en el estilo del logo ubicado en el footer. | 20/04/2026 |
+| Lowcortisol-LadingPage | landing-page-james | 49ae582 | feat: header home | Se actualizaron componentes del header y sección home. | 20/04/2026 |
+| Lowcortisol-LadingPage | landing-page-james | bfb0a3f | feat: add images | Se agregaron imágenes necesarias para el diseño de la landing page. | 20/04/2026 |
+| Lowcortisol-LadingPage | landing-page-james | 8f359a1 | feat: landing structure | Se implementó la estructura principal del header, home, contacto y footer. | 20/04/2026 |
+| Lowcortisol-LadingPage | Soluciones-Kirk | c5ae431 | feat: tarjetas UI | Se agregaron tarjetas para usuarios residenciales e infraestructura junto con estilos. | 20/04/2026 |
+| Lowcortisol-LadingPage | section-payment | 65b1ebf | feat: payment section | Se completó la sección de planes y pagos con su estructura visual. | 20/04/2026 |
+| Lowcortisol-LadingPage | section-about | 8486712 | feat: about section | Se desarrolló la sección "About" de la landing page. | 20/04/2026 |
+| Lowcortisol-LadingPage | main | e2b28de | init: project setup | Se realizó el commit inicial del proyecto con la configuración base. | 19/04/2026 |
+
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI0db4f1b2fac4ca47db5b72f302c1b7e9FDE35BBF/sprint-backlog-1-lowcortisol 
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Completando el primer Sprint 1, logramos implementar todas las secciones correspondientes 
@@ -3061,7 +3401,7 @@ Finalmente, se verificó el correcto funcionamiento del sitio desplegado, compro
 </p>
 
 #### URL del Deployment
-https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/Lowcortisol-LadingPage/  
+https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -3078,16 +3418,118 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
   <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
 </p>
 
+### 5.2.1. Sprint 2
 
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-## 5.4. Video About-the-Product.
+#### 5.2.2.1. Sprint Planning 2
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el sprint, se realizó el despliegue preliminar de la plataforma **LowCortisol** con el objetivo de validar el funcionamiento de la aplicación en un entorno accesible desde la web. Para esta etapa se desplegaron tanto la aplicación frontend como la Fake API utilizada para simular los servicios backend mientras se desarrolla la API definitiva.
+
+El despliegue permitió comprobar la navegación entre módulos principales, el consumo de datos desde la Fake API, la autenticación simulada, la visualización de sedes, dispositivos, alertas, reportes, planes, soporte y perfil de usuario.
+
+**Evidencias del despliegue:**
+
+* **Frontend desplegado:** aplicación web publicada en Render.
+* **Fake API desplegada:** servicio JSON Server publicado en Render para proveer datos simulados.
+* **Repositorio remoto:** código fuente versionado en GitHub.
+* **Pruebas funcionales preliminares:** navegación por las pantallas principales y validación de carga de datos desde la API.
+
+**URLs del despliegue:**
+
+* Web Application: `https://lowcortisol-webapp.onrender.com`
+* Fake API: `https://lowcortisol-platform.onrender.com/`
+* Repository: `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/tree/main`
+
+**Capturas de evidencia:**
+
+<p align="center"><strong>Frontend deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-webapp-render-sprint2.png" alt="LowCortisol WebApp deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Fake API deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-fakeapi-render-sprint2.png" alt="LowCortisol Fake API deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Application preliminary view</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-application-preview-sprint2.png" alt="LowCortisol application preview" width="700">
+</p>
+
+<p align="center"><strong>Application consuming Fake API data</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-api-data-loaded-sprint2.png" alt="LowCortisol consuming Fake API data" width="700">
+</p>
+
+**Resultado obtenido:**
+
+El despliegue permitió validar que la aplicación puede ejecutarse fuera del entorno local y que los módulos principales consumen información desde la Fake API. Esto evidencia un avance funcional para la revisión del sprint, ya que la solución puede ser mostrada mediante una URL pública y se encuentra preparada para futuras integraciones con el backend real.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+
 # Conclusiones
-Hasta el momento, el poryecto LowCortisol ha logrado consolidar una base sólida de investigación, diseño, arquitectura e implementación inicial. El equipo partió de una problemática real relacionada con la detección tardía de fugas de agua y gas en hogares, hoteles, municipalidades y otras infraestructuras, identificando que la falta de monitoreo en tiempo real genera pérdidas económicas, riesgos de inseguridad, desperdicio de recursos y una respuesta de valor clara, por ello nace una plataforma basada en tecnología IoT capaz de monitorear sistemas de agua y gas, emitir alertas inmediatas, permitir acciones remotas y facilitar una gestión preventiva. En los primeros capítulos el equipo desarrolló la base del proyecto mediante el perfil de la startup, misión, valores, objetivos, análisis competitivo, Lean UX, entrevistas entre otros puntos importantes, permitiendo de esta forma validar que los usuarios necesitan una herramienta tecnológica preventiva como la ya planteada anteriormente. Tambien se organizaron los requerimientos mediantes epics, user stories, technical stories, product backlog e impact mapping, definiendo funcionalidades importantes para nuestro poryecto. Finalmente se logró implementar y desplegar la Lnading Page mediante GitHub Pages, evidenciando el uso del Git, GitHub, trabajo colaborativo y organización por Sprint. En conclusión LowCortisol cueta como una base completa de investigación, diseño, arquitectura e implementación inicial, quedando como siguiente paso desarrollar la Web Application, integrar la API y ampliar la presistencia de datos para nuestros diferentes servicios.
-## Conclusiones y recomendaciones
-## Video About-the-Team.
+
+Hasta el momento, el proyecto LowCortisol ha logrado construir una base sólida a nivel de investigación, diseño y una primera implementación. Se partió de una problemática real relacionada con la detección tardía de fugas de agua y gas, identificando impactos como pérdidas económicas, riesgos de seguridad y desperdicio de recursos.
+
+A partir de esto, se definió una propuesta de valor basada en una solución IoT que permite el monitoreo en tiempo real, generación de alertas y control preventivo de los sistemas. Durante el desarrollo, se trabajaron aspectos clave como el perfil de la startup, análisis competitivo, Lean UX y entrevistas, lo que ayudó a validar la necesidad del producto en los usuarios.
+
+También se estructuraron los requerimientos mediante user stories, technical stories y product backlog, dejando claras las funcionalidades principales del sistema. Además, se logró implementar y desplegar la Landing Page, evidenciando el uso de herramientas como GitHub y el trabajo en equipo mediante sprints.
+
+En general, LowCortisol ya cuenta con una buena base para continuar el proyecto. Como siguiente paso, se deberá avanzar en el desarrollo de la aplicación web y la integración de funcionalidades más completas.
+
 # Bibliografía 
+
+Fuentes, H., & Mauricio, D. (2020). Smart water consumption measurement system for houses using IoT and cloud computing. *Environmental Monitoring and Assessment*. https://link.springer.com/article/10.1007/s10661-020-08535-4  
+
+Kiran, A. R., Tharuni, E., Krishna, G. H., & Vaishnavi, G. (2025). Smart IoT-Based Water Leakage and Quality Monitoring System with Automated Pump Control and Alert Mechanism. *International Journal of Engineering Research and Science & Technology*. https://ijerst.org/index.php/ijerst/article/view/1924  
+
+Singh, Y., & Walingo, T. (2024). Smart Water Quality Monitoring with IoT Wireless Sensor Networks. *Sensors, 24*(9), 2871. https://www.mdpi.com/1424-8220/24/9/2871  
+
+Mohabuth, A. Q., Pal, T., & Sobrun, M. (2021). Development of an IoT-Based Smart Home Water Leak Detection System. *International Journal of Computer Sciences and Engineering*. https://www.researchgate.net/publication/360801282  
+
+Akkara, S., & Singh, T. M. (2020). Water Leakage Detection and Management System Using IoT. *International Journal of Advanced Science and Technology*. https://www.researchgate.net/publication/341549454  
+
+A solution for water management and leakage detection problems using IoTs based approach. (2022). *Internet of Things Journal*. https://www.sciencedirect.com/science/article/pii/S2542660522000105  
+
+IoT based smart water management systems: A systematic review. (2021). *Materials Today: Proceedings*. https://www.sciencedirect.com/science/article/abs/pii/S2214785320364701  
+
+Abai, N. H. Z., Shabli, A. H. M., Rejab, M. M., & Rahman, H. A. (2019). IoT based Smart Water Reticulation Monitoring System for Leak Detection. *Journal of Advanced Research in Dynamical and Control Systems*. https://www.researchgate.net/publication/392808314  
+
+Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D. R. P. (2025). IoT Based Smart Water Distribution and Leakage Detection Network. *International Research Journal on Advanced Engineering Hub*. https://www.researchgate.net/publication/397038655  
+
 # Anexos
- 
+
+## Anexo A. Videos de Exposiciones
+
+| Entrega | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+
+---
+
+## Anexo B. Evidencia de Videos entrevistas del Proyecto
+
+| Sección | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| Needfinding Interviews | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8 <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-needfinding-sprint-1 <br><br> **Formato:** .mp4 | Consolida todas las entrevistas realizadas a los segmentos objetivo del sistema LowCortisol (usuarios residenciales y profesionales de infraestructura). Cada entrevista incluye información del entrevistado, segmento objetivo y fecha de realización. El contenido evidencia necesidades reales relacionadas con seguridad en tuberías de agua y gas, prevención de fugas, monitoreo en tiempo real y automatización de válvulas mediante IoT. Este material sirvió como base para la creación de User Personas, User Journey Mapping, Empathy Mapping y la definición de requerimientos del sistema. | Subir el video en Microsoft Stream o plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. Añadir introducción a la sección, registro individual de entrevistas y análisis general de hallazgos cualitativos y cuantitativos obtenidos durante el proceso de investigación. |
+| Prototypes Navegation | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4 | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
