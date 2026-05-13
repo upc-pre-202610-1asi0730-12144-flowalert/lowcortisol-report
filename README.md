@@ -2078,45 +2078,414 @@ Then el sistema muestra un resumen general
 <td>-</td>
 </tr>
 
-<tr><td>TS01</td><td>API registrar usuario</td><td>Como Developer, quiero registrar usuarios mediante API.</td><td>Given que se envían datos válidos<br>When se procesa la solicitud<br>Then el sistema crea el usuario</td><td>EP07</td></tr>
+<tr>
+<td>TS01</td>
+<td>API registrar usuario</td>
+<td>Como Developer, quiero registrar usuarios mediante la API para permitir la creación segura de cuentas.</td>
+<td>
+Criterio de Aceptación
+Scenario 1: Registro exitoso<br>
+Given que el developer envía datos válidos mediante POST /users<br>
+When el servidor procesa la solicitud<br>
+Then el sistema crea la cuenta<br>
+And retorna HTTP 201 Created<br>
+And retorna los datos básicos del usuario<br><br>
 
-<tr><td>TS02</td><td>API obtener sensores</td><td>Como Developer, quiero consultar sensores.</td><td>Given que se solicita información<br>When se procesa<br>Then el sistema retorna sensores</td><td>EP07</td></tr>
+Scenario 2: Correo ya registrado<br>
+Given que el developer envía un correo existente<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza el registro<br>
+And retorna HTTP 409 Conflict
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS03</td><td>API sensores por usuario</td><td>Como Developer, quiero obtener sensores de un usuario.</td><td>Given que se envía ID usuario<br>When se consulta<br>Then retorna sensores asociados</td><td>EP07</td></tr>
+<tr>
+<td>TS02</td>
+<td>API obtener sensores</td>
+<td>Como Developer, quiero consultar sensores registrados mediante la API para visualizar dispositivos asociados.</td>
+<td>
+Criterio de Aceptación
+Scenario 1: Consulta exitosa<br>
+Given que existen sensores registrados<br>
+When el developer envía GET /sensors<br>
+Then el sistema retorna la lista de sensores<br>
+And retorna HTTP 200 OK<br><br>
 
-<tr><td>TS04</td><td>API generar alerta</td><td>Como Developer, quiero registrar alertas.</td><td>Given que ocurre evento<br>When se envía alerta<br>Then el sistema la almacena</td><td>EP07</td></tr>
+Scenario 2: Sin sensores registrados<br>
+Given que no existen sensores registrados<br>
+When el developer envía GET /sensors<br>
+Then el sistema retorna una lista vacía<br>
+And retorna HTTP 200 OK
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS05</td><td>API historial</td><td>Como Developer, quiero consultar historial.</td><td>Given que se solicita historial<br>When se procesa<br>Then retorna datos</td><td>EP07</td></tr>
+<tr>
+<td>TS03</td>
+<td>API sensores por usuario</td>
+<td>Como Developer, quiero obtener sensores asociados a un usuario para mostrar información personalizada.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Usuario con sensores<br>
+Given que el usuario tiene sensores asociados<br>
+When el developer envía GET /users/{id}/sensors<br>
+Then el sistema retorna sensores asociados<br>
+And retorna HTTP 200 OK<br><br>
 
-<tr><td>TS06</td><td>API login</td><td>Como Developer, quiero autenticar usuarios.</td><td>Given credenciales<br>When son válidas<br>Then retorna acceso</td><td>EP07</td></tr>
+Scenario 2: Usuario inexistente<br>
+Given que el ID del usuario no existe<br>
+When el developer realiza la consulta<br>
+Then el sistema rechaza la solicitud<br>
+And retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS07</td><td>API logout</td><td>Como Developer, quiero cerrar sesión.</td><td>Given sesión activa<br>When se solicita cierre<br>Then se invalida</td><td>EP07</td></tr>
+<tr>
+<td>TS04</td>
+<td>API generar alerta</td>
+<td>Como Developer, quiero registrar alertas automáticamente para notificar incidentes detectados.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Alerta generada correctamente<br>
+Given que un sensor detecta una anomalía<br>
+When el sistema envía POST /alerts<br>
+Then el sistema registra la alerta<br>
+And retorna HTTP 201 Created<br><br>
 
-<tr><td>TS08</td><td>API recuperar contraseña</td><td>Como Developer, quiero recuperación.</td><td>Given solicitud<br>When se procesa<br>Then envía recuperación</td><td>EP07</td></tr>
+Scenario 2: Datos inválidos<br>
+Given que la alerta contiene datos incompletos<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza el registro<br>
+And retorna HTTP 400 Bad Request
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS09</td><td>API registrar sensor</td><td>Como Developer, quiero registrar sensores.</td><td>Given datos sensor<br>When se envía<br>Then se almacena</td><td>EP07</td></tr>
+<tr>
+<td>TS05</td>
+<td>API historial de consumo</td>
+<td>Como Developer, quiero consultar historial de consumo para mostrar reportes al usuario.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Consulta exitosa<br>
+Given que existen registros de consumo<br>
+When el developer envía GET /history<br>
+Then el sistema retorna el historial solicitado<br>
+And retorna HTTP 200 OK<br><br>
 
-<tr><td>TS10</td><td>API vincular sensor</td><td>Como Developer, quiero vincular sensor.</td><td>Given IDs<br>When se procesa<br>Then se vincula</td><td>EP07</td></tr>
+Scenario 2: Historial inexistente<br>
+Given que no existen registros para el periodo solicitado<br>
+When el developer realiza la consulta<br>
+Then el sistema retorna una lista vacía<br>
+And retorna HTTP 200 OK
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS11</td><td>API actualizar lectura</td><td>Como Developer, quiero actualizar lecturas.</td><td>Given nueva lectura<br>When se envía<br>Then se guarda</td><td>EP07</td></tr>
+<tr>
+<td>TS06</td>
+<td>API login</td>
+<td>Como Developer, quiero autenticar usuarios mediante la API para permitir acceso seguro.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Inicio de sesión exitoso<br>
+Given que el usuario envía credenciales válidas mediante POST /auth/login<br>
+When el servidor valida los datos<br>
+Then el sistema autentica al usuario<br>
+And retorna HTTP 200 OK<br>
+And retorna token de autenticación<br><br>
 
-<tr><td>TS12</td><td>API desvincular sensor</td><td>Como Developer, quiero desvincular sensor.</td><td>Given solicitud<br>When se procesa<br>Then se elimina relación</td><td>EP07</td></tr>
+Scenario 2: Credenciales inválidas<br>
+Given que las credenciales son incorrectas<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza el acceso<br>
+And retorna HTTP 401 Unauthorized
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS13</td><td>API listar alertas</td><td>Como Developer, quiero listar alertas.</td><td>Given consulta<br>When se procesa<br>Then retorna alertas</td><td>EP07</td></tr>
+<tr>
+<td>TS07</td>
+<td>API logout</td>
+<td>Como Developer, quiero cerrar sesiones activas para finalizar accesos de usuarios.</td>
+<td>
+Criterio de Aceptación
+Scenario 1: Logout exitoso<br>
+Given que el usuario posee una sesión válida<br>
+When el developer envía POST /auth/logout<br>
+Then el sistema invalida la sesión<br>
+And retorna HTTP 200 OK<br><br>
 
-<tr><td>TS14</td><td>API actualizar alerta</td><td>Como Developer, quiero actualizar alertas.</td><td>Given alerta<br>When se modifica<br>Then se actualiza</td><td>EP07</td></tr>
+Scenario 2: Token inválido<br>
+Given que el token es inválido o expiró<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza la operación<br>
+And retorna HTTP 401 Unauthorized
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS15</td><td>API configurar umbrales</td><td>Como Developer, quiero configurar límites.</td><td>Given datos<br>When se envían<br>Then se guardan</td><td>EP07</td></tr>
+<tr>
+<td>TS08</td>
+<td>API recuperar contraseña</td>
+<td>Como Developer, quiero permitir recuperación de contraseña mediante correo electrónico.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Solicitud válida<br>
+Given que el usuario envía un correo registrado mediante POST /auth/recovery<br>
+When el sistema procesa la solicitud<br>
+Then el sistema envía instrucciones de recuperación<br>
+And retorna HTTP 200 OK<br><br>
 
-<tr><td>TS16</td><td>API reporte por fechas</td><td>Como Developer, quiero reportes.</td><td>Given rango<br>When se consulta<br>Then retorna datos</td><td>EP07</td></tr>
+Scenario 2: Correo inexistente<br>
+Given que el correo no está registrado<br>
+When el sistema procesa la solicitud<br>
+Then el sistema rechaza la operación<br>
+And retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS17</td><td>API resumen consumo</td><td>Como Developer, quiero resumen.</td><td>Given solicitud<br>When se procesa<br>Then retorna métricas</td><td>EP07</td></tr>
+<tr>
+<td>TS09</td>
+<td>API registrar sensor</td>
+<td>Como Developer, quiero registrar sensores IoT para asociarlos a usuarios o sedes.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Registro exitoso<br>
+Given que el developer envía datos válidos mediante POST /sensors<br>
+When el servidor procesa la solicitud<br>
+Then el sistema registra el sensor<br>
+And retorna HTTP 201 Created<br><br>
 
-<tr><td>TS18</td><td>API consultar planes</td><td>Como Developer, quiero obtener planes.</td><td>Given solicitud<br>When se consulta<br>Then retorna planes</td><td>EP07</td></tr>
+Scenario 2: Sensor duplicado<br>
+Given que el código del sensor ya existe<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza el registro<br>
+And retorna HTTP 409 Conflict
+</td>
+<td>EP07</td>
+</tr>
 
-<tr><td>TS19</td><td>API activar suscripción</td><td>Como Developer, quiero activar suscripción.</td><td>Given datos<br>When se procesa<br>Then se activa</td><td>EP07</td></tr>
+<tr>
+<td>TS10</td>
+<td>API vincular sensor</td>
+<td>Como Developer, quiero vincular sensores a usuarios o sedes.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Vinculación exitosa<br>
+Given que el usuario y sensor existen<br>
+When el developer envía POST /sensor-links<br>
+Then el sistema crea la relación<br>
+And retorna HTTP 201 Created<br><br>
 
-<tr><td>TS20</td><td>API cambiar suscripción</td><td>Como Developer, quiero cambiar plan.</td><td>Given solicitud<br>When se procesa<br>Then se actualiza</td><td>EP07</td></tr>
+Scenario 2: Sensor inexistente<br>
+Given que el sensor no existe<br>
+When el servidor procesa la solicitud<br>
+Then el sistema rechaza la operación<br>
+And retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS11</td>
+<td>API actualizar lectura</td>
+<td>Como Developer, quiero actualizar lecturas de sensores para mantener monitoreo en tiempo real.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Actualización correcta<br>
+Given que el sensor existe<br>
+When el dispositivo envía PUT /readings/{id}<br>
+Then el sistema actualiza la lectura<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Sensor inexistente<br>
+Given que el sensor no existe<br>
+When el servidor procesa la actualización<br>
+Then el sistema rechaza la solicitud<br>
+And retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS12</td>
+<td>API desvincular sensor</td>
+<td>Como Developer, quiero desvincular sensores de usuarios o sedes.</td>
+<td>
+Criterio de Aceptación
+Scenario 1: Eliminación exitosa<br>
+Given que existe una relación activa<br>
+When el developer envía DELETE /sensor-links/{id}<br>
+Then el sistema elimina la relación<br>
+And retorna HTTP 204 No Content<br><br>
+
+Scenario 2: Relación inexistente<br>
+Given que la relación no existe<br>
+When el servidor procesa la solicitud<br>
+Then retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS13</td>
+<td>API listar alertas</td>
+<td>Como Developer, quiero consultar alertas generadas para visualizarlas en el dashboard.</td>
+<td>
+Criterio de Aceptación
+Scenario 1: Consulta exitosa<br>
+Given que existen alertas registradas<br>
+When el developer envía GET /alerts<br>
+Then el sistema retorna las alertas<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Sin alertas<br>
+Given que no existen alertas registradas<br>
+When el developer realiza la consulta<br>
+Then el sistema retorna una lista vacía<br>
+And retorna HTTP 200 OK
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS14</td>
+<td>API actualizar alerta</td>
+<td>Como Developer, quiero actualizar el estado de una alerta.</td>
+<td>
+Criterio de Aceptación 
+Scenario 1: Actualización correcta<br>
+Given que la alerta existe<br>
+When el developer envía PUT /alerts/{id}<br>
+Then el sistema actualiza el estado<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Alerta inexistente<br>
+Given que la alerta no existe<br>
+When el sistema procesa la solicitud<br>
+Then retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS15</td>
+<td>API configurar umbrales</td>
+<td>Como Developer, quiero configurar límites de sensores para personalizar alertas.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Configuración exitosa<br>
+Given que el sensor existe<br>
+When el developer envía PUT /thresholds/{id}<br>
+Then el sistema actualiza los límites<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Datos inválidos<br>
+Given que los valores enviados son inválidos<br>
+When el sistema procesa la solicitud<br>
+Then retorna HTTP 400 Bad Request
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS16</td>
+<td>API reporte por fechas</td>
+<td>Como Developer, quiero generar reportes filtrados por rango de fechas.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Generación exitosa<br>
+Given que existen datos registrados<br>
+When el developer envía GET /reports?startDate=2026-01-01&endDate=2026-01-31<br>
+Then el sistema retorna el reporte solicitado<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Fechas inválidas<br>
+Given que la fecha inicial es mayor que la final<br>
+When el servidor procesa la solicitud<br>
+Then retorna HTTP 400 Bad Request
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS17</td>
+<td>API resumen consumo</td>
+<td>Como Developer, quiero consultar métricas generales de consumo.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Consulta exitosa<br>
+Given que existen datos registrados<br>
+When el developer envía GET /consumption/summary<br>
+Then el sistema retorna métricas consolidadas<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Usuario inexistente<br>
+Given que el usuario no existe<br>
+When el sistema procesa la consulta<br>
+Then retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS18</td>
+<td>API consultar planes</td>
+<td>Como Developer, quiero obtener los planes de suscripción disponibles.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Consulta exitosa<br>
+Given que existen planes registrados<br>
+When el developer envía GET /plans<br>
+Then el sistema retorna los planes disponibles<br>
+And retorna HTTP 200 OK
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS19</td>
+<td>API activar suscripción</td>
+<td>Como Developer, quiero activar suscripciones para usuarios registrados.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Activación exitosa<br>
+Given que el usuario y plan existen<br>
+When el developer envía POST /subscriptions<br>
+Then el sistema activa la suscripción<br>
+And retorna HTTP 201 Created<br><br>
+
+Scenario 2: Plan inexistente<br>
+Given que el plan no existe<br>
+When el servidor procesa la solicitud<br>
+Then retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
+
+<tr>
+<td>TS20</td>
+<td>API cambiar suscripción</td>
+<td>Como Developer, quiero actualizar el plan de suscripción de un usuario.</td>
+<td>
+Criterio de Aceptación  
+Scenario 1: Cambio exitoso<br>
+Given que el usuario posee una suscripción activa<br>
+When el developer envía PUT /subscriptions/{id}<br>
+Then el sistema actualiza el plan<br>
+And retorna HTTP 200 OK<br><br>
+
+Scenario 2: Suscripción inexistente<br>
+Given que la suscripción no existe<br>
+When el servidor procesa la solicitud<br>
+Then retorna HTTP 404 Not Found
+</td>
+<td>EP07</td>
+</tr>
 
 </table>
 
