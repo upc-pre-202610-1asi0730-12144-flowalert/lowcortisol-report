@@ -870,15 +870,16 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 ##### Entrevista 1 
 
 **Datos del Entrevistado:**
+
+- Nombre: Yazid Dumet 
+- Apellidos: Isaac Pinto
 - Edad: 19
-- Nombre: Yazid Dumet Isaac Pinto
-- Ocupación: Estudiante de Ingenieria  Mecatronica
 - Distrito: Molina
+- Ocupación: Estudiante de Ingenieria  Mecatronica
+- Timing: Desde 0:00 minutos a 4:24 minutos
 
 **Evidencia:**
-- URL: [Entrevista - 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8)
-- Inicio: 0:00
-- Duración video: 4:24 
+
 - Screenshot: <br> <br>
  ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
 
@@ -890,15 +891,16 @@ Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda co
 ##### Entrevista 2
 
 **Datos del Entrevistado:**
+
+- Nombre: Jesus 
+- Apellidos: Huaman
 - Edad: 19
-- Nombre: Jesus Huaman
-- Ocupación: Estudiante de Ing de Software
 - Distrito: Ate
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 4:24 minutos a 13:04 minutos
 
 **Evidencia:**
-- URL: [Entrevista - 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=Rx14th&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjY0LjgzfX0%3D)
-- Inicio: 4:24
-- Duración video: 8:41
+
 - Screenshot: <br> <br> 
   ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
 
@@ -908,16 +910,19 @@ Jesús es un estudiante con conocimientos técnicos previos que vive en un entor
 ##### Entrevista 3 
 
 **Datos del Entrevistado:**
+
+- Nombre: Frank 
+- Apellidos: Serrano
 - Edad: 20
-- Nombre: Frank Serrano
-- Ocupación: Estudiante Ing Software
 - Distrito: Santiago de Surco
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 13:05 minutos a 20:00 minutos
+
 
 **Evidencia:**
-- URL: [Entrevista - 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=2cNP0B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjcwNi4wNH19)
-- Inicio: 45:06 
-- Duración video: 6:56
-- Screenshot: ![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
+
+- Screenshot: <br> <br>
+![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
 
 **<u>Resumen de la entrevista:</u>**
 El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, que reside en un hogar donde las fugas de agua ocurren con una frecuencia de cada tres o cuatro meses. Durante la charla, menciona que suele notar el problema de manera reactiva, muchas veces ignorando las primeras señales hasta que el daño es evidente a través de charcos o humedad excesiva. Su gestión actual es mixta: intenta realizar reparaciones menores por cuenta propia, pero debe recurrir a técnicos especializados cuando el problema afecta la estructura interna, lo que ha derivado en costos elevados como el cambio de tuberías o pisos dañados. En cuanto a la tecnología, Frank se muestra muy interesado en una solución de monitoreo en tiempo real, siempre que el costo sea accesible y la interfaz permita personalizar o modelar el plano de su hogar para una mejor ubicación de las averías. Su actitud es pragmática, priorizando la prevención económica y la facilidad de uso de una aplicación móvil.
@@ -927,16 +932,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ##### Entrevista 1 
 
 **Datos del Entrevistado:**
+
+- Nombre: Leonardo Daniel 
+- Apellidos: Sotelo de la Cruz
 - Edad: 22
-- Nombre: Leonardo Daniel Sotelo de la Cruz
-- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
 - Distrito: La Molina
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
+- Timing: Desde 20:01 minutos a 27:44 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Leonardo_Daniel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=irdbcO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Nzg2LjV9fQ%3D%3D)
 
-- Inicio: 13:06
-- Duración video: 7:44
 - Screenshot:  <br> <br>
   ![Entrevistado-1](assets/md-images-chapter2/Interview-Leonardo.png)
 
@@ -947,15 +952,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 2 
 
 **Datos del Entrevistado:**
+
+- Nombre: Pool Enrique 
+- Apellidos: Guevara García
 - Edad: 22
-- Nombre: Pool Enrique Guevara García
-- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de Ate
 - Distrito: ATE
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de ATE
+- Timing: Desde 27:45 minutos a 34:57 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Pool_Enrique](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=BY8ShX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTI2OC41OX19)
-- Inicio: 20:50 
-- Duración video: 7:12
+
 - Screenshot: <br> <br>
   ![Entrevistado-2](assets/md-images-chapter2/Interview-Pool.png)
 
@@ -966,15 +972,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ######  Entrevista 3 
 
 **Datos del Entrevistado:**
+
+- Nombre: Edward 
+- Apellidos: Rojas
 - Edad: 22
-- Nombre: Edward Rojas
-- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
 - Distrito: San Isidro
+- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
+- Timing: Desde 34:58 minutos a 40:03 minutos
 
 **Evidencia:**
-- URL del video: [Entrevista-Eduardo-Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=tccYlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTY4My4yNH19)
-- Inicio: 28:03
-- Duración: 05:06
+
 - Screenshot: <br><br>
   ![Entrevistado-3](assets/md-images-chapter2/Interview-Edward.png)
 
@@ -984,15 +991,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 4 
 
 **Datos del Entrevistado:**
-- Nombre: Fabián Raimundo
+
+- Nombre: Fabián 
+- Apellidos: Raimundo
 - Edad: 23
-- Distrito: Cercado de Lima
+- Distrito: Lima
 - Ocupación: Practicante del área de Gestión y Servicios – Hotel Sheraton
+- Timing: Desde 40:04 minutos a 47:30 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Fabián_Raimundo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=hlpMrb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTk5MC40M319)
-- Inicio: 33:10
-- Duración video: 07:26
+
 - Screenshot: <br> <br>
   ![Entrevistado-4](assets/md-images-chapter2/Interview-Fabian.png)
 
@@ -1003,21 +1011,25 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 5 
 
 **Datos del Entrevistado:**
+
+- Nombre: Álvaro 
+- Apellidos: Jordán Villa
 - Edad: 21
-- Nombre: Álvaro Jordán Villa
-- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
 - Distrito: Santiago de Surco
+- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
+- Timing: Desde 47:30 minutos a 51:58 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Álvaro_Jordán_Villa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=FzYf1n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQzNy4xNn19)
-- Inicio: 40:37
-- Duración video: 4:29
+
 - Screenshot: <br><br>
   ![Entrevistado-5](assets/md-images-chapter2/Interview-Alvaro.png)
 
 
 **<u>Resumen de la entrevista:</u>**
   Álvaro, practicante de mantenimiento en un hotel, comenta que las fugas de agua son frecuentes debido al desgaste de las tuberías y al uso constante de las instalaciones, mientras que las fugas de gas son menos comunes, pero implican un mayor nivel de riesgo. Indica que la detección depende principalmente de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Aunque se realizan mantenimientos preventivos, no cuentan con un sistema de monitoreo en tiempo real que permita anticipar fallas de manera eficiente. Señala que esta situación puede generar pérdidas de recursos, riesgos operativos y afectar la calidad del servicio. Considera que la implementación de soluciones basadas en IoT sería clave para mejorar el control, reducir riesgos, optimizar el uso de recursos y fortalecer la gestión del mantenimiento.
+
+**Enlace del video único de las entrevistas:**  
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQD5LEqrzowlS48jH9Q4ADvuATJbF7V_Zsawq9iFRotQGcw?e=HjH1I3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1111,9 +1123,9 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ## Entrevista 2 - Segmento 1
 ## 1. Datos Generales
 - **Nombre:** Jesús Guamán
-- **Edad:** No especificada
+- **Edad:** 19
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** ATE
 - **Ocupación / Profesión:** Estudiante de Ingeniería de Software (quinto ciclo). También cuenta con conocimientos técnicos por su trabajo.
 - **Nivel educativo:** Cursando el quinto ciclo de Ingeniería de Software.
 
@@ -1188,7 +1200,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Frank Serrano
 - **Edad:** 20 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** Santiago de Surco
 - **Ocupación / Profesión:** Estudiante de Ingeniería de Software
 - **Nivel educativo:** Cursando la carrera de Ingeniería de Software
 
@@ -1466,9 +1478,9 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Eduard Rojas
 - **Edad:** 22 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
-- **Ocupación / Profesión:** Trabajador en JW Marriott, área de mantenimiento
-- **Nivel educativo:** No especificado
+- **Ubicación:** San Isidro
+- **Ocupación / Profesión:** Practicante en el hotel JW Marriott, área de mantenimiento
+- **Nivel educativo:** Estudiante de Ingeniería Civil
 
 ---
 
@@ -1581,7 +1593,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Fabián Raymundo
 - **Edad:** 23 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** Lima
 - **Ocupación / Profesión:** Practicante en el Hotel Sheraton, área de gestión y servicios
 - **Nivel educativo:** Licenciatura en Ingeniería Civil
 
@@ -1699,9 +1711,11 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Álvaro Jordán Villa
 - **Edad:** 21 años
 - **Género:** Masculino
-- **Ubicación:** Hotel El Pardo, Lima (Miraflores)
-- **Ocupación / Profesión:** Practicante de mantenimiento
-- **Nivel educativo:** No especificado
+- **Ubicación:** Santiago de Surco
+- **Ocupación / Profesión:** Practicante de mantenimiento en el Hotel El Pardo
+- **Nivel educativo:** Licenciatura en Ingeniería Civil
+
+
 
 ---
 
