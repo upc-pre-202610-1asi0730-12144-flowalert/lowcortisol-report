@@ -535,11 +535,11 @@ Feature: Plan Hogar, Plan Smart y Plan Full Service.
 <tr>  
 <td>  
 <h2>Hypotheses</h2>  
-- Si implementamos monitoreo en tiempo real, los usuarios actuarán más rápido y reducirán pérdidas.<br>
-- Si el sistema envía alertas inmediatas, disminuirá el tiempo de respuesta ante emergencias.<br>
-- Si mostramos historial y reportes claros, los usuarios optimizarán su consumo.<br>
-- Si existe control remoto de válvulas, aumentará la percepción de seguridad.<br>
-- Si ofrecemos planes diferenciados, crecerá la conversión a suscripciones pagadas.
+- Creemos que el monitoreo en tiempo real permitirá que los usuarios detecten fugas más rápido y reduzcan pérdidas económicas. Validaremos esto si al menos el 70% de usuarios identifica incidentes antes de que generen daños mayores.
+- Creemos que las alertas inmediatas reducirán el tiempo de respuesta ante emergencias. Validaremos esto si el tiempo promedio de reacción disminuye en un 40%.
+- Creemos que el historial y reportes de consumo ayudarán a los usuarios a optimizar recursos. Validaremos esto si al menos el 60% de usuarios consulta reportes frecuentemente y reduce consumos inusuales.
+- Creemos que el control remoto de válvulas aumentará la percepción de seguridad de los usuarios. Validaremos esto si el 75% de usuarios reporta sentirse más seguro utilizando la plataforma.
+- Creemos que ofrecer planes diferenciados incrementará la conversión a suscripciones pagadas. Validaremos esto si al menos el 30% de usuarios interesados selecciona un plan premium.
 </td>  
 <td>  
 <h2>What’s the most important thing we need to learn first?</h2>  
