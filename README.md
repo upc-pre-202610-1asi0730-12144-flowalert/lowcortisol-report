@@ -3230,17 +3230,107 @@ The object-oriented design of the LowCortisol system is represented through two 
 
 ### 4.7.1. Class Diagrams
 
-El diagrama de clases del backend muestra la estructura principal del sistema, incluyendo las entidades del dominio, los servicios de aplicación, los repositorios y los componentes de persistencia. Entre los elementos más importantes se encuentran **UserAccount**, **Device**, **Incident**, **Notification** y **ConsumptionReport**, así como servicios como **IdentityAccessService**, **DeviceManagementService** y **ReportingService**.
+Los diagramas de clases de **LowCortisol Platform** representan la estructura principal del sistema desde dos perspectivas: **backend** y **frontend**. Debido a que el sistema está organizado por bounded contexts, los diagramas fueron divididos en versiones generales y versiones específicas por módulo. Esta separación permite mejorar la legibilidad, evitar diagramas demasiado extensos y facilitar la carga mediante PlantUML Proxy en GitHub.
 
-Además, el diagrama permite visualizar cómo se relacionan las distintas capas de la arquitectura, separando la lógica de negocio, la coordinación de casos de uso y el acceso a datos mediante componentes como **AppDbContext** y los repositorios concretos. En conjunto, refleja una organización modular, mantenible y alineada con una arquitectura orientada al dominio.
+En el backend, los diagramas muestran las entidades del dominio, servicios de aplicación, repositorios, controladores y componentes de infraestructura que participan en la lógica principal del sistema. En el frontend, los diagramas muestran los modelos, stores, facades, servicios API y pantallas principales que permiten la interacción del usuario con la plataforma.
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/backend-class-diagram.puml?v=4)
+---
 
-El diagrama de clases del frontend muestra la estructura principal de la capa de presentación, incluyendo las páginas, los servicios de interfaz y los modelos que permiten la interacción con el usuario. Entre los elementos más importantes se encuentran **LoginPage**, **RegisterPage**, **HomePage**, **DevicesPage**, **ReportsPage**, **AlertsPage** y **ProfilePage**, además de servicios como **I18nService**, **BrowserSessionService** y **UiSessionService**.
+#### Backend Class Diagrams
 
-Asimismo, el diagrama permite comprender cómo el frontend organiza la navegación, la gestión de sesión, el cambio de idioma y la comunicación con los servicios de aplicación. En conjunto, refleja una interfaz modular, interactiva y alineada con la arquitectura general del sistema.
+El diagrama general de clases del backend presenta una vista resumida de los principales bounded contexts del sistema: **IAM**, **Plan**, **Workplace**, **Device Control**, **Monitoring**, **Notification** y **Support**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos entre sí.
 
-![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp/main/docs/frontend-class-diagram.puml?v=4)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend.puml?v=1)
+
+---
+
+El bounded context **IAM** agrupa las clases relacionadas con autenticación, usuarios, perfiles de acceso, permisos y sesiones. Incluye clases como **User**, **AccessProfile**, **Permission**, **AuthSession**, servicios de aplicación y repositorios relacionados con la gestión de identidad y acceso.
+
+![Backend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-IAM.puml?v=1)
+
+---
+
+El bounded context **Plan** representa la gestión de planes, características, suscripciones, pagos y solicitudes de servicio. Este módulo permite modelar el ciclo de vida de una suscripción y la relación entre planes contratados y pagos realizados.
+
+![Backend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Plan.puml?v=1)
+
+---
+
+El bounded context **Workplace** organiza las clases relacionadas con sedes, espacios de trabajo, miembros asignados y dispositivos asociados a una sede. Este módulo permite representar la estructura operativa multi-sede de la plataforma.
+
+![Backend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Workplace.puml?v=1)
+
+---
+
+El bounded context **Device Control** modela los dispositivos, sensores, válvulas y comandos remotos. Permite representar la administración de equipos IoT y las acciones asociadas al control de dispositivos.
+
+![Backend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-DeviceControl.puml?v=1)
+
+---
+
+El bounded context **Monitoring** contiene las clases vinculadas con sesiones de monitoreo, lecturas, anomalías y reportes. Este módulo representa el seguimiento del consumo de agua y gas, así como la generación de información para análisis posterior.
+
+![Backend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Monitoring.puml?v=1)
+
+---
+
+El bounded context **Notification** agrupa las clases relacionadas con alertas, umbrales, incidentes, canales de notificación y entregas. Este módulo permite modelar la detección y comunicación de eventos relevantes dentro de la plataforma.
+
+![Backend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Notification.puml?v=1)
+
+---
+
+El bounded context **Support** representa la gestión de tickets, mensajes, agentes, conversaciones y artículos de ayuda. Este módulo permite organizar la atención de incidencias y solicitudes realizadas por los usuarios.
+
+![Backend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Support.puml?v=1)
+
+---
+
+#### Frontend Class Diagrams
+
+El diagrama general de clases del frontend presenta la organización principal de la aplicación web, mostrando los bounded contexts de la **Single Page Application** y su relación con componentes compartidos como servicios de sesión, traducción, acceso por suscripción, layout, tarjetas reutilizables y cliente HTTP.
+
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend.puml?v=1)
+
+---
+
+El bounded context **IAM** en el frontend contiene los modelos, store, facade, servicio API y pantallas relacionadas con login, registro, recuperación de contraseña y perfil de usuario.
+
+![Frontend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-IAM.puml?v=1)
+
+---
+
+El bounded context **Plan** en el frontend organiza las clases vinculadas con planes, características, suscripciones, pagos, solicitudes de servicio, store, facade, servicio API y formulario de pago.
+
+![Frontend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Plan.puml?v=1)
+
+---
+
+El bounded context **Workplace** en el frontend modela la gestión de sedes, miembros, asignaciones de dispositivos, store, facade, servicio API y pantalla principal de sedes.
+
+![Frontend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Workplace.puml?v=1)
+
+---
+
+El bounded context **Device Control** en el frontend representa la administración visual y lógica de dispositivos, sensores, válvulas y comandos, incluyendo store, facade, servicio API y pantalla de dispositivos.
+
+![Frontend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-DeviceControl.puml?v=1)
+
+---
+
+El bounded context **Monitoring** en el frontend contiene las clases relacionadas con dashboard, reportes, sesiones, lecturas, anomalías, store, facade y servicio API.
+
+![Frontend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Monitoring.puml?v=1)
+
+---
+
+El bounded context **Notification** en el frontend agrupa alertas, umbrales, incidentes, canales de notificación, entregas, store, facade, servicio API y pantalla principal de alertas.
+
+![Frontend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Notification.puml?v=1)
+
+El bounded context **Support** en el frontend representa tickets, mensajes, agentes, conversaciones, artículos de ayuda, store, facade, servicio API y pantalla de soporte.
+
+![Frontend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Support.puml?v=1)
 
 ## 4.8. Database Design
 
