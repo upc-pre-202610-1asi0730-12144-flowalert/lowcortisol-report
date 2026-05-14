@@ -3454,29 +3454,317 @@ detalla la distribución de roles para este primer ciclo:
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
 #### 5.2.1.3. Sprint Backlog 1. 
-#### 5.2.X.4. Development Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+![Sprint Backlog 1](./assets/md-images-chapter5/Sprint%20Backlog.PNG)
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
-Durante este segundo Sprint, la colaboración del equipo se volcó plenamente hacia la consolidación técnica del proyecto, abarcando desde la estructuración de la arquitectura de software hasta la configuración de los entornos de despliegue. El foco principal de nuestra sinergia fue la ejecución del nuevo avance funcional, donde nos organizamos para que el desarrollo de la interfaz de usuario avanzara en paralelo con la infraestructura en la nube. Basándonos estrictamente en los criterios de la rúbrica de evaluación, realizamos sesiones de revisión conjunta para asegurar que se cumplieran con los estándares de calidad exigidos, corrigiendo inconsistencias en la lógica de navegación y asegurando que el flujo de datos a través de la Fake API en Render fuera transparente y eficiente.
+| Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US06 | Cambiar idioma | TS21 | Sistema de traducciones | Configuración de textos multilenguaje para el landing page | 4 hrs | Miguel | Done |
+| US06 | Cambiar idioma | TS22 | Cambio dinámico idioma | Implementación del cambio dinámico de idioma sin recargar la página | 3 hrs | Miguel | Done |
+| US12 | Visualizar planes | TS23 | Sección planes frontend | Desarrollo de la estructura visual de la sección de planes | 4 hrs | Bruno | Done |
+| US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 3 hrs | Bruno | Done |
+| US20 | Acceso multidispositivo | TS25 | Responsive layout | Adaptación responsive del landing page para distintos dispositivos | 4 hrs | James | Done |
+| US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 3 hrs | James | Done |
+| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Rodrigo | Done |
+| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Rodrigo | Done |
+| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Rodrigo | Done |
 
-Asimismo, el trabajo en equipo fue fundamental para elevar el rigor de los artefactos técnicos. No nos limitamos a generar código, sino que colaboramos estrechamente para refinar las historias técnicas y los diagramas de arquitectura, asegurando que cada componente reflejara fielmente los requisitos del sistema. Esta etapa de colaboración nos permitió estandarizar el uso de bibliotecas para la persistencia de datos y unificar criterios en el manejo del repositorio mediante GitFlow. Esta coordinación no solo facilitó la integración de las nuevas funcionalidades de monitoreo, sino que garantizó que el progreso actual del proyecto posea una base sólida, coherente y alineada con las expectativas académicas y profesionales del curso.
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI0db4f1b2fac4ca47db5b72f302c1b7e9FDE35BBF/sprint-backlog-1-lowcortisol 
 
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-## 5.4. Video About-the-Product.
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación correspondientes al Sprint Review. A continuación, se detallan los commits realizados por el equipo.
+
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|----------|--------|----------|---------------|--------------------|--------------------|
+| lowcortisol-website | develop / section-payment | 77f8ae2 | feat: event carousel | Se implementó un carrusel de eventos en la sección beneficios para mejorar la visualización de información dinámica. | 25/04/2026 |
+| lowcortisol-website | develop | b198c08 | fix: landing page update | Se realizaron ajustes generales en la landing page para mejorar estructura y estilos. | 25/04/2026 |
+| lowcortisol-website | develop | 6bd24d1 | feat: add English button | Se agregó un botón de cambio de idioma para permitir visualización en inglés. | 23/04/2026 |
+| lowcortisol-website | feature/section-benefits | b5c977c | feat: features section | Se añadieron nuevas funcionalidades en la sección de beneficios. | 22/04/2026 |
+| lowcortisol-website | feature/section-benefits | b0237ea | style: responsive benefits | Se ajustó el diseño responsive de la sección beneficios para mejorar visualización en móviles. | 22/04/2026 |
+| lowcortisol-website | feature/section-benefits | 9cb7c89 | feat: HTML y CSS beneficios | Se implementó la estructura HTML y estilos CSS de la sección beneficios. | 22/04/2026 |
+| lowcortisol-website | feature/section-soluction | 86876ff | fix: imágenes solución | Se corrigieron imágenes dentro de la sección soluciones para mejorar la presentación visual. | 21/04/2026 |
+| lowcortisol-website | feature/sections-home-contact | 48838f6 | style: footer logo | Se realizaron cambios en el estilo del logo ubicado en el footer. | 20/04/2026 |
+| lowcortisol-website | feature/sections-home-contact | 49ae582 | feat: header home | Se actualizaron componentes del header y sección home. | 20/04/2026 |
+| lowcortisol-website | feature/sections-home-contact | bfb0a3f | feat: add images | Se agregaron imágenes necesarias para el diseño de la landing page. | 20/04/2026 |
+| lowcortisol-website | feature/sections-home-contact | 8f359a1 | feat: landing structure | Se implementó la estructura principal del header, home, contacto y footer. | 20/04/2026 |
+| lowcortisol-website | feature/section-soluction | c5ae431 | feat: tarjetas UI | Se agregaron tarjetas para usuarios residenciales e infraestructura junto con estilos. | 20/04/2026 |
+| lowcortisol-website | feature/section-payment | 65b1ebf | feat: payment section | Se completó la sección de planes y pagos con su estructura visual. | 20/04/2026 |
+| lowcortisol-website | feature/section-about | 8486712 | feat: about section | Se desarrolló la sección "About" de la landing page. | 20/04/2026 |
+| lowcortisol-website | main | e2b28de | init: project setup | Se realizó el commit inicial del proyecto con la configuración base. | 19/04/2026 |
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Completando el primer Sprint 1, logramos implementar todas las secciones correspondientes 
+de nuestra Landing Page implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances atravez de capturas de pantalla.
+
+1. Sección Header: Aquí mostramos la barra de navegación de nuestro sitio
+   web.
+
+![Header-IMG](assets/md-images-chapter5/Header-Sección.png)
+
+2. Sección Inicio: Demostramos los planes que tiene nuestro proyecto
+
+![Inicio-IMG](assets/md-images-chapter5/Inicio-Sección.png)
+
+3. Sección Beneficio: Mostramos los beneficios respecto a otros competidores
+
+![Beneficio-IMG](assets/md-images-chapter5/Beneficio-Sección.png)
+git diff README.md
+4. Sección Funcionalidades: Se mustran las funcionalidades que posee nuestro proyecto
+
+![Funcionalidades-IMG](assets/md-images-chapter5/Funcionalidades-Sección.png)
+
+5. Sección Quien Somos: Figura la visión, mision y por que se deberia elegir a nuestro proyecto
+
+![QuienSomos-IMG](assets/md-images-chapter5/Quien_Somos-Sección.png)
+
+6. Sección Planes: Se muestran todos los planes disponibles
+
+![Planes1-IMG](assets/md-images-chapter5/Planes_1-Sección.png)
+
+![Planes2-IMG](assets/md-images-chapter5/Planes_2-Sección.png)
+
+7. Sección Contacto: Las opcciones de contacto que tiene el usuario para poder 
+acceder a mas información
+
+![Contacto-IMG](assets/md-images-chapter5/Contacto-Sección.png)
+
+8. Footer : El footer con mas información 
+
+![Footer-IMG](assets/md-images-chapter5/Footer-Sección.png)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Se ha excluido la sección correspondiente a la aplicación web, ya que únicamente se ha desarrollado la Landing Page. La información sobre la aplicación será presentada en una fase posterior del proyecto.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1, se realizaron las actividades necesarias para el despliegue de la Landing Page del proyecto. Se utilizó GitHub como plataforma de control de versiones y GitHub Pages como servicio de hosting para la publicación del sitio web.
+
+En primer lugar, se creó el repositorio del proyecto en GitHub, donde se almacenó el código fuente de la Landing Page, desarrollado en HTML, CSS y JavaScript. Posteriormente, se organizó la estructura del proyecto incluyendo los archivos principales y recursos estáticos como imágenes e íconos.
+
+Luego, se realizaron commits periódicos mediante Git, permitiendo el seguimiento de los cambios y el trabajo colaborativo del equipo. Una vez finalizado el desarrollo inicial, se procedió a configurar el despliegue mediante GitHub Pages.
+
+Para ello, se accedió a la configuración del repositorio, se habilitó la opción GitHub Pages y se seleccionó la rama `main` junto con la carpeta raíz (`/`) como fuente del despliegue. Como resultado, la plataforma generó automáticamente una URL pública que permite acceder a la Landing Page.
+
+Finalmente, se verificó el correcto funcionamiento del sitio desplegado, comprobando la navegación entre secciones, la correcta carga de recursos y la adaptabilidad del diseño en distintos dispositivos.
+
+
+<p align="center">
+  <img src="assets/md-images-chapter5/Deployment Evidence.PNG" alt="Deployment Evidence using Git Pages">
+</p>
+
+#### URL del Deployment
+https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa en el desarrollo e implementación de la Landing Page del proyecto. Para ello, se utilizó Git y GitHub como herramientas principales de control de versiones y coordinación del trabajo.
+
+Cada integrante del equipo participó activamente en el desarrollo mediante la creación de commits, lo que permitió llevar un seguimiento claro de las contribuciones individuales. Se empleó una estrategia de trabajo basada en ramas, donde cada miembro desarrolló funcionalidades específicas de manera independiente y posteriormente se integraron los cambios en la rama principal (`main`).
+
+El uso de GitHub facilitó la organización del trabajo, permitiendo visualizar el historial de cambios, identificar responsables por tarea y mantener la coherencia del código. Asimismo, se realizaron integraciones periódicas para evitar conflictos y asegurar la estabilidad del proyecto.
+
+Durante el Sprint, se evidenció una participación activa de todos los integrantes en la implementación de la Landing Page, incluyendo el desarrollo de la estructura HTML, estilos CSS, funcionalidades en JavaScript y la integración de contenido.
+
+<p align="center">
+  <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
+</p>
+
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo continuó con el desarrollo de la plataforma LowCortisol, enfocándose en la implementación de la estructura funcional inicial del sistema. En esta iteración se trabajó en módulos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos, alertas y soporte técnico, además del diseño del modelo de base de datos y el despliegue de servicios mediante Render.
+
+Asimismo, se fortaleció el trabajo colaborativo mediante el uso de herramientas como GitHub y Trello, permitiendo una adecuada organización de tareas, control de versiones y seguimiento del avance del Sprint.
+
+#### 5.2.2.1. Sprint Planning 2
+
+
+El Sprint 2 estuvo enfocado en el desarrollo de la estructura funcional inicial de la plataforma LowCortisol, implementando módulos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos y alertas. Asimismo, se desarrolló la arquitectura principal del sistema, el modelo de base de datos y el despliegue de servicios mediante Render, permitiendo establecer la integración entre frontend.
+
+| Campo | Descripción |
+|:-----:|:-----------:|
+| Sprint # | Sprint 2 |
+| Sprint Planning Background | Desarrollo inicial de la Web Application y arquitectura del sistema |
+| Date | 2026-04-26 |
+| Time | 17:00 |
+| Location | Reunión virtual (Google Meet) |
+| Prepared By | Condori Torres, Miguel Anibal |
+| Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
+| Sprint 2- 1 Review Summary | Durante el Sprint 1 se desarrolló las correciones del informe e implementó la Landing Page de LowCortisol, incluyendo navegación entre secciones, visualización de planes, cambio de idioma y adaptación responsive para distintos dispositivos |
+| Sprint 2 - 1 Retrospective Summary | El equipo logró completar satisfactoriamente las funcionalidades planificadas para la Landing Page, mejorando la organización y distribución de tareas mediante GitHub y Trello. Como oportunidad de mejora, se identificó fortalecer la integración técnica entre frontend y backend para los siguientes sprints |
+|  | Sprint Goal & User Stories |
+| Sprint 2 Goal | Desarrollar la estructura funcional inicial de la plataforma LowCortisol mediante la implementación de módulos de autenticación, monitoreo inteligente, gestión de dispositivos y alertas, integrando frontend, backend y despliegue de servicios en Render. Este objetivo se considerará cumplido cuando la plataforma permita visualizar información de monitoreo, gestionar funcionalidades principales y acceder a los servicios desplegados correctamente |
+| Sprint 2 Velocity | 34 Story Points |
+| Sum of Story Points | 34 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo organizó las responsabilidades considerando los principales aspectos funcionales y técnicos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos, alertas, diseño de base de datos y despliegue de servicios en Render. Esto permitió mejorar la coordinación interna y distribuir de manera eficiente las tareas del Sprint.
+
+| Team Member | GitHub Username | Authentication | Monitoring | Device Management | Notifications | Database Design | Deployment |
+|-------------|----------------|---------------|------------|------------------|--------------|----------------|-----------|
+| Condori Torres, Miguel Anibal | Miguel1323z | L | C | C | C | C | C |
+| Delgado Perez, James Caleb | JAmsy06 | C | C | C | C | L | C |
+| Loa Rojas, Jean Franck | JeanLoa | C | L | C | C | C | L |
+| Montalvo Vasquez, Bruno Rodrigo | Bruno | C | C | L | C | C | C |
+| Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | L | C | C |
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Completando el segundo Sprint 2, logramos implementar todas las secciones correspondientes
+a nuestra App Web implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances atravez de capturas de pantalla.
+
+
+1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
+
+![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+
+2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
+
+![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
+![Planes-IMG](assets/md-images-chapter5/English.png)
+![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+
+3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
+
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+
+4. Cierre de sesión:
+
+![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En el segundo sprint, el equipo se enfocó en el desarrollo de 
+la primera versión funcional de la aplicación web 
+"Low-Cortisol". Para asegurar la operatividad y 
+las pruebas de integración en esta etapa, se implementaron y 
+utilizaron los siguientes servicios web:
+
+1.  **Integración de Fake API:** Se desarrolló y desplegó una 
+  **Fake API** (utilizando JSON Server) para simular la 
+  persistencia de datos. Esto permitió al equipo de frontend 
+  trabajar en la visualización de datos reales antes de 
+  la implementación final del backend en .NET.
+2.  **Actualización de Landing Page:** Se actualizó el sitio 
+   informativo para incluir botones de llamada a la acción 
+   (**Call-To-Action**) que redirigen directamente a la aplicación
+   web desplegada.
+3.  **Documentación de Endpoints:** A continuación, se detallan los servicios utilizados y sus respectivas funciones:
+
+| EndPoint | Funciones |
+| :--- | :--- |
+| `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/tree/main` | Desplegar la Landing Page informativa del producto. |
+| `https://lowcortisol-platform.onrender.com/` | Proveer acceso a la Fake API para simular integración con base de datos. |
+| `https://lowcortisol-webapp.onrender.com` | Desplegar el Frontend de la aplicación web para interacción del usuario. |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el sprint, se realizó el despliegue preliminar de la plataforma **LowCortisol** con el objetivo de validar el funcionamiento de la aplicación en un entorno accesible desde la web. Para esta etapa se desplegaron tanto la aplicación frontend como la Fake API utilizada para simular los servicios backend mientras se desarrolla la API definitiva.
+
+El despliegue permitió comprobar la navegación entre módulos principales, el consumo de datos desde la Fake API, la autenticación simulada, la visualización de sedes, dispositivos, alertas, reportes, planes, soporte y perfil de usuario.
+
+**Evidencias del despliegue:**
+
+* **Frontend desplegado:** aplicación web publicada en Render.
+* **Fake API desplegada:** servicio JSON Server publicado en Render para proveer datos simulados.
+* **Repositorio remoto:** código fuente versionado en GitHub.
+* **Pruebas funcionales preliminares:** navegación por las pantallas principales y validación de carga de datos desde la API.
+
+**URLs del despliegue:**
+
+* Web Application: `https://lowcortisol-webapp.onrender.com`
+* Fake API: `https://lowcortisol-platform.onrender.com/`
+* Repository: `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/tree/main`
+
+**Capturas de evidencia:**
+
+<p align="center"><strong>Frontend deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-webapp-render-sprint2.png" alt="LowCortisol WebApp deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Fake API deployed on Render</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-fakeapi-render-sprint2.png" alt="LowCortisol Fake API deployed on Render" width="700">
+</p>
+
+<p align="center"><strong>Application preliminary view</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-application-preview-sprint2.png" alt="LowCortisol application preview" width="700">
+</p>
+
+<p align="center"><strong>Application consuming Fake API data</strong></p>
+<p align="center">
+  <img src="./assets/md-images-chapter5/deployment-api-data-loaded-sprint2.png" alt="LowCortisol consuming Fake API data" width="700">
+</p>
+
+**Resultado obtenido:**
+
+El despliegue permitió validar que la aplicación puede ejecutarse fuera del entorno local y que los módulos principales consumen información desde la Fake API. Esto evidencia un avance funcional para la revisión del sprint, ya que la solución puede ser mostrada mediante una URL pública y se encuentra preparada para futuras integraciones con el backend real.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
 
 # Conclusiones
 Tras completar este nuevo avance en la implementación y validación del proyecto LowCortisol, el equipo concluye que se ha logrado consolidar una arquitectura de software robusta a través de un proceso de refactorización guiado por los estándares de la rúbrica docente. A diferencia de la etapa inicial, ahora contamos con un sistema funcional desplegado que integra de manera coherente el frontend con la infraestructura de servicios para las pruebas actuales. La aplicación rigurosa de Domain-Driven Design (DDD) y la corrección de los diagramas C4 han permitido que la aplicación evolucione hacia una plataforma con una lógica de dominio clara, sentando las bases para las funcionalidades que se implementarán en las siguientes etapas.
 
 Por otro lado, concluimos que la transición hacia un modelo de desarrollo basado en requisitos técnicos detallados ha sido fundamental para asegurar la viabilidad de lo avanzado en este Sprint. Al haber refinado las historias técnicas y las hipótesis de Lean UX, el proyecto ahora cuenta con métricas de éxito iniciales y una estructura de datos que utiliza las bibliotecas de persistencia adecuadas para el entorno .NET. Finalmente, el despliegue exitoso de los servicios y la gestión profesional del código confirman que el equipo ha interiorizado las mejores prácticas de ingeniería; sin embargo, somos conscientes de que el trabajo aún está en ejecución, y estos resultados parciales son el punto de partida para completar la solución integral de monitoreo en las entregas finales.
 
-## Conclusiones y recomendaciones
-## Video About-the-Team.
 # Bibliografía 
+
+Fuentes, H., & Mauricio, D. (2020). Smart water consumption measurement system for houses using IoT and cloud computing. *Environmental Monitoring and Assessment*. https://link.springer.com/article/10.1007/s10661-020-08535-4  
+
+Kiran, A. R., Tharuni, E., Krishna, G. H., & Vaishnavi, G. (2025). Smart IoT-Based Water Leakage and Quality Monitoring System with Automated Pump Control and Alert Mechanism. *International Journal of Engineering Research and Science & Technology*. https://ijerst.org/index.php/ijerst/article/view/1924  
+
+Singh, Y., & Walingo, T. (2024). Smart Water Quality Monitoring with IoT Wireless Sensor Networks. *Sensors, 24*(9), 2871. https://www.mdpi.com/1424-8220/24/9/2871  
+
+Mohabuth, A. Q., Pal, T., & Sobrun, M. (2021). Development of an IoT-Based Smart Home Water Leak Detection System. *International Journal of Computer Sciences and Engineering*. https://www.researchgate.net/publication/360801282  
+
+Akkara, S., & Singh, T. M. (2020). Water Leakage Detection and Management System Using IoT. *International Journal of Advanced Science and Technology*. https://www.researchgate.net/publication/341549454  
+
+A solution for water management and leakage detection problems using IoTs based approach. (2022). *Internet of Things Journal*. https://www.sciencedirect.com/science/article/pii/S2542660522000105  
+
+IoT based smart water management systems: A systematic review. (2021). *Materials Today: Proceedings*. https://www.sciencedirect.com/science/article/abs/pii/S2214785320364701  
+
+Abai, N. H. Z., Shabli, A. H. M., Rejab, M. M., & Rahman, H. A. (2019). IoT based Smart Water Reticulation Monitoring System for Leak Detection. *Journal of Advanced Research in Dynamical and Control Systems*. https://www.researchgate.net/publication/392808314  
+
+Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D. R. P. (2025). IoT Based Smart Water Distribution and Leakage Detection Network. *International Research Journal on Advanced Engineering Hub*. https://www.researchgate.net/publication/397038655  
+
 # Anexos
+
+## Anexo A. Videos de Exposiciones
+
+| Entrega | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+
+---
+
+## Anexo B. Evidencia de Videos entrevistas del Proyecto
+
+| Sección | Características del video | Sobre el contenido | Integración y entrega |
+|---------|----------------------------|-------------------|----------------------|
+| Needfinding Interviews | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8 <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-needfinding-sprint-1 <br><br> **Formato:** .mp4 | Consolida todas las entrevistas realizadas a los segmentos objetivo del sistema LowCortisol (usuarios residenciales y profesionales de infraestructura). Cada entrevista incluye información del entrevistado, segmento objetivo y fecha de realización. El contenido evidencia necesidades reales relacionadas con seguridad en tuberías de agua y gas, prevención de fugas, monitoreo en tiempo real y automatización de válvulas mediante IoT. Este material sirvió como base para la creación de User Personas, User Journey Mapping, Empathy Mapping y la definición de requerimientos del sistema. | Subir el video en Microsoft Stream o plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. Añadir introducción a la sección, registro individual de entrevistas y análisis general de hallazgos cualitativos y cuantitativos obtenidos durante el proceso de investigación. |
+| Prototypes Navegation | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4 | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
+
  
