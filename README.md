@@ -870,15 +870,16 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 ##### Entrevista 1 
 
 **Datos del Entrevistado:**
+
+- Nombre: Yazid Dumet 
+- Apellidos: Isaac Pinto
 - Edad: 19
-- Nombre: Yazid Dumet Isaac Pinto
-- Ocupación: Estudiante de Ingenieria  Mecatronica
 - Distrito: Molina
+- Ocupación: Estudiante de Ingenieria  Mecatronica
+- Timing: Desde 0:00 minutos a 4:24 minutos
 
 **Evidencia:**
-- URL: [Entrevista - 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8)
-- Inicio: 0:00
-- Duración video: 4:24 
+
 - Screenshot: <br> <br>
  ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
 
@@ -890,15 +891,16 @@ Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda co
 ##### Entrevista 2
 
 **Datos del Entrevistado:**
+
+- Nombre: Jesus 
+- Apellidos: Huaman
 - Edad: 19
-- Nombre: Jesus Huaman
-- Ocupación: Estudiante de Ing de Software
 - Distrito: Ate
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 4:24 minutos a 13:04 minutos
 
 **Evidencia:**
-- URL: [Entrevista - 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=Rx14th&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjY0LjgzfX0%3D)
-- Inicio: 4:24
-- Duración video: 8:41
+
 - Screenshot: <br> <br> 
   ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
 
@@ -908,16 +910,19 @@ Jesús es un estudiante con conocimientos técnicos previos que vive en un entor
 ##### Entrevista 3 
 
 **Datos del Entrevistado:**
+
+- Nombre: Frank 
+- Apellidos: Serrano
 - Edad: 20
-- Nombre: Frank Serrano
-- Ocupación: Estudiante Ing Software
 - Distrito: Santiago de Surco
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 13:05 minutos a 20:00 minutos
+
 
 **Evidencia:**
-- URL: [Entrevista - 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=2cNP0B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjcwNi4wNH19)
-- Inicio: 45:06 
-- Duración video: 6:56
-- Screenshot: ![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
+
+- Screenshot: <br> <br>
+![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
 
 **<u>Resumen de la entrevista:</u>**
 El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, que reside en un hogar donde las fugas de agua ocurren con una frecuencia de cada tres o cuatro meses. Durante la charla, menciona que suele notar el problema de manera reactiva, muchas veces ignorando las primeras señales hasta que el daño es evidente a través de charcos o humedad excesiva. Su gestión actual es mixta: intenta realizar reparaciones menores por cuenta propia, pero debe recurrir a técnicos especializados cuando el problema afecta la estructura interna, lo que ha derivado en costos elevados como el cambio de tuberías o pisos dañados. En cuanto a la tecnología, Frank se muestra muy interesado en una solución de monitoreo en tiempo real, siempre que el costo sea accesible y la interfaz permita personalizar o modelar el plano de su hogar para una mejor ubicación de las averías. Su actitud es pragmática, priorizando la prevención económica y la facilidad de uso de una aplicación móvil.
@@ -927,16 +932,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ##### Entrevista 1 
 
 **Datos del Entrevistado:**
+
+- Nombre: Leonardo Daniel 
+- Apellidos: Sotelo de la Cruz
 - Edad: 22
-- Nombre: Leonardo Daniel Sotelo de la Cruz
-- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
 - Distrito: La Molina
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
+- Timing: Desde 20:01 minutos a 27:44 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Leonardo_Daniel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=irdbcO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Nzg2LjV9fQ%3D%3D)
 
-- Inicio: 13:06
-- Duración video: 7:44
 - Screenshot:  <br> <br>
   ![Entrevistado-1](assets/md-images-chapter2/Interview-Leonardo.png)
 
@@ -947,15 +952,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 2 
 
 **Datos del Entrevistado:**
+
+- Nombre: Pool Enrique 
+- Apellidos: Guevara García
 - Edad: 22
-- Nombre: Pool Enrique Guevara García
-- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de Ate
 - Distrito: ATE
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de ATE
+- Timing: Desde 27:45 minutos a 34:57 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Pool_Enrique](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=BY8ShX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTI2OC41OX19)
-- Inicio: 20:50 
-- Duración video: 7:12
+
 - Screenshot: <br> <br>
   ![Entrevistado-2](assets/md-images-chapter2/Interview-Pool.png)
 
@@ -966,15 +972,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ######  Entrevista 3 
 
 **Datos del Entrevistado:**
+
+- Nombre: Edward 
+- Apellidos: Rojas
 - Edad: 22
-- Nombre: Edward Rojas
-- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
 - Distrito: San Isidro
+- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
+- Timing: Desde 34:58 minutos a 40:03 minutos
 
 **Evidencia:**
-- URL del video: [Entrevista-Eduardo-Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=tccYlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTY4My4yNH19)
-- Inicio: 28:03
-- Duración: 05:06
+
 - Screenshot: <br><br>
   ![Entrevistado-3](assets/md-images-chapter2/Interview-Edward.png)
 
@@ -984,15 +991,16 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 4 
 
 **Datos del Entrevistado:**
-- Nombre: Fabián Raimundo
+
+- Nombre: Fabián 
+- Apellidos: Raimundo
 - Edad: 23
-- Distrito: Cercado de Lima
+- Distrito: Lima
 - Ocupación: Practicante del área de Gestión y Servicios – Hotel Sheraton
+- Timing: Desde 40:04 minutos a 47:30 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Fabián_Raimundo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=hlpMrb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTk5MC40M319)
-- Inicio: 33:10
-- Duración video: 07:26
+
 - Screenshot: <br> <br>
   ![Entrevistado-4](assets/md-images-chapter2/Interview-Fabian.png)
 
@@ -1003,21 +1011,25 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ###### Entrevista 5 
 
 **Datos del Entrevistado:**
+
+- Nombre: Álvaro 
+- Apellidos: Jordán Villa
 - Edad: 21
-- Nombre: Álvaro Jordán Villa
-- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
 - Distrito: Santiago de Surco
+- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
+- Timing: Desde 47:30 minutos a 51:58 minutos
 
 **Evidencia:**
-- URL: [Entrevista_Álvaro_Jordán_Villa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAfD06awjxwPxaAQY5k7riA8?e=FzYf1n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQzNy4xNn19)
-- Inicio: 40:37
-- Duración video: 4:29
+
 - Screenshot: <br><br>
   ![Entrevistado-5](assets/md-images-chapter2/Interview-Alvaro.png)
 
 
 **<u>Resumen de la entrevista:</u>**
   Álvaro, practicante de mantenimiento en un hotel, comenta que las fugas de agua son frecuentes debido al desgaste de las tuberías y al uso constante de las instalaciones, mientras que las fugas de gas son menos comunes, pero implican un mayor nivel de riesgo. Indica que la detección depende principalmente de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Aunque se realizan mantenimientos preventivos, no cuentan con un sistema de monitoreo en tiempo real que permita anticipar fallas de manera eficiente. Señala que esta situación puede generar pérdidas de recursos, riesgos operativos y afectar la calidad del servicio. Considera que la implementación de soluciones basadas en IoT sería clave para mejorar el control, reducir riesgos, optimizar el uso de recursos y fortalecer la gestión del mantenimiento.
+
+**Enlace del video único de las entrevistas:**  
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQD5LEqrzowlS48jH9Q4ADvuATJbF7V_Zsawq9iFRotQGcw?e=HjH1I3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1111,9 +1123,9 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 ## Entrevista 2 - Segmento 1
 ## 1. Datos Generales
 - **Nombre:** Jesús Guamán
-- **Edad:** No especificada
+- **Edad:** 19
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** ATE
 - **Ocupación / Profesión:** Estudiante de Ingeniería de Software (quinto ciclo). También cuenta con conocimientos técnicos por su trabajo.
 - **Nivel educativo:** Cursando el quinto ciclo de Ingeniería de Software.
 
@@ -1188,7 +1200,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Frank Serrano
 - **Edad:** 20 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** Santiago de Surco
 - **Ocupación / Profesión:** Estudiante de Ingeniería de Software
 - **Nivel educativo:** Cursando la carrera de Ingeniería de Software
 
@@ -1466,9 +1478,9 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Eduard Rojas
 - **Edad:** 22 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
-- **Ocupación / Profesión:** Trabajador en JW Marriott, área de mantenimiento
-- **Nivel educativo:** No especificado
+- **Ubicación:** San Isidro
+- **Ocupación / Profesión:** Practicante en el hotel JW Marriott, área de mantenimiento
+- **Nivel educativo:** Estudiante de Ingeniería Civil
 
 ---
 
@@ -1581,7 +1593,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Fabián Raymundo
 - **Edad:** 23 años
 - **Género:** Masculino
-- **Ubicación:** No especificada
+- **Ubicación:** Lima
 - **Ocupación / Profesión:** Practicante en el Hotel Sheraton, área de gestión y servicios
 - **Nivel educativo:** Licenciatura en Ingeniería Civil
 
@@ -1699,9 +1711,11 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 - **Nombre:** Álvaro Jordán Villa
 - **Edad:** 21 años
 - **Género:** Masculino
-- **Ubicación:** Hotel El Pardo, Lima (Miraflores)
-- **Ocupación / Profesión:** Practicante de mantenimiento
-- **Nivel educativo:** No especificado
+- **Ubicación:** Santiago de Surco
+- **Ocupación / Profesión:** Practicante de mantenimiento en el Hotel El Pardo
+- **Nivel educativo:** Licenciatura en Ingeniería Civil
+
+
 
 ---
 
@@ -3373,8 +3387,8 @@ A continuación, se presenta la tabla resumen del Sprint Planning 1:
 | Location | Reunión virtual (Google Meet) |
 | Prepared By | Condori Torres, Miguel Anibal |
 | Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
-| Sprint 1 Review Summary | Durante inicio del desarrollo del proyecto se organizó el repositorio en GitHub y se establecieron las actividades para cada integrante, definiendo los requisitos iniciales de la Landing Page. |
-| sprint 1 Retrospective Summary | Durante la fase inicial del proyecto, el equipo logró organizarse adecuadamente y establecer herramientas de trabajo colaborativo como Git y GitHub. Como aspecto positivo, se destaca la buena comunicación inicial y la correcta comprensión del alcance del proyecto. Como oportunidad de mejora, se identificó la necesidad de mejorar la planificación del tiempo y la asignación de responsabilidades para optimizar el desarrollo en los siguientes sprints.
+| Sprint 1 - 0 Review Summary | No existen revisiones previas, dado que el proyecto se encuentra en el primer sprint |
+| sprint 1 - 0 Retrospective Summary | No existen retrospectivas previas, dado que el proyecto se encuentra en su primer sprint
 |  | Sprint Goal & User Stories |
 | Sprint 1 Goal | Desarrollar y desplegar una Landing Page funcional que presente la propuesta de valor del proyecto, incluyendo sus secciones principales y un diseño estructurado. Este objetivo se considerará cumplido cuando la página sea accesible mediante un metodo de despliegue que permita la navegación entre secciones sin errores y comunique claramente los beneficios del producto.
 | Sprint 1 Velocity | 10 Story Points |
@@ -3405,6 +3419,9 @@ detalla la distribución de roles para este primer ciclo:
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
 #### 5.2.1.3. Sprint Backlog 1. 
+
+![Sprint Backlog 1](./assets/md-images-chapter5/Sprint%20Backlog.PNG)
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances de implementación correspondientes al Sprint Review. A continuación, se detallan los commits realizados por el equipo.
@@ -3513,12 +3530,44 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
   <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
 </p>
 
-### 5.2.1. Sprint 2
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo continuó con el desarrollo de la plataforma LowCortisol, enfocándose en la implementación de la estructura funcional inicial del sistema. En esta iteración se trabajó en módulos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos, alertas y soporte técnico, además del diseño del modelo de base de datos y el despliegue de servicios mediante Render.
+
+Asimismo, se fortaleció el trabajo colaborativo mediante el uso de herramientas como GitHub y Trello, permitiendo una adecuada organización de tareas, control de versiones y seguimiento del avance del Sprint.
 
 #### 5.2.2.1. Sprint Planning 2
 
 
+El Sprint 2 estuvo enfocado en el desarrollo de la estructura funcional inicial de la plataforma LowCortisol, implementando módulos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos y alertas. Asimismo, se desarrolló la arquitectura principal del sistema, el modelo de base de datos y el despliegue de servicios mediante Render, permitiendo establecer la integración entre frontend y backend.
+
+| Campo | Descripción |
+|:-----:|:-----------:|
+| Sprint # | Sprint 2 |
+| Sprint Planning Background | Desarrollo inicial de la Web Application y arquitectura del sistema |
+| Date | 2026-04-26 |
+| Time | 17:00 |
+| Location | Reunión virtual (Google Meet) |
+| Prepared By | Condori Torres, Miguel Anibal |
+| Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
+| Sprint 1 Review Summary | Durante el Sprint 1 se desarrolló e implementó la Landing Page de LowCortisol, incluyendo navegación entre secciones, visualización de planes, cambio de idioma y adaptación responsive para distintos dispositivos |
+| Sprint 1 Retrospective Summary | El equipo logró completar satisfactoriamente las funcionalidades planificadas para la Landing Page, mejorando la organización y distribución de tareas mediante GitHub y Trello. Como oportunidad de mejora, se identificó fortalecer la integración técnica entre frontend y backend para los siguientes sprints |
+|  | Sprint Goal & User Stories |
+| Sprint 2 Goal | Desarrollar la estructura funcional inicial de la plataforma LowCortisol mediante la implementación de módulos de autenticación, monitoreo inteligente, gestión de dispositivos y alertas, integrando frontend, backend y despliegue de servicios en Render. Este objetivo se considerará cumplido cuando la plataforma permita visualizar información de monitoreo, gestionar funcionalidades principales y acceder a los servicios desplegados correctamente |
+| Sprint 2 Velocity | 34 Story Points |
+| Sum of Story Points | 34 Story Points |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo organizó las responsabilidades considerando los principales aspectos funcionales y técnicos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos, alertas, diseño de base de datos y despliegue de servicios en Render. Esto permitió mejorar la coordinación interna y distribuir de manera eficiente las tareas del Sprint.
+
+| Team Member | GitHub Username | Authentication | Monitoring | Device Management | Notifications | Database Design | Deployment |
+|-------------|----------------|---------------|------------|------------------|--------------|----------------|-----------|
+| Condori Torres, Miguel Anibal | Miguel1323z | L | C | C | C | C | C |
+| Delgado Perez, James Caleb | JAmsy06 | C | C | C | C | L | C |
+| Loa Rojas, Jean Franck | JeanLoa | C | L | C | C | C | L |
+| Montalvo Vasquez, Bruno Rodrigo | Bruno | C | C | L | C | C | C |
+| Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | L | C | C |
 
 
 #### 5.2.2.3. Sprint Backlog 2
@@ -3529,9 +3578,57 @@ Durante el Sprint, se evidenció una participación activa de todos los integran
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+Completando el segundo Sprint 2, logramos implementar todas las secciones correspondientes
+a nuestra App Web implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances atravez de capturas de pantalla.
+
+
+1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
+
+![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+
+2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
+
+![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
+![Planes-IMG](assets/md-images-chapter5/English.png)
+![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+
+3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
+
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+
+4. Cierre de sesión:
+
+![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+En el segundo sprint, el equipo se enfocó en el desarrollo de 
+la primera versión funcional de la aplicación web 
+"Low-Cortisol". Para asegurar la operatividad y 
+las pruebas de integración en esta etapa, se implementaron y 
+utilizaron los siguientes servicios web:
+
+1.  **Integración de Fake API:** Se desarrolló y desplegó una 
+  **Fake API** (utilizando JSON Server) para simular la 
+  persistencia de datos. Esto permitió al equipo de frontend 
+  trabajar en la visualización de datos reales antes de 
+  la implementación final del backend en .NET.
+2.  **Actualización de Landing Page:** Se actualizó el sitio 
+   informativo para incluir botones de llamada a la acción 
+   (**Call-To-Action**) que redirigen directamente a la aplicación
+   web desplegada.
+3.  **Documentación de Endpoints:** A continuación, se detallan los servicios utilizados y sus respectivas funciones:
+
+| EndPoint | Funciones |
+| :--- | :--- |
+| `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/tree/main` | Desplegar la Landing Page informativa del producto. |
+| `https://lowcortisol-platform.onrender.com/` | Proveer acceso a la Fake API para simular integración con base de datos. |
+| `https://lowcortisol-webapp.onrender.com` | Desplegar el Frontend de la aplicación web para interacción del usuario. |
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
