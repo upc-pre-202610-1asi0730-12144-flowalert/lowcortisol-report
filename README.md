@@ -414,8 +414,6 @@ Users: Hogares.
 User Outcome: Detectan incidentes a tiempo y evitan daños mayores.  
 Feature: Monitoreo en tiempo real con panel de control.
 
----
-
 ### Hipótesis 2
 Creemos que enviar alertas inmediatas ante anomalías permitirá reducir el tiempo de respuesta frente a emergencias.
 
@@ -425,8 +423,6 @@ Business Outcome: Mejorar percepción de valor del servicio y retención de usua
 Users: Hogares, hoteles y municipalidades.  
 User Outcome: Responden rápidamente ante fugas o riesgos críticos.  
 Feature: Notificaciones push, correo y alertas automáticas.
-
----
 
 ### Hipótesis 3
 Creemos que mostrar historial de consumo y reportes claros ayudará a los usuarios a optimizar el uso de recursos.
@@ -438,8 +434,6 @@ Users: Hogares y hoteles.
 User Outcome: Controlan gastos y detectan consumos inusuales.  
 Feature: Historial, gráficas y reportes descargables.
 
----
-
 ### Hipótesis 4
 Creemos que permitir el control remoto de válvulas incrementará la sensación de seguridad y control de los usuarios.
 
@@ -449,8 +443,6 @@ Business Outcome: Diferenciación competitiva y mayor interés por planes avanza
 Users: Hoteles y municipalidades.  
 User Outcome: Reducen riesgos sin esperar intervención presencial.  
 Feature: Apertura y cierre remoto de válvulas.
-
----
 
 ### Hipótesis 5
 Creemos que ofrecer gestión multiubicación facilitará la adopción de la plataforma en organizaciones con varias instalaciones.
@@ -462,8 +454,6 @@ Users: Hoteles y municipalidades.
 User Outcome: Supervisan varias zonas desde una sola plataforma.  
 Feature: Gestión por zonas y múltiples sensores.
 
----
-
 ### Hipótesis 6
 Creemos que aplicar análisis inteligente de patrones de consumo permitirá prevenir incidentes antes de que ocurran.
 
@@ -473,8 +463,6 @@ Business Outcome: Posicionamiento innovador y mayor valor percibido.
 Users: Hoteles y municipalidades.  
 User Outcome: Reciben advertencias tempranas y reducen incidentes repetitivos.  
 Feature: Detección temprana con IA y análisis predictivo.
-
----
 
 ### Hipótesis 7
 Creemos que ofrecer planes diferenciados según las necesidades del cliente incrementará la conversión a suscripciones pagadas.
