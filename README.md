@@ -62,12 +62,12 @@
 
 ## Registro de Versiones del Informe
 
-| Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
-| :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+| Versión |   Fecha    | Autor |                                                  Descripción de modificación                                                   |
+| :-----: |:----------:|:-----:| :----------------------------------------------------------------------------------------------------------------------------: |
 |   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TP1   |            |       |                                                            |
+|   TB1   | 15/05/2026 | Todos | Avance del trabajo: Añadiendo JSON Server con más recursos |
 |   AV2   |            |       |                                                            |
-|   TF1   |            |       |                                                            |
+|   TB2   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
 
@@ -135,6 +135,15 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 ---
 
 
+
+
+
+### Entrega TB1:
+![Commits-1](assets/Commits1.png)
+
+#### Participación por integrante:
+##### Commits en el project reportCommits en el project report de la TB1:
+![Participacion-1](assets/ParticipacionTB1.png)
 
 # Contenido
 
@@ -263,6 +272,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 <div style="page-break-after: always;"></div>
 
 ## Student Outcome
+
+Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 
@@ -3510,7 +3521,9 @@ Event Storming es una técnica de modelado que nos permite identificar y organiz
 ![Event Storming](./assets/md-images-chapter4/Cap3.png)
 ![Event Storming](./assets/md-images-chapter4/Cap4.png)
 ![Event Storming](./assets/md-images-chapter4/Cap5.png)
-Link de modelo: https://lucid.app/lucidspark/83c9509f-24aa-47a0-acb8-d565dad1216c/edit?view_items=F0GQ8.VouW7A&page=0_0&invitationId=inv_3993ba91-db9e-419d-8bd7-f08a3754f9ab
+![Event Storming](./assets/md-images-chapter4/Cap6.png)
+![Event Storming](./assets/md-images-chapter4/Cap7.png)
+Link de modelo: https://lucid.app/lucidspark/83c9509f-24aa-47a0-acb8-d565dad1216c/edit?viewport_loc=41392%2C-2755%2C8993%2C4433%2C0_0&invitationId=inv_3993ba91-db9e-419d-8bd7-f08a3754f9ab
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -3984,6 +3997,41 @@ https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
+#### Despliegue del Web App
+
+Se realizará la configuración inicial del despliegue de la Frontend Web Application utilizando Render como plataforma cloud para la publicación de la aplicación web.
+
+La aplicación fue desarrollada utilizando tecnologías frontend modernas junto con herramientas de despliegue basadas en Docker y GitHub.
+
+##### Pasos de despliegue:
+
+
+
+Se creó el repositorio lowcortisol-webapp en GitHub.
+
+Se organizó la estructura base de la Frontend Web Application.
+
+Se configuró la estrategia de trabajo utilizando Git Flow mediante ramas:
+
+Se creó el archivo Dockerfile para permitir la construcción y despliegue de la aplicación en Render.
+
+Se realizaron commits periódicos mediante Git (add, commit, push) para mantener el control de versiones y registrar los avances del Sprint.
+
+Se conectó el repositorio GitHub con la plataforma Render.
+
+Se configuró Render seleccionando la rama correspondiente para el despliegue inicial de la aplicación.
+
+Se ejecutó el primer despliegue de LowCortisol en Render.
+
+
+Repositorio
+
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
+
+URL desplegada
+
+https://lowcortisol-webapp.onrender.com/
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
@@ -4007,8 +4055,8 @@ A continuación, se presenta la tabla resumen del Sprint Planning 1:
 | Location | Reunión virtual (Google Meet) |
 | Prepared By | Condori Torres, Miguel Anibal |
 | Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
-| Sprint Goal & User Stories |
-| Sprint 1 Goal | Desarrollar y desplegar una Landing Page funcional que presente la propuesta de valor del proyecto, incluyendo sus secciones principales y un diseño estructurado. Este objetivo se considerará cumplido cuando la página sea accesible mediante un metodo de despliegue que permita la navegación entre secciones sin errores y comunique claramente los beneficios del producto.
+|  |**Sprint Goal & User Stories** |
+| Sprint 1 Goal | Our focus is on presenting the project’s value proposition through a functional and accessible Landing Page that provides users with a clear and structured overview of the solution. We believe it delivers a better first impression of the product by allowing visitors to navigate through the main sections of the website in an organized and intuitive way. This will be confirmed when the Landing Page is successfully deployed, users can navigate between sections without errors, and the platform clearly communicates the benefits and purpose of the product. |
 | Sprint 1 Velocity | 10 Story Points |
 | Sum of Story Points | 10 Story Points |
 
@@ -4096,7 +4144,7 @@ fueron nuestros avances atravez de capturas de pantalla.
 3. Sección Beneficio: Mostramos los beneficios respecto a otros competidores
 
 ![Beneficio-IMG](assets/md-images-chapter5/Beneficio-Sección.png)
-git diff README.md
+
 4. Sección Funcionalidades: Se mustran las funcionalidades que posee nuestro proyecto
 
 ![Funcionalidades-IMG](assets/md-images-chapter5/Funcionalidades-Sección.png)
@@ -4109,7 +4157,6 @@ git diff README.md
 
 ![Planes1-IMG](assets/md-images-chapter5/Planes_1-Sección.png)
 
-![Planes2-IMG](assets/md-images-chapter5/Planes_2-Sección.png)
 
 7. Sección Contacto: Las opcciones de contacto que tiene el usuario para poder 
 acceder a mas información
@@ -4182,7 +4229,7 @@ El Sprint 2 estuvo enfocado en el desarrollo de la estructura funcional inicial 
 | Sprint 2- 1 Review Summary | Durante el Sprint 1 se desarrolló las correciones del informe e implementó la Landing Page de LowCortisol, incluyendo navegación entre secciones, visualización de planes, cambio de idioma y adaptación responsive para distintos dispositivos |
 | Sprint 2 - 1 Retrospective Summary | El equipo logró completar satisfactoriamente las funcionalidades planificadas para la Landing Page, mejorando la organización y distribución de tareas mediante GitHub y Trello. Como oportunidad de mejora, se identificó fortalecer la integración técnica entre frontend y backend para los siguientes sprints |
 |  | Sprint Goal & User Stories |
-| Sprint 2 Goal | Desarrollar la estructura funcional inicial de la plataforma LowCortisol mediante la implementación de módulos de autenticación, monitoreo inteligente, gestión de dispositivos y alertas, integrando frontend, backend y despliegue de servicios en Render. Este objetivo se considerará cumplido cuando la plataforma permita visualizar información de monitoreo, gestionar funcionalidades principales y acceder a los servicios desplegados correctamente |
+| Sprint 2 Goal |  Our focus is on developing the initial functional structure of the LowCortisol platform by implementing authentication, smart monitoring, device management, and alert modules integrated through frontend, backend, and deployed services on Render.  We believe it delivers a more complete and interactive experience to users by allowing them to access core platform functionalities and interact with monitoring services in a centralized environment.  This will be confirmed when users can successfully access the platform, visualize monitoring information, manage the main functionalities, and interact with the services deployed correctly on Render without critical errors.|
 | Sprint 2 Velocity | 34 Story Points |
 | Sum of Story Points | 34 Story Points |
 
@@ -4200,10 +4247,75 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 
 #### 5.2.2.3. Sprint Backlog 2
+![Sprint Backlog 2](./assets/md-images-chapter5/Sprint2.png)
 
+| ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
+|------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
+| US01 | Registro de usuario      | TS01     | API registrar usuario      | Implementación de endpoint POST /users para creación de cuentas   | Given datos válidos, When envía POST, Then retorna 201 Created                          | 4 hrs              | Alta       | Finalizado   | Kirk       |
+| US02 | Inicio de sesión         | TS06     | API login                  | Autenticación mediante POST /auth/login y generación de token     | Given credenciales válidas, When valida datos, Then retorna 200 OK                      | 3 hrs              | Alta       | Finalizado   | Miguel     |
+| US04 | Cerrar sesión            | TS07     | API logout                 | Invalidación de sesión activa mediante POST /auth/logout          | Given sesión válida, When envía logout, Then invalida token                             | 2 hrs              | Media      | Finalizado   | Jean       |
+| US05 | Actualizar perfil        | TS34     | Servicio de Perfil         | Implementación de lógica para edición de datos personales         | Given accede a perfil, When modifica datos, Then guarda cambios                         | 3 hrs              | Media      | Finalizado   | Rodrigo    |
+| US06 | Cambiar idioma           | TS21     | Configurar i18n            | Configuración de bibliotecas y archivos JSON (es/en)              | Given soporte es/en, When configura i18n, Then carga etiquetas                          | 4 hrs              | Baja       | Finalizado   | James      |
+| US06 | Cambiar idioma           | TS22     | Cambio dinámico            | Gestión de estado global para actualización en tiempo real        | Given selecciona idioma, When procesa cambio, Then actualiza interfaz                   | 3 hrs              | Baja       | Finalizado   | Miguel     |
+| US07 | Visualizar estado        | TS11     | API actualizar lectura     | Endpoint para monitoreo de sensores en tiempo real                | Given sensor existe, When envía lectura, Then actualiza sistema                         | 4 hrs              | Alta       | En Progreso  | Kirk       |
+| US08 | Recibir alertas          | TS04     | API generar alerta         | Registro automático de incidentes ante anomalías detectadas       | Given anomalía detectada, When envía POST /alerts, Then crea alerta                     | 3 hrs              | Alta       | En Progreso  | Jean       |
+| US08 | Recibir alertas          | TS13     | API listar alertas         | Consulta de alertas generadas para el dashboard                   | Given alertas registradas, When envía GET /alerts, Then retorna lista                   | 3 hrs              | Alta       | En Progreso  | Rodrigo    |
+| US09 | Historial de consumo     | TS05     | API historial consumo      | Consulta de registros históricos por periodos                     | Given registros existen, When envía GET /history, Then retorna datos                    | 4 hrs              | Media      | En Progreso  | Kirk       |
+| US09 | Historial de consumo     | TS16     | API reporte por fechas     | Generación de reportes filtrados por rangos específicos           | Given rango de fechas, When envía GET /reports, Then retorna reporte                    | 4 hrs              | Media      | En Progreso  | James      |
+| US10 | Cerrar válvula           | TS11     | API cierre remoto          | Ejecución de comando de cierre mediante actualización de lectura  | Given accede al control, When ejecuta acción, Then cierra válvula                       | 3 hrs              | Alta       | En Progreso  | Kirk       |
+| US12 | Visualizar planes        | TS23     | Estructura sección planes  | Creación de componentes modulares y grid de planes                | Given accede a /planes, When componente monta, Then muestra grid                        | 4 hrs              | Media      | Por hacer    | Rodrigo    |
+| US12 | Visualizar planes        | TS24     | Cards dinámicas            | Diseño de cards para mostrar precios y beneficios                 | Given datos de planes, When recibe info, Then renderiza card                            | 3 hrs              | Media      | Por hacer    | Miguel     |
+| US16 | Visualizar soluciones    | TS33     | Vista de Soluciones        | Implementación de secciones residenciales y empresariales         | Given accede a soluciones, When revisa opciones, Then muestra perfil                    | 3 hrs              | Media      | Por hacer    | Jean       |
+| TS03 | API sensores             | TS03     | Sensores por usuario       | Obtención de dispositivos asociados a un ID de usuario            | Given usuario con sensores, When envía GET /users/id/sensors, Then retorna lista        | 4 hrs              | Media      | Por hacer    | Kirk       |
+| TS12 | API desvincular          | TS12     | Desvincular sensor         | Eliminación de relaciones entre sensores y sedes                  | Given relación activa, When envía DELETE /sensor-links/id, Then elimina                 | 2 hrs              | Media      | Por hacer    | James      |
+| US20 | Acceso multidispositivo  | TS25     | Arquitectura responsive    | Aplicación de Grid/Flexbox para adaptación visual                 | Given resolución >768px, When carga landing, Then organiza columnas                     | 4 hrs              | Media      | Por hacer    | Rodrigo    |
+| US20 | Acceso multidispositivo  | TS26     | Ajuste móvil               | Implementación de media queries para smartphones                  | Given resolución <480px, When carga página, Then apila componentes                      | 3 hrs              | Media      | Por hacer    | Miguel     |
+| US21 | Navegación interna       | TS27     | Navegación por anclas      | Configuración de IDs para navegación entre secciones              | Given clic en navbar, When procesa ID, Then desplaza a sección                          | 2 hrs              | Media      | Por hacer    | Jean       |
+| US21 | Navegación interna       | TS28     | Smooth Scroll              | Implementación de desplazamiento progresivo y fluido              | Given selecciona sección, When ejecuta scroll, Then movimiento fluido                   | 2 hrs              | Media      | Por hacer    | James      |
+| US21 | Navegación interna       | TS29     | Menú hamburguesa           | Menú colapsable optimizado para móviles                           | Given dispositivo móvil, When clic hamburguesa, Then despliega menú                     | 3 hrs              | Media      | Por hacer    | Rodrigo    |
 
+Link del sprint 2: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIf106d025cb7e9463b4a7531e129bbf42E3A1B3D4/sprint-backlog-2-lowcortisol
 #### 5.2.2.4. Development Evidence for Sprint Review
+En esta sección se presentan los avances de implementación realizados durante el Sprint, relacionados con la Web Application de LowCortisol. Durante este avance se trabajó en la configuración del despliegue, ajustes de rutas, internacionalización, corrección de estilos, actualización de diagramas y preparación de la versión estable `v1.0`.
 
+Durante el desarrollo de la Web Application se trabajó mediante Git Flow utilizando cinco feature branches enfocadas en despliegue, internacionalización, refactorización del frontend, diagramas y correcciones visuales.
+
+### Feature Branches Utilizadas
+
+- `feature/deployment-release-fixes`
+- `feature/frontend-refactor-diagrams`
+- `feature/i18n-routes`
+- `feature/style-diagram-render-fixes`
+- `feature/initial-deployment-config`
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| lowcortisol-webapp | main | d4ce5ca | Merge release/v1.0 into main | Se integró la versión final del release v1.0 hacia la rama principal. | 2026-05-13 |
+| lowcortisol-webapp | develop | e47afac | Merge feature/i18n-routes into develop | Se integraron los cambios de internacionalización y rutas al entorno de desarrollo. | 2026-05-13 |
+| lowcortisol-webapp | develop | 58e07cb | Merge feature/frontend-refactor-diagrams into develop | Se integraron mejoras relacionadas con diagramas y refactorización del frontend. | 2026-05-13 |
+| lowcortisol-webapp | develop | 5b6ca53 | Merge feature/style-diagram-render-fixes into develop | Se integraron correcciones de estilos, diagramas y despliegue en Render. | 2026-05-13 |
+| lowcortisol-webapp | develop | 467ed93 | Merge feature/deployment-release-fixes into develop | Se integraron ajustes finales de despliegue para la versión release. | 2026-05-13 |
+| lowcortisol-webapp | develop | 086a265 | Merge feature/initial-deployment-config into develop | Se integró la configuración inicial de despliegue del proyecto. | 2026-05-13 |
+| lowcortisol-webapp | feature/i18n-routes | eccfac2 | Update Frontend Class Diagram | Se actualizó el diagrama de clases del frontend. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 415f112 | Last fix to i18n | Se realizaron correcciones finales en la internacionalización. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 42c1173 | Fix some translates | Se corrigieron traducciones dentro de la aplicación web. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 66d79fc | Fix routes | Se corrigieron rutas de navegación en la aplicación. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 42a09ea | Add Dockerfile file | Se agregó el archivo Dockerfile para apoyar el despliegue del proyecto. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 528c8a7 | Updated diagrams and singular names | Se actualizaron diagramas y nombres de clases en singular. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 3e35055 | Singularize frontend classes and technical folders | Se ajustaron clases del frontend y carpetas técnicas a nombres en singular. | 2026-05-09 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | d5f87a9 | Render deployment. | Se realizaron ajustes para el despliegue en Render. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | c542f7c | Fix Render Deploy. | Se corrigieron errores relacionados con el despliegue en Render. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | 401e60a | Diagrams updated. | Se actualizaron diagramas técnicos del proyecto. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | ed8fae6 | Fixed styles. | Se corrigieron estilos visuales de la aplicación web. | 2026-04-25 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 7974123 | Finaliza cambios de LowCortisol. | Se finalizaron cambios generales de la aplicación para el Sprint. | 2026-04-25 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 07b8243 | Render deployment. | Se realizaron cambios relacionados con el despliegue en Render. | 2026-04-23 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 72dec03 | Prepare Render deployment | Se preparó la configuración necesaria para el despliegue en Render. | 2026-04-23 |
+| lowcortisol-webapp | feature/initial-deployment-config | 8c8ab33 | Added: Database Diagram. | Se agregó el diagrama de base de datos del sistema. | 2026-04-22 |
+| lowcortisol-webapp | feature/initial-deployment-config | 55e7a41 | Diagramas de clases. | Se añadieron diagramas de clases para documentar la estructura del sistema. | 2026-04-22 |
+| lowcortisol-webapp | feature/initial-deployment-config | b506f97 | Agregar Dockerfile para Render. | Se agregó un Dockerfile para permitir el despliegue en Render. | 2026-04-21 |
+| lowcortisol-webapp | feature/initial-deployment-config | 3045407 | Primer despliegue de LowCortisol | Se realizó el primer despliegue de la Web Application de LowCortisol. | 2026-04-21 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -4233,6 +4345,7 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 ![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
 
+Execution Evidence for Sprint 2 Review: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -4308,6 +4421,9 @@ El despliegue permitió validar que la aplicación puede ejecutarse fuera del en
 Durante este segundo Sprint, la colaboración del equipo se volcó plenamente hacia la consolidación técnica del proyecto, abarcando desde la estructuración de la arquitectura de software hasta la configuración de los entornos de despliegue. El foco principal de nuestra sinergia fue la ejecución del nuevo avance funcional, donde nos organizamos para que el desarrollo de la interfaz de usuario avanzara en paralelo con la infraestructura en la nube. Basándonos estrictamente en los criterios de la rúbrica de evaluación, realizamos sesiones de revisión conjunta para asegurar que se cumplieran con los estándares de calidad exigidos, corrigiendo inconsistencias en la lógica de navegación y asegurando que el flujo de datos a través de la Fake API en Render fuera transparente y eficiente.
 
 Asimismo, el trabajo en equipo fue fundamental para elevar el rigor de los artefactos técnicos. No nos limitamos a generar código, sino que colaboramos estrechamente para refinar las historias técnicas y los diagramas de arquitectura, asegurando que cada componente reflejara fielmente los requisitos del sistema. Esta etapa de colaboración nos permitió estandarizar el uso de bibliotecas para la persistencia de datos y unificar criterios en el manejo del repositorio mediante GitFlow. Esta coordinación no solo facilitó la integración de las nuevas funcionalidades de monitoreo, sino que garantizó que el progreso actual del proyecto posea una base sólida, coherente y alineada con las expectativas académicas y profesionales del curso.
+![TeamCollaboration-IMG](assets/md-images-chapter5/TeamCollaborationInsights2.png)
+
+
 
 # Conclusiones
 Tras completar este nuevo avance en la implementación y validación del proyecto LowCortisol, el equipo concluye que se ha logrado consolidar una arquitectura de software robusta a través de un proceso de refactorización guiado por los estándares de la rúbrica docente. A diferencia de la etapa inicial, ahora contamos con un sistema funcional desplegado que integra de manera coherente el frontend con la infraestructura de servicios para las pruebas actuales. La aplicación rigurosa de Domain-Driven Design (DDD) y la corrección de los diagramas C4 han permitido que la aplicación evolucione hacia una plataforma con una lógica de dominio clara, sentando las bases para las funcionalidades que se implementarán en las siguientes etapas.
@@ -4338,15 +4454,17 @@ Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D.
 
 ## Anexo A. Videos de Exposiciones
 
-| Entrega | Características del video | Sobre el contenido | Integración y entrega |
-|---------|----------------------------|-------------------|----------------------|
-| AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+| Entrega | Características del video                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Sobre el contenido | Integración y entrega |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
+| AV1     | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4                                         | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+| TB1     | **Cantidad de videos:** 1 <br> **Enlace:** 0%3D&e=imEkGo <br><br> **Nomenclatura:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQA2i1-30uMzS6Udev745PU_AQOOcxCRIDIAy99XO5bCpVY?e=IhM0kE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-tb1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
 
 ---
 
 ## Anexo B. Evidencia de Videos entrevistas del Proyecto
 
-| Sección | Características del video | Sobre el contenido | Integración y entrega |
-|---------|----------------------------|-------------------|----------------------|
+| Sección                | Características del video                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Sobre el contenido | Integración y entrega |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
 | Needfinding Interviews | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8 <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-needfinding-sprint-1 <br><br> **Formato:** .mp4 | Consolida todas las entrevistas realizadas a los segmentos objetivo del sistema LowCortisol (usuarios residenciales y profesionales de infraestructura). Cada entrevista incluye información del entrevistado, segmento objetivo y fecha de realización. El contenido evidencia necesidades reales relacionadas con seguridad en tuberías de agua y gas, prevención de fugas, monitoreo en tiempo real y automatización de válvulas mediante IoT. Este material sirvió como base para la creación de User Personas, User Journey Mapping, Empathy Mapping y la definición de requerimientos del sistema. | Subir el video en Microsoft Stream o plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. Añadir introducción a la sección, registro individual de entrevistas y análisis general de hallazgos cualitativos y cuantitativos obtenidos durante el proceso de investigación. |
-| Prototypes Navegation | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4 | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
+| Prototypes Navegation  | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4                                                                                                                                                                                                                       | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
+| Execution Evidences    | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-execution-evidence-tb1 <br><br> **Formato:** .mp4                                                                                                                                                                                                                         | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
