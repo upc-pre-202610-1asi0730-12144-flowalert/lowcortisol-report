@@ -4338,6 +4338,7 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 ![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
 
+Execution Evidence for Sprint 2 Review: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
