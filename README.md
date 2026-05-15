@@ -4232,7 +4232,46 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 Link del sprint 2: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIf106d025cb7e9463b4a7531e129bbf42E3A1B3D4/sprint-backlog-2-lowcortisol
 #### 5.2.2.4. Development Evidence for Sprint Review
+En esta sección se presentan los avances de implementación realizados durante el Sprint, relacionados con la Web Application de LowCortisol. Durante este avance se trabajó en la configuración del despliegue, ajustes de rutas, internacionalización, corrección de estilos, actualización de diagramas y preparación de la versión estable `v1.0`.
 
+Durante el desarrollo de la Web Application se trabajó mediante Git Flow utilizando cinco feature branches enfocadas en despliegue, internacionalización, refactorización del frontend, diagramas y correcciones visuales.
+
+### Feature Branches Utilizadas
+
+- `feature/deployment-release-fixes`
+- `feature/frontend-refactor-diagrams`
+- `feature/i18n-routes`
+- `feature/style-diagram-render-fixes`
+- `feature/initial-deployment-config`
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| lowcortisol-webapp | main | d4ce5ca | Merge release/v1.0 into main | Se integró la versión final del release v1.0 hacia la rama principal. | 2026-05-13 |
+| lowcortisol-webapp | develop | e47afac | Merge feature/i18n-routes into develop | Se integraron los cambios de internacionalización y rutas al entorno de desarrollo. | 2026-05-13 |
+| lowcortisol-webapp | develop | 58e07cb | Merge feature/frontend-refactor-diagrams into develop | Se integraron mejoras relacionadas con diagramas y refactorización del frontend. | 2026-05-13 |
+| lowcortisol-webapp | develop | 5b6ca53 | Merge feature/style-diagram-render-fixes into develop | Se integraron correcciones de estilos, diagramas y despliegue en Render. | 2026-05-13 |
+| lowcortisol-webapp | develop | 467ed93 | Merge feature/deployment-release-fixes into develop | Se integraron ajustes finales de despliegue para la versión release. | 2026-05-13 |
+| lowcortisol-webapp | develop | 086a265 | Merge feature/initial-deployment-config into develop | Se integró la configuración inicial de despliegue del proyecto. | 2026-05-13 |
+| lowcortisol-webapp | feature/i18n-routes | eccfac2 | Update Frontend Class Diagram | Se actualizó el diagrama de clases del frontend. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 415f112 | Last fix to i18n | Se realizaron correcciones finales en la internacionalización. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 42c1173 | Fix some translates | Se corrigieron traducciones dentro de la aplicación web. | 2026-05-10 |
+| lowcortisol-webapp | feature/i18n-routes | 66d79fc | Fix routes | Se corrigieron rutas de navegación en la aplicación. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 42a09ea | Add Dockerfile file | Se agregó el archivo Dockerfile para apoyar el despliegue del proyecto. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 528c8a7 | Updated diagrams and singular names | Se actualizaron diagramas y nombres de clases en singular. | 2026-05-09 |
+| lowcortisol-webapp | feature/frontend-refactor-diagrams | 3e35055 | Singularize frontend classes and technical folders | Se ajustaron clases del frontend y carpetas técnicas a nombres en singular. | 2026-05-09 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | d5f87a9 | Render deployment. | Se realizaron ajustes para el despliegue en Render. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | c542f7c | Fix Render Deploy. | Se corrigieron errores relacionados con el despliegue en Render. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | 401e60a | Diagrams updated. | Se actualizaron diagramas técnicos del proyecto. | 2026-04-25 |
+| lowcortisol-webapp | feature/style-diagram-render-fixes | ed8fae6 | Fixed styles. | Se corrigieron estilos visuales de la aplicación web. | 2026-04-25 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 7974123 | Finaliza cambios de LowCortisol. | Se finalizaron cambios generales de la aplicación para el Sprint. | 2026-04-25 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 07b8243 | Render deployment. | Se realizaron cambios relacionados con el despliegue en Render. | 2026-04-23 |
+| lowcortisol-webapp | feature/deployment-release-fixes | 72dec03 | Prepare Render deployment | Se preparó la configuración necesaria para el despliegue en Render. | 2026-04-23 |
+| lowcortisol-webapp | feature/initial-deployment-config | 8c8ab33 | Added: Database Diagram. | Se agregó el diagrama de base de datos del sistema. | 2026-04-22 |
+| lowcortisol-webapp | feature/initial-deployment-config | 55e7a41 | Diagramas de clases. | Se añadieron diagramas de clases para documentar la estructura del sistema. | 2026-04-22 |
+| lowcortisol-webapp | feature/initial-deployment-config | b506f97 | Agregar Dockerfile para Render. | Se agregó un Dockerfile para permitir el despliegue en Render. | 2026-04-21 |
+| lowcortisol-webapp | feature/initial-deployment-config | 3045407 | Primer despliegue de LowCortisol | Se realizó el primer despliegue de la Web Application de LowCortisol. | 2026-04-21 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
