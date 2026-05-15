@@ -4206,7 +4206,6 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 #### 5.2.2.3. Sprint Backlog 2
 ![Sprint Backlog 2](./assets/md-images-chapter5/Sprint2.png)
-![Sprint Backlog 2](./assets/md-images-chapter5/Sprint22.png)
 
 | ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
 |------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
