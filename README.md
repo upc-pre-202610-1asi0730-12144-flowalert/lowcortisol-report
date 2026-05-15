@@ -3988,6 +3988,41 @@ https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
+#### Despliegue del Web App
+
+Se realizará la configuración inicial del despliegue de la Frontend Web Application utilizando Render como plataforma cloud para la publicación de la aplicación web.
+
+La aplicación fue desarrollada utilizando tecnologías frontend modernas junto con herramientas de despliegue basadas en Docker y GitHub.
+
+##### Pasos de despliegue:
+
+
+
+Se creó el repositorio lowcortisol-webapp en GitHub.
+
+Se organizó la estructura base de la Frontend Web Application.
+
+Se configuró la estrategia de trabajo utilizando Git Flow mediante ramas:
+
+Se creó el archivo Dockerfile para permitir la construcción y despliegue de la aplicación en Render.
+
+Se realizaron commits periódicos mediante Git (add, commit, push) para mantener el control de versiones y registrar los avances del Sprint.
+
+Se conectó el repositorio GitHub con la plataforma Render.
+
+Se configuró Render seleccionando la rama correspondiente para el despliegue inicial de la aplicación.
+
+Se ejecutó el primer despliegue de LowCortisol en Render.
+
+
+Repositorio
+
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
+
+URL desplegada
+
+https://lowcortisol-webapp.onrender.com/
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
@@ -4113,7 +4148,6 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 ![Planes1-IMG](assets/md-images-chapter5/Planes_1-Sección.png)
 
-![Planes2-IMG](assets/md-images-chapter5/Planes_2-Sección.png)
 
 7. Sección Contacto: Las opcciones de contacto que tiene el usuario para poder 
 acceder a mas información
@@ -4205,7 +4239,6 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 #### 5.2.2.3. Sprint Backlog 2
 ![Sprint Backlog 2](./assets/md-images-chapter5/Sprint2.png)
-![Sprint Backlog 2](./assets/md-images-chapter5/Sprint22.png)
 
 | ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
 |------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
@@ -4303,6 +4336,7 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 ![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
 
+Execution Evidence for Sprint 2 Review: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
