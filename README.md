@@ -136,6 +136,15 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 
 
+
+
+### Entrega TB1:
+![Commits-1](assets/Commits1.png)
+
+#### Participación por integrante:
+##### Commits en el project reportCommits en el project report de la TB1:
+![Participacion-1](assets/ParticipacionTB1.png)
+
 # Contenido
 
 ## Índice
