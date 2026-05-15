@@ -3990,6 +3990,41 @@ https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
+#### Despliegue del Web App
+
+Se realizará la configuración inicial del despliegue de la Frontend Web Application utilizando Render como plataforma cloud para la publicación de la aplicación web.
+
+La aplicación fue desarrollada utilizando tecnologías frontend modernas junto con herramientas de despliegue basadas en Docker y GitHub.
+
+##### Pasos de despliegue:
+
+
+
+Se creó el repositorio lowcortisol-webapp en GitHub.
+
+Se organizó la estructura base de la Frontend Web Application.
+
+Se configuró la estrategia de trabajo utilizando Git Flow mediante ramas:
+
+Se creó el archivo Dockerfile para permitir la construcción y despliegue de la aplicación en Render.
+
+Se realizaron commits periódicos mediante Git (add, commit, push) para mantener el control de versiones y registrar los avances del Sprint.
+
+Se conectó el repositorio GitHub con la plataforma Render.
+
+Se configuró Render seleccionando la rama correspondiente para el despliegue inicial de la aplicación.
+
+Se ejecutó el primer despliegue de LowCortisol en Render.
+
+
+Repositorio
+
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
+
+URL desplegada
+
+https://lowcortisol-webapp.onrender.com/
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
