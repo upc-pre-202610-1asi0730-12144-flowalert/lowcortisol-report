@@ -1872,7 +1872,7 @@ El user persona se construyó a partir de patrones encontrados en las entrevista
 ![Empathy Mapping](./assets/md-images-chapter2/YazidEmpathy.png)
 ![Empathy Mapping](./assets/md-images-chapter2/LeonardoDanielEmpathyMap.png)
 ## 2.4. Big Picture Event Storming
-
+![Big Picture Event Storming](./assets/md-images-chapter2/BigPicture.png)
 #### Introducción:
 Durante esta primera iteración del proyecto hemos logrado avanzar de una manera sólida identificando diversos usuarios y segmentos objetivos, así como posibles tácticas que usaremos con los competidores y cómo armaremos el Lean UX. Terminando por realizar el diseño de entrevistas y su posterior registro.
 
