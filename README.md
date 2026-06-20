@@ -4081,7 +4081,8 @@ detalla la distribución de roles para este primer ciclo:
 | Montalvo Vasquez, Bruno Rodrigo | @TartaroZ              | C |            C            | C |
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
-#### 5.2.1.3. Sprint Backlog 1. 
+#### 5.2.1.3. Sprint Backlog 1.
+
 ![Sprint Backlog 1](./assets/md-images-chapter5/Sprint%20Backlog.PNG)
 
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
@@ -4092,11 +4093,11 @@ detalla la distribución de roles para este primer ciclo:
 | US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 3 hrs | Bruno | Done |
 | US20 | Acceso multidispositivo | TS25 | Responsive layout | Adaptación responsive del landing page para distintos dispositivos | 4 hrs | James | Done |
 | US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 3 hrs | James | Done |
-| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Rodrigo | Done |
+| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Bruno | Done |
 
-LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI0db4f1b2fac4ca47db5b72f302c1b7e9FDE35BBF/sprint-backlog-1-lowcortisol 
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-lowcortisol 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -4243,36 +4244,42 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 | Montalvo Vasquez, Bruno Rodrigo | Bruno | C | C | L | C | C | C |
 | Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | L | C | C |
 
-
 #### 5.2.2.3. Sprint Backlog 2
+
 ![Sprint Backlog 2](./assets/md-images-chapter5/Sprint2.png)
 
-| ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
-|------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
-| US01 | Registro de usuario      | TS01     | API registrar usuario      | Implementación de endpoint POST /users para creación de cuentas   | Given datos válidos, When envía POST, Then retorna 201 Created                          | 4 hrs              | Alta       | Finalizado   | Kirk       |
-| US02 | Inicio de sesión         | TS06     | API login                  | Autenticación mediante POST /auth/login y generación de token     | Given credenciales válidas, When valida datos, Then retorna 200 OK                      | 3 hrs              | Alta       | Finalizado   | Miguel     |
-| US04 | Cerrar sesión            | TS07     | API logout                 | Invalidación de sesión activa mediante POST /auth/logout          | Given sesión válida, When envía logout, Then invalida token                             | 2 hrs              | Media      | Finalizado   | Jean       |
-| US05 | Actualizar perfil        | TS34     | Servicio de Perfil         | Implementación de lógica para edición de datos personales         | Given accede a perfil, When modifica datos, Then guarda cambios                         | 3 hrs              | Media      | Finalizado   | Rodrigo    |
-| US06 | Cambiar idioma           | TS21     | Configurar i18n            | Configuración de bibliotecas y archivos JSON (es/en)              | Given soporte es/en, When configura i18n, Then carga etiquetas                          | 4 hrs              | Baja       | Finalizado   | James      |
-| US06 | Cambiar idioma           | TS22     | Cambio dinámico            | Gestión de estado global para actualización en tiempo real        | Given selecciona idioma, When procesa cambio, Then actualiza interfaz                   | 3 hrs              | Baja       | Finalizado   | Miguel     |
-| US07 | Visualizar estado        | TS11     | API actualizar lectura     | Endpoint para monitoreo de sensores en tiempo real                | Given sensor existe, When envía lectura, Then actualiza sistema                         | 4 hrs              | Alta       | En Progreso  | Kirk       |
-| US08 | Recibir alertas          | TS04     | API generar alerta         | Registro automático de incidentes ante anomalías detectadas       | Given anomalía detectada, When envía POST /alerts, Then crea alerta                     | 3 hrs              | Alta       | En Progreso  | Jean       |
-| US08 | Recibir alertas          | TS13     | API listar alertas         | Consulta de alertas generadas para el dashboard                   | Given alertas registradas, When envía GET /alerts, Then retorna lista                   | 3 hrs              | Alta       | En Progreso  | Rodrigo    |
-| US09 | Historial de consumo     | TS05     | API historial consumo      | Consulta de registros históricos por periodos                     | Given registros existen, When envía GET /history, Then retorna datos                    | 4 hrs              | Media      | En Progreso  | Kirk       |
-| US09 | Historial de consumo     | TS16     | API reporte por fechas     | Generación de reportes filtrados por rangos específicos           | Given rango de fechas, When envía GET /reports, Then retorna reporte                    | 4 hrs              | Media      | En Progreso  | James      |
-| US10 | Cerrar válvula           | TS11     | API cierre remoto          | Ejecución de comando de cierre mediante actualización de lectura  | Given accede al control, When ejecuta acción, Then cierra válvula                       | 3 hrs              | Alta       | En Progreso  | Kirk       |
-| US12 | Visualizar planes        | TS23     | Estructura sección planes  | Creación de componentes modulares y grid de planes                | Given accede a /planes, When componente monta, Then muestra grid                        | 4 hrs              | Media      | Por hacer    | Rodrigo    |
-| US12 | Visualizar planes        | TS24     | Cards dinámicas            | Diseño de cards para mostrar precios y beneficios                 | Given datos de planes, When recibe info, Then renderiza card                            | 3 hrs              | Media      | Por hacer    | Miguel     |
-| US16 | Visualizar soluciones    | TS33     | Vista de Soluciones        | Implementación de secciones residenciales y empresariales         | Given accede a soluciones, When revisa opciones, Then muestra perfil                    | 3 hrs              | Media      | Por hacer    | Jean       |
-| TS03 | API sensores             | TS03     | Sensores por usuario       | Obtención de dispositivos asociados a un ID de usuario            | Given usuario con sensores, When envía GET /users/id/sensors, Then retorna lista        | 4 hrs              | Media      | Por hacer    | Kirk       |
-| TS12 | API desvincular          | TS12     | Desvincular sensor         | Eliminación de relaciones entre sensores y sedes                  | Given relación activa, When envía DELETE /sensor-links/id, Then elimina                 | 2 hrs              | Media      | Por hacer    | James      |
-| US20 | Acceso multidispositivo  | TS25     | Arquitectura responsive    | Aplicación de Grid/Flexbox para adaptación visual                 | Given resolución >768px, When carga landing, Then organiza columnas                     | 4 hrs              | Media      | Por hacer    | Rodrigo    |
-| US20 | Acceso multidispositivo  | TS26     | Ajuste móvil               | Implementación de media queries para smartphones                  | Given resolución <480px, When carga página, Then apila componentes                      | 3 hrs              | Media      | Por hacer    | Miguel     |
-| US21 | Navegación interna       | TS27     | Navegación por anclas      | Configuración de IDs para navegación entre secciones              | Given clic en navbar, When procesa ID, Then desplaza a sección                          | 2 hrs              | Media      | Por hacer    | Jean       |
-| US21 | Navegación interna       | TS28     | Smooth Scroll              | Implementación de desplazamiento progresivo y fluido              | Given selecciona sección, When ejecuta scroll, Then movimiento fluido                   | 2 hrs              | Media      | Por hacer    | James      |
-| US21 | Navegación interna       | TS29     | Menú hamburguesa           | Menú colapsable optimizado para móviles                           | Given dispositivo móvil, When clic hamburguesa, Then despliega menú                     | 3 hrs              | Media      | Por hacer    | Rodrigo    |
+| User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Priority | Status | Assigned To |
+|---------------|------------------|---------|------------|-------------|--------------------|----------|--------|-------------|
+| US01 | Registro de usuario | TS01 | API registrar usuario | Implementación del endpoint POST /users para creación de cuentas. | 4 hrs | Alta | Finalizado | Kirk |
+| US01 | Registro de usuario | TS02 | Validación de datos | Validación de campos obligatorios, formato de correo y contraseña antes del registro. | 3 hrs | Alta | Finalizado | Kirk |
+| US02 | Inicio de sesión | TS06 | API login | Implementación de autenticación mediante POST /auth/login y generación de JWT. | 3 hrs | Alta | Finalizado | Miguel |
+| US02 | Inicio de sesión | TS08 | Validación de credenciales | Verificación de usuarios y manejo de errores de autenticación. | 2 hrs | Alta | Finalizado | Miguel |
+| US04 | Cerrar sesión | TS07 | API logout | Invalidación de sesión activa mediante POST /auth/logout. | 2 hrs | Media | Finalizado | Jean |
+| US04 | Cerrar sesión | TS09 | Gestión de sesión | Eliminación del token y limpieza de la sesión del usuario. | 2 hrs | Media | Finalizado | Jean |
+| US05 | Actualizar perfil | TS34 | Servicio de Perfil | Implementación de lógica para edición de datos personales. | 3 hrs | Media | Finalizado | Bruno |
+| US05 | Actualizar perfil | TS35 | Validación de actualización | Verificación y persistencia de los cambios del perfil. | 3 hrs | Media | Finalizado | Bruno |
+| US06 | Cambiar idioma | TS21 | Configurar i18n | Configuración de bibliotecas y archivos JSON para internacionalización. | 4 hrs | Baja | Finalizado | James |
+| US06 | Cambiar idioma | TS22 | Cambio dinámico | Gestión de estado para actualizar el idioma en tiempo real. | 3 hrs | Baja | Finalizado | Miguel |
+| US07 | Visualizar estado | TS11 | API actualizar lectura | Endpoint para monitoreo de sensores en tiempo real. | 4 hrs | Alta | En progreso | Kirk |
+| US07 | Visualizar estado | TS14 | Consulta de estado | Consulta y actualización de información de sensores. | 3 hrs | Alta | En progreso | Kirk |
+| US08 | Recibir alertas | TS04 | API generar alerta | Registro automático de incidentes ante anomalías detectadas. | 3 hrs | Alta | En progreso | Jean |
+| US08 | Recibir alertas | TS13 | API listar alertas | Consulta de alertas generadas para el dashboard. | 3 hrs | Alta | En progreso | Bruno |
+| US09 | Historial de consumo | TS05 | API historial consumo | Consulta de registros históricos por periodos. | 4 hrs | Media | En progreso | Kirk |
+| US09 | Historial de consumo | TS16 | API reporte por fechas | Generación de reportes filtrados por rangos de fechas. | 4 hrs | Media | En progreso | James |
+| US10 | Cerrar válvula remotamente | TS17 | API cierre remoto | Ejecución del comando de cierre remoto de válvulas. | 3 hrs | Alta | En progreso | Kirk |
+| US10 | Cerrar válvula remotamente | TS18 | Confirmación de operación | Confirmación del cierre y actualización del estado del dispositivo. | 2 hrs | Alta | En progreso | Kirk |
+| US12 | Visualizar planes | TS23 | Estructura sección planes | Creación de componentes modulares y grid de planes. | 4 hrs | Media | Por hacer | Bruno |
+| US12 | Visualizar planes | TS24 | Cards dinámicas | Diseño de cards para mostrar precios y beneficios. | 3 hrs | Media | Por hacer | Miguel |
+| US16 | Visualizar soluciones | TS33 | Vista de soluciones | Implementación de secciones para clientes residenciales y empresariales. | 3 hrs | Media | Por hacer | Jean |
+| US16 | Visualizar soluciones | TS36 | Navegación de soluciones | Organización y navegación entre las diferentes soluciones disponibles. | 2 hrs | Media | Por hacer | Jean |
+| US20 | Acceso multidispositivo | TS25 | Arquitectura responsive | Aplicación de Grid/Flexbox para adaptación visual. | 4 hrs | Media | Por hacer | Bruno |
+| US20 | Acceso multidispositivo | TS26 | Ajuste móvil | Implementación de media queries para smartphones. | 3 hrs | Media | Por hacer | Miguel |
+| US21 | Navegación interna | TS27 | Navegación por anclas | Configuración de IDs para navegación entre secciones. | 2 hrs | Media | Por hacer | Jean |
+| US21 | Navegación interna | TS28 | Smooth Scroll | Implementación del desplazamiento fluido. | 2 hrs | Media | Por hacer | James |
+| US21 | Navegación interna | TS29 | Menú hamburguesa | Desarrollo del menú responsive para dispositivos móviles. | 3 hrs | Media | Por hacer | Bruno |
 
-Link del sprint 2: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIf106d025cb7e9463b4a7531e129bbf42E3A1B3D4/sprint-backlog-2-lowcortisol
+LINK URL TRELLO: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIa5ba3c43f65f4c50ffc05c6ccd764b098482BFD5/sprint-backlog-2-lowcortisol
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 En esta sección se presentan los avances de implementación realizados durante el Sprint, relacionados con la Web Application de LowCortisol. Durante este avance se trabajó en la configuración del despliegue, ajustes de rutas, internacionalización, corrección de estilos, actualización de diagramas y preparación de la versión estable `v1.0`.
 
@@ -4448,24 +4455,31 @@ El Sprint 3 estuvo orientado a la consolidación funcional de LowCortisol, prior
 |      Sum of Story Points       |                                                                                                                                                                                                                                                                                                                                                                                              34 Story Points                                                                                                                                                                                                                                                                                                                                                                                               |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3.Sprint Backlog 3.
 
-El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del sistema de monitoreo inteligente de agua y gas. Las tareas se organizaron para cubrir autenticación, monitoreo, alertas, control de dispositivos IoT, gestión de suscripciones, soporte y consolidación de la arquitectura backend.
-
+#### 5.2.3.3. Sprint Backlog 3
 
 ![Sprint Backlog 3](./assets/md-images-chapter5/Sprint3.png)
 
-| User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|--------------|------------------|----------|------------|------------|-------------------|------------|--------|
+| User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|-------------------|------------|--------|
 | US01-US06 | Gestión de usuarios | T31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
+| US01-US06 | Gestión de usuarios | T40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
 | US07-US09 | Monitoreo inteligente | T32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
+| US07-US09 | Monitoreo inteligente | T41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
 | US08 | Recibir alertas | T33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
-| US10 | Cerrar válvula remotamente | T34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Rodrigo | Done |
+| US08 | Recibir alertas | T42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
+| US10 | Cerrar válvula remotamente | T34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Bruno | Done |
+| US10 | Cerrar válvula remotamente | T43 | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos. | 5 | Bruno | Done |
 | US12-US16 | Planes y suscripciones | T35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
+| US12-US16 | Planes y suscripciones | T44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
 | US17-US19 | Gestión multi-sede | T36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
+| US17-US19 | Gestión multi-sede | T45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
 | US11 | Contactar soporte | T37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
-| EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support dentro de la arquitectura backend. | 8 | Equipo | Done |
+| US11 | Contactar soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
+| EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
 | EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
+
+LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 #### 5.2.3.5.Execution Evidence for Sprint Review.
