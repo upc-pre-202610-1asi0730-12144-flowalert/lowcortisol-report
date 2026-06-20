@@ -4097,7 +4097,7 @@ detalla la distribución de roles para este primer ciclo:
 | US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Bruno | Done |
 | US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Bruno | Done |
 
-LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-flowalert 
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-lowcortisol 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -4278,7 +4278,7 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 | US21 | Navegación interna | TS28 | Smooth Scroll | Implementación del desplazamiento fluido. | 2 hrs | Media | Por hacer | James |
 | US21 | Navegación interna | TS29 | Menú hamburguesa | Desarrollo del menú responsive para dispositivos móviles. | 3 hrs | Media | Por hacer | Bruno |
 
-LINK URL TRELLO: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIa5ba3c43f65f4c50ffc05c6ccd764b098482BFD5/sprint-backlog-2-flowalert
+LINK URL TRELLO: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIa5ba3c43f65f4c50ffc05c6ccd764b098482BFD5/sprint-backlog-2-lowcortisol
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 En esta sección se presentan los avances de implementación realizados durante el Sprint, relacionados con la Web Application de LowCortisol. Durante este avance se trabajó en la configuración del despliegue, ajustes de rutas, internacionalización, corrección de estilos, actualización de diagramas y preparación de la versión estable `v1.0`.
