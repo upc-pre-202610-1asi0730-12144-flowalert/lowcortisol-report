@@ -4457,6 +4457,55 @@ El Sprint 3 estuvo orientado a la consolidación funcional de LowCortisol, prior
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
+En esta sección se presenta el diseño de entrevistaas de validación aplicado para la plataforma LowCortisol, con el objetivo de recopilar la percepción de nuestros usuarios anteriormente entrevistados respecto a la porpuesta de valor, la claridad de la información, la utilidad de las funcionalidades implementadas y la experiencia general de interacción con el producto digital. Estas entrevistados fueron planteadas para evaluar tanto el Landing Page como la Web Application, priorizando la validación de los flujos principales de navegación, monitoreo, alertas y visualización de información relevante para los segmentos objetivos.
+
+
+**Objetivos de las entrevistas:** El objetivo principal de las entrevistas de validación fue conocer la opinión de los participantes sobre la experiencia de uso de LowCortisol, especialmente en relacion con: 
+
+
+* la comprensión de la propuesta de la plataforma.
+* la facilidad de navegación entre las secciones del sistema
+* la claridad de la información sobre monitoreo de agua y gas
+* la utilidad de las alertas en tiempo real
+* la comprensión del estado de los dispositivos y sensores
+* la utilidad de los historiales de consumo y reportes
+* el grado de satisfación general con la plataforma
+* las oportunidades de mejora identificadas por los usuarios
+
+**Estructura de la entrevista**
+
+La entrevista fue diseñada en dos bloques: datos generales del entrevistado y preguntas de validación del producto.
+
+**A. Datos generales**
+
+Este bloque tuvo como finalidad identificar información básica del participante y contextualizar su perfil dentro de los segmentos objetivo.
+Las preguntas utilizadas fueron las siguientes:
+* ¿Cuál es su nombre?
+* ¿Cuántos años tiene?
+* ¿En qué distrito trabaja o reside?
+* ¿Cuál es su ocupación actual?
+
+**B. Preguntas de validación**
+
+Este bloque estuvo orientado a recoger apreciaciones cualitativas sobre la interfaz, la navegación, la utilidad de las funcionalidades y la satisfacción general con la solución.
+Las preguntas planteadas fueron las siguientes:
+
+* ¿Qué opinión tiene sobre el diseño visual de la plataforma LowCortisol?
+* ¿Le resultó sencillo navegar entre las diferentes secciones del sistema?
+* ¿La información mostrada sobre el monitoreo de agua y gas es clara y fácil de comprender?
+* ¿Considera útil la función de alertas en tiempo real ante posibles fugas?
+* ¿Le resultó sencillo identificar el estado de sus dispositivos y sensores?
+* ¿Qué tan útil considera la visualización del historial de consumos y reportes?
+* ¿Las funcionalidades disponibles cumplen con sus expectativas para prevenir fugas de agua o gas?
+* ¿Existe alguna funcionalidad que esperaba encontrar y que actualmente no está disponible?
+* ¿Hubo alguna parte de la plataforma que le generó confusión o dificultad durante su uso?
+* ¿Qué fue lo que más le gustó de LowCortisol?
+* ¿Qué fue lo que menos le gustó de LowCortisol?
+* En una escala del 1 al 5, ¿cómo calificaría su experiencia general utilizando la plataforma?
+* ¿Consideraría utilizar LowCortisol de manera regular en su hogar o lugar de trabajo?
+* ¿Consideraría recomendar LowCortisol a otras personas o empresas?
+* ¿Qué mejoras o sugerencias propondría para futuras versiones del sistema?
+
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
 
