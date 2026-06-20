@@ -4081,7 +4081,8 @@ detalla la distribución de roles para este primer ciclo:
 | Montalvo Vasquez, Bruno Rodrigo | @TartaroZ              | C |            C            | C |
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
-#### 5.2.1.3. Sprint Backlog 1. 
+#### 5.2.1.3. Sprint Backlog 1.
+
 ![Sprint Backlog 1](./assets/md-images-chapter5/Sprint%20Backlog.PNG)
 
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
@@ -4092,11 +4093,11 @@ detalla la distribución de roles para este primer ciclo:
 | US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 3 hrs | Bruno | Done |
 | US20 | Acceso multidispositivo | TS25 | Responsive layout | Adaptación responsive del landing page para distintos dispositivos | 4 hrs | James | Done |
 | US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 3 hrs | James | Done |
-| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Rodrigo | Done |
+| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Bruno | Done |
 
-LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI0db4f1b2fac4ca47db5b72f302c1b7e9FDE35BBF/sprint-backlog-1-lowcortisol 
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-flowalert 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
