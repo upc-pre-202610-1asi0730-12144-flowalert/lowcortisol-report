@@ -1,0 +1,46 @@
+@startuml
+title LowCortisol Platform - Plan Backend Infrastructure Layer
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+package "Plan / Infrastructure" {
+  package "Infrastructure / Bootstrap" {
+    class "PlanPlanCatalogInitializer" as Backend_plan_PlanPlanCatalogInitializer <<Class>> {
+      - planRepository: JpaPlanRepository
+      + run(ApplicationArguments args) : void
+      - defaultPlans() : List<Plan>
+    }
+  }
+  package "Infrastructure / EF Core" {
+    class "PlanJpaTableNames" as Backend_plan_PlanJpaTableNames <<Class>> {
+      + PLANS: String
+      + SUBSCRIPTIONS: String
+      + PAYMENTS: String
+      + INVOICES: String
+      - PlanJpaTableNames()
+    }
+  }
+  package "Infrastructure / EF Core Repositories" {
+    interface "JpaInvoiceRepository" as Backend_plan_JpaInvoiceRepository <<interface>> {
+    }
+    interface "JpaPaymentRepository" as Backend_plan_JpaPaymentRepository <<interface>> {
+    }
+    interface "JpaPlanRepository" as Backend_plan_JpaPlanRepository <<interface>> {
+    }
+    interface "JpaSubscriptionRepository" as Backend_plan_JpaSubscriptionRepository <<interface>> {
+    }
+  }
+}
+
+Backend_plan_PlanPlanCatalogInitializer ..> Backend_plan_JpaPlanRepository
+
+' Layer relationship completion: every declared type participates in this layer diagram.
+Backend_plan_JpaPlanRepository ..> Backend_plan_PlanJpaTableNames
+Backend_plan_JpaPlanRepository ..> Backend_plan_JpaInvoiceRepository
+Backend_plan_JpaPlanRepository ..> Backend_plan_JpaPaymentRepository
+Backend_plan_JpaPlanRepository ..> Backend_plan_JpaSubscriptionRepository
+
+@enduml

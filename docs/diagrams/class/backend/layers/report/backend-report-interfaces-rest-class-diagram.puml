@@ -1,0 +1,138 @@
+@startuml
+title LowCortisol Platform - Report Backend Interfaces REST Layer
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+package "Report / Interfaces REST" {
+  package "Interfaces / REST Assemblers" {
+    class "ConsumptionReportResourceFromEntityAssembler" as Backend_report_ConsumptionReportResourceFromEntityAssembler <<Assembler>> {
+      - ConsumptionReportResourceFromEntityAssembler()
+      + toResourceFromEntity(ConsumptionReport entity) : ConsumptionReportResource
+    }
+    class "CreateConsumptionReportCommandFromResourceAssembler" as Backend_report_CreateConsumptionReportCommandFromResourceAssembler <<Assembler>> {
+      - CreateConsumptionReportCommandFromResourceAssembler()
+      + toCommandFromResource(CreateConsumptionReportResource resource, Long userId) : CreateConsumptionReportCommand
+    }
+    class "CreateConsumptionGoalCommandFromResourceAssembler" as Backend_report_CreateConsumptionGoalCommandFromResourceAssembler <<Assembler>> {
+      - CreateConsumptionGoalCommandFromResourceAssembler()
+      + toCommandFromResource(CreateConsumptionGoalResource resource, Long userId) : CreateConsumptionGoalCommand
+    }
+    class "ConsumptionGoalResourceFromEntityAssembler" as Backend_report_ConsumptionGoalResourceFromEntityAssembler <<Assembler>> {
+      - ConsumptionGoalResourceFromEntityAssembler()
+      + toResourceFromEntity(ConsumptionGoal entity) : ConsumptionGoalResource
+    }
+    class "UpdateConsumptionGoalCommandFromResourceAssembler" as Backend_report_UpdateConsumptionGoalCommandFromResourceAssembler <<Assembler>> {
+    }
+  }
+  package "Interfaces / REST Controllers" {
+    class "PlatformInsightController" as Backend_report_PlatformInsightController <<REST Controller>> {
+      - platformInsightApplicationService: PlatformInsightApplicationService
+      - currentUserProvider: CurrentUserProvider
+      + getPlatformSummary() : PlatformSummaryResource
+    }
+    class "ReportController" as Backend_report_ReportController <<REST Controller>> {
+      - commandService: ReportCommandService
+      - queryService: ReportQueryService
+      - currentUserProvider: CurrentUserProvider
+      + getReports() : List<ConsumptionReportResource>
+      + deleteReport(Long reportId) : void
+      + getGoals() : List<ConsumptionGoalResource>
+      + createGoal(CreateConsumptionGoalResource request) : ConsumptionGoalResource
+      + deleteGoal(Long goalId) : void
+    }
+  }
+  package "Interfaces / REST Resources" {
+    class "ConsumptionReportResource" as Backend_report_ConsumptionReportResource <<record>> {
+      + Long id
+      + Long userId
+      + BigDecimal totalWatts
+      + BigDecimal averageWatts
+      + BigDecimal highestWatts
+      + LocalDate startDate
+      + LocalDate endDate
+      + from(ConsumptionReport report) : ConsumptionReportResource
+    }
+    class "CreateConsumptionReportResource" as Backend_report_CreateConsumptionReportResource <<record>> {
+      + LocalDate startDate
+      + LocalDate endDate
+    }
+    class "CreateConsumptionGoalResource" as Backend_report_CreateConsumptionGoalResource <<record>> {
+      + String title
+      + BigDecimal targetKilowattHours
+      + BigDecimal targetWatts
+      + LocalDate deadline
+      + String scopeType
+      + Long scopeId
+      + String scopeName
+      + LocalTime activeFrom
+      + LocalTime activeTo
+      + effectiveTargetKilowattHours() : BigDecimal
+    }
+    class "ConsumptionGoalResource" as Backend_report_ConsumptionGoalResource <<record>> {
+      + Long id
+      + Long userId
+      + String title
+      + BigDecimal targetKilowattHours
+      + BigDecimal currentKilowattHours
+      + LocalDate deadline
+      + String status
+      + LocalDate createdAt
+      + String scopeType
+      + Long scopeId
+      + String scopeName
+      + LocalTime activeFrom
+      + LocalTime activeTo
+      + from(ConsumptionGoal goal) : ConsumptionGoalResource
+    }
+    class "PlatformSummaryResource" as Backend_report_PlatformSummaryResource <<record>> {
+      + Long userId
+      + boolean operationallyHealthy
+      + BigDecimal platformScore
+      + PlanSummary plan
+      + DeviceSummary devices
+      + WorkplaceSummary workplace
+      + ConsumptionSummary consumption
+      + NotificationSummary notification
+      + ServiceSummary service
+      + List<ActionSummary> suggestedActions
+      + from(UserPlatformSummary summary) : PlatformSummaryResource
+      + from(UserPlatformSummary.PlanSnapshot snapshot) : PlanSummary
+      + from(UserPlatformSummary.DeviceSnapshot snapshot) : DeviceSummary
+      + from(UserPlatformSummary.WorkplaceSnapshot snapshot) : WorkplaceSummary
+      + from(UserPlatformSummary.ConsumptionSnapshot snapshot) : ConsumptionSummary
+      + from(UserPlatformSummary.NotificationSnapshot snapshot) : NotificationSummary
+      + from(UserPlatformSummary.ServiceSnapshot snapshot) : ServiceSummary
+      + from(UserPlatformSummary.PlatformAction action) : ActionSummary
+    }
+    class "UpdateConsumptionGoalResource" as Backend_report_UpdateConsumptionGoalResource <<record>> {
+      + String title
+      + BigDecimal targetKilowattHours
+      + BigDecimal currentKilowattHours
+      + LocalDate deadline
+      + String status
+      + String scopeType
+      + Long scopeId
+      + String scopeName
+      + LocalTime activeFrom
+      + LocalTime activeTo
+    }
+  }
+}
+
+Backend_report_ConsumptionReportResourceFromEntityAssembler ..> Backend_report_ConsumptionReportResource
+Backend_report_CreateConsumptionReportCommandFromResourceAssembler ..> Backend_report_CreateConsumptionReportResource
+Backend_report_CreateConsumptionGoalCommandFromResourceAssembler ..> Backend_report_CreateConsumptionGoalResource
+Backend_report_ConsumptionGoalResourceFromEntityAssembler ..> Backend_report_ConsumptionGoalResource
+Backend_report_PlatformInsightController ..> Backend_report_PlatformSummaryResource
+Backend_report_ReportController ..> Backend_report_ConsumptionReportResourceFromEntityAssembler
+Backend_report_ReportController ..> Backend_report_CreateConsumptionReportCommandFromResourceAssembler
+Backend_report_ReportController ..> Backend_report_CreateConsumptionGoalCommandFromResourceAssembler
+Backend_report_ReportController ..> Backend_report_ConsumptionGoalResourceFromEntityAssembler
+Backend_report_ReportController ..> Backend_report_UpdateConsumptionGoalCommandFromResourceAssembler
+Backend_report_UpdateConsumptionGoalCommandFromResourceAssembler ..> Backend_report_UpdateConsumptionGoalResource
+
+
+@enduml
