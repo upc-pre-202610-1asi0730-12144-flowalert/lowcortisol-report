@@ -883,7 +883,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 
 
 
-### 2.2.2 Registro Entrevistas
+### 2.2.2 Registro de Entrevistas
 
 #### Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
 
@@ -1049,7 +1049,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
   Álvaro, practicante de mantenimiento en un hotel, comenta que las fugas de agua son frecuentes debido al desgaste de las tuberías y al uso constante de las instalaciones, mientras que las fugas de gas son menos comunes, pero implican un mayor nivel de riesgo. Indica que la detección depende principalmente de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Aunque se realizan mantenimientos preventivos, no cuentan con un sistema de monitoreo en tiempo real que permita anticipar fallas de manera eficiente. Señala que esta situación puede generar pérdidas de recursos, riesgos operativos y afectar la calidad del servicio. Considera que la implementación de soluciones basadas en IoT sería clave para mejorar el control, reducir riesgos, optimizar el uso de recursos y fortalecer la gestión del mantenimiento.
 
 **Enlace del video único de las entrevistas:**  
-[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQD5LEqrzowlS48jH9Q4ADvuATJbF7V_Zsawq9iFRotQGcw?e=HjH1I3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529%5Fupc%5Fedu%5Fpe%2FDocuments%2FMicrosoft%20Streams%2Fupc%2Dpre%2D202610%2D1asi0730%2D12144%2DLowCortisol%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eeb244c5d%2D4dba%2D43f9%2Da432%2D9d71b2549a01)
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -4544,6 +4544,152 @@ Las preguntas planteadas fueron las siguientes:
 * ¿Qué mejoras o sugerencias propondría para futuras versiones del sistema?
 
 ### 5.3.2. Registro de Entrevistas.
+#### Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
+
+##### Entrevista 1
+
+**Datos del Entrevistado:**
+
+- Nombre: Yazid Dumet
+- Apellidos: Isaac Pinto
+- Edad: 19
+- Distrito: Molina
+- Ocupación: Estudiante de Ingenieria  Mecatronica
+- Timing: Desde 0:00 minutos a 12:57 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-1](assets/md-images-chapter5/Interview-Yazid.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Yazid destacó que LowCortisol posee un diseño moderno y una navegación intuitiva. Consideró que la información sobre el monitoreo de agua y gas es clara y que las alertas en tiempo real son una de las funcionalidades más importantes. Indicó que el historial de consumo resulta útil y que la plataforma cumple con sus expectativas. Como mejoras, propuso incorporar una simulación más realista del sistema, explicar mejor los planes de suscripción e integrar asistentes de voz para el control de válvulas. Calificó su experiencia con **4/5** y afirmó que utilizaría y recomendaría la plataforma.
+
+##### Entrevista 2
+
+**Datos del Entrevistado:**
+
+- Nombre: Jesus
+- Apellidos: Huaman
+- Edad: 19
+- Distrito: Ate
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 12:57 minutos a 30:02 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-2](assets/md-images-chapter5/Interview-Jose.png)
+
+**<u>Resumen de la entrevista:</u>**
+Jesús señaló que el diseño de la plataforma es ordenado y agradable, aunque sugirió implementar un modo oscuro. Consideró sencilla la navegación y clara la información presentada, resaltando la utilidad de las alertas. Mencionó que sería importante incorporar un historial de consumos y mejorar el panel principal para ofrecer mayor información. Calificó su experiencia con **3/5** y comentó que utilizaría la plataforma una vez implementadas dichas mejoras.
+
+##### Entrevista 3
+
+**Datos del Entrevistado:**
+
+- Nombre: Frank
+- Apellidos: Serrano
+- Edad: 20
+- Distrito: Santiago de Surco
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 30:02 minutos a 45:20 minutos
+
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado - 3](assets/md-images-chapter5/Interview-Frank.png)
+
+**<u>Resumen de la entrevista:</u>**
+Frank consideró que LowCortisol presenta un diseño moderno y minimalista, con una navegación sencilla y una interfaz fácil de comprender. Destacó la utilidad de las alertas en tiempo real, el monitoreo de dispositivos y el historial de consumo. Como sugerencias, propuso incorporar animaciones para mejorar la experiencia visual y un mapa interactivo con la ubicación de los sensores. Calificó la plataforma con **5/5**, indicando que utilizaría y recomendaría el servicio.
+
+#### Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+
+##### Entrevista 1
+
+**Datos del Entrevistado:**
+
+- Nombre: Leonardo Daniel
+- Apellidos: Sotelo de la Cruz
+- Edad: 22
+- Distrito: La Molina
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
+- Timing: Desde 45:20 minutos a 49:51 minutos
+
+**Evidencia:**
+
+- Screenshot:  <br> <br>
+  ![Entrevistado-1](assets/md-images-chapter5/Interview-Leonardo.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Leonardo indicó que la plataforma posee un diseño moderno y organizado, con una navegación intuitiva y una información clara sobre el monitoreo de agua y gas. Destacó el valor de las alertas en tiempo real y del historial de consumo para la gestión de infraestructura. Como mejoras, sugirió incorporar análisis predictivos, reportes más detallados, notificaciones por otros canales y una aplicación móvil. Calificó su experiencia con **4.5/5** y afirmó que utilizaría y recomendaría la plataforma.
+
+###### Entrevista 2
+
+**Datos del Entrevistado:**
+
+- Nombre: Pool Enrique
+- Apellidos: Guevara García
+- Edad: 22
+- Distrito: ATE
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de ATE
+- Timing: Desde 49:51 minutos a 1:01:31 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-2](assets/md-images-chapter5/Interview-Pool.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Pool comentó que LowCortisol ofrece un diseño limpio y una navegación sencilla, permitiendo comprender fácilmente la información mostrada. Consideró muy útiles las alertas y el monitoreo del consumo, aunque propuso implementar análisis predictivos, mapas georreferenciados, una aplicación móvil y reducir la dependencia de la conexión a Internet. Calificó la plataforma con **4/5** y manifestó que la utilizaría y recomendaría en entornos profesionales.
+
+######  Entrevista 3
+
+**Datos del Entrevistado:**
+
+- Nombre: Edward
+- Apellidos: Rojas
+- Edad: 22
+- Distrito: San Isidro
+- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
+- Timing: Desde 1:01:31 minutos a 1:37:38 minutos
+
+**Evidencia:**
+
+- Screenshot: <br><br>
+  ![Entrevistado-3](assets/md-images-chapter5/Interview-Edward.png)
+
+**<u>Resumen de la entrevista:</u>**
+Edward señaló que la plataforma cuenta con un diseño ordenado y fácil de utilizar, aunque necesitó un breve periodo de adaptación. Valoró positivamente las alertas, el monitoreo y la organización de la información, pero sugirió incorporar un video demostrativo sobre el funcionamiento del sistema y un mapa para visualizar los sensores de un edificio. Calificó su experiencia entre **3.5 y 4/5**, indicando que utilizaría y recomendaría la solución.
+
+###### Entrevista 4
+
+**Datos del Entrevistado:**
+
+- Nombre: Álvaro
+- Apellidos: Jordán Villa
+- Edad: 21
+- Distrito: Santiago de Surco
+- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
+- Timing: Desde 1:07:38 minutos a 1:12:05 minutos
+
+**Evidencia:**
+
+- Screenshot: <br><br>
+  ![Entrevistado-5](assets/md-images-chapter5/Interview-Alvaro.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Álvaro destacó que LowCortisol posee un diseño moderno, una navegación sencilla y funcionalidades útiles para el monitoreo de agua y gas. Resaltó especialmente las alertas en tiempo real, el historial de consumo y la facilidad para identificar el estado de los dispositivos. Como mejoras, propuso personalizar las notificaciones, incorporar reportes con más estadísticas y desarrollar una aplicación móvil. Calificó la plataforma con **5/5** y afirmó que utilizaría y recomendaría el servicio.
+
+**Enlace del video único de las entrevistas:**  
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529%5Fupc%5Fedu%5Fpe%2FDocuments%2FMicrosoft%20Streams%2F2026%2D06%2D19%2D20%2D38%2D40%5FyRufrFfY%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E115c2165%2Dda10%2D4102%2D9693%2D21433dd9c470)
+
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 ## 5.4. Video About-the-Product.
