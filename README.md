@@ -4705,6 +4705,51 @@ El desarrollo del Backend se organizó bajo la metodología Git Flow, desplegand
 
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Completando el segundo Sprint 3, logramos implementar todas las secciones correspondientes
+a nuestra App Web implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances a traves de capturas de pantalla.
+
+1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
+
+![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+
+2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
+
+![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
+![Planes-IMG](assets/md-images-chapter5/English.png)
+![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+
+3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
+
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+
+4. Ubicación:
+![Ubicacion-IMG](assets/md-images-chapter5/Ubicacion.png)
+5. Dispositivos:
+![Dispositivos-IMG](assets/md-images-chapter5/Dispositivos.png)
+6. Conductos:
+![Conductos-IMG](assets/md-images-chapter5/Conductos.png)
+7. Alertas:
+![Alertas-IMG](assets/md-images-chapter5/Alertas.png)
+8. Reportes:
+![Reportes-IMG](assets/md-images-chapter5/Reportes.png)
+9. Soporte:
+![Soporte-IMG](assets/md-images-chapter5/Soporte.png)
+10. Configuracion:
+![Configuracion-IMG](assets/md-images-chapter5/Configuracion.png)
+11. Acerca de:
+![Acerca-IMG](assets/md-images-chapter5/Acerca.png)
+12. Api:
+![Api-IMG](assets/md-images-chapter5/Api.png)
+13. Cierre de sesión:
+![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
+
+Execution Evidence for Sprint 3 Review: https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529_upc_edu_pe%2FDocuments%2Fexecution-evidence-sprint-3-flowalert%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 ### 1. Sprint Documentation Achievements
