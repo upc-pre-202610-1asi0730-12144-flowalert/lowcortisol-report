@@ -4548,6 +4548,10 @@ Las preguntas planteadas fueron las siguientes:
 
 ## 5.4. Video About-the-Product.
 
+El video About-the-Product presenta de manera clara y dinámica la propuesta de valor de la solución, explicando el problema identificado, el segmento de usuarios objetivo y las principales funcionalidades que ofrece la plataforma. Asimismo, se muestra el recorrido de los usuarios a través de las interfaces desarrolladas, destacando cómo la aplicación contribuye a mejorar su experiencia y satisfacer sus necesidades. El contenido incluye una breve introducción al modelo de negocio, una demostración de las características más relevantes del producto y testimonios obtenidos durante el proceso de validación con usuarios potenciales.
+
+**Video About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDsnUg9l6N3Q6Pyj_tWH91EAVbG-bCPI27Y4n36aRAWEPo?e=2Cpe4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones
 El desarrollo del proyecto LowCortisol abordó de manera directa los problemas planteados en el *Problem Statement*, referidos a la detección tardía de fugas de agua y gas, las pérdidas económicas, y los riesgos a la infraestructura y la salud. Mediante el diseño y despliegue del Producto Mínimo Viable (MVP), compuesto por una Landing Page y una Web Application integrada con una Fake API, se ha demostrado la viabilidad técnica de una plataforma centralizada que permite la gestión de dispositivos IoT, la visualización de un panel de monitoreo y la administración de alertas. Respecto a los *Assumptions* iniciales, la respuesta a las entrevistas preliminares y el desarrollo de la arquitectura confirman la necesidad de ambos segmentos objetivo (usuarios residenciales y profesionales de infraestructura) de contar con una herramienta intuitiva que reemplace las revisiones manuales y reactivas.
 
