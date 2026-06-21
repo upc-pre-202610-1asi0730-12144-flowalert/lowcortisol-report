@@ -4998,6 +4998,14 @@ Al finalizar el ciclo de desarrollo del Sprint 3, el equipo de ingeniería alcan
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
+Durante este tercer Sprint, la colaboración del equipo se enfocó estratégicamente en la transición del backend simulado hacia una arquitectura de servicios real, implementada sobre ASP.NET Core. La sinergia del equipo fue vital para orquestar la integración de la lógica de persistencia de datos mediante Entity Framework Core, asegurando que cada componente del sistema no solo fuera funcional, sino que respetara rigurosamente los principios DDD (Domain-Driven Design). Nos organizamos mediante sesiones de revisión de código técnico para garantizar que la comunicación entre los Bounded Contexts fuera fluida y eficiente, cumpliendo con los estándares RESTful exigidos por la rúbrica y los principios de ingeniería de software discutidos en clase.
+
+Asimismo, el trabajo colaborativo fue decisivo para elevar la calidad de los artefactos técnicos y la documentación. Dedicamos esfuerzos significativos a refinar la documentación de endpoints mediante Swagger, permitiendo una trazabilidad clara entre el diseño y la implementación. La unificación de criterios en el manejo de Migrations para la base de datos y la consolidación de nuestra estrategia de despliegue en la nube nos permitieron superar la complejidad técnica inherente a la integración de un backend real. Esta coordinación constante aseguró que el progreso del proyecto sea coherente y robusto, fortaleciendo nuestras competencias técnicas y garantizando que la solución actual esté totalmente alineada con las expectativas de calidad y rigor profesional del curso.
+
+![Collaboration1](assets/md-images-chapter5/Collaboration-Insight1.png)
+![Collaboration2](assets/md-images-chapter5/Collaboration-Insight2.png)
+![Collaboration3](assets/md-images-chapter5/Collaboration-Insight3.png)
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 En esta sección se presenta el diseño de entrevistaas de validación aplicado para la plataforma LowCortisol, con el objetivo de recopilar la percepción de nuestros usuarios anteriormente entrevistados respecto a la porpuesta de valor, la claridad de la información, la utilidad de las funcionalidades implementadas y la experiencia general de interacción con el producto digital. Estas entrevistados fueron planteadas para evaluar tanto el Landing Page como la Web Application, priorizando la validación de los flujos principales de navegación, monitoreo, alertas y visualización de información relevante para los segmentos objetivos.
