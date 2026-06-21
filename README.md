@@ -139,7 +139,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 
 ### Entrega TB1:
-![Commits-1](assets/project-report-commit-summary.png)
+![Commits-1](assets/repository-commit-summary.png)
 
 #### Participación por integrante:
 ##### Commits en el project reportCommits en el project report de la TB1:
@@ -3178,7 +3178,7 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
     <img src="assets/md-images-chapter4/landing-page-wireframe.png" width="800"/> <br>
     <img src="assets/md-images-chapter4/landing-page-wireframe-benefit.png" width="800"/> <br>
     <img src="assets/md-images-chapter4/landing-page-wireframe-features.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-who-we-are.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-who-we-are-wireframe.png" width="800"/> <br>
     <img src="assets/md-images-chapter4/landing-page-wireframe-segments.png" width="800"/> <br>
     <img src="assets/md-images-chapter4/landing-page-wireframe-payment.png" width="800"/> <br>
     <img src="assets/md-images-chapter4/landing-page-wireframe-contact.png" width="800"/> <br>
@@ -3188,11 +3188,11 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
 
 
   <p align="center">
-    <img src="assets/md-images-chapter4/landing-page-mobile-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-wireframe-feature-who-we-are.png" width="380"/><br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-wireframe-segments.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-wireframe-payment.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-wireframe-contact.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-home-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-features-who-we-are-wireframe.png" width="380"/><br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-segments-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-payment-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-contact-wireframe.png" width="380"/> <br>
   </p>
 
   
@@ -3204,25 +3204,25 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
 
    ##### Landing Page Mock-up para Web Browser 
   <p align="center">
-    <img src="assets/md-images-chapter4/landing-page-mockup.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-benefit.png" width="800"/><br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-feature.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-who-we-are.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-segments.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-payment.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mockup-contact.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-home-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-benefit-mockup.png" width="800"/><br>
+    <img src="assets/md-images-chapter4/landing-page-feature-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-who-we-are-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-segments-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-payment-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-contact-mockup.png" width="800"/> <br>
   </p>
     
    ##### Landing Page Mock-up para Mobile Web Browser 
 
   <p align="center">
     <img src="assets/md-images-chapter4/mobile-landing-page-home-mockup.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-benefit.png" width="380"/><br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-features.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-about.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-segments.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-payment.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-mobile-mockup-contact.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-benefit-mockup.png" width="380"/><br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-features-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-about-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-segments-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-payment-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-contact-mockup.png" width="380"/> <br>
   </p>
     
 
@@ -4320,8 +4320,8 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
 
-![Landing-IMG](assets/md-images-chapter5/landing-to-app-web.png)
-![Landing-IMG](assets/md-images-chapter5/app-web.png)
+![Landing-IMG](assets/md-images-chapter5/landing-to-webapp-navigation.png)
+![Landing-IMG](assets/md-images-chapter5/webapp-preview.png)
 
 2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
 
@@ -4332,8 +4332,8 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
 
-![Perfil-IMG](assets/md-images-chapter5/profile-edit.png)
-![Perfil-IMG](assets/md-images-chapter5/profile-edit-2.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-1.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-2.png)
 
 4. Cierre de sesión:
 
