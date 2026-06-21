@@ -5266,8 +5266,6 @@ Edward señaló que la plataforma cuenta con un diseño ordenado y fácil de uti
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
-### 5.3.3. Evaluaciones según heurísticas
-
 ## UX Heuristics & Principles Evaluation
 
 **Usability – Inclusive Design – Information Architecture**
