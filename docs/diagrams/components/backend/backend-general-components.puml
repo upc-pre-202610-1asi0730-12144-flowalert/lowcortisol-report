@@ -1,0 +1,128 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam wrapWidth 135
+skinparam maxMessageSize 70
+skinparam nodesep 35
+skinparam ranksep 45
+skinparam ArrowColor #8A8A8A
+skinparam ArrowFontColor #666666
+skinparam ArrowFontStyle bold
+skinparam ArrowThickness 1
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+skinparam rectangleFontStyle plain
+skinparam rectangle {
+  BorderThickness 0
+  MinimumWidth 150
+  Padding 8
+}
+skinparam database {
+  MinimumWidth 165
+  Padding 8
+}
+skinparam rectangle<<BoundedContext>> {
+  BackgroundColor transparent
+  BorderColor #4A4A4A
+  BorderThickness 2
+  BorderStyle dashed
+  FontColor #333333
+  FontStyle bold
+  MinimumWidth 620
+  Padding 12
+}
+skinparam databaseBackgroundColor #C9332B
+skinparam databaseBorderColor #C9332B
+skinparam databaseFontColor #FFFFFF
+skinparam databaseFontStyle plain
+
+hide stereotype
+top to bottom direction
+
+title LowCortisol - Backend General Components Diagram
+
+rectangle "<b>LowCortisol SPA</b>\n<i>[Compiled Vue SPA]</i>\n\nConsumes backend bounded context capabilities through HTTPS." as Spa #3498DB
+
+rectangle "<b>LowCortisol Backend Bounded Context Map</b>\n<i>[ASP.NET Core Modular Monolith / Backend Container]</i>" <<BoundedContext>> {
+  rectangle "<b>REST API Surface</b>\n<i>[ASP.NET Core Entry Points]</i>\n\nReceives SPA requests and dispatches them to bounded contexts." as ApiSurface #3498DB
+
+  rectangle "<b>Shared API</b>\n<i>[Bounded Context Component]</i>\n\nSecurity, OpenAPI, CORS, health and common platform configuration." as Shared #58A9E8
+  rectangle "<b>IAM API</b>\n<i>[Bounded Context Component]</i>\n\nAuthentication, users, profiles and access control." as IAM #58A9E8
+  rectangle "<b>Plan API</b>\n<i>[Bounded Context Component]</i>\n\nPlans, subscriptions, payments and invoices." as Plan #58A9E8
+
+  rectangle "<b>Workplace API</b>\n<i>[Bounded Context Component]</i>\n\nLocations, rooms and device assignments." as Workplace #58A9E8
+  rectangle "<b>Device Control API</b>\n<i>[Bounded Context Component]</i>\n\nDevices, groups, routines and operation modes." as Device #58A9E8
+  rectangle "<b>Monitoring API</b>\n<i>[Bounded Context Component]</i>\n\nReadings, sampling, statistics and dashboards." as Consumption #58A9E8
+
+  rectangle "<b>Notification API</b>\n<i>[Bounded Context Component]</i>\n\nAlerts, rules, preferences and evaluation." as Notification #58A9E8
+  rectangle "<b>Report API</b>\n<i>[Bounded Context Component]</i>\n\nReports, goals, exports and insights." as Report #58A9E8
+  rectangle "<b>Support API</b>\n<i>[Bounded Context Component]</i>\n\nSupport tickets, maintenance and service follow-up." as Service #58A9E8
+
+  rectangle "<b>Persistence Access</b>\n<i>[Repositories / Adapters]</i>\n\nAggregates EF Core repositories used by bounded contexts." as Persistence #F39C12
+}
+
+database "<b>LowCortisol Database</b>\n<i>[PostgreSQL]</i>\n\nPersists data for all bounded contexts." as Database
+
+Spa --> ApiSurface : JSON / HTTPS
+ApiSurface --> Shared : route
+ApiSurface --> IAM : route
+ApiSurface --> Plan : route
+ApiSurface --> Workplace : route
+ApiSurface --> Device : route
+ApiSurface --> Consumption : route
+ApiSurface --> Notification : route
+ApiSurface --> Report : route
+ApiSurface --> Service : route
+
+Plan --> IAM : user ownership
+Workplace --> IAM : user scope
+Device --> Workplace : assigned spaces
+Consumption --> Device : device readings
+Notification --> Consumption : consumption conditions
+Report --> Plan : subscription metrics
+Report --> Workplace : workplace metrics
+Report --> Device : operation metrics
+Report --> Consumption : water and gas metrics
+Report --> Notification : alert metrics
+Report --> Service : service metrics
+
+Shared --> Persistence : persist
+IAM --> Persistence : persist
+Plan --> Persistence : persist
+Workplace --> Persistence : persist
+Device --> Persistence : persist
+Consumption --> Persistence : persist
+Notification --> Persistence : persist
+Report --> Persistence : persist
+Service --> Persistence : persist
+Persistence --> Database : EF Core / SQL
+
+' Compact board layout
+ApiSurface -[hidden]down- IAM
+Shared -[hidden]right- IAM
+IAM -[hidden]right- Plan
+Shared -[hidden]down- Workplace
+IAM -[hidden]down- Device
+Plan -[hidden]down- Consumption
+Workplace -[hidden]right- Device
+Device -[hidden]right- Consumption
+Workplace -[hidden]down- Notification
+Device -[hidden]down- Report
+Consumption -[hidden]down- Service
+Notification -[hidden]right- Report
+Report -[hidden]right- Service
+Report -[hidden]down- Persistence
+Persistence -[hidden]down- Database
+
+legend right
+  <b>Legend</b>
+  |<#0B5593> person |
+  |<#3498DB> container |
+  |<#58A9E8> component |
+  |<#C9332B> database |
+endlegend
+
+@enduml

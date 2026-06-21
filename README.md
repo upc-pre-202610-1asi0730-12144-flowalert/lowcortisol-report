@@ -1,7 +1,7 @@
 # Low-cortisol
 <div align="center">
 
-  <img src="assets/md-images-front/upc_logo.png" width="150px" />
+  <img src="assets/md-images-front/upc-logo.png" width="150px" />
 
   <p>Universidad Peruana de Ciencias Aplicadas</p>
   <p>Facultad de Ingeniería</p>
@@ -98,43 +98,52 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 ##### Commits en el project reportCommits en el project report de la AV1:
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 1.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-1.jpeg" alt="Commits en el project report">
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 2.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-2.jpeg" alt="Commits en el project report">
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 3.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-3.jpeg" alt="Commits en el project report">
 </p>
 
 
 ---
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 4.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-4.jpeg" alt="Commits en el project report">
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 5.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-5.jpeg" alt="Commits en el project report">
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/md-images-members/Commits en el project report 6.jpeg" alt="Commits en el project report">
+  <img src="assets/md-images-members/project-report-commit-evidence-6.jpeg" alt="Commits en el project report">
 </p>
 
 ---
 
 
+
+
+
+### Entrega TB1:
+![Commits-1](assets/repository-commit-summary.png)
+
+#### Participación por integrante:
+##### Commits en el project reportCommits en el project report de la TB1:
+![Participacion-1](assets/team-participation-tb1.png)
 
 # Contenido
 
@@ -270,8 +279,8 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>AV1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TB1: <br> TB2: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo nuestros segmentos objetivo, diseño de entrevistas, usuarios y posibles competidores, permitiéndome así realizar todo el Needfinding, incluyendo User Persona, User Task Matrix, Journey Mapping y Empathy Mapping. Luego contribuí con el diagrama C4 del proyecto tanto backend como frontend, además de participar en secciones de la Landing Page como Header, Home, Contact y Footer, y en el Event Storming. <br> TB1: Realizamos los puntos 5.2.2.3 y 5.2.2.5, además de contribuir en el desarrollo de la WebApp, así como en la corrección de errores de organización en GitHub mediante GitFlow. También realizamos correcciones en los diagramas C4 y en el Event Storming. <br> TB2: <br><br> Jean Loa <br>AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente. <br> TB1: Durante esta entrega, participé en la explicación del avance de la WebApp, mostrando el flujo principal de autenticación, navegación, gestión de sedes, dispositivos, alertas, reportes, planes, soporte y perfil. También contribuí comunicando el estado del despliegue, las evidencias de avance del Sprint Review y las decisiones tomadas para organizar mejor el proyecto en GitHub. Además, apoyé en la presentación de los diagramas C4, diagramas de clases y diagrama de base de datos, explicando cómo la arquitectura del sistema se organiza por bounded contexts. <br> TB2: Para esta entrega, contribuí en la comunicación del avance final del proyecto, explicando la evolución de la aplicación web, las correcciones aplicadas al frontend, la integración con la Fake API, la organización de los diagramas técnicos y la documentación actualizada del reporte. También participé en la explicación de los wireframes, mockups, userflow, wireflow y evidencias de despliegue, procurando que la presentación sea clara tanto para una audiencia técnica como para una audiencia no técnica. <br><br> Bruno Montalvo <br>AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos. <br> TB1: <br> TB2: <br><br> Kirk Quiliano <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo segmentos, usuarios y competidores. Además, realicé entrevistas y, en base a ellas, diseñé la Landing Page. <br> TB1: <br> TB2: | AV1: En esta primera entrega, el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. <br><br> TB1: En esta entrega, el equipo logró comunicar con mayor claridad el avance funcional y técnico del proyecto, especialmente al explicar la WebApp, el despliegue, la arquitectura C4 y la organización del desarrollo por sprints. Se evidenció una mejor comprensión del producto y de sus principales módulos. Sin embargo, aún se debe mejorar la distribución del tiempo durante la exposición y reforzar la explicación de algunos elementos técnicos para que sean entendibles por audiencias no especializadas. <br><br> TB2: En esta entrega, el equipo consolidó una comunicación más completa sobre el estado final del proyecto, explicando tanto la funcionalidad visible de la aplicación como la arquitectura, los diagramas, la base de datos y las evidencias de despliegue. Se logró mostrar una visión más madura del sistema, aunque se recomienda seguir practicando la exposición para mantener fluidez, seguridad y precisión al explicar decisiones técnicas. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>AV1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TB1: <br> TB2: <br><br> James Delgado <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los documentos de Needfinding, partes de la Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible. <br> TB1: Trabajé de forma escrita basándonos en la rúbrica, aportando en el código, en las correcciones tras el feedback del profesor, además de realizar el Sprint 2, entre otros puntos. También comprendí mejor el uso de GitFlow corrigiendo nuestros repositorios en la organización. <br> TB2: <br><br> Jean Loa <br>AV1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema. <br> TB1: Durante esta entrega, contribuí en la redacción y actualización de secciones técnicas del reporte, especialmente aquellas relacionadas con la WebApp, los diagramas C4, la arquitectura de componentes, los diagramas de clases, el diseño de base de datos, el userflow, el wireflow, los wireframes y los mockups. También apoyé en la organización de rutas de imágenes, archivos PlantUML y evidencias del Sprint Review, cuidando que el contenido mantenga coherencia con el avance real del proyecto. <br> TB2: Para esta entrega, actualicé la documentación del proyecto considerando los cambios finales del sistema, incluyendo la separación de diagramas por bounded context, la corrección de términos técnicos como Workplace, la actualización de rutas para PlantUML Proxy y la documentación de evidencias de despliegue. Asimismo, contribuí a ordenar el contenido del reporte en Markdown, procurando que las explicaciones sean comprensibles, formales y alineadas con la rúbrica del curso. <br><br> Bruno Montalvo <br>AV1: Desarrollé gran parte del Capítulo 1, excepto la sección 1.3, incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el Sprint Backlog, la sección de beneficios de la Landing Page y el Event Storming. <br> TB1: <br> TB2: <br><br> Kirk Quiliano <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible. <br> TB1: <br> TB2: | AV1: Durante el AV1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la Landing Page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. <br><br> TB1: Durante el TB1, el equipo mejoró la documentación técnica y funcional del proyecto, incorporando evidencias de desarrollo, despliegue, arquitectura y avance del sprint. Se logró comunicar de forma más organizada el estado del producto, aunque aún fue necesario corregir algunos nombres, rutas, diagramas y secciones para mantener consistencia en todo el reporte. <br><br> TB2: Durante el TB2, el equipo consolidó una documentación más completa, estructurada y alineada con el producto desarrollado. Se actualizaron diagramas, evidencias, diseño de base de datos, mockups, wireframes, flujos y secciones técnicas. Como mejora, se recomienda mantener revisiones finales de redacción para evitar inconsistencias entre nombres de módulos, rutas de archivos y términos técnicos utilizados en el informe. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>AV1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TB1: Participé en la exposición de las correcciones del Sprint 1 y en la planificación del Sprint 2. Expliqué la distribución de roles entre líderes y colaboradores por aspecto, y presenté las evidencias de desarrollo durante el Sprint Review, buscando una comunicación fluida y clara para el equipo y el cliente. <br> TB2: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo nuestros segmentos objetivo, diseño de entrevistas, usuarios y posibles competidores, permitiéndome así realizar todo el Needfinding, incluyendo User Persona, User Task Matrix, Journey Mapping y Empathy Mapping. Luego contribuí con el diagrama C4 del proyecto tanto backend como frontend, además de participar en secciones de la Landing Page como Header, Home, Contact y Footer, y en el Event Storming. <br> TB1: Realizamos los puntos 5.2.2.3 y 5.2.2.5, además de contribuir en el desarrollo de la WebApp, así como en la corrección de errores de organización en GitHub mediante GitFlow. También realizamos correcciones en los diagramas C4 y en el Event Storming. <br> TB2: <br><br> Jean Loa <br>AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente. <br> TB1: Durante esta entrega, participé en la explicación del avance de la WebApp, mostrando el flujo principal de autenticación, navegación, gestión de sedes, dispositivos, alertas, reportes, planes, soporte y perfil. También contribuí comunicando el estado del despliegue, las evidencias de avance del Sprint Review y las decisiones tomadas para organizar mejor el proyecto en GitHub. Además, apoyé en la presentación de los diagramas C4, diagramas de clases y diagrama de base de datos, explicando cómo la arquitectura del sistema se organiza por bounded contexts. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos. <br> TB1: Durante esta entrega, participé en la explicación de las correcciones realizadas tras el feedback del docente, especialmente en Lean UX Hypothesis Statements, Technical Stories y conclusiones del proyecto. También apoyé en la explicación del punto 5.2.2.8 Team Collaboration Insights during Sprint, así como en las correcciones de nomenclaturas, anexos y organización general del reporte para mantener coherencia entre los artefactos técnicos y funcionales. <br> TB2: <br><br> Kirk Quiliano <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo segmentos, usuarios y competidores. Además, realicé entrevistas y, en base a ellas, diseñé la Landing Page. <br> TB1: Contribuí en la sustentación oral explicando las correcciones realizadas al Product Backlog y los objetivos trazados durante el sprint planning. Asimismo, presenté la organización de tareas en Trello y las evidencias de la documentación de servicios durante el Sprint Review, asegurando que la audiencia comprendiera el flujo técnico y administrativo. <br> TB2: | AV1: En esta primera entrega, el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. <br><br> TB1: En esta entrega, el equipo logró comunicar con mayor claridad el avance funcional y técnico del proyecto, especialmente al explicar la WebApp, el despliegue, la arquitectura C4 y la organización del desarrollo por sprints. Se evidenció una mejor comprensión del producto y de sus principales módulos. Sin embargo, aún se debe mejorar la distribución del tiempo durante la exposición y reforzar la explicación de algunos elementos técnicos para que sean entendibles por audiencias no especializadas. <br><br> TB2: |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>AV1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TB1: Documenté formalmente las correcciones del Sprint 1 y la planificación detallada del Sprint 2 en el reporte. Redacté la sección de líderes y colaboradores por aspecto y consolidé por escrito las evidencias de desarrollo para el Sprint Review, manteniendo la coherencia técnica exigida por la rúbrica. <br> TB2: <br><br> James Delgado <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los documentos de Needfinding, partes de la Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible. <br> TB1: Trabajé de forma escrita basándonos en la rúbrica, aportando en el código, en las correcciones tras el feedback del profesor, además de realizar el Sprint 2, entre otros puntos. También comprendí mejor el uso de GitFlow corrigiendo nuestros repositorios en la organización. <br> TB2: <br><br> Jean Loa <br>AV1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema. <br> TB1: Durante esta entrega, contribuí en la redacción y actualización de secciones técnicas del reporte, especialmente aquellas relacionadas con la WebApp, los diagramas C4, la arquitectura de componentes, los diagramas de clases, el diseño de base de datos, el userflow, el wireflow, los wireframes y los mockups. También apoyé en la organización de rutas de imágenes, archivos PlantUML y evidencias del Sprint Review, cuidando que el contenido mantenga coherencia con el avance real del proyecto. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Desarrollé gran parte del Capítulo 1, excepto la sección 1.3, incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el Sprint Backlog, la sección de beneficios de la Landing Page y el Event Storming. <br> TB1: Durante esta entrega, participé en la corrección y mejora de Technical Stories, Lean UX Hypothesis Statements y conclusiones del proyecto, procurando mantener coherencia con la rúbrica y el alcance funcional del sistema. También desarrollé el punto 5.2.2.8 Team Collaboration Insights during Sprint, actualicé anexos y apoyé en la corrección de nomenclaturas, estructura y organización general del reporte para mejorar la claridad y consistencia de la documentación. <br> TB2: <br><br> Kirk Quiliano <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible. <br> TB1: Realicé la actualización escrita del Product Backlog tras la corrección y documenté los objetivos del sprint planning. Asimismo, gestioné la redacción de tareas en Trello y elaboré la documentación detallada de las evidencias de servicios para el reporte, asegurando una redacción clara y profesional. <br> TB2: | AV1: Durante el AV1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la Landing Page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. <br><br> TB1: Durante el TB1, el equipo mejoró la documentación técnica y funcional del proyecto, incorporando evidencias de desarrollo, despliegue, arquitectura y avance del sprint. Se logró comunicar de forma más organizada el estado del producto, aunque aún fue necesario corregir algunos nombres, rutas, diagramas y secciones para mantener consistencia en todo el reporte. <br><br> TB2: |
 
 # Capitulo I: Introducción
 
@@ -304,11 +313,11 @@ Nuestros valores principales son los siguientes:
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                                | **Conocimientos y habilidades**
 |:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------------|:------------------------------------ |
-| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Miguel.PNG">                                                  | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
-| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/James.jpeg">               | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
-| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Jean_Loa.jpg">             | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
-| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno.png">       | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
-| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Kirk.png">                 | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
+| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/miguel.png">                                                  | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
+| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/james.jpeg">               | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
+| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/jean-loa.jpg">             | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
+| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno-montalvo.png">       | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
+| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/kirk.png">                 | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
@@ -680,10 +689,10 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
   </tr>
   <tr align= "center">
     <td colspan="2">Nombre y logo de competidor</td>
-    <td><b>LowCortisol <br> <img src="assets/md-images-chapter2/LowCortisol_logo.png" width="120" height="120" /> </b></td>
-    <td><b>Aqara Smart Sensors</b> <br> <img src="assets/md-images-chapter2/aqara_logo.png" width="120" height="120" /> </td>
-    <td><b>Honeywell Home</b> <br> <img src="assets/md-images-chapter2/HoneywellHome_logo.png" width="120" height="120" /> </td>
-    <td><b>Fibaro Flood Sensor</b> <br> <img src="assets/md-images-chapter2/FibaroFloodSensor_logo.png" width="120" height="120" /> </td>
+    <td><b>LowCortisol <br> <img src="assets/md-images-chapter2/lowcortisol-logo.png" width="120" height="120" /> </b></td>
+    <td><b>Aqara Smart Sensors</b> <br> <img src="assets/md-images-chapter2/aqara-logo.png" width="120" height="120" /> </td>
+    <td><b>Honeywell Home</b> <br> <img src="assets/md-images-chapter2/honeywell-home-logo.png" width="120" height="120" /> </td>
+    <td><b>Fibaro Flood Sensor</b> <br> <img src="assets/md-images-chapter2/fibaro-flood-sensor-logo.png" width="120" height="120" /> </td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil</b></td>
@@ -890,7 +899,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
- ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
+ ![Entrevistado-1](assets/md-images-chapter2/interview-yazid.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -911,7 +920,7 @@ Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda co
 **Evidencia:**
 
 - Screenshot: <br> <br> 
-  ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
+  ![Entrevistado-2](assets/md-images-chapter2/interview-jose.png)
 
 **<u>Resumen de la entrevista:</u>**
 Jesús es un estudiante con conocimientos técnicos previos que vive en un entorno familiar donde se presentan fugas tanto de agua como de gas, estas últimas generalmente por el uso de mangueras de baja calidad. Explica que mientras la detección de gas es casi inmediata gracias al olfato (menos de 5 minutos), las fugas de agua son más engañosas y pueden tardar hasta una semana en manifestarse mediante salitre o manchas en las paredes. Dado su perfil técnico, él mismo asume el rol de mantenimiento en el hogar para evitar gastos externos. Sin embargo, reconoce las limitaciones de la inspección manual y se muestra muy a favor de implementar sistemas basados en sensores (IoT) que alerten sobre roturas internas no visibles. Propone que este tipo de tecnología debería comercializarse bajo un modelo de suscripción atractivo y destaca que su principal valor sería la tranquilidad y la respuesta inmediata ante emergencias que podrían escalar a desastres.
@@ -931,7 +940,7 @@ Jesús es un estudiante con conocimientos técnicos previos que vive en un entor
 **Evidencia:**
 
 - Screenshot: <br> <br>
-![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
+![Entrevistado - 3](assets/md-images-chapter2/interview-frank.png)
 
 **<u>Resumen de la entrevista:</u>**
 El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, que reside en un hogar donde las fugas de agua ocurren con una frecuencia de cada tres o cuatro meses. Durante la charla, menciona que suele notar el problema de manera reactiva, muchas veces ignorando las primeras señales hasta que el daño es evidente a través de charcos o humedad excesiva. Su gestión actual es mixta: intenta realizar reparaciones menores por cuenta propia, pero debe recurrir a técnicos especializados cuando el problema afecta la estructura interna, lo que ha derivado en costos elevados como el cambio de tuberías o pisos dañados. En cuanto a la tecnología, Frank se muestra muy interesado en una solución de monitoreo en tiempo real, siempre que el costo sea accesible y la interfaz permita personalizar o modelar el plano de su hogar para una mejor ubicación de las averías. Su actitud es pragmática, priorizando la prevención económica y la facilidad de uso de una aplicación móvil.
@@ -952,7 +961,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot:  <br> <br>
-  ![Entrevistado-1](assets/md-images-chapter2/Interview-Leonardo.png)
+  ![Entrevistado-1](assets/md-images-chapter2/interview-leonardo.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -972,7 +981,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
-  ![Entrevistado-2](assets/md-images-chapter2/Interview-Pool.png)
+  ![Entrevistado-2](assets/md-images-chapter2/interview-pool.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -992,7 +1001,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br><br>
-  ![Entrevistado-3](assets/md-images-chapter2/Interview-Edward.png)
+  ![Entrevistado-3](assets/md-images-chapter2/interview-edward.png)
 
 **<u>Resumen de la entrevista:</u>**
   Edward, trabajador del área de mantenimiento en un hotel, señala que las fugas de agua son los problemas más frecuentes en las instalaciones, principalmente en tuberías internas, mientras que las fugas de gas, aunque menos comunes, representan un mayor riesgo. Indica que el monitoreo se realiza de manera manual y depende en gran parte de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Estas fallas pueden afectar directamente la experiencia del cliente, generando incomodidades y posibles costos adicionales para el hotel. Por ello, destaca la importancia de contar con soluciones tecnológicas que permitan una detección temprana de fugas. Considera que la implementación de sistemas IoT ayudaría a mejorar la eficiencia del mantenimiento, reducir riesgos y optimizar la operación del servicio.
@@ -1011,7 +1020,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
-  ![Entrevistado-4](assets/md-images-chapter2/Interview-Fabian.png)
+  ![Entrevistado-4](assets/md-images-chapter2/interview-fabian.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -1031,7 +1040,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br><br>
-  ![Entrevistado-5](assets/md-images-chapter2/Interview-Alvaro.png)
+  ![Entrevistado-5](assets/md-images-chapter2/interview-alvaro.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -1842,10 +1851,10 @@ En este contexto, la solución propuesta responde a estas necesidades mediante t
 ### 2.3.1. User Personas 
 El user persona se construyó a partir de patrones encontrados en las entrevistas
 **Segmento objetivo 1: Usuario residencial**
-![User Persona](./assets/md-images-chapter2/UserPersonaYazid.png)
+![User Persona](./assets/md-images-chapter2/user-persona-yazid.png)
 
 **segmento Objetivo 2: Profesional de infraestructura**
-![User Persona](./assets/md-images-chapter2/UserPersonaLeonardo.png)
+![User Persona](./assets/md-images-chapter2/user-persona-leonardo.png)
 
 ### 2.3.2. User Task Matrix 
 | TASK | Yazid Pinto  (Usuario Residencial)  Frecuencia | Yazid Pinto  (Usuario Residencial)  Importancia | Leonardo Sotelo (Profesional)  Frecuencia | Leonardo Sotelo (Profesional)  Importancia |
@@ -1859,11 +1868,11 @@ El user persona se construyó a partir de patrones encontrados en las entrevista
 | **Monitorear el estado general del sistema (aunque sea básico)** | **Rarely** | **Medium** | **Often** | **High** |
 | **Prevenir problemas mediante mantenimiento o revisiones** | **Sometimes** | **Medium** | **Often** | **HIgh** |
 ### 2.3.3. User Journey Mapping 
-![User Journey Mapping](./assets/md-images-chapter2/YazidJourneyMap.png)
-![User Journey Mapping](./assets/md-images-chapter2/LeonardoJourneyMap.png)
+![User Journey Mapping](./assets/md-images-chapter2/yazid-journey-map.png)
+![User Journey Mapping](./assets/md-images-chapter2/leonardo-journey-map.png)
 ### 2.3.4. Empathy Mapping
-![Empathy Mapping](./assets/md-images-chapter2/YazidEmpathy.png)
-![Empathy Mapping](./assets/md-images-chapter2/LeonardoDanielEmpathyMap.png)
+![Empathy Mapping](./assets/md-images-chapter2/yazid-empathy-map.png)
+![Empathy Mapping](./assets/md-images-chapter2/leonardo-daniel-empathy-map.png)
 ## 2.4. Big Picture Event Storming
 
 #### Introducción:
@@ -2717,7 +2726,7 @@ Then el sistema oculta automáticamente el menú
 
 ## 3.2. Impact Mapping
 
-![Impact-Map-Image](assets/md-images-chapter3/Impact%20map-Aplicaciones_Web_2026(1).png)
+![Impact-Map-Image](assets/md-images-chapter3/impact-map-web-applications-2026.png)
 
 ## 3.3. Product Backlog
 
@@ -2807,7 +2816,7 @@ necesario, pero accesible para cualquier miembro del hogar o la industria.
 Para la creación del logo de nuestro producto LowCortisol, hemos optado por un diseño minimalista con colores llamativos que representan la propuesta de valor de nuestra app de manera no verbal. El escudo simboliza la protección, seguridad y prevención que brinda nuestro producto; por otro lado, la nube y la señal representan el ecosistema tecnológico e inalámbrico. Se eligieron los colores Azul, Naranja y Gris ya que transmiten profesionalismo, energía y un acabado de hardware moderno. Finalmente, la tipografía Sans Serif garantiza una lectura limpia y clara en dispositivos digitales.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/LowCortisol_logo.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/lowcortisol-logo.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### Typography
@@ -2825,8 +2834,8 @@ comunica la robustez de un sistema de monitoreo industrial, permitiendo que los 
 audaces y capten la atención inmediata del usuario ante cualquier anomalía detectada.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/MontSerrat-Font.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/Roboto-Size.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/montserrat-font.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/roboto-size.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### Colors
@@ -2848,11 +2857,11 @@ simbolizando la respuesta rápida del sistema ante una posible fuga.
 aspecto profesional, serio y moderno.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/Azul.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/Naranja.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/Gris.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/Negro.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/Blanco.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/color-blue.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/color-orange.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/color-gray.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/color-black.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/color-white.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### Spacing
@@ -2868,7 +2877,7 @@ El diseño de LowCortisol se basa en un sistema de rejilla (grid) de 8px para ga
 - Jerarquía de Visualización: El layout sitúa en la parte superior el "Estado Global del Sistema" (Safe/Warning), seguido de las métricas en tiempo real y, finalmente, el acceso rápido a servicios técnicos o cierre de válvulas.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/Spacing_Pixels.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/spacing-pixels.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### 4.1.2. Web Style Guidelines
@@ -3166,24 +3175,24 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
   ##### Landing Page para Desktop Web Browser  
 
   <p align="center">
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Benefit.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Features.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Whoweare.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Segments.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Payment.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Contact.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe-benefit.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe-features.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-who-we-are-wireframe.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe-segments.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe-payment.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-wireframe-contact.png" width="800"/> <br>
   </p>
 
   ##### Landing Page para Mobile Web Browser 
 
 
   <p align="center">
-    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Feature-Whoweare.PNG" width="380"/><br>
-    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Segments.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Payment.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Contact.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-home-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-features-who-we-are-wireframe.png" width="380"/><br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-segments-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-payment-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-contact-wireframe.png" width="380"/> <br>
   </p>
 
   
@@ -3195,25 +3204,25 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
 
    ##### Landing Page Mock-up para Web Browser 
   <p align="center">
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Benefit.PNG" width="800"/><br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Feature.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Whoweare.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Segments.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Payment.PNG" width="800"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Mock-up-Contact.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-home-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-benefit-mockup.png" width="800"/><br>
+    <img src="assets/md-images-chapter4/landing-page-feature-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-who-we-are-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-segments-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-payment-mockup.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/landing-page-contact-mockup.png" width="800"/> <br>
   </p>
     
    ##### Landing Page Mock-up para Mobile Web Browser 
 
   <p align="center">
-    <img src="assets/md-images-chapter4//Landing-Page-Movil-Mock-up.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-Benefit.PNG" width="380"/><br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-Features.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-About.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-Segments.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-Payment.PNG" width="380"/> <br>
-    <img src="assets/md-images-chapter4/Landing-Page-Movil-Mock-up-Contact.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-home-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-benefit-mockup.png" width="380"/><br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-features-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-about-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-segments-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-payment-mockup.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/mobile-landing-page-contact-mockup.png" width="380"/> <br>
   </p>
     
 
@@ -3230,7 +3239,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Selector de idioma, campos de correo y contraseña, botón de inicio de sesión, enlace para recuperar contraseña y enlace para crear una nueva cuenta.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Login.png" alt="Login-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-login-wireframe.png" alt="Login-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3241,7 +3250,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Campos para nombre completo, correo electrónico, teléfono y contraseña, botón de registro y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Register.png" alt="Register-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-register-wireframe.png" alt="Register-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3252,7 +3261,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Campo de correo, botón para enviar recuperación y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Recover.png" alt="Recover-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-recover-wireframe.png" alt="Recover-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3263,7 +3272,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Selector de idioma, botón para simular lectura, tarjetas de lecturas recientes, sesión activa, sección de anomalías y barra de navegación inferior.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Home.png" alt="Home-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-home-wireframe.png" alt="Home-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3274,7 +3283,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Botón para registrar sede, filtros por tipo de sede, tarjetas de resumen, listado de sedes, detalle de sede, responsables asignados, dispositivos asignados y resumen consolidado.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Workspace.png" alt="Workspace-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-workplace-wireframe.png" alt="Workspace-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3285,7 +3294,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Botón para agregar dispositivo, tarjetas de resumen, listado de dispositivos, detalle del dispositivo, sensores vinculados, control de válvulas y comandos recientes.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Devices.png" alt="Devices-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-devices-wireframe.png" alt="Devices-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3296,7 +3305,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Botón para crear alerta, tarjetas de resumen, alertas activas, umbrales configurados, incidentes y sección de canales/envíos.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Notifications.png" alt="Notifications-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-notifications-wireframe.png" alt="Notifications-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3307,7 +3316,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Botón para generar reporte, tarjetas de reportes generados, lecturas disponibles, anomalías, reportes de consumo y lecturas base.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Reports.png" alt="Reports-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-reports-wireframe.png" alt="Reports-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3318,7 +3327,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Plan activo, capacidad disponible, pagos, tarjetas de planes, historial de pagos, solicitudes de servicio y botón para cancelar suscripción.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Plans.png" alt="Plans-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-plans-wireframe.png" alt="Plans-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3329,7 +3338,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Botón para crear ticket, resumen de tickets, agentes y ayuda, listado de tickets, detalle del ticket, conversación y artículos de ayuda.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Support.png" alt="Support-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-support-wireframe.png" alt="Support-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3340,7 +3349,7 @@ Los wireframes de **LowCortisol** representan la estructura lógica y funcional 
 * **Elementos clave:** Tarjeta de usuario, perfil de acceso, formulario de actualización de datos, información de sesión y botón para cerrar sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireframe-Profile.png" alt="Profile-Webapp-Wireframe" width="700">
+  <img src="assets/md-images-chapter4/webapp-profile-wireframe.png" alt="Profile-Webapp-Wireframe" width="700">
 </p>
 
 ---
@@ -3352,7 +3361,7 @@ El wireflow de **LowCortisol** describe la relación entre las principales panta
 Este diagrama permite visualizar cómo el usuario se desplaza entre las pantallas, incluyendo flujos alternativos como registro, recuperación de contraseña, compra o activación de plan y cierre de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Wireflow.png" alt="Webapp-Wireflow" width="900">
+  <img src="assets/md-images-chapter4/webapp-wire-flow.png" alt="Webapp-Wireflow" width="900">
 </p>
 
 ---
@@ -3367,7 +3376,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Selector de idioma, campos de correo y contraseña, botón de ingreso, enlace de recuperación y enlace de creación de cuenta.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Login.png" alt="Login-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-login-mockup.png" alt="Login-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3378,7 +3387,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Campos de información personal, botón de registro y enlace para volver al inicio de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Register.png" alt="Register-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-register-mockup.png" alt="Register-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3389,7 +3398,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Campo de correo, botón de recuperación y enlace de retorno al login.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Recover.png" alt="Recover-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-recover-mockup.png" alt="Recover-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3400,7 +3409,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Botón de simulación de lectura, tarjetas de información, sección de anomalías y navegación principal.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Home.png" alt="Home-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-home-mockup.png" alt="Home-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3411,7 +3420,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Filtros de sede, listado, detalle, responsables, dispositivos asignados y resumen consolidado.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Workspace.png" alt="Workspace-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-workplace-mockup.png" alt="Workspace-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3422,7 +3431,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Listado de dispositivos, detalle del dispositivo, sensores vinculados, control de válvulas y comandos recientes.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Devices.png" alt="Devices-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-devices-mockup.png" alt="Devices-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3433,7 +3442,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Resumen de alertas, alertas activas, umbrales configurados, incidentes, canales activos y envíos.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Notifications.png" alt="Notifications-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-notifications-mockup.png" alt="Notifications-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3444,7 +3453,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Reportes generados, lecturas disponibles, anomalías, reportes de consumo y lecturas base.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Reports.png" alt="Reports-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-reports-mockup.png" alt="Reports-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3455,7 +3464,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Plan activo, capacidad, pagos, tarjetas de planes, historial de pagos, solicitudes de servicio y cancelación de suscripción.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Plans.png" alt="Plans-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-plans-mockup.png" alt="Plans-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3466,7 +3475,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Tickets, agentes disponibles, artículos de ayuda, detalle del ticket, conversación y acciones de resolución o cierre.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Support.png" alt="Support-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-support-mockup.png" alt="Support-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3477,7 +3486,7 @@ Los mockups de **LowCortisol** representan la versión visual de alta fidelidad 
 * **Elementos clave:** Tarjeta de usuario, perfil de acceso, actualización de datos y control de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Mockup-Profile.png" alt="Profile-Webapp-Mockup" width="700">
+  <img src="assets/md-images-chapter4/webapp-profile-mockup.png" alt="Profile-Webapp-Mockup" width="700">
 </p>
 
 ---
@@ -3489,7 +3498,7 @@ El user flow diagram representa el recorrido funcional del usuario dentro de **L
 Si el usuario no tiene una suscripción activa, el sistema lo dirige hacia la sección de planes para seleccionar y activar una suscripción. Una vez habilitado el acceso, el usuario puede navegar por los módulos principales del sistema: panel de monitoreo, sedes, dispositivos, alertas, reportes, planes, soporte y perfil. Este diagrama también contempla acciones como la asignación de dispositivos, generación de alertas, creación de reportes, gestión de tickets y cierre de sesión.
 
 <p align="center">
-  <img src="assets/md-images-chapter4/Webapp-Userflow.png" alt="Webapp-Userflow" width="900">
+  <img src="assets/md-images-chapter4/webapp-user-flow.png" alt="Webapp-Userflow" width="900">
 </p>
 
 ## 4.5. Web Applications Prototyping
@@ -3506,14 +3515,50 @@ Link de presentación: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
-Event Storming es una técnica de modelado que nos permite identificar y organizar los eventos relevantes del dominio de negocio, es decir, aquellos hechos importantes que ocurren dentro del sistema. A través de este modelo analizamos procesos de negocio mediante eventos, comandos, políticas, paint poins, read models, aggregates y bounded contexts, lo que facilita comprender más clara la aquitectura del software
-![Event Storming](./assets/md-images-chapter4/Cap1.png)
-![Event Storming](./assets/md-images-chapter4/Cap2.png)
-![Event Storming](./assets/md-images-chapter4/Cap3.png)
-![Event Storming](./assets/md-images-chapter4/Cap4.png)
-![Event Storming](./assets/md-images-chapter4/Cap5.png)
-![Event Storming](./assets/md-images-chapter4/Cap6.png)
-![Event Storming](./assets/md-images-chapter4/Cap7.png)
+Event Storming es una técnica de modelado que nos permite identificar y organizar los eventos relevantes del dominio de negocio, es decir, aquellos hechos importantes que ocurren dentro del sistema. A través de este modelo analizamos procesos de negocio mediante eventos, comandos, políticas, pain points, read models, aggregates y bounded contexts, lo que facilita comprender con mayor claridad la arquitectura del software.
+
+Las siguientes imágenes documentan el modelado por mapa general y por bounded context del producto.
+
+#### Mapa de bounded contexts
+
+![Event Storming - Mapa de bounded contexts](./assets/md-images-chapter4/event-storming-context-map.jpg)
+
+#### IAM
+
+![Event Storming - IAM](./assets/md-images-chapter4/event-storming-iam.jpg)
+
+#### Workplace
+
+![Event Storming - Workplace](./assets/md-images-chapter4/event-storming-workplace.jpg)
+
+#### DeviceControl
+
+![Event Storming - DeviceControl](./assets/md-images-chapter4/event-storming-device-control.jpg)
+
+#### Monitoring
+
+![Event Storming - Monitoring](./assets/md-images-chapter4/event-storming-monitoring.jpg)
+
+#### Notification
+
+![Event Storming - Notification](./assets/md-images-chapter4/event-storming-notification.jpg)
+
+#### Plan
+
+![Event Storming - Plan](./assets/md-images-chapter4/event-storming-plan.jpg)
+
+#### Support
+
+![Event Storming - Support](./assets/md-images-chapter4/event-storming-support.jpg)
+
+#### Reports
+
+![Event Storming - Reports](./assets/md-images-chapter4/event-storming-report.jpg)
+
+#### Shared
+
+![Event Storming - Shared](./assets/md-images-chapter4/event-storming-shared.jpg)
+
 Link de modelo: https://lucid.app/lucidspark/83c9509f-24aa-47a0-acb8-d565dad1216c/edit?viewport_loc=41392%2C-2755%2C8993%2C4433%2C0_0&invitationId=inv_3993ba91-db9e-419d-8bd7-f08a3754f9ab
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -3537,7 +3582,7 @@ El diagrama de contexto presenta una visión general del sistema **LowCortisol P
 * **IoT Sensor and Device Network:** Red externa de sensores, hubs y válvulas encargada de registrar lecturas de consumo y ejecutar comandos remotos.
 * **Render:** Plataforma cloud usada para desplegar la aplicación web y la API.
 
-![Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ContextDiagram.puml)
+![Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/context/lowcortisol-context-diagram.puml)
 
 ### 4.6.3. Software Architecture Container Diagram
 
@@ -3550,8 +3595,8 @@ La arquitectura considera una **Landing Page** como punto público de entrada, u
 * **Landing Page:** Página pública que presenta la propuesta de valor del producto y redirige al usuario hacia la aplicación web.
 * **WebApp:** Aplicación web desarrollada con Vue 3 y Vite, encargada de servir la interfaz frontend.
 * **Single Page Application:** Aplicación cliente que gestiona navegación, estado, vistas y comunicación con la API.
-* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints para los bounded contexts del sistema.
-* **Database:** Base de datos relacional proyectada para almacenar usuarios, sesiones, planes, suscripciones, sedes, dispositivos, lecturas, alertas, reportes y soporte.
+* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints y contratos por bounded context: IAM, Workplace, DeviceControl, Monitoring, Notification, Plan, Support, Report y Shared.
+* **Database:** Base de datos relacional PostgreSQL para almacenar sedes, habitaciones, grupos, dispositivos, sensores, válvulas, comandos, operaciones, lecturas, umbrales, anomalías, alertas, incidentes y canales de notificación.
 
 **Relaciones principales:**
 
@@ -3562,15 +3607,15 @@ La arquitectura considera una **Landing Page** como punto público de entrada, u
 * La **Backend API** persiste y consulta información en la **Database**.
 * La **Backend API** puede integrarse con servicios externos como proveedor de correo, pagos y red IoT.
 
-![Container Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ContainerDiagram.puml)
+![Container Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/container/lowcortisol-container-diagram.puml)
 
 ### 4.6.4. Software Architecture Component Diagrams
 
-Los diagramas de componentes muestran la organización interna de la arquitectura de **LowCortisol Platform**. Para mantener claridad y evitar diagramas demasiado sobrecargados, se separaron los componentes por lado de la aplicación y por bounded context.
+Los diagramas de componentes muestran la organización interna de la arquitectura de **LowCortisol Platform**. Para mantener claridad y evitar diagramas demasiado sobrecargados, se separaron los componentes por lado de la aplicación y por contexto funcional.
 
-En el frontend, la arquitectura se organiza alrededor de la **Single Page Application**, la cual integra los bounded contexts principales de la aplicación. Cada bounded context mantiene una organización modular basada en **Presentation**, **Application**, **Domain** e **Infrastructure**, permitiendo separar la interfaz visual, la coordinación de casos de uso, los conceptos del dominio y la comunicación con servicios externos.
+En el frontend, la arquitectura se organiza alrededor de la **Single Page Application**, la cual integra los módulos principales de la aplicación. Cada módulo mantiene una organización modular basada en **Presentation**, **Application**, **Domain** e **Infrastructure**, permitiendo separar la interfaz visual, la coordinación de casos de uso, los conceptos del dominio y la comunicación con servicios externos.
 
-En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts principales del sistema. Cada contexto mantiene responsabilidades independientes para exponer endpoints, coordinar casos de uso, aplicar reglas de dominio y persistir información.
+En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts actualmente implementados: **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. Los módulos **IAM**, **Plan**, **Support** y **Report** forman parte de la arquitectura documentada del producto; Workplace, DeviceControl, Monitoring y Notification son los flujos operativos principales integrados con la plataforma backend actual.
 
 Esta organización permite mantener modularidad, escalabilidad, separación de responsabilidades y trazabilidad entre las funcionalidades del sistema y los componentes técnicos.
 
@@ -3578,9 +3623,9 @@ Esta organización permite mantener modularidad, escalabilidad, separación de r
 
 #### Frontend General Component Diagram
 
-El diagrama general de componentes frontend muestra cómo la **Single Page Application** organiza sus bounded contexts principales. También se muestra el uso de componentes y servicios compartidos, como navegación, layout, manejo de sesión, traducciones, guards y comunicación HTTP.
+El diagrama general de componentes frontend muestra cómo la **Single Page Application** organiza sus módulos principales. También se muestra el uso de componentes y servicios compartidos, como navegación, layout, manejo de sesión, traducciones, guards, comunicación HTTP y fallback local centralizado.
 
-![Frontend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend.puml)
+![Frontend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/frontend-general-components.puml)
 
 ---
 
@@ -3590,7 +3635,7 @@ El bounded context **IAM** gestiona la autenticación y acceso del usuario. Incl
 
 En el frontend, IAM separa sus responsabilidades en presentación de pantallas, coordinación de acciones mediante store/facade, modelos de dominio frontend y consumo de endpoints de autenticación.
 
-![IAM Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-IAM.puml)
+![IAM Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/iam-frontend-components.puml)
 
 ---
 
@@ -3598,15 +3643,15 @@ En el frontend, IAM separa sus responsabilidades en presentación de pantallas, 
 
 El bounded context **Plan** gestiona planes, suscripciones, pagos y solicitudes de servicio. Permite visualizar planes disponibles, comprar o activar un plan, revisar pagos y administrar el estado de la suscripción.
 
-![Plan Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Plan.puml)
+![Plan Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/plan-frontend-components.puml)
 
 ---
 
-#### Workspace Frontend Component Diagram
+#### Workplace Frontend Component Diagram
 
-El bounded context **Workspace** gestiona las sedes, responsables, miembros asignados y asignación de dispositivos. Permite visualizar sedes registradas, filtrar por tipo, revisar detalles y observar métricas consolidadas.
+El módulo **Workplace** gestiona las sedes, habitaciones, grupos y modelo físico. Permite visualizar sedes registradas, seleccionar ubicación, revisar detalles y observar la estructura física de la operación.
 
-![Workspace Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Workspace.puml)
+![Workplace Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/workplace-frontend-components.puml)
 
 ---
 
@@ -3614,7 +3659,7 @@ El bounded context **Workspace** gestiona las sedes, responsables, miembros asig
 
 El bounded context **Device Control** gestiona dispositivos, sensores, válvulas y comandos remotos. Permite visualizar dispositivos registrados, revisar sensores vinculados, controlar válvulas y ejecutar comandos asociados al monitoreo.
 
-![Device Control Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-DeviceControl.puml)
+![Device Control Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/device-control-frontend-components.puml)
 
 ---
 
@@ -3622,7 +3667,7 @@ El bounded context **Device Control** gestiona dispositivos, sensores, válvulas
 
 El bounded context **Monitoring** gestiona el panel de monitoreo, lecturas recientes, sesiones activas, anomalías y reportes. Representa el núcleo visual del seguimiento de consumo de agua y gas dentro de la aplicación.
 
-![Monitoring Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Monitoring.puml)
+![Monitoring Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/monitoring-frontend-components.puml)
 
 ---
 
@@ -3630,7 +3675,7 @@ El bounded context **Monitoring** gestiona el panel de monitoreo, lecturas recie
 
 El bounded context **Notification** gestiona alertas, umbrales, incidentes, canales y entregas. Permite visualizar alertas activas, configurar umbrales, revisar incidentes y administrar el flujo de notificación.
 
-![Notification Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Notification.puml)
+![Notification Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/notification-frontend-components.puml)
 
 ---
 
@@ -3638,7 +3683,7 @@ El bounded context **Notification** gestiona alertas, umbrales, incidentes, cana
 
 El bounded context **Support** gestiona tickets, mensajes, conversaciones, agentes y artículos de ayuda. Permite registrar incidencias, revisar el detalle de tickets y mantener comunicación de soporte.
 
-![Support Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Support.puml)
+![Support Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/support-frontend-components.puml)
 
 ---
 
@@ -3646,7 +3691,7 @@ El bounded context **Support** gestiona tickets, mensajes, conversaciones, agent
 
 El diagrama de presentación de **IAM** muestra las pantallas y componentes visuales usados en autenticación y perfil. Incluye rutas de IAM, login, registro, recuperación de contraseña, perfil y componentes visuales asociados.
 
-![IAM Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-IAM.puml)
+![IAM Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/iam-frontend-presentation-components.puml)
 
 ---
 
@@ -3654,15 +3699,15 @@ El diagrama de presentación de **IAM** muestra las pantallas y componentes visu
 
 El diagrama de presentación de **Plan** muestra la estructura visual relacionada con planes, tarjetas de plan, formulario de pago, historial de pagos y solicitudes de servicio.
 
-![Plan Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-Plan.puml)
+![Plan Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/plan-frontend-presentation-components.puml)
 
 ---
 
-#### Workspace Frontend Presentation Component Diagram
+#### Workplace Frontend Presentation Component Diagram
 
-El diagrama de presentación de **Workspace** representa la organización visual de la pantalla de sedes, incluyendo listado, detalle, filtros, miembros, asignaciones y resumen consolidado.
+El diagrama de presentación de **Workplace** representa la organización visual de la pantalla de sedes, incluyendo listado, detalle, mapa, modelo físico, grupos e inventario.
 
-![Workspace Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-Workspace.puml)
+![Workplace Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/workplace-frontend-presentation-components.puml)
 
 ---
 
@@ -3670,7 +3715,7 @@ El diagrama de presentación de **Workspace** representa la organización visual
 
 El diagrama de presentación de **Device Control** muestra los componentes visuales para administrar dispositivos, sensores, válvulas y comandos recientes.
 
-![Device Control Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-DeviceControl.puml)
+![Device Control Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/device-control-frontend-presentation-components.puml)
 
 ---
 
@@ -3678,7 +3723,7 @@ El diagrama de presentación de **Device Control** muestra los componentes visua
 
 El diagrama de presentación de **Monitoring** muestra las pantallas de panel y reportes, junto con componentes como métricas, lecturas, sesiones, anomalías y reportes generados.
 
-![Monitoring Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-Monitoring.puml)
+![Monitoring Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/monitoring-frontend-presentation-components.puml)
 
 ---
 
@@ -3686,7 +3731,7 @@ El diagrama de presentación de **Monitoring** muestra las pantallas de panel y 
 
 El diagrama de presentación de **Notification** muestra la estructura visual del módulo de alertas, incluyendo alertas activas, umbrales, incidentes y canales de notificación.
 
-![Notification Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-Notification.puml)
+![Notification Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/notification-frontend-presentation-components.puml)
 
 ---
 
@@ -3694,71 +3739,47 @@ El diagrama de presentación de **Notification** muestra la estructura visual de
 
 El diagrama de presentación de **Support** muestra las pantallas y componentes visuales para tickets, detalle del ticket, conversación, formulario de mensaje y artículos de ayuda.
 
-![Support Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Frontend-Presentation-Support.puml)
+![Support Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/support-frontend-presentation-components.puml)
 
 ---
 
 #### Backend General Component Diagram
 
-El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts principales del sistema. Cada contexto concentra capacidades específicas y se conecta con la base de datos para persistir su información.
+El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts reales implementados en `lowcortisol-platform`: **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. También se incluye **Shared** como base técnica transversal para persistencia, Unit of Work, Result Pattern, Swagger, CORS y configuración común.
 
-![Backend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend.puml)
-
----
-
-#### IAM Backend Component Diagram
-
-El bounded context **IAM** en backend expone endpoints de autenticación, usuario, perfil de acceso y sesión. Coordina casos de uso como login, registro, recuperación de contraseña, cierre de sesión y actualización de perfil.
-
-![IAM Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-IAM.puml)
+![Backend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/backend-general-components.puml)
 
 ---
 
-#### Plan Backend Component Diagram
+#### Workplace Backend Component Diagram
 
-El bounded context **Plan** en backend gestiona endpoints para planes, suscripciones, pagos y solicitudes de servicio. También considera integración futura con un proveedor de pagos.
+El bounded context **Workplace** en backend gestiona sedes, habitaciones, grupos de dispositivos y el modelo físico consultado por la WebApp. Permite mantener organizada la estructura multi-sede de la plataforma sin asumir responsabilidades de IAM, planes o soporte.
 
-![Plan Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Plan.puml)
-
----
-
-#### Workspace Backend Component Diagram
-
-El bounded context **Workspace** en backend gestiona workspaces, sedes, miembros y asignaciones de dispositivos. Permite mantener organizada la estructura multi-sede de la plataforma.
-
-![Workspace Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Workspace.puml)
+![Workplace Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/workplace-backend-components.puml)
 
 ---
 
 #### Device Control Backend Component Diagram
 
-El bounded context **Device Control** en backend expone endpoints para dispositivos, sensores, válvulas y comandos. Además, considera comunicación con una red IoT para operaciones remotas.
+El bounded context **DeviceControl** en backend expone endpoints para comandos, operaciones de válvula y mitigación operativa. Modela dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría y operaciones de válvula.
 
-![Device Control Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-DeviceControl.puml)
+![Device Control Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/device-control-backend-components.puml)
 
 ---
 
 #### Monitoring Backend Component Diagram
 
-El bounded context **Monitoring** en backend gestiona sesiones, lecturas, anomalías y reportes. Coordina el registro de lecturas, detección de anomalías y generación de reportes.
+El bounded context **Monitoring** en backend gestiona lecturas de consumo, umbrales, anomalías y resumen de monitoreo. Coordina el flujo lectura -> umbral -> anomalía y emite el puente **CriticalAnomalyDetected** cuando corresponde.
 
-![Monitoring Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Monitoring.puml)
+![Monitoring Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/monitoring-backend-components.puml)
 
 ---
 
 #### Notification Backend Component Diagram
 
-El bounded context **Notification** en backend gestiona alertas, umbrales, incidentes, canales y entregas. Permite escalar eventos importantes y notificar al usuario mediante servicios externos.
+El bounded context **Notification** en backend gestiona alertas, incidentes, canales y entregas. Permite escalar anomalías críticas, crear incidentes y solicitar mitigación operativa hacia DeviceControl.
 
-![Notification Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Notification.puml)
-
----
-
-#### Support Backend Component Diagram
-
-El bounded context **Support** en backend gestiona tickets, mensajes, agentes, conversaciones y artículos de ayuda. Permite atender incidencias y solicitudes generadas por los usuarios.
-
-![Support Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ComponentDiagram-Backend-Support.puml)
+![Notification Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/notification-backend-components.puml)
 
 ## 4.7. Software Object-Oriented Design
 The object-oriented design of the LowCortisol system is represented through two class diagrams: one for the backend and another for the frontend. This separation allows a clearer view of the responsibilities of each layer of the application.
@@ -3773,51 +3794,33 @@ En el backend, los diagramas muestran las entidades del dominio, servicios de ap
 
 #### Backend Class Diagrams
 
-El diagrama general de clases del backend presenta una vista resumida de los principales bounded contexts del sistema: **IAM**, **Plan**, **Workplace**, **Device Control**, **Monitoring**, **Notification** y **Support**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos entre sí.
+El diagrama general de clases del backend presenta una vista resumida de los bounded contexts implementados en `lowcortisol-platform`: **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos reales del backend.
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend.puml?v=1)
-
----
-
-El bounded context **IAM** agrupa las clases relacionadas con autenticación, usuarios, perfiles de acceso, permisos y sesiones. Incluye clases como **User**, **AccessProfile**, **Permission**, **AuthSession**, servicios de aplicación y repositorios relacionados con la gestión de identidad y acceso.
-
-![Backend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-IAM.puml?v=1)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-general-bounded-contexts.puml?v=1)
 
 ---
 
-El bounded context **Plan** representa la gestión de planes, características, suscripciones, pagos y solicitudes de servicio. Este módulo permite modelar el ciclo de vida de una suscripción y la relación entre planes contratados y pagos realizados.
+El bounded context **Workplace** organiza las clases relacionadas con sedes, habitaciones, grupos de dispositivos y modelo físico. Este módulo permite representar la estructura operativa multi-sede de la plataforma.
 
-![Backend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Plan.puml?v=1)
-
----
-
-El bounded context **Workplace** organiza las clases relacionadas con sedes, espacios de trabajo, miembros asignados y dispositivos asociados a una sede. Este módulo permite representar la estructura operativa multi-sede de la plataforma.
-
-![Backend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Workplace.puml?v=1)
+![Backend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-workplace-class-diagram.puml?v=1)
 
 ---
 
-El bounded context **Device Control** modela los dispositivos, sensores, válvulas y comandos remotos. Permite representar la administración de equipos IoT y las acciones asociadas al control de dispositivos.
+El bounded context **DeviceControl** modela dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría y operaciones de válvula. Permite representar la administración operativa de equipos y acciones de mitigación.
 
-![Backend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-DeviceControl.puml?v=1)
-
----
-
-El bounded context **Monitoring** contiene las clases vinculadas con sesiones de monitoreo, lecturas, anomalías y reportes. Este módulo representa el seguimiento del consumo de agua y gas, así como la generación de información para análisis posterior.
-
-![Backend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Monitoring.puml?v=1)
+![Backend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-device-control-class-diagram.puml?v=1)
 
 ---
 
-El bounded context **Notification** agrupa las clases relacionadas con alertas, umbrales, incidentes, canales de notificación y entregas. Este módulo permite modelar la detección y comunicación de eventos relevantes dentro de la plataforma.
+El bounded context **Monitoring** contiene las clases vinculadas con lecturas, umbrales, anomalías, detección de anomalías y resumen de monitoreo. Este módulo representa el seguimiento del consumo de agua y gas.
 
-![Backend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Notification.puml?v=1)
+![Backend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-monitoring-class-diagram.puml?v=1)
 
 ---
 
-El bounded context **Support** representa la gestión de tickets, mensajes, agentes, conversaciones y artículos de ayuda. Este módulo permite organizar la atención de incidencias y solicitudes realizadas por los usuarios.
+El bounded context **Notification** agrupa las clases relacionadas con alertas, incidentes, asignaciones, acciones, canales de notificación y entregas. Este módulo permite modelar la respuesta operativa ante anomalías críticas.
 
-![Backend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Backend-Support.puml?v=1)
+![Backend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-notification-class-diagram.puml?v=1)
 
 ---
 
@@ -3825,61 +3828,61 @@ El bounded context **Support** representa la gestión de tickets, mensajes, agen
 
 El diagrama general de clases del frontend presenta la organización principal de la aplicación web, mostrando los bounded contexts de la **Single Page Application** y su relación con componentes compartidos como servicios de sesión, traducción, acceso por suscripción, layout, tarjetas reutilizables y cliente HTTP.
 
-![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend.puml?v=1)
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-general-bounded-contexts.puml?v=1)
 
 ---
 
 El bounded context **IAM** en el frontend contiene los modelos, store, facade, servicio API y pantallas relacionadas con login, registro, recuperación de contraseña y perfil de usuario.
 
-![Frontend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-IAM.puml?v=1)
+![Frontend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-iam-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Plan** en el frontend organiza las clases vinculadas con planes, características, suscripciones, pagos, solicitudes de servicio, store, facade, servicio API y formulario de pago.
 
-![Frontend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Plan.puml?v=1)
+![Frontend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-plan-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Workplace** en el frontend modela la gestión de sedes, miembros, asignaciones de dispositivos, store, facade, servicio API y pantalla principal de sedes.
 
-![Frontend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Workplace.puml?v=1)
+![Frontend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-workplace-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Device Control** en el frontend representa la administración visual y lógica de dispositivos, sensores, válvulas y comandos, incluyendo store, facade, servicio API y pantalla de dispositivos.
 
-![Frontend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-DeviceControl.puml?v=1)
+![Frontend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-device-control-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Monitoring** en el frontend contiene las clases relacionadas con dashboard, reportes, sesiones, lecturas, anomalías, store, facade y servicio API.
 
-![Frontend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Monitoring.puml?v=1)
+![Frontend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-monitoring-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Notification** en el frontend agrupa alertas, umbrales, incidentes, canales de notificación, entregas, store, facade, servicio API y pantalla principal de alertas.
 
-![Frontend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Notification.puml?v=1)
+![Frontend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-notification-class-diagram.puml?v=1)
 
 El bounded context **Support** en el frontend representa tickets, mensajes, agentes, conversaciones, artículos de ayuda, store, facade, servicio API y pantalla de soporte.
 
-![Frontend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/ClassDiagram-Frontend-Support.puml?v=1)
+![Frontend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-support-class-diagram.puml?v=1)
 
 ## 4.8. Database Design
 
-La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a la persistencia de usuarios, dispositivos, monitoreo, incidentes, notificaciones y reportes de consumo. En la etapa actual del desarrollo, el sistema registra la información en una base de datos SQLite mediante una estructura compuesta por entidades como **user_accounts**, **devices**, **sensors**, **incidents**, **notifications**, **monitoring_sessions**, **sensor_readings**, **consumption_reports** y **report_lines**.
+La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a PostgreSQL para persistir usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, conductos, lecturas de consumo, umbrales, anomalías, alertas, incidentes, planes, tickets y reportes operativos. La estructura se organiza alrededor de los bounded contexts **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan**, **Support**, **Report** y **Shared**.
 
 Este diseño respalda funcionalidades como el registro e inicio de sesión, la gestión de dispositivos, el monitoreo de sensores, la administración de alertas y la generación de reportes. Asimismo, permite almacenar la información de forma estructurada, asegurando integridad relacional mediante claves primarias y foráneas. La base de datos fue diseñada de manera modular y escalable, de modo que pueda ampliarse fácilmente en futuras iteraciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
-El diagrama de base de datos representa la estructura de almacenamiento del sistema y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran **user_accounts**, **devices**, **sensors**, **incidents**, **notifications**, **monitoring_sessions**, **sensor_readings**, **consumption_reports** y **report_lines**, las cuales permiten gestionar usuarios, dispositivos, monitoreo, incidentes, notificaciones y reportes de consumo.
+El diagrama de base de datos representa la estructura de almacenamiento del sistema y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, conductos, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación, planes, tickets y reportes, las cuales permiten operar el ciclo completo de monitoreo de agua y gas.
 
 Además, el diagrama muestra cómo se conectan estas tablas mediante claves primarias y foráneas, reflejando la organización de los datos y la integridad relacional del sistema. En conjunto, esta estructura permite almacenar de forma consistente la información necesaria para el funcionamiento del backend y facilita la escalabilidad y mantenibilidad de la aplicación.
 
-![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/assets/md-images-chapter4/DatabaseDiagram.puml?v=1)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/database/database-diagram.puml?v=1)
 
 # Chapter V: Product Implementation, Validation & Deployment
 
@@ -3896,7 +3899,7 @@ Entre las principales herramientas y tecnologías utilizadas en esta configuraci
 - **JetBrains Rider** como entorno de desarrollo principal y herramienta de gestión del proyecto.
 - **.NET 9 SDK** como framework y entorno de ejecución de la aplicación.
 - **ASP.NET Core Blazor** para el desarrollo de la interfaz web y los componentes interactivos.
-- **SQLite** como sistema de persistencia local de datos, especialmente para el registro de usuarios y la autenticación.
+- **PostgreSQL** como sistema de persistencia relacional para usuarios, sedes, dispositivos, monitoreo, notificaciones, planes, soporte y reportes, conectado desde el backend mediante EF Core.
 - **Entity Framework Core** para el acceso a la base de datos y la administración del contexto.
 - **Git** como sistema de control de versiones local.
 - **GitHub** como plataforma remota para alojar el repositorio y sincronizar el código fuente.
@@ -3988,6 +3991,41 @@ https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-website
 
 https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ 
 
+#### Despliegue del Web App
+
+Se realizará la configuración inicial del despliegue de la Frontend Web Application utilizando Render como plataforma cloud para la publicación de la aplicación web.
+
+La aplicación fue desarrollada utilizando tecnologías frontend modernas junto con herramientas de despliegue basadas en Docker y GitHub.
+
+##### Pasos de despliegue:
+
+
+
+Se creó el repositorio lowcortisol-webapp en GitHub.
+
+Se organizó la estructura base de la Frontend Web Application.
+
+Se configuró la estrategia de trabajo utilizando Git Flow mediante ramas:
+
+Se creó el archivo Dockerfile para permitir la construcción y despliegue de la aplicación en Render.
+
+Se realizaron commits periódicos mediante Git (add, commit, push) para mantener el control de versiones y registrar los avances del Sprint.
+
+Se conectó el repositorio GitHub con la plataforma Render.
+
+Se configuró Render seleccionando la rama correspondiente para el despliegue inicial de la aplicación.
+
+Se ejecutó el primer despliegue de LowCortisol en Render.
+
+
+Repositorio
+
+https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
+
+URL desplegada
+
+https://lowcortisol-webapp.onrender.com/
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
@@ -4040,7 +4078,7 @@ detalla la distribución de roles para este primer ciclo:
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
 #### 5.2.1.3. Sprint Backlog 1. 
-![Sprint Backlog 1](./assets/md-images-chapter5/Sprint%20Backlog.PNG)
+![Sprint Backlog 1](./assets/md-images-chapter5/sprint-backlog-1.png)
 
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -4091,38 +4129,37 @@ fueron nuestros avances atravez de capturas de pantalla.
 1. Sección Header: Aquí mostramos la barra de navegación de nuestro sitio
    web.
 
-![Header-IMG](assets/md-images-chapter5/Header-Sección.png)
+![Header-IMG](assets/md-images-chapter5/landing-section-header.png)
 
 2. Sección Inicio: Demostramos los planes que tiene nuestro proyecto
 
-![Inicio-IMG](assets/md-images-chapter5/Inicio-Sección.png)
+![Inicio-IMG](assets/md-images-chapter5/landing-section-home.png)
 
 3. Sección Beneficio: Mostramos los beneficios respecto a otros competidores
 
-![Beneficio-IMG](assets/md-images-chapter5/Beneficio-Sección.png)
+![Beneficio-IMG](assets/md-images-chapter5/landing-section-benefit.png)
 
 4. Sección Funcionalidades: Se mustran las funcionalidades que posee nuestro proyecto
 
-![Funcionalidades-IMG](assets/md-images-chapter5/Funcionalidades-Sección.png)
+![Funcionalidades-IMG](assets/md-images-chapter5/landing-section-features.png)
 
 5. Sección Quien Somos: Figura la visión, mision y por que se deberia elegir a nuestro proyecto
 
-![QuienSomos-IMG](assets/md-images-chapter5/Quien_Somos-Sección.png)
+![QuienSomos-IMG](assets/md-images-chapter5/landing-section-who-we-are.png)
 
 6. Sección Planes: Se muestran todos los planes disponibles
 
-![Planes1-IMG](assets/md-images-chapter5/Planes_1-Sección.png)
+![Planes1-IMG](assets/md-images-chapter5/landing-section-plans.png)
 
-![Planes2-IMG](assets/md-images-chapter5/Planes_2-Sección.png)
 
 7. Sección Contacto: Las opcciones de contacto que tiene el usuario para poder 
 acceder a mas información
 
-![Contacto-IMG](assets/md-images-chapter5/Contacto-Sección.png)
+![Contacto-IMG](assets/md-images-chapter5/landing-section-contact.png)
 
 8. Footer : El footer con mas información 
 
-![Footer-IMG](assets/md-images-chapter5/Footer-Sección.png)
+![Footer-IMG](assets/md-images-chapter5/landing-section-footer.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4142,7 +4179,7 @@ Finalmente, se verificó el correcto funcionamiento del sitio desplegado, compro
 
 
 <p align="center">
-  <img src="assets/md-images-chapter5/Deployment Evidence.PNG" alt="Deployment Evidence using Git Pages">
+  <img src="assets/md-images-chapter5/deployment-evidence.png" alt="Deployment Evidence using Git Pages">
 </p>
 
 #### URL del Deployment
@@ -4160,7 +4197,7 @@ El uso de GitHub facilitó la organización del trabajo, permitiendo visualizar 
 Durante el Sprint, se evidenció una participación activa de todos los integrantes en la implementación de la Landing Page, incluyendo el desarrollo de la estructura HTML, estilos CSS, funcionalidades en JavaScript y la integración de contenido.
 
 <p align="center">
-  <img src="assets/md-images-chapter5/Team Collaboration Insights.PNG" alt="Team Collaboration Insights">
+  <img src="assets/md-images-chapter5/team-collaboration-insights-1.png" alt="Team Collaboration Insights">
 </p>
 
 ### 5.2.2. Sprint 2
@@ -4204,8 +4241,7 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 
 #### 5.2.2.3. Sprint Backlog 2
-![Sprint Backlog 2](./assets/md-images-chapter5/Sprint2.png)
-![Sprint Backlog 2](./assets/md-images-chapter5/Sprint22.png)
+![Sprint Backlog 2](./assets/md-images-chapter5/sprint-backlog-2.png)
 
 | ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
 |------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
@@ -4284,25 +4320,26 @@ fueron nuestros avances atravez de capturas de pantalla.
 
 1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
 
-![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
-![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/landing-to-webapp-navigation.png)
+![Landing-IMG](assets/md-images-chapter5/webapp-preview.png)
 
 2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
 
-![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
-![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
-![Planes-IMG](assets/md-images-chapter5/English.png)
-![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+![Inicio-IMG](assets/md-images-chapter5/home-plans.png)
+![Planes-IMG](assets/md-images-chapter5/subscribe-plan.png)
+![Planes-IMG](assets/md-images-chapter5/language-english.png)
+![Planes-IMG](assets/md-images-chapter5/language-portuguese.png)
 
 3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
 
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-1.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-2.png)
 
 4. Cierre de sesión:
 
-![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
+![Inicio-IMG](assets/md-images-chapter5/session-closed.png)
 
+Execution Evidence for Sprint 2 Review: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -4378,6 +4415,9 @@ El despliegue permitió validar que la aplicación puede ejecutarse fuera del en
 Durante este segundo Sprint, la colaboración del equipo se volcó plenamente hacia la consolidación técnica del proyecto, abarcando desde la estructuración de la arquitectura de software hasta la configuración de los entornos de despliegue. El foco principal de nuestra sinergia fue la ejecución del nuevo avance funcional, donde nos organizamos para que el desarrollo de la interfaz de usuario avanzara en paralelo con la infraestructura en la nube. Basándonos estrictamente en los criterios de la rúbrica de evaluación, realizamos sesiones de revisión conjunta para asegurar que se cumplieran con los estándares de calidad exigidos, corrigiendo inconsistencias en la lógica de navegación y asegurando que el flujo de datos a través de la Fake API en Render fuera transparente y eficiente.
 
 Asimismo, el trabajo en equipo fue fundamental para elevar el rigor de los artefactos técnicos. No nos limitamos a generar código, sino que colaboramos estrechamente para refinar las historias técnicas y los diagramas de arquitectura, asegurando que cada componente reflejara fielmente los requisitos del sistema. Esta etapa de colaboración nos permitió estandarizar el uso de bibliotecas para la persistencia de datos y unificar criterios en el manejo del repositorio mediante GitFlow. Esta coordinación no solo facilitó la integración de las nuevas funcionalidades de monitoreo, sino que garantizó que el progreso actual del proyecto posea una base sólida, coherente y alineada con las expectativas académicas y profesionales del curso.
+![TeamCollaboration-IMG](assets/md-images-chapter5/team-collaboration-insights-2.png)
+
+
 
 # Conclusiones
 Tras completar este nuevo avance en la implementación y validación del proyecto LowCortisol, el equipo concluye que se ha logrado consolidar una arquitectura de software robusta a través de un proceso de refactorización guiado por los estándares de la rúbrica docente. A diferencia de la etapa inicial, ahora contamos con un sistema funcional desplegado que integra de manera coherente el frontend con la infraestructura de servicios para las pruebas actuales. La aplicación rigurosa de Domain-Driven Design (DDD) y la corrección de los diagramas C4 han permitido que la aplicación evolucione hacia una plataforma con una lógica de dominio clara, sentando las bases para las funcionalidades que se implementarán en las siguientes etapas.
@@ -4408,15 +4448,17 @@ Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D.
 
 ## Anexo A. Videos de Exposiciones
 
-| Entrega | Características del video | Sobre el contenido | Integración y entrega |
-|---------|----------------------------|-------------------|----------------------|
-| AV1 | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+| Entrega | Características del video                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Sobre el contenido | Integración y entrega |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
+| AV1     | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQAxebGlV_ynTLQn91R1GQrPAedtT1KTl8poGo5GrC77Nmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=imEkGo <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-av1 <br><br> **Formato:** .mp4                                         | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
+| TB1     | **Cantidad de videos:** 1 <br> **Enlace:** 0%3D&e=imEkGo <br><br> **Nomenclatura:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQA2i1-30uMzS6Udev745PU_AQOOcxCRIDIAy99XO5bCpVY?e=IhM0kE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-tb1 <br><br> **Formato:** .mp4 | Video de exposición grupal que resume el avance integral del proyecto LowCortisol desarrollado hasta la presente entrega. Incluye la presentación estructurada de los capítulos trabajados: Startup Profile, Solution Profile, Segmentos objetivo, Requirements Elicitation & Analysis, entrevistas, Needfinding, User Stories, Product Backlog, Product Design, arquitectura del sistema IoT, implementación inicial del Landing Page y evidencias del Sprint 1. Cada integrante participa explicando sus aportes en el diseño del sistema de monitoreo de agua y gas, así como los principales resultados obtenidos. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. El material debe evidenciar dominio del proyecto LowCortisol, organización grupal, comunicación clara y sustento técnico de los avances presentados. |
 
 ---
 
 ## Anexo B. Evidencia de Videos entrevistas del Proyecto
 
-| Sección | Características del video | Sobre el contenido | Integración y entrega |
-|---------|----------------------------|-------------------|----------------------|
+| Sección                | Características del video                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Sobre el contenido | Integración y entrega |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
 | Needfinding Interviews | **Cantidad de videos:** 1 <br> **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111529_upc_edu_pe/IQD4XfNDAkWJSamHpgQ0kIYYAX48PL4HmML8Mk_SDS7EYy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIjw8 <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-needfinding-sprint-1 <br><br> **Formato:** .mp4 | Consolida todas las entrevistas realizadas a los segmentos objetivo del sistema LowCortisol (usuarios residenciales y profesionales de infraestructura). Cada entrevista incluye información del entrevistado, segmento objetivo y fecha de realización. El contenido evidencia necesidades reales relacionadas con seguridad en tuberías de agua y gas, prevención de fugas, monitoreo en tiempo real y automatización de válvulas mediante IoT. Este material sirvió como base para la creación de User Personas, User Journey Mapping, Empathy Mapping y la definición de requerimientos del sistema. | Subir el video en Microsoft Stream o plataforma indicada por el docente. Incluir en el informe screenshot del video con enlace correspondiente. Añadir introducción a la sección, registro individual de entrevistas y análisis general de hallazgos cualitativos y cuantitativos obtenidos durante el proceso de investigación. |
-| Prototypes Navegation | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4 | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
+| Prototypes Navegation  | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh7853AY5YWyX1nN6-ppv8TWMIhMU?e=YtgnhZ <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-prototype-navigation-av1 <br><br> **Formato:** .mp4                                                                                                                                                                                                                       | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |
+| Execution Evidences    | **Cantidad de videos:** 1 <br> **Enlace:** https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCTGAGd48uqQYUR_RNcMaYfAcyx5u-iTiNRwkMvHB0IyAI?e=zodIsM <br><br> **Nomenclatura:** upc-pre-202610-1asi0730-12144-lowcortisol-execution-evidence-tb1 <br><br> **Formato:** .mp4                                                                                                                                                                                                                         | Presenta el prototipo navegable (navigation prototype) de la aplicación web LowCortisol. El video muestra la interacción entre las principales pantallas del sistema, como login, dashboard, alertas, control de válvulas, dispositivos, reportes y perfil. Se evidencia la estructura de navegación, flujos de usuario y comportamiento de la interfaz, permitiendo simular el funcionamiento del sistema antes de su implementación completa. Este prototipo valida la usabilidad, la organización de la información y la experiencia del usuario en un entorno interactivo. | Subir el video en la plataforma indicada por el docente. Incluir en el informe screenshot del video con su respectivo enlace. Este material debe evidenciar la navegación del sistema, la interacción entre pantallas y la lógica de uso del producto, sirviendo como base para el desarrollo posterior de la aplicación web completa. |

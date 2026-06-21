@@ -1,0 +1,33 @@
+@startuml
+title LowCortisol Platform - Support Backend Application Layer
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+package "Support / Application" {
+  package "Application / Services" {
+    class "SupportApplicationService" as Backend_servicemanagement_SupportApplicationService <<Application Service>> {
+      - supportTicketRepository: SupportTicketRepository
+      - maintenanceTicketRepository: MaintenanceTicketRepository
+      - deviceRepository: DeviceRepository
+      + getSupportTickets(Long userId) : List<SupportTicket>
+      + createSupportTicket(CreateSupportTicketCommand command) : SupportTicket
+      + updateSupportStatus(Long userId, Long ticketId, UpdateTicketStatusCommand command) : SupportTicket
+      + deleteSupportTicket(DeleteSupportTicketCommand command) : void
+      + getMaintenanceTickets(Long userId) : List<MaintenanceTicket>
+      + createMaintenanceTicket(CreateMaintenanceTicketCommand command) : MaintenanceTicket
+      + updateMaintenanceStatus(Long userId, Long ticketId, UpdateTicketStatusCommand command) : MaintenanceTicket
+      + deleteMaintenanceTicket(DeleteMaintenanceTicketCommand command) : void
+    }
+  }
+}
+
+
+
+
+' Single-class layer participation.
+Backend_servicemanagement_SupportApplicationService ..> Backend_servicemanagement_SupportApplicationService
+
+@enduml
