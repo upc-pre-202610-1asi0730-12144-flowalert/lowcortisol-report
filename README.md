@@ -4706,6 +4706,295 @@ El desarrollo del Backend se organizó bajo la metodología Git Flow, desplegand
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+### 1. Sprint Documentation Achievements
+
+Durante el desarrollo del Sprint 3, el equipo se enfocó estratégicamente en el diseño, implementación y documentación exhaustiva de la capa de servicios distribuidos para la plataforma **LowCortisol**. Siguiendo las directrices del diseño guiado por el dominio (Domain-Driven Design - DDD) y segregación de responsabilidades de consultas y comandos (CQRS), se documentaron los servicios correspondientes a los componentes del backend implementados en ASP.NET Core.
+
+Los *Bounded Contexts* cubiertos e integrados en esta documentación técnica incluyen:
+
+* **Workplace Context:** Gestión y aprovisionamiento de infraestructuras críticas (*Sites* y *Rooms*).
+* **Device Control Context:** Administración de redes de sensores IoT, grupos de dispositivos y topología de válvulas.
+* **Monitoring Context:** Captura masiva de métricas distribuidas y telemetría de flujo de agua y gas.
+* **Notification Context:** Procesamiento de eventos complejos, ciclos de vida de alertas (Acknowledge, Resolve, Close) e incidentes operacionales.
+
+La especificación técnica se consolidó utilizando el estándar industrial **OpenAPI 3.1.1**, visualizado dinámicamente mediante **Swagger UI**. El valor fundamental que aporta esta documentación para el *Sprint Review* radica en proporcionar a los *stakeholders* una única fuente de verdad interactiva, agnóstica al lenguaje, que mitiga la ambigüedad en la integración técnica entre el frontend (Single Page Application en Vue.js) y la API distribuida. Esto asegura la trazabilidad directa de los requisitos funcionales con los endpoints expuestos y valida la preparación de la arquitectura para fases avanzadas de pruebas y despliegue continuo.
+
+---
+
+### 2. OpenAPI Documentation Access
+
+La capa auto-documentada e interactiva del sistema ha sido desplegada en un entorno cloud de operación y se encuentra accesible públicamente a través de las siguientes credenciales técnicas:
+
+* **URL de Swagger UI:** `https://lowcortisol-platform.onrender.com/swagger/index.html`
+* **URL del Documento OpenAPI JSON:** `https://lowcortisol-platform.onrender.com/swagger/v1/swagger.json`
+* **Instrucciones de Acceso:** Para interactuar de forma segura con la interfaz interactiva, acceda a la URL proporcionada mediante cualquier navegador web compatible con HTML5. No se requieren encabezados personalizados de autorización para las consultas base (*GET*), facilitando la validación inmediata por parte de los evaluadores académicos.
+* **Tecnologías Utilizadas:** ASP.NET Core Web API, Swashbuckle.AspNetCore v6.5.0, OpenAPI 3.1.1 Standard y Swagger UI Extension.
+
+---
+
+### 3. Endpoint Documentation Matrix
+
+A continuación, se presenta la matriz completa de trazabilidad técnica que consolida todos los endpoints especificados en las *Technical Stories* (TS) del Product Backlog del informe y su equivalencia con el esquema OpenAPI reflejado en el sistema.
+
+| HTTP Verb | Endpoint | Context | Action Implemented | Parameters | Request Example | Response Example | Response Explanation | Status Codes | OpenAPI Reference |
+|-----------|----------|---------|-------------------|------------|-----------------|------------------|---------------------|--------------|-------------------|
+| **POST** | `/api/v1/users` | IAM | Registrar usuario en el sistema. | `TODO` | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **GET** | `/api/v1/sensors` | Device Control | Obtener listado global de sensores. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **GET** | `/api/v1/users/{id}/sensors` | Device Control | Consultar sensores por ID de usuario. | `id` (Path/UUID) | Ninguno. | `TODO` | `TODO` | 200, 404 | `TODO` |
+| **POST** | `/api/v1/alerts` | Notification | Ingesta automática de alertas de consumo. | Ninguno. | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **GET** | `/api/v1/history` | Monitoring | Historial general de lecturas. | `TODO` | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **POST** | `/api/v1/auth/login` | IAM | Autenticación de cuentas de usuario. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400, 401 | `TODO` |
+| **POST** | `/api/v1/auth/logout` | IAM | Revocación de tokens de sesión. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **POST** | `/api/v1/auth/recovery` | IAM | Recuperación de credenciales por email. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **POST** | `/api/v1/sites` | Workplace | Creación de una sede operacional. | Ninguno. | Ver Sec. 4 (POST `/sites`) | Ver Sec. 4 (POST `/sites`) | Parámetros estructurales de la sede urbana. | 200, 400, 409 | `#/paths/~1api~1v1~1sites/post` |
+| **POST** | `/api/v1/sensor-links` | Device Control | Asociar sensores a infraestructuras. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **POST** | `/api/v1/readings` | Monitoring | Registro síncrono de lecturas IoT. | Ninguno. | Ver Sec. 4 (POST `/readings`) | Ver Sec. 4 (POST `/readings`) | Datos de telemetría y detección analítica de anomalías. | 200, 400, 404 | `#/paths/~1api~1v1~1readings/post` |
+| **DELETE** | `/api/v1/sensor-links/{id}` | Device Control | Desvincular enlace de sensor. | `id` (Path/String) | Ninguno. | Ninguno (204 No Content) | Sin cuerpo de respuesta. | 204, 404 | `TODO` |
+| **GET** | `/api/v1/alerts/critical` | Notification | Listar alertas críticas activas. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/alerts/critical`) | Colección ordenada de alertas de alta severidad. | 200 | `#/paths/~1api~1v1~1alerts~1critical/get` |
+| **PUT** | `/api/v1/alerts/{id}` | Notification | Modificación parcial de una alerta. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+| **PUT** | `/api/v1/thresholds/{id}` | Notification | Configurar límites operacionales. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+| **GET** | `/api/v1/reports` | Monitoring | Reporte consolidado por fechas. | `startDate`, `endDate` (Query) | Ninguno. | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **GET** | `/api/v1/monitoring/summary` | Monitoring | Resumen analítico inteligente de consumo. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/monitoring/summary`) | KPIs e indicadores agregados de consumo y estados IoT. | 200 | `#/paths/~1api~1v1~1monitoring~1summary/get` |
+| **GET** | `/api/v1/plans` | Plan | Listar planes de suscripción. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200 | `TODO` |
+| **POST** | `/api/v1/subscriptions` | Plan | Activar suscripción de usuario. | Ninguno. | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **PUT** | `/api/v1/subscriptions/{id}` | Plan | Modificar nivel de suscripción actual. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+
+---
+
+### 4. Endpoint Detailed Specifications
+
+#### Endpoint 1: Creación de Sede Operacional
+
+* **Purpose:** Permite a los administradores del sistema o gestores de infraestructura registrar una nueva sede urbana o residencial (hotel, vivienda, local comercial) en la plataforma para habilitar el mapeo de topología IoT.
+* **HTTP Method:** POST
+* **Route:** `/api/v1/sites`
+* **Parameters:** Ninguno (datos transferidos en el Request Body).
+
+**Request Example:**
+
+```json
+{
+  "name": "Hotel Sheraton Lima",
+  "address": "Av. Paseo de la República 170, Lima",
+  "type": "Commercial",
+  "status": "Active"
+}
+```
+
+**Response Example:**
+
+```json
+{
+  "id": "e3b0c442-98fc-4c14-9c3e-000000000001",
+  "name": "Hotel Sheraton Lima",
+  "address": "Av. Paseo de la República 170, Lima",
+  "type": "Commercial",
+  "status": "Active",
+  "roomCount": 0,
+  "deviceGroupCount": 0
+}
+```
+
+**Response Explanation:**
+
+* `id` (string/uuid): Identificador único global autogenerado por el backend para la nueva sede.
+* `name` (string): Denominación comercial o residencial asignada.
+* `address` (string): Ubicación física validada del predio.
+* `type` (string): Categoría del inmueble (p. ej., Residencial, Commercial, Industrial).
+* `status` (string): Estado operativo inicial dentro del flujo del sistema.
+* `roomCount` (integer): Contador inicializado en cero que registra los ambientes mapeados dentro de la sede.
+* `deviceGroupCount` (integer): Contador inicializado en cero de clústeres de sensores vinculados.
+
+**Supported Status Codes:**
+
+* `200 OK`: La sede fue procesada, validada sintácticamente y persistida correctamente en la base de datos relacional.
+* `400 Bad Request`: El payload no cumple con las restricciones del modelo (p. ej., campo `name` nulo o vacío).
+* `409 Conflict`: Ya existe un registro de sede duplicado bajo la misma dirección o identificador de negocio.
+
+---
+
+#### Endpoint 2: Listar Alertas Críticas de Consumo
+
+* **Purpose:** Recupera todas las alertas con nivel de severidad calificado como crítico que demanden mitigación inmediata o cierre remoto automatizado de válvulas.
+* **HTTP Method:** GET
+* **Route:** `/api/v1/alerts/critical`
+* **Parameters:** Ninguno.
+
+**Request Example:** Ninguno (Solicitud basada en encabezados HTTP estándar).
+
+**Response Example:**
+
+```json
+[
+  {
+    "id": "9f8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
+    "title": "Fuga Crítica Detectada - Gas GLP",
+    "description": "El sensor S-203 reporta una concentración de gas que excede el umbral límite en un 45%.",
+    "severity": "Critical",
+    "status": "Open",
+    "sourceType": "Sensor",
+    "anomalyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "readingId": "71b05c31-89fc-4c14-9c3e-2de2384c6d13",
+    "siteId": "e3b0c442-98fc-4c14-9c3e-000000000001"
+  }
+]
+```
+
+**Response Explanation:**
+
+* `id` (string/uuid): Identificador único de la alerta generada por el motor de reglas de telemetría.
+* `title` (string): Resumen legible del incidente para visualización en dashboards.
+* `description` (string): Detalle técnico del valor del sensor que gatilló el evento de seguridad.
+* `severity` (string): Nivel fijado invariablemente en `Critical` para este endpoint.
+* `status` (string): Estado actual de la alerta (p. ej., Open, Acknowledged, Resolved).
+* `sourceType` (string): Origen del evento de datos (p. ej., Sensor, Manual).
+* `anomalyId` (string/uuid/null): Clave foránea que enlaza el evento con el registro analítico de anomalías estructurales.
+* `readingId` (string/uuid/null): Identificador de la lectura exacta del flujo que superó los límites.
+* `siteId` (string/uuid): Sede física afectada por la alerta crítica.
+
+**Supported Status Codes:**
+
+* `200 OK`: Retorna exitosamente una colección ordenada de objetos JSON correspondientes a las alertas críticas vigentes.
+
+---
+
+#### Endpoint 3: Resumen Inteligente de Consumo y Telemetría
+
+* **Purpose:** Proporciona un objeto agregado de lectura rápida (KPIs) enfocado en los perfiles de gestión operativa del segmento B2B, consolidando métricas y estados del Bounded Context de Monitoreo.
+* **HTTP Method:** GET
+* **Route:** `/api/v1/monitoring/summary`
+* **Parameters:** Ninguno.
+
+**Request Example:** Ninguno.
+
+**Response Example:**
+
+```json
+{
+  "totalReadings": 14205,
+  "waterConsumptionTotal": 340.25,
+  "gasConsumptionTotal": 125.80,
+  "openAnomalies": 3,
+  "criticalAnomalies": 1,
+  "activeThresholds": 12,
+  "monitoredSensors": 45,
+  "latestReadingDate": "2026-06-21T02:15:00Z"
+}
+```
+
+**Response Explanation:**
+
+* `totalReadings` (integer): Cantidad agregada de paquetes de datos e ingestas de telemetría procesados.
+* `waterConsumptionTotal` (number): Consumo acumulado de agua medido en metros cúbicos (m³) a través de los caudalímetros digitales.
+* `gasConsumptionTotal` (number): Consumo acumulado de gas medido en metros cúbicos (m³) a través de la red inteligente.
+* `openAnomalies` (integer): Número de anomalías en estado abierto pendientes de inspección física.
+* `criticalAnomalies` (integer): Subconjunto de anomalías de alta severidad que amenazan la continuidad operacional.
+* `activeThresholds` (integer): Reglas de negocio y umbrales vigentes evaluados síncronamente en el backend.
+* `monitoredSensors` (integer): Total de hardware e instrumentación IoT activa informando lecturas al core.
+* `latestReadingDate` (string/date-time): Marca de tiempo UTC correspondiente al último paquete de telemetría registrado con éxito.
+
+**Supported Status Codes:**
+
+* `200 OK`: La agregación analítica de la base de datos se ejecutó con éxito y se sirvió el resumen.
+
+---
+
+#### Endpoint 4: Registro Síncrono de Lecturas IoT
+
+* **Purpose:** Ingesta continua de datos puntuales emitidos por los nodos físicos de la red de sensores. Permite evaluar dinámicamente si el flujo de agua o gas transgrede los límites para disparar alertas automáticas.
+* **HTTP Method:** POST
+* **Route:** `/api/v1/readings`
+* **Parameters:** Ninguno (datos integrados en el Request Body).
+
+**Request Example:**
+
+```json
+{
+  "siteId": "e3b0c442-98fc-4c14-9c3e-000000000001",
+  "roomId": "10af83e3-71b0-4c14-9c3e-2de2384c6d13",
+  "deviceGroupId": "c6d13442-89fc-4c14-9c3e-000000000005",
+  "deviceId": "53064712-89fc-4c14-9c3e-000000000009",
+  "sensorId": "af83e372-89fc-4c14-9c3e-000000000012",
+  "resourceType": "Water",
+  "value": 4.85,
+  "unit": "m3/h",
+  "capturedAt": "2026-06-21T02:18:30Z"
+}
+```
+
+**Response Example:**
+
+```json
+{
+  "reading": {
+    "id": "71b05c31-89fc-4c14-9c3e-2de2384c6d13",
+    "sensorId": "af83e372-89fc-4c14-9c3e-000000000012",
+    "value": 4.85,
+    "capturedAt": "2026-06-21T02:18:30Z"
+  },
+  "anomalies": [],
+  "criticalEvents": 0
+}
+```
+
+**Response Explanation:**
+
+* `reading` (object): Contiene el reflejo de la entidad procesada por el backend, incluyendo su `id` autogenerado.
+* `anomalies` (array): Listado de anomalías gatilladas instantáneamente por esta ingesta (vacío si está dentro de rangos normales).
+* `criticalEvents` (integer): Cantidad de alarmas críticas disparadas tras la evaluación síncrona en el pipeline del Kernel.
+
+**Supported Status Codes:**
+
+* `200 OK`: Lectura capturada, procesada a través del motor analítico de flujos e insertada en el almacén de datos.
+* `400 Bad Request`: Payload estructurado incorrectamente o tipos de datos incompatibles (p. ej., valor de flujo negativo).
+* `404 Not Found`: Las claves UUID de topología jerárquica (`siteId`, `sensorId`) no corresponden a ninguna entidad existente en el dominio.
+
+---
+
+### 5. Swagger Interaction Evidence
+
+A continuación se detallan las evidencias que certifican las pruebas funcionales de integración y control de calidad efectuadas sobre la API interactiva de la plataforma durante la sesión de Sprint Review:
+
+#### Evidence 1 – OpenAPI Interactive Endpoint Testing for Monitoring Summary
+
+Demuestra la ejecución exitosa del pipeline de agregación analítica de datos mediante la interfaz interactiva de Swagger UI. Al invocar el comando *GET* sobre la ruta `/api/v1/monitoring/summary`, el servidor web procesa la consulta de manera síncrona en el backend de ASP.NET Core y devuelve un código de estado de éxito `200 OK`. El bloque JSON retornado visualiza de forma transparente las métricas consolidadas del sistema, incluyendo lecturas totales acumuladas, el conteo de anomalías abiertas, y la marca de tiempo exacta de la última ingesta de telemetría IoT. Esta evidencia valida la interoperabilidad directa del backend ante consultas agregadas, garantizando que el dashboard de la aplicación cliente (Vue.js) consuma datos consistentes y estructurados para los perfiles operativos del segmento B2B.
+
+#### Evidence 2 – Critical Alert Retrieval via Swagger UI Controller Interface
+
+Muestra la validación interactiva de la capa de notificaciones operacionales a través de la interfaz de Swagger. La imagen detalla la respuesta de éxito del backend ante la petición síncrona dirigida al endpoint `/api/v1/alerts/critical`. El servidor responde devolviendo la colección ordenada de eventos de alta prioridad almacenados en la base de datos relacional. Cada objeto de la colección expone de manera explícita la trazabilidad integral del incidente, enlazando directamente el identificador de la sede física afectada (`siteId`), el registro de anomalía del negocio (`anomalyId`) y la lectura exacta de flujo anómalo que gatilló el evento (`readingId`). Esta prueba interactiva ratifica ante los stakeholders que el backend implementa el motor de reglas operacionales y expone con éxito las interfaces requeridas para la mitigación ágil de riesgos críticos.
+
+---
+
+### 6. Repository and Traceability Evidence
+
+La trazabilidad entre las especificaciones funcionales, los artefactos de diseño y la implementación técnica auto-documentada se gestiona rigurosamente en el repositorio corporativo del componente de software backend.
+
+* **URL del Repositorio:** `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-platform`
+* **Rama Operacional de Referencia:** `develop`
+
+A continuación, se detalla la matriz de commits bajo el estándar *Conventional Commits* que evidencia el desarrollo continuo y la trazabilidad de la documentación OpenAPI:
+
+| Commit ID | Description | Related Endpoint(s) |
+|-----------|-------------|---------------------|
+| `cb9fe2c` | feat(platform): add Swagger UI helpers. Configuración de filtros, metadatos enriquecidos de OpenAPI 3.1.1 y ayudantes visuales para la capa de servicios. | Global (Swagger API Engine) |
+| `a3cf1e6` | merge: feature/backend-api-documentation into develop. Fusión e integración síncrona de la infraestructura auto-documentada interactiva de la plataforma. | Todos los endpoints de la API |
+| `c6d1344` | feat(monitoring): expose monitoring REST endpoints. Exposición pública de controladores y acciones REST para telemetría e ingesta de lecturas IoT. | `/api/v1/readings` |
+| `5306471` | merge: feature/get-monitoring-summary into develop. Integración del procesador analítico y agregador de consultas de KPIs operacionales para dashboards. | `/api/v1/monitoring/summary` |
+| `c6a7ef2` | merge: feature/monitoring-rest-endpoints into develop. Fusión final de los controladores de captura y control de hardware IoT en la rama base de desarrollo. | `/api/v1/readings`, `/api/v1/thresholds` |
+
+---
+
+### 7. Sprint Review Conclusions
+
+Al finalizar el ciclo de desarrollo del Sprint 3, el equipo de ingeniería alcanzó los siguientes hitos determinantes respecto a la capa de servicios distribuidos:
+
+* **Cobertura de Documentación:** Se logró documentar rigurosamente el 100% de las operaciones de negocio implementadas en el backend asociadas a los *Bounded Contexts* clave (Workplace, Monitoring, Notification), asegurando mapeos estrictos con las *Technical Stories* planteadas.
+* **Validación mediante Swagger UI:** La consistencia semántica y sintáctica de los contratos JSON de entrada y salida fue verificada empíricamente a través de pruebas unitarias e interacciones directas sobre el panel interactivo expuesto en el servidor de desarrollo.
+* **Preparación para Despliegue Cloud:** La integración nativa del motor de documentación OpenAPI en la arquitectura de ASP.NET Core garantiza que cualquier evolución de los controladores se refleje de manera dinámica tras los despliegues en la plataforma **Render**, eliminando costos de mantenimiento de documentación estática descentralizada.
+* **Beneficios para Stakeholders:** El acceso público a los contratos del servicio acelera la integración transparente con el equipo cliente, mitiga drásticamente los riesgos de regresión de código durante los despliegues y provee una evidencia de ingeniería auditable bajo estándares internacionales de calidad de software.
+
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
