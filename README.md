@@ -4,17 +4,19 @@
   <img src="assets/md-images-front/upc_logo.png" width="150px" />
 
   <p>Universidad Peruana de Ciencias Aplicadas</p>
-  <p>Facultad de Ingeniería</p>
-  <p>Carrera: Ingeniería de Software</p>
-  <p><b>Ciclo: 2026</b></p>
-  <p>Código del curso: 1ASI0730</p>
-  <p>Nombre del curso: Aplicaciones Web</p>
-  <p>NRC: 12144</p>
-  <p>Nombre del profesor: Efraín Ricardo Bautista Ubillús</p>
-  <p><b>Informe de Trabajo Final</b></p>
-  <p>Nombre del startup: LowCortisol</p>
-  <p>Nombre del producto: LowCortisol</p>
+  <p>Carrera de Ingeniería de Software</p><br>
 
+  <p><b>1ASI030</b></p>
+  <p><b>Aplicaciones Web</b></p>
+  <p>NRC</p>
+  <p><b>12144</b></p>
+  <p><b>Informe del Trabajo Final</b></p>
+  <p>Docente</p>
+  <p><b>Bautista Ubillús, Efrain Ricardo</b></p>
+  <p>Equipo</p>
+  <p><b>FlowAlert</b></p><br>
+  <p>Proyecto</p>
+  <p><b>Lowcortisol</b></p>
 </div>
 
 
@@ -52,6 +54,8 @@
     </tbody>
   </table>
     <br>
+
+  <p><b>Período 202610</b></p><br>
   <p><b>Junio, 2026</b></p>
 
 </div>
@@ -64,9 +68,9 @@
 
 | Versión |   Fecha    | Autor |                                                  Descripción de modificación                                                   |
 | :-----: |:----------:|:-----:| :----------------------------------------------------------------------------------------------------------------------------: |
-|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TB1   | 15/05/2026 | Todos | Avance del trabajo: Añadiendo JSON Server con más recursos |
-|   AV2   |            |       |                                                            |
+|   AV1   | 03/04/2026 | Todos | Se agregó la primera versión del informe, incluyendo carátula, registro de versiones, perfiles del equipo, análisis inicial del problema, artefactos de UX, arquitectura preliminar y evidencias del Sprint 1. |
+|   TB1   | 15/05/2026 | Todos | Se corrigieron y ampliaron los artefactos previamente observados por el docente, se incorporó la nueva versión del Landing Page, la primera versión de la Web Application y la documentación correspondiente al Sprint 2.|
+|   AV2   | 21/06/2026 | Todos | Se actualizaron las secciones del informe con la evidencia del Sprint 3, incluyendo nueva versión del Landing Page, nueva versión de la Web Application, primera versión de Web Services, entrevistas de validación, evaluación heurística y Video About-the-Product.                                                           |
 |   TB2   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
@@ -285,7 +289,7 @@ Objetivo general, ABET – EAC - Student Outcome 5: Capacidad de funcionar efect
 ## 1.1. StartUp Profile
 
 ### 1.1.1. Descripción de la StartUp
-El presente informe pretende documentar el desarrollo del Startup “LowCortisol”, el cual busca mejorar la prevención y gestión de incidentes en tuberías de agua y gas mediante el uso de tecnología IoT y monitoreo en tiempo real.
+El presente informe pretende documentar el desarrollo del Startup “FlowAlert”, el cual busca mejorar la prevención y gestión de incidentes en tuberías de agua y gas mediante el uso de tecnología IoT y monitoreo en tiempo real.
 A través de la aplicación llamada “LowCortisol”, los usuarios podrán supervisar el estado de sus instalaciones, recibir alertas inmediatas ante fugas o anomalías y tomar acciones rápidas como cerrar válvulas de forma remota o solicitar soporte técnico.
 
 De este modo, la empresa busca reducir pérdidas económicas, prevenir riesgos para la salud y mejorar la seguridad en hogares, hoteles y otros establecimientos.
@@ -788,7 +792,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 ##### **1. Diferenciación y accesibilidad**
 **Estrategia**
 
-  La startup Low Cortisol adoptará una estrategia de diferenciación y accesibilidad, enfocándose en ofrecer una solución integral, fácil de usar y adaptada al contexto latinoamericano. A diferencia de competidores como Aqara, Fibaro y Honeywell, se centrará en el usuario común, brindando monitoreo en tiempo real, alertas inmediatas y control de acciones ante fugas de agua y gas.
+  La startup FlowAlert adoptará una estrategia de diferenciación y accesibilidad, enfocándose en ofrecer una solución integral, fácil de usar y adaptada al contexto latinoamericano. A diferencia de competidores como Aqara, Fibaro y Honeywell, se centrará en el usuario común, brindando monitoreo en tiempo real, alertas inmediatas y control de acciones ante fugas de agua y gas.
 
   Para enfrentar sus fortalezas, se apostará por la simplificación tecnológica y la especialización, ofreciendo una interfaz intuitiva y funciones enfocadas en la prevención de fugas. Además, se aprovecharán debilidades como los altos costos y la complejidad mediante precios accesibles y planes flexibles.
 
