@@ -1,0 +1,88 @@
+@startuml
+title LowCortisol Platform - Workplace Backend Class Diagram
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam linetype ortho
+
+package "Domain" {
+  class Site
+  class Room
+  class DeviceGroup
+
+  class CreateSiteCommand
+  class CreateRoomCommand
+  class CreateDeviceGroupCommand
+  class GetAllSitesQuery
+  class GetSiteByIdQuery
+  class GetSitePhysicalModelByIdQuery
+
+  interface ISiteRepository
+  interface IRoomRepository
+  interface IDeviceGroupRepository
+}
+
+package "Application" {
+  interface ISiteCommandService
+  interface ISiteQueryService
+  class SiteCommandService
+  class SiteQueryService
+  class WorkplaceError
+}
+
+package "Infrastructure" {
+  class EfSiteRepository
+  class EfRoomRepository
+  class EfDeviceGroupRepository
+  class InMemorySiteRepository
+  class InMemoryRoomRepository
+  class InMemoryDeviceGroupRepository
+}
+
+package "Interfaces / REST" {
+  class SitesController
+  class RoomsController
+  class CreateSiteResource
+  class CreateRoomResource
+  class CreateDeviceGroupResource
+  class SiteResource
+  class RoomResource
+  class DeviceGroupResource
+  class SitePhysicalModelResource
+  class SiteResourceFromEntityAssembler
+  class SitePhysicalModelResourceFromEntityAssembler
+}
+
+Site "1" o-- "*" Room
+Room "1" o-- "*" DeviceGroup
+
+ISiteCommandService <|.. SiteCommandService
+ISiteQueryService <|.. SiteQueryService
+
+SiteCommandService --> ISiteRepository
+SiteCommandService --> IRoomRepository
+SiteCommandService --> IDeviceGroupRepository
+SiteQueryService --> ISiteRepository
+SiteQueryService --> IRoomRepository
+SiteQueryService --> IDeviceGroupRepository
+
+ISiteRepository <|.. EfSiteRepository
+IRoomRepository <|.. EfRoomRepository
+IDeviceGroupRepository <|.. EfDeviceGroupRepository
+ISiteRepository <|.. InMemorySiteRepository
+IRoomRepository <|.. InMemoryRoomRepository
+IDeviceGroupRepository <|.. InMemoryDeviceGroupRepository
+
+SitesController --> ISiteCommandService
+SitesController --> ISiteQueryService
+RoomsController --> ISiteCommandService
+RoomsController --> ISiteQueryService
+
+SitesController ..> CreateSiteResource
+RoomsController ..> CreateRoomResource
+RoomsController ..> CreateDeviceGroupResource
+SiteResourceFromEntityAssembler ..> SiteResource
+SitePhysicalModelResourceFromEntityAssembler ..> SitePhysicalModelResource
+
+@enduml

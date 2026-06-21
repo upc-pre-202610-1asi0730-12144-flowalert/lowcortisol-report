@@ -1,0 +1,77 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam wrapWidth 135
+skinparam maxMessageSize 70
+skinparam nodesep 35
+skinparam ranksep 45
+skinparam ArrowColor #8A8A8A
+skinparam ArrowFontColor #666666
+skinparam ArrowFontStyle bold
+skinparam ArrowThickness 1
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+skinparam rectangleFontStyle plain
+skinparam rectangle {
+  BorderThickness 0
+  MinimumWidth 170
+  Padding 8
+}
+skinparam databaseBackgroundColor #C9332B
+skinparam databaseBorderColor #C9332B
+skinparam databaseFontColor #FFFFFF
+skinparam rectangle<<SystemBoundary>> {
+  BackgroundColor transparent
+  BorderColor #4A4A4A
+  BorderThickness 2
+  BorderStyle dashed
+  FontColor #333333
+  FontStyle bold
+  Padding 12
+}
+hide stereotype
+left to right direction
+
+title LowCortisol - Backend General Component Diagram
+
+rectangle "<b>Browser SPA</b>\n<i>[Vue 3 + Vite]</i>\n\nConsumes deployed REST endpoints." as Spa #3498DB
+database "<b>lowcortisol_db</b>\n<i>[PostgreSQL]</i>\n\nOperational persistence through EF Core." as Db
+
+rectangle "<b>Platform API</b>\n<i>[ASP.NET Core Modular Monolith]</i>" <<SystemBoundary>> {
+  rectangle "<b>Workplace</b>\n<i>[Implemented Backend Context]</i>\n\nSites, rooms, device groups and physical model resources." as Workplace #0B6FB3
+  rectangle "<b>DeviceControl</b>\n<i>[Implemented Backend Context]</i>\n\nDevices, sensors, valves, commands, valve operations and mitigation actions." as DeviceControl #0B6FB3
+  rectangle "<b>Monitoring</b>\n<i>[Implemented Backend Context]</i>\n\nReadings, thresholds, anomalies, summaries and critical anomaly events." as Monitoring #0B6FB3
+  rectangle "<b>Notification</b>\n<i>[Implemented Backend Context]</i>\n\nAlerts, incidents, channels, deliveries and incident mitigation requests." as Notification #0B6FB3
+  rectangle "<b>Shared</b>\n<i>[Kernel / Technical Foundation]</i>\n\nResult pattern, Unit of Work, EF Core DbContext, CORS, Swagger and ProblemDetails support." as Shared #7F8C8D
+}
+
+Spa --> Workplace : sites and physical model\n[REST / JSON]
+Spa --> DeviceControl : commands and operations\n[REST / JSON]
+Spa --> Monitoring : readings and summaries\n[REST / JSON]
+Spa --> Notification : alerts and incidents\n[REST / JSON]
+
+Workplace --> Shared : uses shared contracts
+DeviceControl --> Shared : uses shared contracts
+Monitoring --> Shared : uses shared contracts
+Notification --> Shared : uses shared contracts
+
+Workplace --> Db : persists site data\n[EF Core]
+DeviceControl --> Db : persists device control data\n[EF Core]
+Monitoring --> Db : persists monitoring data\n[EF Core]
+Notification --> Db : persists response data\n[EF Core]
+
+Workplace --> DeviceControl : physical inventory via ACL
+Monitoring --> Notification : CriticalAnomalyDetected bridge
+Notification --> DeviceControl : request valve mitigation
+
+legend right
+  <b>Backend reality</b>
+  |<#0B6FB3> implemented backend context |
+  |<#7F8C8D> shared technical foundation |
+  |<#C9332B> PostgreSQL database |
+endlegend
+
+@enduml

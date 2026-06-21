@@ -1,0 +1,19 @@
+@startuml
+title LowCortisol - Plan Backend Component Diagram
+
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+
+rectangle "<b>Plan Backend Context</b>\n<i>[Not implemented in current platform API]</i>\n\nPlan exists as a frontend/product module. It is documented here only as a future backend candidate." as Plan #7F8C8D
+rectangle "<b>Current Platform API</b>\n<i>[ASP.NET Core]</i>\n\nImplemented backend contexts: Workplace, DeviceControl, Monitoring and Notification." as Api #0B6FB3
+rectangle "<b>Plan Frontend Module</b>\n<i>[Vue]</i>\n\nPlan selection, subscription limits, checkout UI and payment history." as Frontend #3498DB
+
+Frontend --> Plan : future integration candidate
+Plan -[hidden]right- Api
+
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+title LowCortisol - Support Backend Class Diagram
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+package "Not implemented in backend" {
+  class "Support backend context" as SupportCandidate
+}
+
+package "Frontend module" {
+  class SupportTicket
+  class SupportMessage
+  class SupportAgent
+  class KnowledgeArticle
+}
+
+SupportTicket "1" o-- "*" SupportMessage
+SupportTicket --> SupportAgent
+SupportCandidate ..> SupportTicket : future backend candidate
+
+note bottom of SupportCandidate
+  The current platform backend does not contain
+  a Support bounded context. Support is implemented
+  in the frontend/product scope.
+end note
+
+@enduml

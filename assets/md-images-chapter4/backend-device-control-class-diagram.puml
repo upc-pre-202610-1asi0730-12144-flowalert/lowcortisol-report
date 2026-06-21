@@ -1,0 +1,96 @@
+@startuml
+title LowCortisol Platform - Device Control Backend Class Diagram
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam linetype ortho
+
+package "Domain" {
+  class Device
+  class Sensor
+  class Valve
+  class DeviceCommand
+  class CommandExecution
+  class CommandAuditEntry
+  class ValveOperation
+  class PhysicalTarget
+
+  interface IDeviceRepository
+  interface ISensorRepository
+  interface IValveRepository
+  interface IDeviceCommandRepository
+  interface IValveOperationRepository
+}
+
+package "Application" {
+  class OpenValveCommand
+  class ExecuteDeviceCommand
+  class CloseValveForIncidentCommand
+  class CancelDeviceCommand
+  class DeviceControlContextFacade
+  class DeviceControlMitigationResult
+  interface IDeviceControlContextFacade
+  interface IDeviceCommandQueryService
+  interface IValveOperationQueryService
+  interface IDeviceControlMitigationSummaryQueryService
+}
+
+package "Infrastructure" {
+  class EfDeviceRepository
+  class EfSensorRepository
+  class EfValveRepository
+  class EfDeviceCommandRepository
+  class EfValveOperationRepository
+  class InMemoryDeviceRepository
+  class InMemorySensorRepository
+  class InMemoryValveRepository
+  class InMemoryDeviceCommandRepository
+  class InMemoryValveOperationRepository
+}
+
+package "Interfaces / REST" {
+  class DeviceControlController
+  class DeviceCommandsController
+  class ValveOperationsController
+  class DeviceCommandResource
+  class CommandExecutionResource
+  class CommandAuditEntryResource
+  class ValveOperationResource
+  class DeviceControlMitigationResultResource
+}
+
+Device "1" o-- "*" Sensor
+Device "1" o-- "*" Valve
+Device "1" o-- "*" DeviceCommand
+DeviceCommand "1" o-- "*" CommandExecution
+DeviceCommand "1" o-- "*" CommandAuditEntry
+Valve "1" --> "*" ValveOperation
+
+IDeviceControlContextFacade <|.. DeviceControlContextFacade
+DeviceControlContextFacade --> IDeviceRepository
+DeviceControlContextFacade --> ISensorRepository
+DeviceControlContextFacade --> IValveRepository
+DeviceControlContextFacade --> IDeviceCommandRepository
+DeviceControlContextFacade --> IValveOperationRepository
+
+IDeviceRepository <|.. EfDeviceRepository
+ISensorRepository <|.. EfSensorRepository
+IValveRepository <|.. EfValveRepository
+IDeviceCommandRepository <|.. EfDeviceCommandRepository
+IValveOperationRepository <|.. EfValveOperationRepository
+IDeviceRepository <|.. InMemoryDeviceRepository
+ISensorRepository <|.. InMemorySensorRepository
+IValveRepository <|.. InMemoryValveRepository
+IDeviceCommandRepository <|.. InMemoryDeviceCommandRepository
+IValveOperationRepository <|.. InMemoryValveOperationRepository
+
+DeviceControlController --> IDeviceControlContextFacade
+DeviceCommandsController --> IDeviceCommandQueryService
+ValveOperationsController --> IValveOperationQueryService
+
+DeviceControlController ..> CloseValveForIncidentCommand
+DeviceCommandsController ..> DeviceCommandResource
+ValveOperationsController ..> ValveOperationResource
+
+@enduml

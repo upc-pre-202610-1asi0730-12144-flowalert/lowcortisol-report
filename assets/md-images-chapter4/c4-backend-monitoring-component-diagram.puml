@@ -1,0 +1,71 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam wrapWidth 130
+skinparam nodesep 35
+skinparam ranksep 40
+skinparam ArrowColor #8A8A8A
+skinparam ArrowFontColor #666666
+skinparam ArrowFontStyle bold
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+skinparam rectangle {
+  BorderThickness 0
+  MinimumWidth 160
+  Padding 8
+}
+skinparam databaseBackgroundColor #C9332B
+skinparam databaseBorderColor #C9332B
+skinparam databaseFontColor #FFFFFF
+hide stereotype
+left to right direction
+
+title LowCortisol - Monitoring Backend Component Diagram
+
+rectangle "<b>Browser SPA</b>\n<i>[Vue 3 + Vite]</i>\n\nUses monitoring, readings, thresholds and anomalies endpoints." as Spa #3498DB
+database "<b>lowcortisol_db</b>\n<i>[PostgreSQL]</i>\n\nStores readings, thresholds and anomalies." as Db
+rectangle "<b>Notification Context</b>\n<i>[Internal Consumer]</i>\n\nReceives critical anomaly bridge/event to create alerts." as Notification #7F8C8D
+
+rectangle "<b>ReadingsController</b>\n<i>[REST Controller]</i>\n\nPOST readings and scoped reading queries." as ReadingsController #0B6FB3
+rectangle "<b>ThresholdsController</b>\n<i>[REST Controller]</i>\n\nCreates and lists active/scoped thresholds." as ThresholdsController #0B6FB3
+rectangle "<b>AnomaliesController</b>\n<i>[REST Controller]</i>\n\nLists and resolves anomalies." as AnomaliesController #0B6FB3
+rectangle "<b>MonitoringController</b>\n<i>[REST Controller]</i>\n\nExposes monitoring summary." as MonitoringController #0B6FB3
+rectangle "<b>Resources + Assemblers</b>\n<i>[Interfaces]</i>\n\nReading, threshold, anomaly and summary resources." as Resources #0B6FB3
+rectangle "<b>Command Services</b>\n<i>[Application]</i>\n\nRegisterConsumptionReading, CreateThreshold and ResolveAnomaly." as CommandServices #3498DB
+rectangle "<b>Query Services</b>\n<i>[Application]</i>\n\nRecent readings, scoped readings, active thresholds, open anomalies and summary queries." as QueryServices #3498DB
+rectangle "<b>ConsumptionReading</b>\n<i>[Domain Entity]</i>\n\nMeasured water/gas value with status and capture time." as Reading #27AE60
+rectangle "<b>Threshold</b>\n<i>[Domain Entity]</i>\n\nLimit rule scoped by sensor, group, room, site and resource." as Threshold #27AE60
+rectangle "<b>Anomaly</b>\n<i>[Domain Entity]</i>\n\nWarning or critical event created when a threshold is exceeded." as Anomaly #27AE60
+rectangle "<b>AnomalyDetectionService</b>\n<i>[Domain Service]</i>\n\nEvaluates readings against active thresholds." as Detection #27AE60
+rectangle "<b>CriticalAnomalyDetected</b>\n<i>[Domain Event / Bridge]</i>\n\nConnects Monitoring with Notification response flow." as CriticalEvent #27AE60
+rectangle "<b>EF + InMemory Repositories</b>\n<i>[Infrastructure]</i>\n\nReading, threshold and anomaly persistence adapters." as Repositories #7F8C8D
+
+Spa --> ReadingsController : REST / JSON
+Spa --> ThresholdsController : REST / JSON
+Spa --> AnomaliesController : REST / JSON
+Spa --> MonitoringController : REST / JSON
+ReadingsController --> Resources : maps resources
+ThresholdsController --> Resources : maps resources
+AnomaliesController --> Resources : maps resources
+MonitoringController --> Resources : maps resources
+ReadingsController --> CommandServices : register reading
+ThresholdsController --> CommandServices : create threshold
+AnomaliesController --> CommandServices : resolve anomaly
+ReadingsController --> QueryServices : reading queries
+ThresholdsController --> QueryServices : threshold queries
+AnomaliesController --> QueryServices : anomaly queries
+MonitoringController --> QueryServices : summary query
+CommandServices --> Reading : creates reading
+CommandServices --> Threshold : creates threshold
+CommandServices --> Detection : evaluates thresholds
+Detection --> Anomaly : creates anomaly when exceeded
+Anomaly --> CriticalEvent : emits when critical
+CriticalEvent --> Notification : creates operational response
+CommandServices --> Repositories : persists changes
+QueryServices --> Repositories : reads data
+Repositories --> Db : EF Core / SQL
+
+@enduml

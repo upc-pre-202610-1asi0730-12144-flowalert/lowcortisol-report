@@ -1,0 +1,29 @@
+@startuml
+title LowCortisol - IAM Backend Class Diagram
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+package "Not implemented in backend" {
+  class "IAM backend context" as IamCandidate
+}
+
+package "Frontend module" {
+  class User
+  class AccessProfile
+  class AuthSession
+  class ProfilePage
+}
+
+User --> AccessProfile
+AuthSession --> User
+IamCandidate ..> User : future backend candidate
+
+note bottom of IamCandidate
+  The current platform backend does not contain
+  an IAM bounded context. IAM is implemented
+  in the frontend/product scope.
+end note
+
+@enduml

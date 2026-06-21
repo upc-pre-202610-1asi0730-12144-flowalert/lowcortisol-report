@@ -1,0 +1,75 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam wrapWidth 130
+skinparam nodesep 35
+skinparam ranksep 40
+skinparam ArrowColor #8A8A8A
+skinparam ArrowFontColor #666666
+skinparam ArrowFontStyle bold
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+skinparam rectangle {
+  BorderThickness 0
+  MinimumWidth 160
+  Padding 8
+}
+skinparam databaseBackgroundColor #C9332B
+skinparam databaseBorderColor #C9332B
+skinparam databaseFontColor #FFFFFF
+hide stereotype
+left to right direction
+
+title LowCortisol - Notification Backend Component Diagram
+
+rectangle "<b>Browser SPA</b>\n<i>[Vue 3 + Vite]</i>\n\nUses alert, incident, channel and notification summary endpoints." as Spa #3498DB
+database "<b>lowcortisol_db</b>\n<i>[PostgreSQL]</i>\n\nStores alerts, incidents, assignments, actions, channels and deliveries." as Db
+rectangle "<b>Monitoring Context</b>\n<i>[Event Source]</i>\n\nRaises CriticalAnomalyDetected." as Monitoring #7F8C8D
+rectangle "<b>DeviceControl Context</b>\n<i>[Mitigation Provider]</i>\n\nCloses valves for incident mitigation." as DeviceControl #7F8C8D
+rectangle "<b>Email / SMS / Webhook</b>\n<i>[Future Delivery]</i>\n\nExternal delivery channels pending implementation." as DeliveryExternal #7F8C8D
+
+rectangle "<b>AlertsController</b>\n<i>[REST Controller]</i>\n\nCreates, acknowledges, resolves and closes alerts." as AlertsController #0B6FB3
+rectangle "<b>IncidentsController</b>\n<i>[REST Controller]</i>\n\nCreates, assigns, mitigates, resolves and closes incidents." as IncidentsController #0B6FB3
+rectangle "<b>NotificationChannelsController</b>\n<i>[REST Controller]</i>\n\nCreates and activates/deactivates channels." as ChannelsController #0B6FB3
+rectangle "<b>NotificationsController</b>\n<i>[REST Controller]</i>\n\nExposes notification summary and risk response view." as NotificationsController #0B6FB3
+rectangle "<b>Resources + Assemblers</b>\n<i>[Interfaces]</i>\n\nAlert, incident, delivery, action, channel and summary resources." as Resources #0B6FB3
+rectangle "<b>Command Services</b>\n<i>[Application]</i>\n\nAlert lifecycle, incident lifecycle, channel status and incident mitigation commands." as CommandServices #3498DB
+rectangle "<b>Query Services</b>\n<i>[Application]</i>\n\nOpen alerts, critical alerts, incidents by scope, channels and summary queries." as QueryServices #3498DB
+rectangle "<b>Alert</b>\n<i>[Domain Aggregate]</i>\n\nOperational notification generated from critical anomaly risk." as Alert #27AE60
+rectangle "<b>Incident</b>\n<i>[Domain Aggregate]</i>\n\nResponse case with assignment, actions, status and mitigation." as Incident #27AE60
+rectangle "<b>NotificationChannel</b>\n<i>[Domain Entity]</i>\n\nIn-app channel now; external delivery projected." as Channel #27AE60
+rectangle "<b>AlertDelivery</b>\n<i>[Domain Entity]</i>\n\nDelivery attempt and status for alert communication." as Delivery #27AE60
+rectangle "<b>IncidentAction</b>\n<i>[Domain Entity]</i>\n\nOperational log, including valve_closed actions." as IncidentAction #27AE60
+rectangle "<b>EF + InMemory Repositories</b>\n<i>[Infrastructure]</i>\n\nAlert, incident and channel persistence adapters." as Repositories #7F8C8D
+
+Spa --> AlertsController : REST / JSON
+Spa --> IncidentsController : REST / JSON
+Spa --> ChannelsController : REST / JSON
+Spa --> NotificationsController : REST / JSON
+Monitoring --> CommandServices : CriticalAnomalyDetected
+AlertsController --> Resources : maps resources
+IncidentsController --> Resources : maps resources
+ChannelsController --> Resources : maps resources
+NotificationsController --> Resources : maps resources
+AlertsController --> CommandServices : alert commands
+IncidentsController --> CommandServices : incident commands
+ChannelsController --> CommandServices : channel commands
+AlertsController --> QueryServices : alert queries
+IncidentsController --> QueryServices : incident queries
+ChannelsController --> QueryServices : channel queries
+NotificationsController --> QueryServices : summary query
+CommandServices --> Alert : creates and updates alert
+CommandServices --> Incident : creates and updates incident
+CommandServices --> Channel : updates channel
+CommandServices --> Delivery : records delivery
+CommandServices --> IncidentAction : records action
+CommandServices --> DeviceControl : request valve close
+Delivery --> DeliveryExternal : projected real delivery
+CommandServices --> Repositories : persists changes
+QueryServices --> Repositories : reads data
+Repositories --> Db : EF Core / SQL
+
+@enduml

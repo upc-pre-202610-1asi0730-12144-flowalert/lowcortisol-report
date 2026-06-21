@@ -1,0 +1,19 @@
+@startuml
+title LowCortisol - Support Backend Component Diagram
+
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultTextAlignment center
+skinparam rectangleRoundCorner 0
+skinparam rectangleBorderThickness 0
+skinparam rectangleFontColor #FFFFFF
+
+rectangle "<b>Support Backend Context</b>\n<i>[Not implemented in current platform API]</i>\n\nSupport exists as a frontend/product module. It is documented here only as a future backend candidate." as Support #7F8C8D
+rectangle "<b>Current Platform API</b>\n<i>[ASP.NET Core]</i>\n\nImplemented backend contexts: Workplace, DeviceControl, Monitoring and Notification." as Api #0B6FB3
+rectangle "<b>Support Frontend Module</b>\n<i>[Vue]</i>\n\nTickets, agents and knowledge articles UI." as Frontend #3498DB
+
+Frontend --> Support : future integration candidate
+Support -[hidden]right- Api
+
+@enduml

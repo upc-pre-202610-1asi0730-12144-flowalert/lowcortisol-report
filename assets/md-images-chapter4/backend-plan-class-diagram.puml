@@ -1,0 +1,32 @@
+@startuml
+title LowCortisol - Plan Backend Class Diagram
+
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+package "Not implemented in backend" {
+  class "Plan backend context" as PlanCandidate
+}
+
+package "Frontend module" {
+  class Plan
+  class PlanFeature
+  class Subscription
+  class Payment
+  class ServiceRequest
+}
+
+Plan "1" o-- "*" PlanFeature
+Subscription --> Plan
+Payment --> Subscription
+ServiceRequest --> Subscription
+PlanCandidate ..> Plan : future backend candidate
+
+note bottom of PlanCandidate
+  The current platform backend does not contain
+  a Plan bounded context. Plan is implemented
+  in the frontend/product scope.
+end note
+
+@enduml
