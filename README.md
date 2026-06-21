@@ -4,17 +4,19 @@
   <img src="assets/md-images-front/upc-logo.png" width="150px" />
 
   <p>Universidad Peruana de Ciencias Aplicadas</p>
-  <p>Facultad de Ingeniería</p>
-  <p>Carrera: Ingeniería de Software</p>
-  <p><b>Ciclo: 2026</b></p>
-  <p>Código del curso: 1ASI0730</p>
-  <p>Nombre del curso: Aplicaciones Web</p>
-  <p>NRC: 12144</p>
-  <p>Nombre del profesor: Efraín Ricardo Bautista Ubillús</p>
-  <p><b>Informe de Trabajo Final</b></p>
-  <p>Nombre del startup: LowCortisol</p>
-  <p>Nombre del producto: LowCortisol</p>
+  <p>Carrera de Ingeniería de Software</p><br>
 
+  <p><b>1ASI030</b></p>
+  <p><b>Aplicaciones Web</b></p>
+  <p>NRC</p>
+  <p><b>12144</b></p>
+  <p><b>Informe del Trabajo Final</b></p>
+  <p>Docente</p>
+  <p><b>Bautista Ubillús, Efrain Ricardo</b></p>
+  <p>Equipo</p>
+  <p><b>FlowAlert</b></p><br>
+  <p>Proyecto</p>
+  <p><b>Lowcortisol</b></p>
 </div>
 
 
@@ -52,7 +54,9 @@
     </tbody>
   </table>
     <br>
-  <p><b>Abril, 2026</b></p>
+
+  <p><b>Período 202610</b></p><br>
+  <p><b>Junio, 2026</b></p>
 
 </div>
 
@@ -64,9 +68,9 @@
 
 | Versión |   Fecha    | Autor |                                                  Descripción de modificación                                                   |
 | :-----: |:----------:|:-----:| :----------------------------------------------------------------------------------------------------------------------------: |
-|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
-|   TB1   | 15/05/2026 | Todos | Avance del trabajo: Añadiendo JSON Server con más recursos |
-|   AV2   |            |       |                                                            |
+|   AV1   | 03/04/2026 | Todos | Se agregó la primera versión del informe, incluyendo carátula, registro de versiones, perfiles del equipo, análisis inicial del problema, artefactos de UX, arquitectura preliminar y evidencias del Sprint 1. |
+|   TB1   | 15/05/2026 | Todos | Se corrigieron y ampliaron los artefactos previamente observados por el docente, se incorporó la nueva versión del Landing Page, la primera versión de la Web Application y la documentación correspondiente al Sprint 2.|
+|   AV2   | 21/06/2026 | Todos | Se actualizaron las secciones del informe con la evidencia del Sprint 3, incluyendo nueva versión del Landing Page, nueva versión de la Web Application, primera versión de Web Services, entrevistas de validación, evaluación heurística y Video About-the-Product.                                                           |
 |   TB2   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
@@ -144,6 +148,16 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 #### Participación por integrante:
 ##### Commits en el project reportCommits en el project report de la TB1:
 ![Participacion-1](assets/team-participation-tb1.png)
+
+### Entrega AV2:
+![Commits-2](assets/Collaborate1.png)
+
+#### Participación por integrante:
+##### Commits en el project reportCommits en el project report de la TB1:
+![Participacion-2](assets/Collaborate2.png)
+![Participacion-3](assets/Collaborate3.png)
+![Participacion-4](assets/Collaborate4.png)
+![Participacion-5](assets/Collaborate5.png)
 
 # Contenido
 
@@ -273,21 +287,19 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Student Outcome
 
-Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
-
-Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+Objetivo general, ABET – EAC - Student Outcome 5: Capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Miguel Condori <br>AV1: Durante el proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración. <br> TB1: Participé en la exposición de las correcciones del Sprint 1 y en la planificación del Sprint 2. Expliqué la distribución de roles entre líderes y colaboradores por aspecto, y presenté las evidencias de desarrollo durante el Sprint Review, buscando una comunicación fluida y clara para el equipo y el cliente. <br> TB2: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo nuestros segmentos objetivo, diseño de entrevistas, usuarios y posibles competidores, permitiéndome así realizar todo el Needfinding, incluyendo User Persona, User Task Matrix, Journey Mapping y Empathy Mapping. Luego contribuí con el diagrama C4 del proyecto tanto backend como frontend, además de participar en secciones de la Landing Page como Header, Home, Contact y Footer, y en el Event Storming. <br> TB1: Realizamos los puntos 5.2.2.3 y 5.2.2.5, además de contribuir en el desarrollo de la WebApp, así como en la corrección de errores de organización en GitHub mediante GitFlow. También realizamos correcciones en los diagramas C4 y en el Event Storming. <br> TB2: <br><br> Jean Loa <br>AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente. <br> TB1: Durante esta entrega, participé en la explicación del avance de la WebApp, mostrando el flujo principal de autenticación, navegación, gestión de sedes, dispositivos, alertas, reportes, planes, soporte y perfil. También contribuí comunicando el estado del despliegue, las evidencias de avance del Sprint Review y las decisiones tomadas para organizar mejor el proyecto en GitHub. Además, apoyé en la presentación de los diagramas C4, diagramas de clases y diagrama de base de datos, explicando cómo la arquitectura del sistema se organiza por bounded contexts. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto con un enfoque entendible para usuarios no técnicos. <br> TB1: Durante esta entrega, participé en la explicación de las correcciones realizadas tras el feedback del docente, especialmente en Lean UX Hypothesis Statements, Technical Stories y conclusiones del proyecto. También apoyé en la explicación del punto 5.2.2.8 Team Collaboration Insights during Sprint, así como en las correcciones de nomenclaturas, anexos y organización general del reporte para mantener coherencia entre los artefactos técnicos y funcionales. <br> TB2: <br><br> Kirk Quiliano <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo segmentos, usuarios y competidores. Además, realicé entrevistas y, en base a ellas, diseñé la Landing Page. <br> TB1: Contribuí en la sustentación oral explicando las correcciones realizadas al Product Backlog y los objetivos trazados durante el sprint planning. Asimismo, presenté la organización de tareas en Trello y las evidencias de la documentación de servicios durante el Sprint Review, asegurando que la audiencia comprendiera el flujo técnico y administrativo. <br> TB2: | AV1: En esta primera entrega, el equipo logró comunicar las ideas principales del proyecto de manera clara, especialmente al explicar la problemática, los segmentos de usuarios y la propuesta de valor. Se notó preparación previa y un buen entendimiento general del tema, lo que permitió que la presentación sea coherente. Sin embargo, aún hay aspectos por mejorar, como la fluidez al exponer, evitar pausas o repeticiones y mejorar la distribución del tiempo entre los integrantes. Para las siguientes entregas, será importante practicar más como equipo para lograr una comunicación más natural y segura frente a distintos tipos de audiencia. <br><br> TB1: En esta entrega, el equipo logró comunicar con mayor claridad el avance funcional y técnico del proyecto, especialmente al explicar la WebApp, el despliegue, la arquitectura C4 y la organización del desarrollo por sprints. Se evidenció una mejor comprensión del producto y de sus principales módulos. Sin embargo, aún se debe mejorar la distribución del tiempo durante la exposición y reforzar la explicación de algunos elementos técnicos para que sean entendibles por audiencias no especializadas. <br><br> TB2: |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Miguel Condori <br>AV1: Me comunico por escrito de forma clara y estructurada, adaptando el lenguaje según el público, lo que me permitió desarrollar el análisis competitivo, la arquitectura de información y la documentación de la Landing Page de manera comprensible. <br> TB1: Documenté formalmente las correcciones del Sprint 1 y la planificación detallada del Sprint 2 en el reporte. Redacté la sección de líderes y colaboradores por aspecto y consolidé por escrito las evidencias de desarrollo para el Sprint Review, manteniendo la coherencia técnica exigida por la rúbrica. <br> TB2: <br><br> James Delgado <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los documentos de Needfinding, partes de la Landing Page, conclusiones, modelo C4 y Event Storming, manteniendo un lenguaje comprensible. <br> TB1: Trabajé de forma escrita basándonos en la rúbrica, aportando en el código, en las correcciones tras el feedback del profesor, además de realizar el Sprint 2, entre otros puntos. También comprendí mejor el uso de GitFlow corrigiendo nuestros repositorios en la organización. <br> TB2: <br><br> Jean Loa <br>AV1: Me comunico por escrito de manera clara y efectiva, adaptando el contenido y el lenguaje según la audiencia, lo que me permitió documentar correctamente el Product Backlog, los diseños de la aplicación web y los diagramas técnicos del sistema. <br> TB1: Durante esta entrega, contribuí en la redacción y actualización de secciones técnicas del reporte, especialmente aquellas relacionadas con la WebApp, los diagramas C4, la arquitectura de componentes, los diagramas de clases, el diseño de base de datos, el userflow, el wireflow, los wireframes y los mockups. También apoyé en la organización de rutas de imágenes, archivos PlantUML y evidencias del Sprint Review, cuidando que el contenido mantenga coherencia con el avance real del proyecto. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Desarrollé gran parte del Capítulo 1, excepto la sección 1.3, incluyendo segmentos objetivo y contexto. Redacté user stories y technical stories, y mejoré el formato de user persona y otros artefactos UX. Además, apoyé en el Sprint Backlog, la sección de beneficios de la Landing Page y el Event Storming. <br> TB1: Durante esta entrega, participé en la corrección y mejora de Technical Stories, Lean UX Hypothesis Statements y conclusiones del proyecto, procurando mantener coherencia con la rúbrica y el alcance funcional del sistema. También desarrollé el punto 5.2.2.8 Team Collaboration Insights during Sprint, actualicé anexos y apoyé en la corrección de nomenclaturas, estructura y organización general del reporte para mejorar la claridad y consistencia de la documentación. <br> TB2: <br><br> Kirk Quiliano <br>AV1: Trabajé la comunicación escrita realizando el informe en Markdown, además de los style guidelines y ubiquitous language, manteniendo un lenguaje entendible. <br> TB1: Realicé la actualización escrita del Product Backlog tras la corrección y documenté los objetivos del sprint planning. Asimismo, gestioné la redacción de tareas en Trello y elaboré la documentación detallada de las evidencias de servicios para el reporte, asegurando una redacción clara y profesional. <br> TB2: | AV1: Durante el AV1, el equipo desarrolló una documentación bastante completa y bien organizada, logrando transmitir tanto ideas técnicas como conceptos más generales de forma entendible. Se hizo un buen esfuerzo por mantener un lenguaje claro, especialmente en user stories, UX artifacts y la Landing Page. Sin embargo, aún se pueden mejorar aspectos como la concisión, evitar redundancias y mantener mayor consistencia en la redacción. En general, es un buen avance inicial y una base sólida para las siguientes entregas. <br><br> TB1: Durante el TB1, el equipo mejoró la documentación técnica y funcional del proyecto, incorporando evidencias de desarrollo, despliegue, arquitectura y avance del sprint. Se logró comunicar de forma más organizada el estado del producto, aunque aún fue necesario corregir algunos nombres, rutas, diagramas y secciones para mantener consistencia en todo el reporte. <br><br> TB2: |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Miguel Condori <br>AV1: Durante el desarrollo del proyecto, participé en el análisis competitivo y en la definición de estrategias frente a competidores. Además, desarrollé el registro de entrevistas del segmento profesional y la arquitectura de información de la Landing Page, incluyendo organization, labeling, searching y navigation systems. También contribuí en el diseño de la Landing Page (wireframe y mockup) y en las secciones de despliegue, planificación del sprint y evidencias de colaboración, apoyando la coordinación de tareas dentro del equipo. <br> TB1: Participé en la exposición de las correcciones del Sprint 1 y en la planificación del Sprint 2. Expliqué la distribución de roles entre líderes y colaboradores por aspecto, y presenté las evidencias de desarrollo durante el Sprint Review, colaborando en la organización y seguimiento de objetivos del sprint. <br> TB2: <br><br> James Delgado <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo nuestros segmentos objetivo, diseño de entrevistas, usuarios y posibles competidores, permitiéndome así realizar todo el Needfinding, incluyendo User Persona, User Task Matrix, Journey Mapping y Empathy Mapping. Luego contribuí con el diagrama C4 del proyecto tanto backend como frontend, además de participar en secciones de la Landing Page como Header, Home, Contact y Footer, y en el Event Storming, colaborando activamente en la organización del trabajo grupal. <br> TB1: Realizamos los puntos 5.2.2.3 y 5.2.2.5, además de contribuir en el desarrollo de la WebApp, así como en la corrección de errores de organización en GitHub mediante GitFlow. También realizamos correcciones en los diagramas C4 y en el Event Storming, trabajando coordinadamente para cumplir los objetivos del sprint. <br> AV2: Durante la entrega AV2, asumí un rol activo en la mejora de la calidad del proyecto, corrigiendo diversos errores y observaciones arrastradas de entregas anteriores. Lideré la revisión y ajuste de artefactos previamente observados, especialmente en la parte de arquitectura, modelado de bounded contexts, Event Storming y consistencia general del informe. Asimismo, desarrollé los puntos correspondientes al Sprint 3, contribuyendo directamente a la actualización del contenido del informe y a la preparación de la nueva entrega del proyecto. <br><br> Jean Loa <br>AV1: Durante el desarrollo del proyecto, participé en la elaboración del Product Backlog y en el diseño de la Application Web, incluyendo wireframes, mockups, wireflow y userflow. Asimismo, contribuí en la creación de prototipos, diagramas de clases y de base de datos, además de apoyar en la gestión de la configuración y del código fuente, colaborando en la organización técnica del equipo. <br> TB1: Durante esta entrega, participé en la explicación del avance de la WebApp, mostrando el flujo principal de autenticación, navegación, gestión de sedes, dispositivos, alertas, reportes, planes, soporte y perfil. También contribuí comunicando el estado del despliegue, las evidencias de avance del Sprint Review y las decisiones tomadas para organizar mejor el proyecto en GitHub. Además, apoyé en la presentación de los diagramas C4, diagramas de clases y diagrama de base de datos, explicando cómo la arquitectura del sistema se organiza por bounded contexts. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Participé en la explicación de los segmentos objetivo y en la discusión de las user stories, ayudando a que el equipo entienda claramente los requerimientos. También apoyé en la presentación de los beneficios del producto y colaboré en la elaboración de user stories, technical stories, Sprint Backlog y Event Storming, contribuyendo a mantener alineado el trabajo grupal con los objetivos del proyecto. <br> TB1: Durante esta entrega, participé en la explicación de las correcciones realizadas tras el feedback del docente, especialmente en Lean UX Hypothesis Statements, Technical Stories y conclusiones del proyecto. También apoyé en la explicación del punto 5.2.2.8 Team Collaboration Insights during Sprint, así como en las correcciones de nomenclaturas, anexos y organización general del reporte para mantener coherencia entre los artefactos técnicos y funcionales. <br> TB2: <br><br> Kirk Quiliano <br>AV1: En esta primera entrega se desarrolló nuestro proyecto definiendo segmentos, usuarios y competidores. Además, realicé entrevistas y, en base a ellas, diseñé la Landing Page, contribuyendo al cumplimiento de objetivos relacionados con UX y validación inicial de la propuesta. <br> TB1: Contribuí en la sustentación oral explicando las correcciones realizadas al Product Backlog y los objetivos trazados durante el sprint planning. Asimismo, presenté la organización de tareas en Trello y las evidencias de la documentación de servicios durante el Sprint Review, asegurando que el equipo mantenga una adecuada coordinación y seguimiento de actividades. <br> AV2: Lideré la planificación estratégica del Sprint 3 y la estructura de trabajo para el desarrollo del backend real. Gestioné la creación de la organización en GitHub, facilitando la colaboración centralizada y el control de versiones. Además, asumí la responsabilidad de la edición y publicación de los videos del trabajo complementario, asegurando la calidad del contenido educativo. Contribuí activamente en la redacción de los Team Collaboration Insights y la documentación técnica de los nuevos servicios (Swagger/OpenAPI), asegurando la trazabilidad del desarrollo. <br> TB2: | AV1: Durante esta primera entrega, el equipo logró organizarse adecuadamente para distribuir responsabilidades y cumplir los objetivos iniciales del proyecto. Se evidenció colaboración entre los integrantes en actividades de análisis, diseño UX, arquitectura y planificación, permitiendo avanzar de manera coordinada. Sin embargo, aún es necesario mejorar la distribución equilibrada de tareas y fortalecer la coordinación continua entre los miembros del equipo. <br><br> TB1: En esta entrega, el equipo fortaleció el trabajo colaborativo mediante una mejor organización de tareas, corrección conjunta del feedback docente y planificación más clara de los sprints. Se evidenció liderazgo compartido en distintos aspectos técnicos y funcionales del proyecto, especialmente en arquitectura, documentación y desarrollo de la WebApp. Como mejora, aún se recomienda reforzar la sincronización entre entregables técnicos y administrativos para optimizar el cumplimiento de objetivos del sprint. <br><br> TB2: |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Miguel Condori <br>AV1: Colaboré en la organización de actividades relacionadas con entrevistas, arquitectura de información y diseño de Landing Page, contribuyendo al cumplimiento de metas iniciales del proyecto y apoyando un entorno de trabajo colaborativo entre los integrantes. <br> TB1: Participé en la planificación del Sprint 2 y en la organización de líderes y colaboradores por aspecto, ayudando a establecer tareas claras y a consolidar evidencias de desarrollo para el Sprint Review. <br> TB2: <br><br> James Delgado <br>AV1: Participé en el desarrollo de artefactos UX y diagramas arquitectónicos, trabajando coordinadamente con el equipo para cumplir los objetivos definidos en el alcance del proyecto y mantener coherencia entre los distintos entregables. <br> TB1: Apoyé en las correcciones derivadas del feedback del docente y en la organización técnica mediante GitFlow, colaborando activamente en la mejora continua del proyecto y en el cumplimiento de tareas planificadas para el sprint. <br> AV2: Durante AV2, participé en la organización de actividades necesarias para completar la entrega, enfocándome en levantar observaciones previas y avanzar en los nuevos apartados solicitados. Contribuí a que el equipo mantuviera continuidad en el trabajo, asegurando que el informe evolucionara de manera consistente con la rúbrica y los requerimientos del curso. Además, cumplí con el desarrollo de los puntos del Sprint 3, aportando a que el equipo avance hacia una versión más completa, corregida y alineada con los objetivos de la entrega. <br><br> Jean Loa <br>AV1: Colaboré en la elaboración del Product Backlog, prototipos y diagramas técnicos, contribuyendo a la planificación y organización de funcionalidades necesarias para el producto. <br> TB1: Participé en la actualización de documentación técnica, diagramas y evidencias del Sprint Review, apoyando la coordinación entre los distintos componentes del sistema y el cumplimiento de metas establecidas para el sprint. <br> TB2: <br><br> Bruno Montalvo <br>AV1: Colaboré en la elaboración de user stories, technical stories y artefactos UX, ayudando a organizar los requisitos funcionales y técnicos del sistema para facilitar la planificación del trabajo grupal y el cumplimiento de objetivos del proyecto. <br> TB1: Participé en la corrección de Technical Stories, Lean UX Hypothesis Statements y conclusiones del proyecto, apoyando la mejora continua de la documentación según la rúbrica. También contribuí en la actualización de anexos, corrección de nomenclaturas y organización general del reporte, colaborando con el equipo para mantener consistencia y alineación con las metas del sprint. <br> TB2: <br><br> Kirk Quiliano <br>AV1: Participé en entrevistas, análisis de usuarios y diseño de Landing Page, colaborando en la validación de necesidades y en el cumplimiento de objetivos relacionados con UX y propuesta de valor. <br> TB1: Contribuí en la actualización del Product Backlog y en la documentación de objetivos del sprint planning. Asimismo, apoyé en la organización de tareas en Trello y en la elaboración de evidencias de servicios para el Sprint Review, fortaleciendo la planificación y seguimiento colaborativo del proyecto. <br> AV2: Gestioné el seguimiento de tareas mediante Trello, garantizando que los objetivos del Sprint 3 se cumplieran dentro de los plazos establecidos. Fomenté un entorno de aprendizaje inclusivo compartiendo lecturas técnicas relevantes para estandarizar los conocimientos del equipo sobre ASP.NET Core. Coordiné las sesiones de Sprint Planning (2 y 3) y la preparación de las evidencias para el Sprint Review, asegurando que el equipo mantuviera una visión clara y alineada con la arquitectura de servicios desarrollada. <br> TB2: | AV1: Durante el AV1, el equipo logró establecer metas iniciales y organizar actividades relacionadas con UX, arquitectura y definición funcional del proyecto. Se evidenció colaboración e inclusión en la distribución de tareas, permitiendo que todos los integrantes participen en distintas áreas del desarrollo. Sin embargo, aún es necesario mejorar la planificación del tiempo y la integración entre algunos entregables técnicos y funcionales. <br><br> TB1: Durante el TB1, el equipo mejoró significativamente la planificación de tareas y la coordinación grupal mediante el uso de sprint planning, GitFlow, Trello y revisiones colaborativas del proyecto. Se logró cumplir objetivos relacionados con despliegue, arquitectura, desarrollo funcional y documentación técnica. Como mejora, se recomienda continuar fortaleciendo la gestión del tiempo y la integración continua entre los distintos artefactos del proyecto para optimizar el trabajo colaborativo. <br><br> TB2: |
 
 # Capitulo I: Introducción
 
 ## 1.1. StartUp Profile
 
 ### 1.1.1. Descripción de la StartUp
-El presente informe pretende documentar el desarrollo del Startup “LowCortisol”, el cual busca mejorar la prevención y gestión de incidentes en tuberías de agua y gas mediante el uso de tecnología IoT y monitoreo en tiempo real.
+El presente informe pretende documentar el desarrollo del Startup “FlowAlert”, el cual busca mejorar la prevención y gestión de incidentes en tuberías de agua y gas mediante el uso de tecnología IoT y monitoreo en tiempo real.
 A través de la aplicación llamada “LowCortisol”, los usuarios podrán supervisar el estado de sus instalaciones, recibir alertas inmediatas ante fugas o anomalías y tomar acciones rápidas como cerrar válvulas de forma remota o solicitar soporte técnico.
 
 De este modo, la empresa busca reducir pérdidas económicas, prevenir riesgos para la salud y mejorar la seguridad en hogares, hoteles y otros establecimientos.
@@ -790,7 +802,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 ##### **1. Diferenciación y accesibilidad**
 **Estrategia**
 
-  La startup Low Cortisol adoptará una estrategia de diferenciación y accesibilidad, enfocándose en ofrecer una solución integral, fácil de usar y adaptada al contexto latinoamericano. A diferencia de competidores como Aqara, Fibaro y Honeywell, se centrará en el usuario común, brindando monitoreo en tiempo real, alertas inmediatas y control de acciones ante fugas de agua y gas.
+  La startup FlowAlert adoptará una estrategia de diferenciación y accesibilidad, enfocándose en ofrecer una solución integral, fácil de usar y adaptada al contexto latinoamericano. A diferencia de competidores como Aqara, Fibaro y Honeywell, se centrará en el usuario común, brindando monitoreo en tiempo real, alertas inmediatas y control de acciones ante fugas de agua y gas.
 
   Para enfrentar sus fortalezas, se apostará por la simplificación tecnológica y la especialización, ofreciendo una interfaz intuitiva y funciones enfocadas en la prevención de fugas. Además, se aprovecharán debilidades como los altos costos y la complejidad mediante precios accesibles y planes flexibles.
 
@@ -881,7 +893,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 
 
 
-### 2.2.2 Registro Entrevistas
+### 2.2.2 Registro de Entrevistas
 
 #### Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
 
@@ -1047,7 +1059,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
   Álvaro, practicante de mantenimiento en un hotel, comenta que las fugas de agua son frecuentes debido al desgaste de las tuberías y al uso constante de las instalaciones, mientras que las fugas de gas son menos comunes, pero implican un mayor nivel de riesgo. Indica que la detección depende principalmente de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Aunque se realizan mantenimientos preventivos, no cuentan con un sistema de monitoreo en tiempo real que permita anticipar fallas de manera eficiente. Señala que esta situación puede generar pérdidas de recursos, riesgos operativos y afectar la calidad del servicio. Considera que la implementación de soluciones basadas en IoT sería clave para mejorar el control, reducir riesgos, optimizar el uso de recursos y fortalecer la gestión del mantenimiento.
 
 **Enlace del video único de las entrevistas:**  
-[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQD5LEqrzowlS48jH9Q4ADvuATJbF7V_Zsawq9iFRotQGcw?e=HjH1I3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529%5Fupc%5Fedu%5Fpe%2FDocuments%2FMicrosoft%20Streams%2Fupc%2Dpre%2D202610%2D1asi0730%2D12144%2DLowCortisol%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eeb244c5d%2D4dba%2D43f9%2Da432%2D9d71b2549a01)
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1874,7 +1886,7 @@ El user persona se construyó a partir de patrones encontrados en las entrevista
 ![Empathy Mapping](./assets/md-images-chapter2/yazid-empathy-map.png)
 ![Empathy Mapping](./assets/md-images-chapter2/leonardo-daniel-empathy-map.png)
 ## 2.4. Big Picture Event Storming
-
+![Big Picture Event Storming](./assets/md-images-chapter2/BigPicture.png)
 #### Introducción:
 Durante esta primera iteración del proyecto hemos logrado avanzar de una manera sólida identificando diversos usuarios y segmentos objetivos, así como posibles tácticas que usaremos con los competidores y cómo armaremos el Lean UX. Terminando por realizar el diseño de entrevistas y su posterior registro.
 
@@ -4040,19 +4052,19 @@ El Sprint Planning permitió definir el alcance del Sprint, asignar responsabili
 
 A continuación, se presenta la tabla resumen del Sprint Planning 1:
 
-| Campo | Descripción |
-|:-----:|:-----------:|
-| Sprint # | Sprint 1 |
-| Sprint Planning Background | Desarrollo de la Landing Page |
-| Date | 2026-04-17 |
-| Time | 17:00 |
-| Location | Reunión virtual (Google Meet) |
-| Prepared By | Condori Torres, Miguel Anibal |
-| Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
-|  |**Sprint Goal & User Stories** |
-| Sprint 1 Goal | Our focus is on presenting the project’s value proposition through a functional and accessible Landing Page that provides users with a clear and structured overview of the solution. We believe it delivers a better first impression of the product by allowing visitors to navigate through the main sections of the website in an organized and intuitive way. This will be confirmed when the Landing Page is successfully deployed, users can navigate between sections without errors, and the platform clearly communicates the benefits and purpose of the product. |
-| Sprint 1 Velocity | 10 Story Points |
-| Sum of Story Points | 10 Story Points |
+|        Campo        |                                                                                                                                                                                                                               Descripción                                                                                                                                                                                                                               |
+|:-------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      Sprint #       |                                                                                                                                                                                                                                Sprint 1                                                                                                                                                                                                                                 |
+|                     |                                                                                                                                                                                                                     **Sprint Planning Background**                                                                                                                                                                                                                      |
+|        Date         |                                                                                                                                                                                                                               2026-04-17                                                                                                                                                                                                                                |
+|        Time         |                                                                                                                                                                                                                                  17:00                                                                                                                                                                                                                                  |
+|      Location       |                                                                                                                                                                                                                      Reunión virtual (Google Meet)                                                                                                                                                                                                                      |
+|     Prepared By     |                                                                                                                                                                                                                      Condori Torres, Miguel Anibal                                                                                                                                                                                                                      |
+|      Attendees      |                                                                                                                                                          Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas                                                                                                                                                           |
+|                     |                                                                                                                                                                                                                     **Sprint Goal & User Stories**                                                                                                                                                                                                                      |
+|    Sprint 1 Goal    | Nuestro enfoque se centra en presentar la propuesta de valor del negocio a través de una página de inicio funcional que comunique claramente el propósito de nuestra solución. Creemos que esto permitirá a los visitantes comprender los beneficios del producto de manera intuitiva desde el primer contacto. Esto se confirmará cuando los visitantes logren identificar los beneficios del servicio y puedan navegar por las secciones principales sin obstáculos.  |
+|  Sprint 1 Velocity  |                                                                                                                                                                                                                             10 Story Points                                                                                                                                                                                                                             |
+| Sum of Story Points |                                                                                                                                                                                                                             10 Story Points                                                                                                                                                                                                                             |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -4077,8 +4089,9 @@ detalla la distribución de roles para este primer ciclo:
 | Montalvo Vasquez, Bruno Rodrigo | @TartaroZ              | C |            C            | C |
 | Quiliano Motta, Kirk Douglas | @Kirkcito             | C |            C            | C |
 
-#### 5.2.1.3. Sprint Backlog 1. 
-![Sprint Backlog 1](./assets/md-images-chapter5/sprint-backlog-1.png)
+#### 5.2.1.3. Sprint Backlog 1.
+
+![Sprint Backlog 1](./assets/md-images-chapter5/sprint-backlog.png)
 
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -4088,11 +4101,11 @@ detalla la distribución de roles para este primer ciclo:
 | US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 3 hrs | Bruno | Done |
 | US20 | Acceso multidispositivo | TS25 | Responsive layout | Adaptación responsive del landing page para distintos dispositivos | 4 hrs | James | Done |
 | US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 3 hrs | James | Done |
-| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Rodrigo | Done |
-| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Rodrigo | Done |
+| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Bruno | Done |
 
-LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI0db4f1b2fac4ca47db5b72f302c1b7e9FDE35BBF/sprint-backlog-1-lowcortisol 
+LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-lowcortisol 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -4211,21 +4224,21 @@ Asimismo, se fortaleció el trabajo colaborativo mediante el uso de herramientas
 
 El Sprint 2 estuvo enfocado en el desarrollo de la estructura funcional inicial de la plataforma LowCortisol, implementando módulos relacionados con autenticación, monitoreo inteligente, gestión de dispositivos y alertas. Asimismo, se desarrolló la arquitectura principal del sistema, el modelo de base de datos y el despliegue de servicios mediante Render, permitiendo establecer la integración entre frontend.
 
-| Campo | Descripción |
-|:-----:|:-----------:|
-| Sprint # | Sprint 2 |
-| Sprint Planning Background | Desarrollo inicial de la Web Application y arquitectura del sistema |
-| Date | 2026-04-26 |
-| Time | 17:00 |
-| Location | Reunión virtual (Google Meet) |
-| Prepared By | Condori Torres, Miguel Anibal |
-| Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
-| Sprint 2- 1 Review Summary | Durante el Sprint 1 se desarrolló las correciones del informe e implementó la Landing Page de LowCortisol, incluyendo navegación entre secciones, visualización de planes, cambio de idioma y adaptación responsive para distintos dispositivos |
-| Sprint 2 - 1 Retrospective Summary | El equipo logró completar satisfactoriamente las funcionalidades planificadas para la Landing Page, mejorando la organización y distribución de tareas mediante GitHub y Trello. Como oportunidad de mejora, se identificó fortalecer la integración técnica entre frontend y backend para los siguientes sprints |
-|  | Sprint Goal & User Stories |
-| Sprint 2 Goal |  Our focus is on developing the initial functional structure of the LowCortisol platform by implementing authentication, smart monitoring, device management, and alert modules integrated through frontend, backend, and deployed services on Render.  We believe it delivers a more complete and interactive experience to users by allowing them to access core platform functionalities and interact with monitoring services in a centralized environment.  This will be confirmed when users can successfully access the platform, visualize monitoring information, manage the main functionalities, and interact with the services deployed correctly on Render without critical errors.|
-| Sprint 2 Velocity | 34 Story Points |
-| Sum of Story Points | 34 Story Points |
+|             Campo              |                                                                                                                                                                                                                                                                                                                                                                                                 Descripción                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|            Sprint #            |                                                                                                                                                                                                                                                                                                                                                                                                   Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                        **Sprint Planning Background**                                                                                                                                                                                                                                                                                                                                                                                        |
+|              Date              |                                                                                                                                                                                                                                                                                                                                                                                                  2026-04-26                                                                                                                                                                                                                                                                                                                                                                                                  |
+|              Time              |                                                                                                                                                                                                                                                                                                                                                                                                    17:00                                                                                                                                                                                                                                                                                                                                                                                                     |
+|            Location            |                                                                                                                                                                                                                                                                                                                                                                                        Reunión virtual (Google Meet)                                                                                                                                                                                                                                                                                                                                                                                         |
+|          Prepared By           |                                                                                                                                                                                                                                                                                                                                                                                        Condori Torres, Miguel Anibal                                                                                                                                                                                                                                                                                                                                                                                         |
+|           Attendees            |                                                                                                                                                                                                                                                                                                                             Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas                                                                                                                                                                                                                                                                                                                             |
+|    Sprint 1 Review Summary     |                                                                                                                                                                                                                                                                                             Durante el Sprint 1 se desarrolló e implementó la Landing Page de LowCortisol, incluyendo navegación entre secciones, visualización de planes, cambio de idioma y adaptación responsive para distintos dispositivos                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Retrospective Summary |                                                                                                                                                                                                                                              El equipo logró completar satisfactoriamente las funcionalidades planificadas para la Landing Page, mejorando la organización y distribución de tareas mediante GitHub y Trello. Como oportunidad de mejora, se identificó fortalecer la integración técnica entre frontend y backend para los siguientes sprints                                                                                                                                                                                                                                               |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                          **Sprint Goal & User Stories**                                                                                                                                                                                                                                                                                                                                                                                          |
+|         Sprint 2 Goal          | Nuestro enfoque se centra en desarrollar la estructura funcional inicial de la plataforma LowCortisol, implementando los módulos de autenticación, monitoreo inteligente, gestión de dispositivos y alertas, integrados a través de componentes frontend, backend y servicios desplegados en Render. Creemos que esto brinda una experiencia más completa e interactiva a los usuarios, al permitirles acceder a las funcionalidades principales de la plataforma e interactuar con los servicios de monitoreo en un entorno centralizado. Esto se confirmará cuando los usuarios puedan acceder exitosamente a la plataforma, visualizar la información de monitoreo, gestionar las funcionalidades principales e interactuar con los servicios desplegados correctamente en Render sin errores críticos.   |
+|       Sprint 2 Velocity        |                                                                                                                                                                                                                                                                                                                                                                                               34 Story Points                                                                                                                                                                                                                                                                                                                                                                                                |
+|      Sum of Story Points       |                                                                                                                                                                                                                                                                                                                                                                                               34 Story Points                                                                                                                                                                                                                                                                                                                                                                                                |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -4239,36 +4252,42 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 | Montalvo Vasquez, Bruno Rodrigo | Bruno | C | C | L | C | C | C |
 | Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | L | C | C |
 
-
 #### 5.2.2.3. Sprint Backlog 2
-![Sprint Backlog 2](./assets/md-images-chapter5/sprint-backlog-2.png)
 
-| ID   | Título                  | Task Id | Task Title               | Descripción                                                        | Criterios de Aceptación                                                                 | Estimation (Hours) | Prioridad | Estado       | Asignado a |
-|------|--------------------------|----------|----------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------|------------|--------------|-------------|
-| US01 | Registro de usuario      | TS01     | API registrar usuario      | Implementación de endpoint POST /users para creación de cuentas   | Given datos válidos, When envía POST, Then retorna 201 Created                          | 4 hrs              | Alta       | Finalizado   | Kirk       |
-| US02 | Inicio de sesión         | TS06     | API login                  | Autenticación mediante POST /auth/login y generación de token     | Given credenciales válidas, When valida datos, Then retorna 200 OK                      | 3 hrs              | Alta       | Finalizado   | Miguel     |
-| US04 | Cerrar sesión            | TS07     | API logout                 | Invalidación de sesión activa mediante POST /auth/logout          | Given sesión válida, When envía logout, Then invalida token                             | 2 hrs              | Media      | Finalizado   | Jean       |
-| US05 | Actualizar perfil        | TS34     | Servicio de Perfil         | Implementación de lógica para edición de datos personales         | Given accede a perfil, When modifica datos, Then guarda cambios                         | 3 hrs              | Media      | Finalizado   | Rodrigo    |
-| US06 | Cambiar idioma           | TS21     | Configurar i18n            | Configuración de bibliotecas y archivos JSON (es/en)              | Given soporte es/en, When configura i18n, Then carga etiquetas                          | 4 hrs              | Baja       | Finalizado   | James      |
-| US06 | Cambiar idioma           | TS22     | Cambio dinámico            | Gestión de estado global para actualización en tiempo real        | Given selecciona idioma, When procesa cambio, Then actualiza interfaz                   | 3 hrs              | Baja       | Finalizado   | Miguel     |
-| US07 | Visualizar estado        | TS11     | API actualizar lectura     | Endpoint para monitoreo de sensores en tiempo real                | Given sensor existe, When envía lectura, Then actualiza sistema                         | 4 hrs              | Alta       | En Progreso  | Kirk       |
-| US08 | Recibir alertas          | TS04     | API generar alerta         | Registro automático de incidentes ante anomalías detectadas       | Given anomalía detectada, When envía POST /alerts, Then crea alerta                     | 3 hrs              | Alta       | En Progreso  | Jean       |
-| US08 | Recibir alertas          | TS13     | API listar alertas         | Consulta de alertas generadas para el dashboard                   | Given alertas registradas, When envía GET /alerts, Then retorna lista                   | 3 hrs              | Alta       | En Progreso  | Rodrigo    |
-| US09 | Historial de consumo     | TS05     | API historial consumo      | Consulta de registros históricos por periodos                     | Given registros existen, When envía GET /history, Then retorna datos                    | 4 hrs              | Media      | En Progreso  | Kirk       |
-| US09 | Historial de consumo     | TS16     | API reporte por fechas     | Generación de reportes filtrados por rangos específicos           | Given rango de fechas, When envía GET /reports, Then retorna reporte                    | 4 hrs              | Media      | En Progreso  | James      |
-| US10 | Cerrar válvula           | TS11     | API cierre remoto          | Ejecución de comando de cierre mediante actualización de lectura  | Given accede al control, When ejecuta acción, Then cierra válvula                       | 3 hrs              | Alta       | En Progreso  | Kirk       |
-| US12 | Visualizar planes        | TS23     | Estructura sección planes  | Creación de componentes modulares y grid de planes                | Given accede a /planes, When componente monta, Then muestra grid                        | 4 hrs              | Media      | Por hacer    | Rodrigo    |
-| US12 | Visualizar planes        | TS24     | Cards dinámicas            | Diseño de cards para mostrar precios y beneficios                 | Given datos de planes, When recibe info, Then renderiza card                            | 3 hrs              | Media      | Por hacer    | Miguel     |
-| US16 | Visualizar soluciones    | TS33     | Vista de Soluciones        | Implementación de secciones residenciales y empresariales         | Given accede a soluciones, When revisa opciones, Then muestra perfil                    | 3 hrs              | Media      | Por hacer    | Jean       |
-| TS03 | API sensores             | TS03     | Sensores por usuario       | Obtención de dispositivos asociados a un ID de usuario            | Given usuario con sensores, When envía GET /users/id/sensors, Then retorna lista        | 4 hrs              | Media      | Por hacer    | Kirk       |
-| TS12 | API desvincular          | TS12     | Desvincular sensor         | Eliminación de relaciones entre sensores y sedes                  | Given relación activa, When envía DELETE /sensor-links/id, Then elimina                 | 2 hrs              | Media      | Por hacer    | James      |
-| US20 | Acceso multidispositivo  | TS25     | Arquitectura responsive    | Aplicación de Grid/Flexbox para adaptación visual                 | Given resolución >768px, When carga landing, Then organiza columnas                     | 4 hrs              | Media      | Por hacer    | Rodrigo    |
-| US20 | Acceso multidispositivo  | TS26     | Ajuste móvil               | Implementación de media queries para smartphones                  | Given resolución <480px, When carga página, Then apila componentes                      | 3 hrs              | Media      | Por hacer    | Miguel     |
-| US21 | Navegación interna       | TS27     | Navegación por anclas      | Configuración de IDs para navegación entre secciones              | Given clic en navbar, When procesa ID, Then desplaza a sección                          | 2 hrs              | Media      | Por hacer    | Jean       |
-| US21 | Navegación interna       | TS28     | Smooth Scroll              | Implementación de desplazamiento progresivo y fluido              | Given selecciona sección, When ejecuta scroll, Then movimiento fluido                   | 2 hrs              | Media      | Por hacer    | James      |
-| US21 | Navegación interna       | TS29     | Menú hamburguesa           | Menú colapsable optimizado para móviles                           | Given dispositivo móvil, When clic hamburguesa, Then despliega menú                     | 3 hrs              | Media      | Por hacer    | Rodrigo    |
+![Sprint Backlog 2](./assets/md-images-chapter5/sprint-2.png)
 
-Link del sprint 2: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIf106d025cb7e9463b4a7531e129bbf42E3A1B3D4/sprint-backlog-2-lowcortisol
+| User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Priority | Status | Assigned To |
+|---------------|------------------|---------|------------|-------------|--------------------|----------|--------|-------------|
+| US01 | Registro de usuario | TS01 | API registrar usuario | Implementación del endpoint POST /users para creación de cuentas. | 4 hrs | Alta | Finalizado | Kirk |
+| US01 | Registro de usuario | TS02 | Validación de datos | Validación de campos obligatorios, formato de correo y contraseña antes del registro. | 3 hrs | Alta | Finalizado | Kirk |
+| US02 | Inicio de sesión | TS06 | API login | Implementación de autenticación mediante POST /auth/login y generación de JWT. | 3 hrs | Alta | Finalizado | Miguel |
+| US02 | Inicio de sesión | TS08 | Validación de credenciales | Verificación de usuarios y manejo de errores de autenticación. | 2 hrs | Alta | Finalizado | Miguel |
+| US04 | Cerrar sesión | TS07 | API logout | Invalidación de sesión activa mediante POST /auth/logout. | 2 hrs | Media | Finalizado | Jean |
+| US04 | Cerrar sesión | TS09 | Gestión de sesión | Eliminación del token y limpieza de la sesión del usuario. | 2 hrs | Media | Finalizado | Jean |
+| US05 | Actualizar perfil | TS34 | Servicio de Perfil | Implementación de lógica para edición de datos personales. | 3 hrs | Media | Finalizado | Bruno |
+| US05 | Actualizar perfil | TS35 | Validación de actualización | Verificación y persistencia de los cambios del perfil. | 3 hrs | Media | Finalizado | Bruno |
+| US06 | Cambiar idioma | TS21 | Configurar i18n | Configuración de bibliotecas y archivos JSON para internacionalización. | 4 hrs | Baja | Finalizado | James |
+| US06 | Cambiar idioma | TS22 | Cambio dinámico | Gestión de estado para actualizar el idioma en tiempo real. | 3 hrs | Baja | Finalizado | Miguel |
+| US07 | Visualizar estado | TS11 | API actualizar lectura | Endpoint para monitoreo de sensores en tiempo real. | 4 hrs | Alta | En progreso | Kirk |
+| US07 | Visualizar estado | TS14 | Consulta de estado | Consulta y actualización de información de sensores. | 3 hrs | Alta | En progreso | Kirk |
+| US08 | Recibir alertas | TS04 | API generar alerta | Registro automático de incidentes ante anomalías detectadas. | 3 hrs | Alta | En progreso | Jean |
+| US08 | Recibir alertas | TS13 | API listar alertas | Consulta de alertas generadas para el dashboard. | 3 hrs | Alta | En progreso | Bruno |
+| US09 | Historial de consumo | TS05 | API historial consumo | Consulta de registros históricos por periodos. | 4 hrs | Media | En progreso | Kirk |
+| US09 | Historial de consumo | TS16 | API reporte por fechas | Generación de reportes filtrados por rangos de fechas. | 4 hrs | Media | En progreso | James |
+| US10 | Cerrar válvula remotamente | TS17 | API cierre remoto | Ejecución del comando de cierre remoto de válvulas. | 3 hrs | Alta | En progreso | Kirk |
+| US10 | Cerrar válvula remotamente | TS18 | Confirmación de operación | Confirmación del cierre y actualización del estado del dispositivo. | 2 hrs | Alta | En progreso | Kirk |
+| US12 | Visualizar planes | TS23 | Estructura sección planes | Creación de componentes modulares y grid de planes. | 4 hrs | Media | Por hacer | Bruno |
+| US12 | Visualizar planes | TS24 | Cards dinámicas | Diseño de cards para mostrar precios y beneficios. | 3 hrs | Media | Por hacer | Miguel |
+| US16 | Visualizar soluciones | TS33 | Vista de soluciones | Implementación de secciones para clientes residenciales y empresariales. | 3 hrs | Media | Por hacer | Jean |
+| US16 | Visualizar soluciones | TS36 | Navegación de soluciones | Organización y navegación entre las diferentes soluciones disponibles. | 2 hrs | Media | Por hacer | Jean |
+| US20 | Acceso multidispositivo | TS25 | Arquitectura responsive | Aplicación de Grid/Flexbox para adaptación visual. | 4 hrs | Media | Por hacer | Bruno |
+| US20 | Acceso multidispositivo | TS26 | Ajuste móvil | Implementación de media queries para smartphones. | 3 hrs | Media | Por hacer | Miguel |
+| US21 | Navegación interna | TS27 | Navegación por anclas | Configuración de IDs para navegación entre secciones. | 2 hrs | Media | Por hacer | Jean |
+| US21 | Navegación interna | TS28 | Smooth Scroll | Implementación del desplazamiento fluido. | 2 hrs | Media | Por hacer | James |
+| US21 | Navegación interna | TS29 | Menú hamburguesa | Desarrollo del menú responsive para dispositivos móviles. | 3 hrs | Media | Por hacer | Bruno |
+
+LINK URL TRELLO: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIa5ba3c43f65f4c50ffc05c6ccd764b098482BFD5/sprint-backlog-2-lowcortisol
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 En esta sección se presentan los avances de implementación realizados durante el Sprint, relacionados con la Web Application de LowCortisol. Durante este avance se trabajó en la configuración del despliegue, ajustes de rutas, internacionalización, corrección de estilos, actualización de diagramas y preparación de la versión estable `v1.0`.
 
@@ -4418,11 +4437,1025 @@ Asimismo, el trabajo en equipo fue fundamental para elevar el rigor de los artef
 ![TeamCollaboration-IMG](assets/md-images-chapter5/team-collaboration-insights-2.png)
 
 
+### 5.2.3. Sprint 3
+Durante el Sprint 3, el equipo enfocó sus esfuerzos en consolidar la integración funcional de la plataforma LowCortisol, avanzando desde una estructura inicial hacia una solución más completa y validable. En esta iteración se priorizó la implementación y estabilización de la Web Application, el desarrollo de la primera versión de los Web Services, la mejora continua del Landing Page y la preparación de evidencias para validación con usuarios, en concordancia con el alcance esperado para esta entrega.
+
+A nivel funcional, el Sprint 3 se orientó a fortalecer los procesos principales de la solución, integrando de manera más clara los módulos de autenticación, suscripción, monitoreo, alertas, soporte y gestión de dispositivos. Asimismo, se avanzó en la documentación técnica de endpoints, en la organización del trabajo colaborativo del equipo y en la preparación de material para validación de la experiencia de usuario, incluyendo landing page y aplicaciones web, tal como exige la sección de entrevistas de validación del proyecto.
+
+En comparación con el Sprint 2, donde el foco estuvo en la estructura funcional inicial del sistema y la integración base entre frontend y despliegue, el Sprint 3 representó una etapa de mayor madurez del producto. En esta fase el equipo buscó no solo ampliar funcionalidades, sino también dejar lista una versión demostrable, desplegable y susceptible de ser evaluada por usuarios objetivo, incorporando tanto avances técnicos como evidencias de interacción y navegación.
+#### 5.2.3.1. Sprint Planning 3
+El Sprint 3 estuvo orientado a la consolidación funcional de LowCortisol, priorizando la integración entre Landing Page, Web Application y Web Services, así como la preparación de la solución para su validación con usuarios. Durante esta planificación, el equipo definió como prioridad completar los flujos principales de negocio, mejorar la interoperabilidad entre frontend y backend, publicar una nueva versión de los productos desplegados y dejar lista la primera versión operativa de los servicios RESTful documentados. Esta orientación se encuentra alineada con lo requerido para AV2, donde debe evidenciarse una nueva versión del landing page, una nueva versión de web applications, una primera versión de web services y el inicio de las entrevistas de validación.
+
+|             Campo              |                                                                                                                                                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|            Sprint #            |                                                                                                                                                                                                                                                                                                                                                                                                  Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                       **Sprint Planning Background**                                                                                                                                                                                                                                                                                                                                                                                       |
+|              Date              |                                                                                                                                                                                                                                                                                                                                                                                                 2026-06-18                                                                                                                                                                                                                                                                                                                                                                                                 |
+|              Time              |                                                                                                                                                                                                                                                                                                                                                                                                   17:00                                                                                                                                                                                                                                                                                                                                                                                                    |
+|            Location            |                                                                                                                                                                                                                                                                                                                                                                                       Reunión virtual (Google Meet)                                                                                                                                                                                                                                                                                                                                                                                        |
+|          Prepared By           |                                                                                                                                                                                                                                                                                                                                                                                         Delgado Pérez, James Caleb                                                                                                                                                                                                                                                                                                                                                                                         |
+|           Attendees            |                                                                                                                                                                                                                                                                                                                            Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas                                                                                                                                                                                                                                                                                                                            |
+|    Sprint 2 Review Summary     |                                                                                                                                                                                                                                                                                                                                                                        Durante el Sprint 2 se desarrolló la estructura funcional inicial de LowCortisol, incluyendo avances en autenticación, monitoreo, gestión de dispositivos y alertas, así como mejoras progresivas en la Web Application y el despliegue de servicios en Render. Como resultado, el equipo cerró una base funcional que permitió proyectar una integración más completa para el Sprint 3.                                                                                                                                                                                   |
+| Sprint 2 Retrospective Summary |                                                                                                                                                                                                                                             El equipo identificó como principal fortaleza la distribución colaborativa de tareas mediante GitHub y Trello, así como el avance sostenido del modelado arquitectónico y de la experiencia web. Como oportunidad de mejora, se reconoció la necesidad de reforzar la integración técnica entre frontend y backend, reducir retrabajos por correcciones y preparar con mayor anticipación las evidencias de validación y despliegue.                                                                                                                                                                                                                                   |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                       **Sprint Goal & User Stories**                                                                                                                                                                                                                                                                                                                                                                                       |
+|         Sprint 3 Goal          | Nuestro enfoque está en integrar los flujos principales de la plataforma LowCortisol a través del Landing Page, la Web Application y la primera versión operativa de los Web Services. Creemos que esto proporciona una experiencia más completa, conectada y validable para los usuarios residenciales y los profesionales de infraestructura. Esto se confirmará cuando los usuarios puedan navegar desde el Landing Page hacia la Web Application, autenticarse correctamente, acceder a los módulos principales de la plataforma e interactuar con los servicios desplegados sin errores críticos.
+|       Sprint 3 Velocity        |                                                                                                                                                                                                                                                                                                                                                                                              34 Story Points                                                                                                                                                                                                                                                                                                                                                                                               |
+|      Sum of Story Points       |                                                                                                                                                                                                                                                                                                                                                                                              34 Story Points                                                                                                                                                                                                                                                                                                                                                                                               |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 3, el equipo organizó las responsabilidades considerando los principales entregables del avance, incluyendo la validación de entrevistas, la corrección del Sprint Backlog, la documentación del proyecto, el diseño de la base de datos y el despliegue de la solución. Esta distribución permitió asignar un responsable principal para cada aspecto, mientras que el resto del equipo colaboró en las actividades necesarias para completar los entregables del Sprint.
+| Team Member | GitHub Username | Validation Interview | Sprint Backlog | Documentation | Database Design | Deployment |
+|-------------|----------------|----------------------|----------------|---------------|-----------------|------------|
+| Condori Torres, Miguel Anibal | Miguel1323z | C | C | L | C | C |
+| Delgado Perez, James Caleb | JAmsy06 | L | C | C | C | C |
+| Loa Rojas, Jean Franck | JeanLoa | C | C | C | L | L |
+| Montalvo Vasquez, Bruno Rodrigo | Bruno | L | L | C | C | C |
+| Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del sistema de monitoreo inteligente de agua y gas. Las tareas se organizaron para cubrir autenticación, monitoreo, alertas, control de dispositivos IoT, gestión de suscripciones, soporte y consolidación de la arquitectura backend.
+
+![Sprint Backlog 3](./assets/md-images-chapter5/sprint-3.png)
+
+| User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|-------------------|------------|--------|
+| US02 | Inicio de sesión | T31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
+| US02 | Inicio de sesión | T40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
+| US07 | Visualizar estado en tiempo real | T32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
+| US07 | Visualizar estado en tiempo real | T41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
+| US08 | Recibir alertas automáticas | T33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
+| US08 | Recibir alertas automáticas | T42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
+| US10 | Cerrar válvula remotamente | T34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Bruno | Done |
+| US10 | Cerrar válvula remotamente | T43 | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos. | 5 | Bruno | Done |
+| US13 | Suscribirse a un plan | T35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
+| US13 | Suscribirse a un plan | T44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
+| US17 | Registrar múltiples sedes | T36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
+| US17 | Registrar múltiples sedes | T45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
+| US11 | Contactar con el equipo de soporte | T37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
+| US11 | Contactar con el equipo de soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
+| EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
+| EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
+LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+En esta sección se presentan los avances de implementación y evolución técnica realizados en el backend, correspondientes al repositorio **lowcortisol-platform**. Durante este ciclo de desarrollo se estructuró la fundación del proyecto en ASP.NET Core, se integró el motor de persistencia con EF Core, se implementaron los contextos de dominio para Workplace, Monitoring, Notification y Device Control, y se configuraron las estrategias de despliegue automatizado y limpieza en Render, culminando con las versiones estables v1.0.0 y v1.0.1.
+
+El desarrollo del Backend se organizó bajo la metodología Git Flow, desplegando múltiples feature branches distribuidas de forma modular para garantizar el aislamiento de características y la estabilidad del entorno de producción.
+
+### Feature Branches Utilizadas
+
+- `feature/device-control-domain-model`
+- `feature/device-control-persistence-and-acl`
+- `feature/control-valve`
+- `feature/list-valve-operations`
+- `feature/list-device-commands`
+- `feature/device-control-rest-endpoints`
+- `feature/notification-channel-domain-model`
+- `feature/notification-persistence-and-support`
+- `feature/create-alert-from-critical-anomaly`
+- `feature/list-alerts`
+- `feature/alert-actions`
+- `feature/create-incident-from-alert`
+- `feature/list-incidents`
+- `feature/incident-actions`
+- `feature/mitigate-incident`
+- `feature/manage-notification-channels`
+- `feature/get-notification-summary`
+- `feature/notification-rest-endpoints`
+- `feature/backend-audit-exports`
+
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| lowcortisol-platform | develop | 49e13ad | merge: main back into develop after platform v1.0.1 | Se sincronizó el entorno de desarrollo con los parches de la versión v1.0.1. | 2026-06-20 |
+| lowcortisol-platform | main | e420076 | release: platform v1.0.1 | Lanzamiento oficial de la versión v1.0.1 con correcciones menores en la base de datos. | 2026-06-20 |
+| lowcortisol-platform | release/v1.0.1 | 24ba0ba | merge: main back into develop after platform v1.0.1 | Integración preventiva de la rama de liberación hacia las ramas base. | 2026-06-20 |
+| lowcortisol-platform | develop | b7d1d85 | merge: use lowcortisol database name | Consolidación del cambio del identificador de la base de datos en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | fcc555e | chore(platform): use lowcortisol database name | Modificación del string de conexión para apuntar al entorno productivo unificado. | 2026-06-20 |
+| lowcortisol-platform | develop | bb688a1 | merge: feature/platform-render-deploy-cleanup into develop | Fusión de las tareas de limpieza de configuraciones e infraestructura de Render. | 2026-06-20 |
+| lowcortisol-platform | develop | 70f55c6 | chore(platform): prepare render deployment | Ajuste de variables de entorno y optimizaciones de arranque para el hosting cloud. | 2026-06-20 |
+| lowcortisol-platform | develop | 933d6a6 | merge: main back into develop after v1.0.0 | Sincronización completa tras el primer tag mayor de producción. | 2026-06-20 |
+| lowcortisol-platform | main | 3cbf78c | release: platform v1.0.0 | Despliegue e hito de la primera versión oficial estable de la plataforma backend. | 2026-06-20 |
+| lowcortisol-platform | release/v1.0.0 | d95d498 | chore(release): prepare platform v1.0.0 | Estabilización del código base, compilación limpia y cierre de metadatos de release. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-audit-exports | c9fec62 | chore(platform): add backend audit exports | Implementación de las capacidades de exportación para auditorías de telemetría. | 2026-06-20 |
+| lowcortisol-platform | develop | e923643 | merge: feature/backend-audit-exports into develop | Fusión de los servicios de exportación al flujo integrado. | 2026-06-20 |
+| lowcortisol-platform | develop | ccbbf9d | merge: feature/device-control-rest-endpoints into develop | Integración de los controladores HTTP expuestos de Device Control. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-rest-endpoints | aace169 | feat(device-control): expose device control REST endpoints | Mapeo y exposición de contratos REST para manipulación y control de dispositivos IoT. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-mitigation-summary | 411cbf0 | feat(device-control): add mitigation summary query | Construcción de consultas SQL/Linq para los resúmenes ejecutivos de mitigaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | 773da89 | merge: feature/device-control-mitigation-summary into develop | Fusión de reportes de mitigación en la rama común de desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | 3f62422 | merge: feature/list-device-commands into develop | Integración de los casos de uso para listado de instrucciones enviados. | 2026-06-20 |
+| lowcortisol-platform | feature/list-device-commands | 4b191f4 | feat(device-control): add device command queries | Implementación de queries cqrs para el histórico de comandos de hardware. | 2026-06-20 |
+| lowcortisol-platform | develop | 3a313b4 | merge: feature/list-valve-operations into develop | Fusión de flujos de control del subsistema de válvulas en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/list-valve-operations | 3412e9b | feat(device-control): add valve operation queries | Implementación del buscador de transiciones y logs de operación de válvulas. | 2026-06-20 |
+| lowcortisol-platform | develop | 54c3699 | merge: feature/control-valve into develop | Fusión del controlador directo para actuadores de válvulas de alivio. | 2026-06-20 |
+| lowcortisol-platform | feature/control-valve | bd6c1b1 | feat(device-control): add valve command use cases | Diseño de los comandos de aplicación para la apertura y cierre remoto de válvulas. | 2026-06-20 |
+| lowcortisol-platform | develop | b238ca9 | merge: feature/device-control-persistence-and-acl into develop | Integración del mapeo de persistencia y capas anti-corrupción (ACL). | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-persistence-and-acl | 2304828 | feat(device-control): add persistence and ACL support | Configuración de DbContext y traductores de contextos externos de seguridad. | 2026-06-20 |
+| lowcortisol-platform | develop | 74fe1f9 | merge: feature/device-control-domain-model into develop | Integración del núcleo de negocio para el control lógico de actuadores. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-domain-model | bd28892 | feat(device-control): add operational device domain | Diseño de entidades, agregados y reglas de negocio para el control físico. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-rest-endpoints | 53a6615 | feat(notification): expose notification REST endpoints | Publicación de endpoints HTTP de despacho, alertas y mensajería del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 3bc6dbf | merge: feature/notification-rest-endpoints into develop | Fusión de endpoints del controlador de alertas. | 2026-06-20 |
+| lowcortisol-platform | develop | cc22580 | merge: feature/get-notification-summary into develop | Fusión de consultas analíticas para notificaciones emitidas. | 2026-06-20 |
+| lowcortisol-platform | feature/get-notification-summary | a3d8566 | feat(notification): add notification summary query | Desarrollo de lógica para agrupar e indicar estados críticos de alertas enviadas. | 2026-06-20 |
+| lowcortisol-platform | feature/manage-notification-channels | e91da8a | feat(notification): add notification channel management | Alta, baja y cambio de vías de comunicación (Email, SMS, Webhooks). | 2026-06-20 |
+| lowcortisol-platform | develop | da0e575 | merge: feature/manage-notification-channels into develop | Incorporación del gestor multicanal en el entorno develop. | 2026-06-20 |
+| lowcortisol-platform | feature/mitigate-incident | 7bc1a7c | feat(notification): add incident mitigation use case | Lógica de negocio para gestionar y dar respuesta a incidentes de salud activos. | 2026-06-20 |
+| lowcortisol-platform | develop | 11e9fc2 | merge: feature/mitigate-incident into develop | Fusión de flujos de contención de crisis e incidencias. | 2026-06-20 |
+| lowcortisol-platform | develop | ac729e4 | merge: feature/incident-actions into develop | Fusión de las acciones operativas aplicadas sobre incidencias. | 2026-06-20 |
+| lowcortisol-platform | feature/incident-actions | b19bc58 | feat(notification): add incident action use cases | Orquestación de flujos de trabajo sobre fallos o anomalías críticas. | 2026-06-20 |
+| lowcortisol-platform | develop | c31553e | merge: feature/list-incidents into develop | Fusión del módulo de visualización de registros de incidencias. | 2026-06-20 |
+| lowcortisol-platform | feature/list-incidents | 34e4c9e | feat(notification): add incident query use cases | Creación del motor de consultas filtradas para el panel administrativo. | 2026-06-20 |
+| lowcortisol-platform | develop | 891e822 | merge: feature/create-incident-from-alert into develop | Integración del disparador automático Alerta -> Incidente. | 2026-06-20 |
+| lowcortisol-platform | feature/create-incident-from-alert | 2e4aee4 | feat(notification): add incident creation from alert | Regla de negocio automatizada para escalar alertas desatendidas a incidentes. | 2026-06-20 |
+| lowcortisol-platform | develop | 7b90dce | merge: feature/alert-actions into develop | Fusión de acciones reactivas del ciclo de alertas. | 2026-06-20 |
+| lowcortisol-platform | feature/alert-actions | 0c262a8 | feat(notification): add alert action use cases | Programación de handlers para el cambio de estados en alertas críticas. | 2026-06-20 |
+| lowcortisol-platform | develop | 3edc544 | merge: feature/list-alerts into develop | Fusión del listado unificado de alarmas del ecosistema. | 2026-06-20 |
+| lowcortisol-platform | feature/list-alerts | 31c2731 | feat(notification): add alert query use cases | Implementación de búsquedas paginadas de alertas por criticidad. | 2026-06-20 |
+| lowcortisol-platform | feature/create-alert-from-critical-anomaly | e416616 | feat(notification): bridge critical anomalies to alerts | Conexión del módulo de monitoreo con notificaciones ante picos anómalos. | 2026-06-20 |
+| lowcortisol-platform | develop | 159aab8 | merge: feature/create-alert-from-critical-anomaly into develop | Fusión del puente de integración entre anomalías y notificaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | b3bbb45 | merge: feature/notification-persistence-and-support into develop | Fusión de la capa de acceso a datos del bounded context de Notificaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-persistence-and-support | e7a24e5 | feat(notification): add persistence and parsing support | Mapeos relacionales de plantillas de alerta y serializadores de payloads. | 2026-06-20 |
+| lowcortisol-platform | develop | d6c33fa | merge: feature/notification-channel-domain-model into develop | Integración del modelo del canal raíz de notificaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-channel-domain-model | f0e62a3 | feat(notification): add notification channel domain | Diseño de objetos de valor y contratos funcionales para envío multicanal. | 2026-06-20 |
+| lowcortisol-platform | feature/incident-domain-model | b75e2c7 | feat(notification): add incident domain model | Definición del agregado de Incidentes con invariantes de estado del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 44d7097 | merge: feature/incident-domain-model into develop | Fusión del núcleo conceptual de incidentes de salud corporativa. | 2026-06-20 |
+| lowcortisol-platform | develop | 913c443 | merge: feature/alert-domain-model into develop | Fusión de entidades de dominio de alerta. | 2026-06-20 |
+| lowcortisol-platform | feature/alert-domain-model | 8385bcb | feat(notification): add alert domain model | Definición técnica de entidades de Alerta con rangos límites de severidad. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-rest-endpoints | c6d1344 | feat(monitoring): expose monitoring REST endpoints | Exposición de la API para captura continua de métricas y telemetría de cortisol. | 2026-06-20 |
+| lowcortisol-platform | develop | c6a7ef2 | merge: feature/monitoring-rest-endpoints into develop | Fusión de controladores de monitoreo médico e industrial en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | 5306471 | merge: feature/get-monitoring-summary into develop | Fusión del procesador de resúmenes analíticos de telemetría. | 2026-06-20 |
+| lowcortisol-platform | feature/get-monitoring-summary | c10e32e | feat(monitoring): add monitoring summary query | Pipeline analítico de datos capturados para tableros de control en tiempo real. | 2026-06-20 |
+| lowcortisol-platform | feature/list-anomalies | af83e37 | feat(monitoring): add anomaly query use cases | Consultas avanzadas de desviaciones en las lecturas respecto al baseline. | 2026-06-20 |
+| lowcortisol-platform | develop | 33cf80e | merge: feature/list-anomalies into develop | Fusión del lector histórico de anomalías lógicas. | 2026-06-20 |
+| lowcortisol-platform | feature/resolve-anomaly | c087150 | feat(monitoring): add resolve anomaly use case | Mecanismo transaccional para marcar una anomalía como mitigada o justificada. | 2026-06-20 |
+| lowcortisol-platform | develop | eebf77b | merge: feature/resolve-anomaly into develop | Fusión de las acciones de resolución de métricas atípicas. | 2026-06-20 |
+| lowcortisol-platform | develop | d4d1c55 | merge: feature/list-thresholds into develop | Fusión del componente lógico de evaluación de umbrales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-thresholds | 3c993f7 | feat(monitoring): add threshold query use cases | Obtención de parámetros de límites seguros configurados por usuarios. | 2026-06-20 |
+| lowcortisol-platform | feature/create-threshold | 62c7a46 | feat(monitoring): add create threshold use case | Registro y validación de nuevas fronteras cuantitativas de alerta. | 2026-06-20 |
+| lowcortisol-platform | develop | 0a7f375 | merge: feature/create-threshold into develop | Fusión del caso de uso de parametrización de umbrales seguros. | 2026-06-20 |
+| lowcortisol-platform | develop | c6ee0c6 | merge: feature/list-consumption-readings into develop | Fusión del lector de streams de consumo/sensores. | 2026-06-20 |
+| lowcortisol-platform | feature/list-consumption-readings | 23a82e9 | feat(monitoring): add reading query use cases | Retorno secuencial de flujos de datos históricos provenientes de IoT. | 2026-06-20 |
+| lowcortisol-platform | develop | d648f33 | merge: feature/register-consumption-reading into develop | Fusión del endpoint de ingesta masiva de lecturas. | 2026-06-20 |
+| lowcortisol-platform | feature/register-consumption-reading | 49371da | feat(monitoring): add register reading use case | Ingesta, tipado y registro de lecturas directas de sensores biométricos. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-persistence-and-support | e190936 | feat(monitoring): add persistence and parsing support | Creación de índices relacionales de lecturas para optimizar queries de series de tiempo. | 2026-06-20 |
+| lowcortisol-platform | develop | f6d3c2e | merge: feature/anomaly-detection-service into develop | Fusión del motor inteligente de detección de variaciones crónicas. | 2026-06-20 |
+| lowcortisol-platform | feature/anomaly-detection-service | 4809170 | feat(monitoring): add anomaly detection service | Implementación del servicio lógico evaluador de tendencias fuera de la norma. | 2026-06-20 |
+| lowcortisol-platform | develop | 3eb5cc5 | merge: feature/anomaly-domain into develop | Fusión del modelo conceptual de la entidad Anomalía. | 2026-06-20 |
+| lowcortisol-platform | feature/anomaly-domain | 32c6103 | feat(monitoring): add anomaly domain | Estructuración matemática y de negocio para encapsular una anomalía. | 2026-06-20 |
+| lowcortisol-platform | develop | caa6de4 | merge: feature/threshold-domain into develop | Fusión de las invariantes lógicas de umbrales mínimos/máximos. | 2026-06-20 |
+| lowcortisol-platform | feature/threshold-domain | 5f289d5 | feat(monitoring): add threshold domain | Modelado del objeto de negocio Umbral de Control Biométrico. | 2026-06-20 |
+| lowcortisol-platform | develop | 3e60772 | merge: feature/consumption-reading-domain into develop | Integración estructural del dominio base de recolección de datos. | 2026-06-20 |
+| lowcortisol-platform | develop | f23d8fd | merge: feature/monitoring-persistence-and-support into develop | Consolidación de repositorios de persistencia SQL de monitoreo. | 2026-06-20 |
+| lowcortisol-platform | feature/consumption-reading-domain | 4b68662 | feat(monitoring): add consumption reading domain | Atributos de negocio y lógica de validación para entradas directas de sensores. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-rest-endpoints | 03db1cb | feat(workplace): expose physical model REST endpoints | Exposición pública de los controladores para sedes, salas y zonas físicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 521c463 | merge: feature/workplace-rest-endpoints into develop | Fusión de la API perimetral del contexto de locaciones físicas (Workplace). | 2026-06-20 |
+| lowcortisol-platform | feature/site-physical-model | d46a3ff | feat(workplace): add site physical model query | Retorno del mapeo estructural gráfico de una planta u oficina. | 2026-06-20 |
+| lowcortisol-platform | develop | eb15285 | merge: feature/site-physical-model into develop | Integración del query compositor de la arquitectura de plantas. | 2026-06-20 |
+| lowcortisol-platform | develop | 8c107b3 | merge: feature/list-device-groups into develop | Fusión de búsquedas agrupadas de hubs y dispositivos. | 2026-06-20 |
+| lowcortisol-platform | feature/list-device-groups | c9f76d7 | feat(workplace): add device group listing query | Query para paginar grupos lógicos de dispositivos mapeados en oficinas. | 2026-06-20 |
+| lowcortisol-platform | develop | f0558ea | merge: feature/create-device-group into develop | Fusión del constructor y gestor de clusters de gateways de red. | 2026-06-20 |
+| lowcortisol-platform | feature/create-device-group | df4d9f7 | feat(workplace): add create device group use case | Caso de uso de asignación grupal de sensores a un clúster físico. | 2026-06-20 |
+| lowcortisol-platform | develop | e69a754 | merge: feature/list-rooms into develop | Integración del listado espacial de ambientes empresariales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-rooms | 2ff9d47 | feat(workplace): add room listing query | Consulta relacional de salas operativas de control de cortisol. | 2026-06-20 |
+| lowcortisol-platform | develop | baf3492 | merge: feature/create-room into develop | Fusión del creador de locaciones internas de infraestructuras. | 2026-06-20 |
+| lowcortisol-platform | feature/create-room | d73a5af | feat(workplace): add create room use case | Comando de creación para sub-ambientes corporativos anexados a sedes. | 2026-06-20 |
+| lowcortisol-platform | develop | 490ef3b | merge: feature/list-sites-and-get-site into develop | Integración del catálogo global de sedes organizacionales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-sites-and-get-site | 1972863 | feat(workplace): add site lookup queries | Mapeo de búsquedas individuales e índices de complejos de la empresa. | 2026-06-20 |
+| lowcortisol-platform | develop | 9a28887 | merge: feature/create-site into develop | Fusión del componente integrador de nuevas sedes empresariales. | 2026-06-20 |
+| lowcortisol-platform | feature/create-site | 517cfa1 | feat(workplace): add create site use case | Caso de uso para registrar y dar de alta instalaciones físicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 2510fbf | merge: feature/workplace-application-services into develop | Fusión de la orquestación integral del aplicativo Workplace. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-application-services | f8a1be3 | feat(workplace): add site command and query services | Capa de servicios de aplicación (CQRS Handlers) del modelo físico. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-persistence | fe64e4e | feat(workplace): add physical model persistence | Configuración Fluent API y persistencia en tablas SQL de Workplace. | 2026-06-20 |
+| lowcortisol-platform | develop | 7b1c91c | merge: feature/workplace-persistence into develop | Fusión del esquema de persistencia física de locaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | 7130414 | merge: feature/workplace-domain-model into develop | Fusión de las raíces lógicas del dominio de locaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-domain-model | 3b7919d | feat(workplace): add physical model domain | Creación de clases de negocio de Sedes, Salas y Dispositivos de zona. | 2026-06-20 |
+| lowcortisol-platform | develop | 92c90d0 | merge: feature/backend-ignore-build-artifacts into develop | Limpieza global de archivos temporales binarios `/bin` y `/obj`. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-ignore-build-artifacts | 098f281 | chore(platform): ignore build artifacts | Reglas avanzadas del `.gitignore` para omitir compilados de la plataforma. | 2026-06-20 |
+| lowcortisol-platform | develop | 289f6ec | merge: feature/backend-seed-and-migrations into develop | Carga unificada de datos semilla y configuraciones iniciales de tablas. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-seed-and-migrations | 6af3051 | feat(database): add seed data and migrations | Creación de scripts ef de migración inicial y llenado de datos por defecto. | 2026-06-20 |
+| lowcortisol-platform | develop | 5f94e27 | merge: feature/backend-inmemory-fallback into develop | Fusión del adaptador para entornos mock/testing en memoria. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-inmemory-fallback | 239cb94 | feat(shared): add InMemory persistence fallback | Estrategia de persistencia en memoria volátil útil para tests unitarios. | 2026-06-20 |
+| lowcortisol-platform | develop | 2ee2291 | merge: feature/backend-efcore-persistence into develop | Fusión del motor relacional core ORM al backend del sistema. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-efcore-persistence | 3ef3e6c | feat(shared): add EF Core persistence base | Abstracción base de repositorios y acoplamiento inicial de Entity Framework Core. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-shared-application-domain | d82ce20 | feat(shared): add result and domain contracts | Modelado de envoltorios de respuesta (Result Pattern) y entidades base. | 2026-06-20 |
+| lowcortisol-platform | develop | e4ffc62 | merge: feature/backend-shared-application-domain into develop | Fusión de contratos agnósticos compartidos del Kernel de software. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-api-documentation | cb9fe2c | feat(platform): add Swagger UI helpers | Configuración y enriquecimiento de documentación OpenAPI con filtros Swagger. | 2026-06-20 |
+| lowcortisol-platform | develop | a3cf1e6 | merge: feature/backend-api-documentation into develop | Fusión de la capa auto-documentada interactiva de la API. | 2026-06-20 |
+| lowcortisol-platform | develop | 2de2384 | merge: feature/backend-environment-and-docs into develop | Fusión de especificaciones e instructivos técnicos iniciales de la solución. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-environment-and-docs | abae808 | docs(platform): add backend environment and project docs | Redacción del archivo descriptivo técnico y variables de configuración. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-platform-foundation | c4723bb | feat(platform): add ASP.NET Core project foundation | Generación del andamiaje base mediante arquitectura limpia en .NET. | 2026-06-20 |
+| lowcortisol-platform | develop | 7d60872 | merge: feature/backend-platform-foundation into develop | Fusión del esqueleto de arquitectura e inyección de dependencias iniciales. | 2026-06-20 |
+| lowcortisol-platform | develop | 9f43dc8 | merge: feature/backend-repository-cleanup into develop | Remoción de librerías y códigos de prueba obsoletos de fases tempranas. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-repository-cleanup | a7895b5 | chore(platform): remove legacy mock API artifacts | Purga de ficheros de mocks manuales para dar paso al motor EF Core formal. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-ignore-build-artifacts | 3f130a6 | chore(platform): ignore build artifacts | Ajustes preventivos adicionales en el rastreador Git del proyecto. | 2026-06-20 |
+| lowcortisol-platform | develop | 450cfc7 | merge: feature/platform-audit-exports into develop | Fusión del extractor de logs estructurados para auditorías regulatorias. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-audit-exports | 73e982d | chore(platform): add backend audit exports | Utilitario de volcado de datos crudos en formato plano para auditorías. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-mitigation | 7169f1e | feat(device-control): add operational mitigation context | Creación del contexto transaccional enlazado a la ejecución de actuadores. | 2026-06-20 |
+| lowcortisol-platform | develop | 34fbd92 | merge: feature/device-control-mitigation into develop | Fusión del disparador reactivo de mitigaciones de hardware en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-risk-response | e1d920c | feat(notification): add risk response context | Dominio de contingencia lógica enfocado en alertar personal ante crisis médicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 50ddea7 | merge: feature/notification-risk-response into develop | Fusión de flujos de control de riesgos por canales de comunicación. | 2026-06-20 |
+| lowcortisol-platform | develop | 9d5df15 | merge: feature/monitoring-risk-cycle into develop | Fusión de políticas y ciclos continuos evaluadores de salud laboral. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-risk-cycle | 1bf1a37 | feat(monitoring): add risk cycle context | Diseño del flujo de vida de estados de riesgo continuo en el core médico. | 2026-06-20 |
+| lowcortisol-platform | develop | 0cf2397 | merge: feature/workplace-physical-model into develop | Fusión del mapa espacial inicial (Workplace Context) en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-physical-model | 1587912 | feat(workplace): add physical model context | Configuración inicial del mapa organizacional y delimitadores físicos de IoT. | 2026-06-20 |
+| lowcortisol-platform | feature/database-configuration | 6cd4ea3 | feat(database): add shared persistence infrastructure | Abstracción compartida del ciclo de conexiones de persistencia sql relacional. | 2026-06-20 |
+| lowcortisol-platform | develop | 6233a63 | merge: feature/database-configuration into develop | Integración de los conectores de persistencia compartidos del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 5a1f42b | merge: feature/platform-foundation into develop | Fusión de la infraestructura perimetral base de la API web en develop. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-foundation | c7689cd | feat(platform): add ASP.NET Core backend foundation | Inicialización de pipelines HTTP, manejo global de errores y middlewares. | 2026-06-20 |
+| lowcortisol-platform | main | 2caf917 | Merge release/v1.0 into main | Cierre oficial e integración productiva del release de la versión v1.0. | 2026-05-13 |
+| lowcortisol-platform | release/v1.0 | 3d475dc | Merge develop into release/v1.0 | Estabilización del código acumulado de desarrollo para la salida oficial. | 2026-05-13 |
+| lowcortisol-platform | develop | adc9ddb | Merge feature/package-lock-file into develop | Fusión de las versiones fijas de dependencias de empaquetado. | 2026-05-13 |
+| lowcortisol-platform | feature/package-lock-file | 1e400ba | Add package lock file | Inclusión del archivo de bloqueo de dependencias para asegurar Builds deterministas. | 2026-05-13 |
+| lowcortisol-platform | main | e4a8e5e | Merge release/v1.0 into main | Tag e hito formal del primer despliegue general de producción (v1.0). | 2026-05-13 |
+| lowcortisol-platform | develop | ea5f2b4 | Merge feature/repository-cleanup into develop | Fusión de la primera purga estructural de archivos innecesarios. | 2026-05-13 |
+| lowcortisol-platform | develop | 1dd79bd | Merge feature/render-cleanup into develop | Fusión de la rama encargada de corregir el manifiesto del deployer. | 2026-05-13 |
+| lowcortisol-platform | develop | 4140a0f | Merge feature/database-config into develop | Fusión de configuraciones de variables de conexión del motor de base de datos. | 2026-05-13 |
+| lowcortisol-platform | develop | cea5b27 | Merge feature/dockerfile-config into develop | Fusión del manifiesto de empaquetamiento e imagen Docker en desarrollo. | 2026-05-13 |
+| lowcortisol-platform | develop | b2407e6 | Merge feature/platform-package-config into develop | Fusión del manifiesto inicial de paquetes del ecosistema de la plataforma. | 2026-05-13 |
+| lowcortisol-platform | develop | 0c9d092 | Base Git Flow | Configuración formal de la estructura inicial de ramas en el repositorio local. | 2026-05-13 |
+| lowcortisol-platform | feature/render-cleanup | 88a711c | Delete .dockerignore | Remoción y reestructuración del archivo de exclusión para contenedores Docker. | 2026-05-09 |
+| lowcortisol-platform | feature/render-cleanup | 94e2b7c | Delete .dockerignore | Eliminación de archivos .dockerignore duplicados o mal estructurados. | 2026-05-09 |
+| lowcortisol-platform | develop | 05d7f54 | Delete render.yaml | Eliminación preventiva del archivo de orquestación en la rama común de desarrollo. | 2026-05-09 |
+| lowcortisol-platform | develop | ab2afc2 | Delete render.yaml | Limpieza de esquemas viejos de automatización e infraestructura en la nube cloud. | 2026-05-09 |
+| lowcortisol-platform | feature/database-config | eeb0b35 | Update Dockerfile | Modificación de variables de entorno internas dentro de la imagen del contenedor. | 2026-05-09 |
+| lowcortisol-platform | feature/database-config | 7544ba1 | Update Dockerfile | Inclusión de configuraciones de dependencias relacionales de datos dentro del build. | 2026-05-09 |
+| lowcortisol-platform | feature/platform-package-config | 55e9920 | Update package.json | Ajuste de metadatos de inicio, comandos script de arranque y dependencias core. | 2026-05-09 |
+| lowcortisol-platform | feature/platform-package-config | a343706 | Update package.json | Actualización de dependencias clave en los manifiestos de configuración inicial. | 2026-05-09 |
+| lowcortisol-platform | feature/dockerfile-config | 410a8f0 | Rename Dockefile to Dockerfile | Corrección de error tipográfico (*typo*) en el nombre del manifiesto Docker corporativo. | 2026-05-09 |
+| lowcortisol-platform | feature/dockerfile-config | cd7c7a9 | Rename Dockefile to Dockerfile | Ajuste de consistencia en nombres de archivos de automatización de imágenes. | 2026-05-09 |
+| lowcortisol-platform | feature/repository-cleanup | 3b7a75b | Delete .gitignore | Remoción temporal para reestructurar los criterios de exclusión globales. | 2026-05-09 |
+| lowcortisol-platform | feature/repository-cleanup | 45eb3b7 | Delete .gitignore | Limpieza de versiones previas no unificadas de exclusión de git. | 2026-05-09 |
+| lowcortisol-platform | develop | 65dc17a | Create render.yaml | Inicialización del manifiesto estructural de servicios en la plataforma cloud Render. | 2026-05-09 |
+| lowcortisol-platform | develop | 51a125a | Create render.yaml | Creación de esquemas e infraestructura básica para automatizar el ciclo CI/CD. | 2026-05-09 |
+| lowcortisol-platform | develop | 0b37b90 | Create .dockerignore | Creación del archivo de omisión de carga de binarios para optimizar builds de Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | dd80293 | Create .dockerignore | Adición del archivo perimetral de exclusión en la construcción del contenedor Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | 8591acd | Update Dockefile | Ajuste técnico dentro de las instrucciones de orquestación de capas en Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | 2398de7 | Update Dockefile | Modificaciones tempranas sobre los comandos de exposición de puertos de la plataforma. | 2026-05-09 |
+| lowcortisol-platform | develop | 9211de1 | Update package.json | Adición de librerías base compartidas del sistema dentro del manifiesto técnico. | 2026-05-09 |
+| lowcortisol-platform | develop | d254e37 | Update package.json | Ajustes preliminares de versionamiento semántico dentro de los metadatos base. | 2026-05-09 |
+| lowcortisol-platform | develop | 0a700f7 | Create db.json | Inicialización de archivos mock temporales para pruebas rápidas de conectividad local. | 2026-05-09 |
+| lowcortisol-platform | develop | 9e5bfbb | Create db.json | Adición de datos estructurados de prueba JSON para prototipado del API backend. | 2026-05-09 |
+| lowcortisol-platform | develop | d7ec575 | Create .gitignore | Creación de las reglas de ignorado iniciales (ficheros de IDE, secretos y logs locales). | 2026-05-09 |
+| lowcortisol-platform | develop | 670b22f | Create .gitignore | Configuración base de exclusión de Git para iniciar el desarrollo limpio de software. | 2026-05-09 |
+| lowcortisol-platform | develop | e23f6af | Create Dockefile | Creación del primer archivo de orquestación para virtualizar el despliegue del sistema. | 2026-05-09 |
+| lowcortisol-platform | develop | d3bd3b3 | Create Dockefile | Construcción del manifiesto inicial del contenedor para entornos multi-plataforma. | 2026-05-09 |
+| lowcortisol-platform | develop | 3a594a5 | Initialize package.json for LowCortisol platform | Generación e inicialización formal de los paquetes base de la plataforma de backend. | 2026-05-09 |
+| lowcortisol-platform | develop | c8dee34 | Initialize package.json for LowCortisol platform | Apertura del repositorio con los metadatos y manifiestos descriptivos del proyecto backend. | 2026-05-09 |
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Completando el segundo Sprint 3, logramos implementar todas las secciones correspondientes
+a nuestra App Web implementando responsive dentro de esta. A continuación veremos cuales
+fueron nuestros avances a traves de capturas de pantalla.
+
+1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
+
+![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+
+2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
+
+![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
+![Planes-IMG](assets/md-images-chapter5/English.png)
+![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
+
+3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
+
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
+![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+
+4. Ubicación:
+![Ubicacion-IMG](assets/md-images-chapter5/Ubicacion.png)
+5. Dispositivos:
+![Dispositivos-IMG](assets/md-images-chapter5/Dispositivos.png)
+6. Conductos:
+![Conductos-IMG](assets/md-images-chapter5/Conductos.png)
+7. Alertas:
+![Alertas-IMG](assets/md-images-chapter5/Alertas.png)
+8. Reportes:
+![Reportes-IMG](assets/md-images-chapter5/Reportes.png)
+9. Soporte:
+![Soporte-IMG](assets/md-images-chapter5/Soporte.png)
+10. Configuracion:
+![Configuracion-IMG](assets/md-images-chapter5/Configuracion.png)
+11. Acerca de:
+![Acerca-IMG](assets/md-images-chapter5/Acerca.png)
+12. Api:
+![Api-IMG](assets/md-images-chapter5/Api.png)
+13. Cierre de sesión:
+![Inicio-IMG](assets/md-images-chapter5/sesioncerrada.png)
+
+Execution Evidence for Sprint 3 Review: https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529_upc_edu_pe%2FDocuments%2Fexecution-evidence-sprint-3-flowalert%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+### 1. Sprint Documentation Achievements
+
+Durante el desarrollo del Sprint 3, el equipo se enfocó estratégicamente en el diseño, implementación y documentación exhaustiva de la capa de servicios distribuidos para la plataforma **LowCortisol**. Siguiendo las directrices del diseño guiado por el dominio (Domain-Driven Design - DDD) y segregación de responsabilidades de consultas y comandos (CQRS), se documentaron los servicios correspondientes a los componentes del backend implementados en ASP.NET Core.
+
+Los *Bounded Contexts* cubiertos e integrados en esta documentación técnica incluyen:
+
+* **Workplace Context:** Gestión y aprovisionamiento de infraestructuras críticas (*Sites* y *Rooms*).
+* **Device Control Context:** Administración de redes de sensores IoT, grupos de dispositivos y topología de válvulas.
+* **Monitoring Context:** Captura masiva de métricas distribuidas y telemetría de flujo de agua y gas.
+* **Notification Context:** Procesamiento de eventos complejos, ciclos de vida de alertas (Acknowledge, Resolve, Close) e incidentes operacionales.
+
+La especificación técnica se consolidó utilizando el estándar industrial **OpenAPI 3.1.1**, visualizado dinámicamente mediante **Swagger UI**. El valor fundamental que aporta esta documentación para el *Sprint Review* radica en proporcionar a los *stakeholders* una única fuente de verdad interactiva, agnóstica al lenguaje, que mitiga la ambigüedad en la integración técnica entre el frontend (Single Page Application en Vue.js) y la API distribuida. Esto asegura la trazabilidad directa de los requisitos funcionales con los endpoints expuestos y valida la preparación de la arquitectura para fases avanzadas de pruebas y despliegue continuo.
+
+---
+
+### 2. OpenAPI Documentation Access
+
+La capa auto-documentada e interactiva del sistema ha sido desplegada en un entorno cloud de operación y se encuentra accesible públicamente a través de las siguientes credenciales técnicas:
+
+* **URL de Swagger UI:** `https://lowcortisol-platform.onrender.com/swagger/index.html`
+* **URL del Documento OpenAPI JSON:** `https://lowcortisol-platform.onrender.com/swagger/v1/swagger.json`
+* **Instrucciones de Acceso:** Para interactuar de forma segura con la interfaz interactiva, acceda a la URL proporcionada mediante cualquier navegador web compatible con HTML5. No se requieren encabezados personalizados de autorización para las consultas base (*GET*), facilitando la validación inmediata por parte de los evaluadores académicos.
+* **Tecnologías Utilizadas:** ASP.NET Core Web API, Swashbuckle.AspNetCore v6.5.0, OpenAPI 3.1.1 Standard y Swagger UI Extension.
+
+---
+
+### 3. Endpoint Documentation Matrix
+
+A continuación, se presenta la matriz completa de trazabilidad técnica que consolida todos los endpoints especificados en las *Technical Stories* (TS) del Product Backlog del informe y su equivalencia con el esquema OpenAPI reflejado en el sistema.
+
+| HTTP Verb | Endpoint | Context | Action Implemented | Parameters | Request Example | Response Example | Response Explanation | Status Codes | OpenAPI Reference |
+|-----------|----------|---------|-------------------|------------|-----------------|------------------|---------------------|--------------|-------------------|
+| **POST** | `/api/v1/users` | IAM | Registrar usuario en el sistema. | `TODO` | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **GET** | `/api/v1/sensors` | Device Control | Obtener listado global de sensores. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **GET** | `/api/v1/users/{id}/sensors` | Device Control | Consultar sensores por ID de usuario. | `id` (Path/UUID) | Ninguno. | `TODO` | `TODO` | 200, 404 | `TODO` |
+| **POST** | `/api/v1/alerts` | Notification | Ingesta automática de alertas de consumo. | Ninguno. | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **GET** | `/api/v1/history` | Monitoring | Historial general de lecturas. | `TODO` | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **POST** | `/api/v1/auth/login` | IAM | Autenticación de cuentas de usuario. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400, 401 | `TODO` |
+| **POST** | `/api/v1/auth/logout` | IAM | Revocación de tokens de sesión. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200, 401 | `TODO` |
+| **POST** | `/api/v1/auth/recovery` | IAM | Recuperación de credenciales por email. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **POST** | `/api/v1/sites` | Workplace | Creación de una sede operacional. | Ninguno. | Ver Sec. 4 (POST `/sites`) | Ver Sec. 4 (POST `/sites`) | Parámetros estructurales de la sede urbana. | 200, 400, 409 | `#/paths/~1api~1v1~1sites/post` |
+| **POST** | `/api/v1/sensor-links` | Device Control | Asociar sensores a infraestructuras. | Ninguno. | `TODO` | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **POST** | `/api/v1/readings` | Monitoring | Registro síncrono de lecturas IoT. | Ninguno. | Ver Sec. 4 (POST `/readings`) | Ver Sec. 4 (POST `/readings`) | Datos de telemetría y detección analítica de anomalías. | 200, 400, 404 | `#/paths/~1api~1v1~1readings/post` |
+| **DELETE** | `/api/v1/sensor-links/{id}` | Device Control | Desvincular enlace de sensor. | `id` (Path/String) | Ninguno. | Ninguno (204 No Content) | Sin cuerpo de respuesta. | 204, 404 | `TODO` |
+| **GET** | `/api/v1/alerts/critical` | Notification | Listar alertas críticas activas. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/alerts/critical`) | Colección ordenada de alertas de alta severidad. | 200 | `#/paths/~1api~1v1~1alerts~1critical/get` |
+| **PUT** | `/api/v1/alerts/{id}` | Notification | Modificación parcial de una alerta. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+| **PUT** | `/api/v1/thresholds/{id}` | Notification | Configurar límites operacionales. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+| **GET** | `/api/v1/reports` | Monitoring | Reporte consolidado por fechas. | `startDate`, `endDate` (Query) | Ninguno. | `TODO` | `TODO` | 200, 400 | `TODO` |
+| **GET** | `/api/v1/monitoring/summary` | Monitoring | Resumen analítico inteligente de consumo. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/monitoring/summary`) | KPIs e indicadores agregados de consumo y estados IoT. | 200 | `#/paths/~1api~1v1~1monitoring~1summary/get` |
+| **GET** | `/api/v1/plans` | Plan | Listar planes de suscripción. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200 | `TODO` |
+| **POST** | `/api/v1/subscriptions` | Plan | Activar suscripción de usuario. | Ninguno. | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |
+| **PUT** | `/api/v1/subscriptions/{id}` | Plan | Modificar nivel de suscripción actual. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
+
+---
+
+### 4. Endpoint Detailed Specifications
+
+#### Endpoint 1: Creación de Sede Operacional
+
+* **Purpose:** Permite a los administradores del sistema o gestores de infraestructura registrar una nueva sede urbana o residencial (hotel, vivienda, local comercial) en la plataforma para habilitar el mapeo de topología IoT.
+* **HTTP Method:** POST
+* **Route:** `/api/v1/sites`
+* **Parameters:** Ninguno (datos transferidos en el Request Body).
+
+**Request Example:**
+
+```json
+{
+  "name": "Hotel Sheraton Lima",
+  "address": "Av. Paseo de la República 170, Lima",
+  "type": "Commercial",
+  "status": "Active"
+}
+```
+
+**Response Example:**
+
+```json
+{
+  "id": "e3b0c442-98fc-4c14-9c3e-000000000001",
+  "name": "Hotel Sheraton Lima",
+  "address": "Av. Paseo de la República 170, Lima",
+  "type": "Commercial",
+  "status": "Active",
+  "roomCount": 0,
+  "deviceGroupCount": 0
+}
+```
+
+**Response Explanation:**
+
+* `id` (string/uuid): Identificador único global autogenerado por el backend para la nueva sede.
+* `name` (string): Denominación comercial o residencial asignada.
+* `address` (string): Ubicación física validada del predio.
+* `type` (string): Categoría del inmueble (p. ej., Residencial, Commercial, Industrial).
+* `status` (string): Estado operativo inicial dentro del flujo del sistema.
+* `roomCount` (integer): Contador inicializado en cero que registra los ambientes mapeados dentro de la sede.
+* `deviceGroupCount` (integer): Contador inicializado en cero de clústeres de sensores vinculados.
+
+**Supported Status Codes:**
+
+* `200 OK`: La sede fue procesada, validada sintácticamente y persistida correctamente en la base de datos relacional.
+* `400 Bad Request`: El payload no cumple con las restricciones del modelo (p. ej., campo `name` nulo o vacío).
+* `409 Conflict`: Ya existe un registro de sede duplicado bajo la misma dirección o identificador de negocio.
+
+---
+
+#### Endpoint 2: Listar Alertas Críticas de Consumo
+
+* **Purpose:** Recupera todas las alertas con nivel de severidad calificado como crítico que demanden mitigación inmediata o cierre remoto automatizado de válvulas.
+* **HTTP Method:** GET
+* **Route:** `/api/v1/alerts/critical`
+* **Parameters:** Ninguno.
+
+**Request Example:** Ninguno (Solicitud basada en encabezados HTTP estándar).
+
+**Response Example:**
+
+```json
+[
+  {
+    "id": "9f8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
+    "title": "Fuga Crítica Detectada - Gas GLP",
+    "description": "El sensor S-203 reporta una concentración de gas que excede el umbral límite en un 45%.",
+    "severity": "Critical",
+    "status": "Open",
+    "sourceType": "Sensor",
+    "anomalyId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "readingId": "71b05c31-89fc-4c14-9c3e-2de2384c6d13",
+    "siteId": "e3b0c442-98fc-4c14-9c3e-000000000001"
+  }
+]
+```
+
+**Response Explanation:**
+
+* `id` (string/uuid): Identificador único de la alerta generada por el motor de reglas de telemetría.
+* `title` (string): Resumen legible del incidente para visualización en dashboards.
+* `description` (string): Detalle técnico del valor del sensor que gatilló el evento de seguridad.
+* `severity` (string): Nivel fijado invariablemente en `Critical` para este endpoint.
+* `status` (string): Estado actual de la alerta (p. ej., Open, Acknowledged, Resolved).
+* `sourceType` (string): Origen del evento de datos (p. ej., Sensor, Manual).
+* `anomalyId` (string/uuid/null): Clave foránea que enlaza el evento con el registro analítico de anomalías estructurales.
+* `readingId` (string/uuid/null): Identificador de la lectura exacta del flujo que superó los límites.
+* `siteId` (string/uuid): Sede física afectada por la alerta crítica.
+
+**Supported Status Codes:**
+
+* `200 OK`: Retorna exitosamente una colección ordenada de objetos JSON correspondientes a las alertas críticas vigentes.
+
+---
+
+#### Endpoint 3: Resumen Inteligente de Consumo y Telemetría
+
+* **Purpose:** Proporciona un objeto agregado de lectura rápida (KPIs) enfocado en los perfiles de gestión operativa del segmento B2B, consolidando métricas y estados del Bounded Context de Monitoreo.
+* **HTTP Method:** GET
+* **Route:** `/api/v1/monitoring/summary`
+* **Parameters:** Ninguno.
+
+**Request Example:** Ninguno.
+
+**Response Example:**
+
+```json
+{
+  "totalReadings": 14205,
+  "waterConsumptionTotal": 340.25,
+  "gasConsumptionTotal": 125.80,
+  "openAnomalies": 3,
+  "criticalAnomalies": 1,
+  "activeThresholds": 12,
+  "monitoredSensors": 45,
+  "latestReadingDate": "2026-06-21T02:15:00Z"
+}
+```
+
+**Response Explanation:**
+
+* `totalReadings` (integer): Cantidad agregada de paquetes de datos e ingestas de telemetría procesados.
+* `waterConsumptionTotal` (number): Consumo acumulado de agua medido en metros cúbicos (m³) a través de los caudalímetros digitales.
+* `gasConsumptionTotal` (number): Consumo acumulado de gas medido en metros cúbicos (m³) a través de la red inteligente.
+* `openAnomalies` (integer): Número de anomalías en estado abierto pendientes de inspección física.
+* `criticalAnomalies` (integer): Subconjunto de anomalías de alta severidad que amenazan la continuidad operacional.
+* `activeThresholds` (integer): Reglas de negocio y umbrales vigentes evaluados síncronamente en el backend.
+* `monitoredSensors` (integer): Total de hardware e instrumentación IoT activa informando lecturas al core.
+* `latestReadingDate` (string/date-time): Marca de tiempo UTC correspondiente al último paquete de telemetría registrado con éxito.
+
+**Supported Status Codes:**
+
+* `200 OK`: La agregación analítica de la base de datos se ejecutó con éxito y se sirvió el resumen.
+
+---
+
+#### Endpoint 4: Registro Síncrono de Lecturas IoT
+
+* **Purpose:** Ingesta continua de datos puntuales emitidos por los nodos físicos de la red de sensores. Permite evaluar dinámicamente si el flujo de agua o gas transgrede los límites para disparar alertas automáticas.
+* **HTTP Method:** POST
+* **Route:** `/api/v1/readings`
+* **Parameters:** Ninguno (datos integrados en el Request Body).
+
+**Request Example:**
+
+```json
+{
+  "siteId": "e3b0c442-98fc-4c14-9c3e-000000000001",
+  "roomId": "10af83e3-71b0-4c14-9c3e-2de2384c6d13",
+  "deviceGroupId": "c6d13442-89fc-4c14-9c3e-000000000005",
+  "deviceId": "53064712-89fc-4c14-9c3e-000000000009",
+  "sensorId": "af83e372-89fc-4c14-9c3e-000000000012",
+  "resourceType": "Water",
+  "value": 4.85,
+  "unit": "m3/h",
+  "capturedAt": "2026-06-21T02:18:30Z"
+}
+```
+
+**Response Example:**
+
+```json
+{
+  "reading": {
+    "id": "71b05c31-89fc-4c14-9c3e-2de2384c6d13",
+    "sensorId": "af83e372-89fc-4c14-9c3e-000000000012",
+    "value": 4.85,
+    "capturedAt": "2026-06-21T02:18:30Z"
+  },
+  "anomalies": [],
+  "criticalEvents": 0
+}
+```
+
+**Response Explanation:**
+
+* `reading` (object): Contiene el reflejo de la entidad procesada por el backend, incluyendo su `id` autogenerado.
+* `anomalies` (array): Listado de anomalías gatilladas instantáneamente por esta ingesta (vacío si está dentro de rangos normales).
+* `criticalEvents` (integer): Cantidad de alarmas críticas disparadas tras la evaluación síncrona en el pipeline del Kernel.
+
+**Supported Status Codes:**
+
+* `200 OK`: Lectura capturada, procesada a través del motor analítico de flujos e insertada en el almacén de datos.
+* `400 Bad Request`: Payload estructurado incorrectamente o tipos de datos incompatibles (p. ej., valor de flujo negativo).
+* `404 Not Found`: Las claves UUID de topología jerárquica (`siteId`, `sensorId`) no corresponden a ninguna entidad existente en el dominio.
+
+---
+
+### 5. Swagger Interaction Evidence
+
+A continuación se detallan las evidencias que certifican las pruebas funcionales de integración y control de calidad efectuadas sobre la API interactiva de la plataforma durante la sesión de Sprint Review:
+
+#### Evidence 1 – OpenAPI Interactive Endpoint Testing for Monitoring Summary
+
+Demuestra la ejecución exitosa del pipeline de agregación analítica de datos mediante la interfaz interactiva de Swagger UI. Al invocar el comando *GET* sobre la ruta `/api/v1/monitoring/summary`, el servidor web procesa la consulta de manera síncrona en el backend de ASP.NET Core y devuelve un código de estado de éxito `200 OK`. El bloque JSON retornado visualiza de forma transparente las métricas consolidadas del sistema, incluyendo lecturas totales acumuladas, el conteo de anomalías abiertas, y la marca de tiempo exacta de la última ingesta de telemetría IoT. Esta evidencia valida la interoperabilidad directa del backend ante consultas agregadas, garantizando que el dashboard de la aplicación cliente (Vue.js) consuma datos consistentes y estructurados para los perfiles operativos del segmento B2B.
+
+#### Evidence 2 – Critical Alert Retrieval via Swagger UI Controller Interface
+
+Muestra la validación interactiva de la capa de notificaciones operacionales a través de la interfaz de Swagger. La imagen detalla la respuesta de éxito del backend ante la petición síncrona dirigida al endpoint `/api/v1/alerts/critical`. El servidor responde devolviendo la colección ordenada de eventos de alta prioridad almacenados en la base de datos relacional. Cada objeto de la colección expone de manera explícita la trazabilidad integral del incidente, enlazando directamente el identificador de la sede física afectada (`siteId`), el registro de anomalía del negocio (`anomalyId`) y la lectura exacta de flujo anómalo que gatilló el evento (`readingId`). Esta prueba interactiva ratifica ante los stakeholders que el backend implementa el motor de reglas operacionales y expone con éxito las interfaces requeridas para la mitigación ágil de riesgos críticos.
+
+---
+
+### 6. Repository and Traceability Evidence
+
+La trazabilidad entre las especificaciones funcionales, los artefactos de diseño y la implementación técnica auto-documentada se gestiona rigurosamente en el repositorio corporativo del componente de software backend.
+
+* **URL del Repositorio:** `https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-platform`
+* **Rama Operacional de Referencia:** `develop`
+
+A continuación, se detalla la matriz de commits bajo el estándar *Conventional Commits* que evidencia el desarrollo continuo y la trazabilidad de la documentación OpenAPI:
+
+| Commit ID | Description | Related Endpoint(s) |
+|-----------|-------------|---------------------|
+| `cb9fe2c` | feat(platform): add Swagger UI helpers. Configuración de filtros, metadatos enriquecidos de OpenAPI 3.1.1 y ayudantes visuales para la capa de servicios. | Global (Swagger API Engine) |
+| `a3cf1e6` | merge: feature/backend-api-documentation into develop. Fusión e integración síncrona de la infraestructura auto-documentada interactiva de la plataforma. | Todos los endpoints de la API |
+| `c6d1344` | feat(monitoring): expose monitoring REST endpoints. Exposición pública de controladores y acciones REST para telemetría e ingesta de lecturas IoT. | `/api/v1/readings` |
+| `5306471` | merge: feature/get-monitoring-summary into develop. Integración del procesador analítico y agregador de consultas de KPIs operacionales para dashboards. | `/api/v1/monitoring/summary` |
+| `c6a7ef2` | merge: feature/monitoring-rest-endpoints into develop. Fusión final de los controladores de captura y control de hardware IoT en la rama base de desarrollo. | `/api/v1/readings`, `/api/v1/thresholds` |
+
+---
+
+### 7. Sprint Review Conclusions
+
+Al finalizar el ciclo de desarrollo del Sprint 3, el equipo de ingeniería alcanzó los siguientes hitos determinantes respecto a la capa de servicios distribuidos:
+
+* **Cobertura de Documentación:** Se logró documentar rigurosamente el 100% de las operaciones de negocio implementadas en el backend asociadas a los *Bounded Contexts* clave (Workplace, Monitoring, Notification), asegurando mapeos estrictos con las *Technical Stories* planteadas.
+* **Validación mediante Swagger UI:** La consistencia semántica y sintáctica de los contratos JSON de entrada y salida fue verificada empíricamente a través de pruebas unitarias e interacciones directas sobre el panel interactivo expuesto en el servidor de desarrollo.
+* **Preparación para Despliegue Cloud:** La integración nativa del motor de documentación OpenAPI en la arquitectura de ASP.NET Core garantiza que cualquier evolución de los controladores se refleje de manera dinámica tras los despliegues en la plataforma **Render**, eliminando costos de mantenimiento de documentación estática descentralizada.
+* **Beneficios para Stakeholders:** El acceso público a los contratos del servicio acelera la integración transparente con el equipo cliente, mitiga drásticamente los riesgos de regresión de código durante los despliegues y provee una evidencia de ingeniería auditable bajo estándares internacionales de calidad de software.
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+
+Durante el Sprint 3 se realizó el despliegue de la plataforma web utilizando Render como plataforma de alojamiento en la nube. El servicio fue configurado para desplegar automáticamente la aplicación a partir del repositorio GitHub del proyecto mediante contenedores Docker.
+
+La evidencia presentada demuestra que el despliegue se completó exitosamente, generando una instancia operativa accesible mediante una URL pública. Asimismo, se verificó la integración continua entre el repositorio y el entorno de ejecución, permitiendo actualizar automáticamente la aplicación después de cada cambio aprobado.
+
+![Software Deployment Evidence](assets/md-images-chapter5/software-deployment-sprint3.jpeg)
+
+Despliegue exitoso de la plataforma LowCortisol en Render mediante Docker, mostrando la conexión con el repositorio y el registro del evento "Deploy live".
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+Durante este tercer Sprint, la colaboración del equipo se enfocó estratégicamente en la transición del backend simulado hacia una arquitectura de servicios real, implementada sobre ASP.NET Core. La sinergia del equipo fue vital para orquestar la integración de la lógica de persistencia de datos mediante Entity Framework Core, asegurando que cada componente del sistema no solo fuera funcional, sino que respetara rigurosamente los principios DDD (Domain-Driven Design). Nos organizamos mediante sesiones de revisión de código técnico para garantizar que la comunicación entre los Bounded Contexts fuera fluida y eficiente, cumpliendo con los estándares RESTful exigidos por la rúbrica y los principios de ingeniería de software discutidos en clase.
+
+Asimismo, el trabajo colaborativo fue decisivo para elevar la calidad de los artefactos técnicos y la documentación. Dedicamos esfuerzos significativos a refinar la documentación de endpoints mediante Swagger, permitiendo una trazabilidad clara entre el diseño y la implementación. La unificación de criterios en el manejo de Migrations para la base de datos y la consolidación de nuestra estrategia de despliegue en la nube nos permitieron superar la complejidad técnica inherente a la integración de un backend real. Esta coordinación constante aseguró que el progreso del proyecto sea coherente y robusto, fortaleciendo nuestras competencias técnicas y garantizando que la solución actual esté totalmente alineada con las expectativas de calidad y rigor profesional del curso.
+
+![Collaboration1](assets/md-images-chapter5/Collaboration-Insight1.png)
+![Collaboration2](assets/md-images-chapter5/Collaboration-Insight2.png)
+![Collaboration3](assets/md-images-chapter5/Collaboration-Insight3.png)
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+En esta sección se presenta el diseño de entrevistaas de validación aplicado para la plataforma LowCortisol, con el objetivo de recopilar la percepción de nuestros usuarios anteriormente entrevistados respecto a la porpuesta de valor, la claridad de la información, la utilidad de las funcionalidades implementadas y la experiencia general de interacción con el producto digital. Estas entrevistados fueron planteadas para evaluar tanto el Landing Page como la Web Application, priorizando la validación de los flujos principales de navegación, monitoreo, alertas y visualización de información relevante para los segmentos objetivos.
+
+
+**Objetivos de las entrevistas:** El objetivo principal de las entrevistas de validación fue conocer la opinión de los participantes sobre la experiencia de uso de LowCortisol, especialmente en relacion con: 
+
+
+* la comprensión de la propuesta de la plataforma.
+* la facilidad de navegación entre las secciones del sistema
+* la claridad de la información sobre monitoreo de agua y gas
+* la utilidad de las alertas en tiempo real
+* la comprensión del estado de los dispositivos y sensores
+* la utilidad de los historiales de consumo y reportes
+* el grado de satisfación general con la plataforma
+* las oportunidades de mejora identificadas por los usuarios
+
+**Estructura de la entrevista**
+
+La entrevista fue diseñada en dos bloques: datos generales del entrevistado y preguntas de validación del producto.
+
+**A. Datos generales**
+
+Este bloque tuvo como finalidad identificar información básica del participante y contextualizar su perfil dentro de los segmentos objetivo.
+Las preguntas utilizadas fueron las siguientes:
+* ¿Cuál es su nombre?
+* ¿Cuántos años tiene?
+* ¿En qué distrito trabaja o reside?
+* ¿Cuál es su ocupación actual?
+
+**B. Preguntas de validación**
+
+Este bloque estuvo orientado a recoger apreciaciones cualitativas sobre la interfaz, la navegación, la utilidad de las funcionalidades y la satisfacción general con la solución.
+Las preguntas planteadas fueron las siguientes:
+
+* ¿Qué opinión tiene sobre el diseño visual de la plataforma LowCortisol?
+* ¿Le resultó sencillo navegar entre las diferentes secciones del sistema?
+* ¿La información mostrada sobre el monitoreo de agua y gas es clara y fácil de comprender?
+* ¿Considera útil la función de alertas en tiempo real ante posibles fugas?
+* ¿Le resultó sencillo identificar el estado de sus dispositivos y sensores?
+* ¿Qué tan útil considera la visualización del historial de consumos y reportes?
+* ¿Las funcionalidades disponibles cumplen con sus expectativas para prevenir fugas de agua o gas?
+* ¿Existe alguna funcionalidad que esperaba encontrar y que actualmente no está disponible?
+* ¿Hubo alguna parte de la plataforma que le generó confusión o dificultad durante su uso?
+* ¿Qué fue lo que más le gustó de LowCortisol?
+* ¿Qué fue lo que menos le gustó de LowCortisol?
+* En una escala del 1 al 5, ¿cómo calificaría su experiencia general utilizando la plataforma?
+* ¿Consideraría utilizar LowCortisol de manera regular en su hogar o lugar de trabajo?
+* ¿Consideraría recomendar LowCortisol a otras personas o empresas?
+* ¿Qué mejoras o sugerencias propondría para futuras versiones del sistema?
+
+### 5.3.2. Registro de Entrevistas.
+#### Segmento 1: Usuarios residenciales con interés con tecnología y seguridad del hogar
+
+##### Entrevista 1
+
+**Datos del Entrevistado:**
+
+- Nombre: Yazid Dumet
+- Apellidos: Isaac Pinto
+- Edad: 19
+- Distrito: Molina
+- Ocupación: Estudiante de Ingenieria  Mecatronica
+- Timing: Desde 0:00 minutos a 12:57 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-1](assets/md-images-chapter5/Interview-Yazid.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Yazid destacó que LowCortisol posee un diseño moderno y una navegación intuitiva. Consideró que la información sobre el monitoreo de agua y gas es clara y que las alertas en tiempo real son una de las funcionalidades más importantes. Indicó que el historial de consumo resulta útil y que la plataforma cumple con sus expectativas. Como mejoras, propuso incorporar una simulación más realista del sistema, explicar mejor los planes de suscripción e integrar asistentes de voz para el control de válvulas. Calificó su experiencia con **4/5** y afirmó que utilizaría y recomendaría la plataforma.
+
+##### Entrevista 2
+
+**Datos del Entrevistado:**
+
+- Nombre: Jesus
+- Apellidos: Huaman
+- Edad: 19
+- Distrito: Ate
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 12:57 minutos a 30:02 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-2](assets/md-images-chapter5/Interview-Jose.png)
+
+**<u>Resumen de la entrevista:</u>**
+Jesús señaló que el diseño de la plataforma es ordenado y agradable, aunque sugirió implementar un modo oscuro. Consideró sencilla la navegación y clara la información presentada, resaltando la utilidad de las alertas. Mencionó que sería importante incorporar un historial de consumos y mejorar el panel principal para ofrecer mayor información. Calificó su experiencia con **3/5** y comentó que utilizaría la plataforma una vez implementadas dichas mejoras.
+
+##### Entrevista 3
+
+**Datos del Entrevistado:**
+
+- Nombre: Frank
+- Apellidos: Serrano
+- Edad: 20
+- Distrito: Santiago de Surco
+- Ocupación: Estudiante de Ing de Software
+- Timing: Desde 30:02 minutos a 45:20 minutos
+
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado - 3](assets/md-images-chapter5/Interview-Frank.png)
+
+**<u>Resumen de la entrevista:</u>**
+Frank consideró que LowCortisol presenta un diseño moderno y minimalista, con una navegación sencilla y una interfaz fácil de comprender. Destacó la utilidad de las alertas en tiempo real, el monitoreo de dispositivos y el historial de consumo. Como sugerencias, propuso incorporar animaciones para mejorar la experiencia visual y un mapa interactivo con la ubicación de los sensores. Calificó la plataforma con **5/5**, indicando que utilizaría y recomendaría el servicio.
+
+#### Segmento 2: Profesionales de Infraestructura, Mantenimiento y Gestión Operativa
+
+##### Entrevista 1
+
+**Datos del Entrevistado:**
+
+- Nombre: Leonardo Daniel
+- Apellidos: Sotelo de la Cruz
+- Edad: 22
+- Distrito: La Molina
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura en la Municipalidad de La Molina
+- Timing: Desde 45:20 minutos a 49:51 minutos
+
+**Evidencia:**
+
+- Screenshot:  <br> <br>
+  ![Entrevistado-1](assets/md-images-chapter5/Interview-Leonardo.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Leonardo indicó que la plataforma posee un diseño moderno y organizado, con una navegación intuitiva y una información clara sobre el monitoreo de agua y gas. Destacó el valor de las alertas en tiempo real y del historial de consumo para la gestión de infraestructura. Como mejoras, sugirió incorporar análisis predictivos, reportes más detallados, notificaciones por otros canales y una aplicación móvil. Calificó su experiencia con **4.5/5** y afirmó que utilizaría y recomendaría la plataforma.
+
+###### Entrevista 2
+
+**Datos del Entrevistado:**
+
+- Nombre: Pool Enrique
+- Apellidos: Guevara García
+- Edad: 22
+- Distrito: ATE
+- Ocupación: Practicante de Ingeniería Civil del área de Infraestructura y Servicios Públicos en la Municipalidad de ATE
+- Timing: Desde 49:51 minutos a 1:01:31 minutos
+
+**Evidencia:**
+
+- Screenshot: <br> <br>
+  ![Entrevistado-2](assets/md-images-chapter5/Interview-Pool.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Pool comentó que LowCortisol ofrece un diseño limpio y una navegación sencilla, permitiendo comprender fácilmente la información mostrada. Consideró muy útiles las alertas y el monitoreo del consumo, aunque propuso implementar análisis predictivos, mapas georreferenciados, una aplicación móvil y reducir la dependencia de la conexión a Internet. Calificó la plataforma con **4/5** y manifestó que la utilizaría y recomendaría en entornos profesionales.
+
+######  Entrevista 3
+
+**Datos del Entrevistado:**
+
+- Nombre: Edward
+- Apellidos: Rojas
+- Edad: 22
+- Distrito: San Isidro
+- Ocupación: Practicante de Ingeniería Civil del área de mantenimiento del JW Marriott Hotel
+- Timing: Desde 1:01:31 minutos a 1:37:38 minutos
+
+**Evidencia:**
+
+- Screenshot: <br><br>
+  ![Entrevistado-3](assets/md-images-chapter5/Interview-Edward.png)
+
+**<u>Resumen de la entrevista:</u>**
+Edward señaló que la plataforma cuenta con un diseño ordenado y fácil de utilizar, aunque necesitó un breve periodo de adaptación. Valoró positivamente las alertas, el monitoreo y la organización de la información, pero sugirió incorporar un video demostrativo sobre el funcionamiento del sistema y un mapa para visualizar los sensores de un edificio. Calificó su experiencia entre **3.5 y 4/5**, indicando que utilizaría y recomendaría la solución.
+
+###### Entrevista 4
+
+**Datos del Entrevistado:**
+
+- Nombre: Álvaro
+- Apellidos: Jordán Villa
+- Edad: 21
+- Distrito: Santiago de Surco
+- Ocupación: Practicante de Ingeniería Civil - Área de mantenimiento en el Hotel El Pardo Lima
+- Timing: Desde 1:07:38 minutos a 1:12:05 minutos
+
+**Evidencia:**
+
+- Screenshot: <br><br>
+  ![Entrevistado-5](assets/md-images-chapter5/Interview-Alvaro.png)
+
+
+**<u>Resumen de la entrevista:</u>**
+Álvaro destacó que LowCortisol posee un diseño moderno, una navegación sencilla y funcionalidades útiles para el monitoreo de agua y gas. Resaltó especialmente las alertas en tiempo real, el historial de consumo y la facilidad para identificar el estado de los dispositivos. Como mejoras, propuso personalizar las notificaciones, incorporar reportes con más estadísticas y desarrollar una aplicación móvil. Calificó la plataforma con **5/5** y afirmó que utilizaría y recomendaría el servicio.
+
+**Enlace del video único de las entrevistas:**  
+[Ver video de entrevistas](https://upcedupe-my.sharepoint.com/personal/u202111529_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111529%5Fupc%5Fedu%5Fpe%2FDocuments%2FMicrosoft%20Streams%2F2026%2D06%2D19%2D20%2D38%2D40%5FyRufrFfY%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E115c2165%2Dda10%2D4102%2D9693%2D21433dd9c470)
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** 12144 
+**AUDITOR:** FlowAlert  
+**CLIENTE(S):** Usuarios participantes de la validación
+
+**SITE o APP A EVALUAR:**  
+LowCortisol:https://lowcortisol-webapp.onrender.com 
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la experiencia de usuario de las siguientes tareas:
+
+1. Explorar el Landing Page e identificar la propuesta de valor de LowCortisol.
+2. Navegar entre las principales secciones de la Web Application.
+3. Consultar la información de monitoreo de agua y gas.
+4. Revisar alertas relacionadas con posibles fugas o anomalías.
+5. Identificar el estado de dispositivos y sensores.
+6. Consultar el historial de consumos y reportes.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Configuración avanzada de preferencias del sistema.
+2. Gestión administrativa completa de usuarios.
+3. Integración con servicios externos en escenarios avanzados.
+4. Configuración avanzada de reglas automáticas de alertas.
+
+---
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---------|---------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. |
+| 2 | Problema menor: ocurre ocasionalmente o genera una dificultad moderada para el usuario. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente el uso de la plataforma. |
+| 4 | Problema muy grave: impide al usuario continuar utilizando la herramienta. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+|---|---|---:|---|
+| 1 | Algunas alertas no comunican claramente su nivel de prioridad. | 3 | Usability: Visibility of System Status |
+| 2 | Existe confusión entre las secciones de historial de consumos y reportes. | 2 | Information Architecture: Is it Findable? |
+| 3 | El estado de dispositivos y sensores no siempre se identifica rápidamente. | 3 | Usability: Recognition Rather Than Recall |
+| 4 | Algunos íconos carecen de apoyo textual suficiente. | 2 | Inclusive Design: Provide Comparable Experience |
+| 5 | La navegación entre módulos puede resultar poco intuitiva para usuarios nuevos. | 2 | Information Architecture: Is it Usable? |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### Problema #1: Algunas alertas no comunican claramente su nivel de prioridad
+
+**Severidad:** 3
+
+**Heurística violada:**  
+Usabilidad – Visibilidad del estado del sistema
+
+**Problema:**  
+Durante las sesiones de validación, algunos participantes indicaron que, aunque las alertas son visibles dentro de la plataforma, no siempre resulta evidente distinguir cuáles representan situaciones críticas y cuáles corresponden únicamente a advertencias informativas.
+
+**Recomendación:**  
+Incorporar niveles de severidad claramente diferenciados mediante colores consistentes, etiquetas descriptivas e íconos representativos que permitan reconocer rápidamente la urgencia de cada alerta.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-1.PNG)
+
+---
+
+### Problema #2: Existe confusión entre las secciones de historial de consumos y reportes
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Arquitectura de Información – ¿Es fácil de encontrar?
+**Problema:**  
+Algunos usuarios mostraron dudas respecto a dónde consultar información histórica de consumos y dónde visualizar reportes consolidados, debido a la similitud conceptual entre ambas secciones.
+
+**Recomendación:**  
+Mejorar el etiquetado de navegación y agregar descripciones breves que permitan diferenciar claramente el propósito de cada sección.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-2.PNG)
+
+---
+
+### Problema #3: El estado de dispositivos y sensores no siempre se identifica rápidamente
+
+**Severidad:** 3
+
+**Heurística violada:**  
+Usabilidad – Reconocimiento antes que memorización
+
+**Problema:**  
+Durante las pruebas, algunos participantes necesitaron interpretar varios elementos antes de comprender el estado actual de un dispositivo o sensor, generando una carga cognitiva innecesaria.
+
+**Recomendación:**  
+Utilizar indicadores visuales más directos, como etiquetas textuales y estados codificados mediante colores consistentes.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-3.PNG)
+
+---
+
+### Problema #4: Algunos íconos carecen de apoyo textual suficiente
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Diseño Inclusivo – Proporcionar una experiencia equivalente para todos los usuarios
+
+**Problema:**  
+Determinados elementos de la interfaz dependen únicamente de íconos visuales, dificultando la comprensión para usuarios con menor experiencia tecnológica.
+
+**Recomendación:**  
+Complementar los íconos con etiquetas descriptivas o mensajes emergentes que expliquen claramente su función.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-4.PNG)
+
+---
+
+### Problema #5: La navegación entre módulos puede resultar poco intuitiva para usuarios nuevos
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Arquitectura de Información – ¿Es fácil de usar?
+
+**Problema:**  
+Algunos usuarios que utilizaron la plataforma por primera vez manifestaron dificultades para identificar rápidamente la ruta de navegación entre los diferentes módulos.
+
+**Recomendación:**  
+Mantener una estructura de navegación consistente, resaltar la sección activa e incorporar elementos de orientación como breadcrumbs o encabezados descriptivos.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-5.PNG)
+
+---
+
+## Conclusiones
+
+La evaluación heurística permitió identificar oportunidades de mejora relacionadas principalmente con la visibilidad de la información crítica, la organización de contenidos y la accesibilidad de algunos elementos de la interfaz. En general, los usuarios lograron completar las tareas propuestas satisfactoriamente; sin embargo, la incorporación de las recomendaciones planteadas contribuirá a mejorar la experiencia de uso, la comprensión del sistema y la eficiencia en la interacción con la plataforma LowCortisol.
+
+
+
+## 5.4. Video About-the-Product.
+
+El video About-the-Product presenta de manera clara y dinámica la propuesta de valor de la solución, explicando el problema identificado, el segmento de usuarios objetivo y las principales funcionalidades que ofrece la plataforma. Asimismo, se muestra el recorrido de los usuarios a través de las interfaces desarrolladas, destacando cómo la aplicación contribuye a mejorar su experiencia y satisfacer sus necesidades. El contenido incluye una breve introducción al modelo de negocio, una demostración de las características más relevantes del producto y testimonios obtenidos durante el proceso de validación con usuarios potenciales.
+
+**Video About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDsnUg9l6N3Q6Pyj_tWH91EAVbG-bCPI27Y4n36aRAWEPo?e=2Cpe4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 # Conclusiones
-Tras completar este nuevo avance en la implementación y validación del proyecto LowCortisol, el equipo concluye que se ha logrado consolidar una arquitectura de software robusta a través de un proceso de refactorización guiado por los estándares de la rúbrica docente. A diferencia de la etapa inicial, ahora contamos con un sistema funcional desplegado que integra de manera coherente el frontend con la infraestructura de servicios para las pruebas actuales. La aplicación rigurosa de Domain-Driven Design (DDD) y la corrección de los diagramas C4 han permitido que la aplicación evolucione hacia una plataforma con una lógica de dominio clara, sentando las bases para las funcionalidades que se implementarán en las siguientes etapas.
 
-Por otro lado, concluimos que la transición hacia un modelo de desarrollo basado en requisitos técnicos detallados ha sido fundamental para asegurar la viabilidad de lo avanzado en este Sprint. Al haber refinado las historias técnicas y las hipótesis de Lean UX, el proyecto ahora cuenta con métricas de éxito iniciales y una estructura de datos que utiliza las bibliotecas de persistencia adecuadas para el entorno .NET. Finalmente, el despliegue exitoso de los servicios y la gestión profesional del código confirman que el equipo ha interiorizado las mejores prácticas de ingeniería; sin embargo, somos conscientes de que el trabajo aún está en ejecución, y estos resultados parciales son el punto de partida para completar la solución integral de monitoreo en las entregas finales.
+El desarrollo de la segunda entrega permitió consolidar el avance del proyecto LowCortisol mediante la implementación de la arquitectura backend del sistema y la actualización de los principales artefactos de ingeniería de software. Durante este Sprint se desarrollaron los servicios REST necesarios para la gestión de usuarios, monitoreo de sensores, alertas, dispositivos y suscripciones, además de corregirse los Sprint Backlogs, los diagramas C4, el diagrama de clases y el modelo de base de datos, logrando una mayor consistencia entre la documentación y la implementación realizada.
+
+Asimismo, la ejecución del Sprint 3 permitió organizar adecuadamente las actividades del equipo mediante la planificación, asignación de responsabilidades y documentación de evidencias de desarrollo, despliegue y colaboración. Paralelamente, las entrevistas de validación y la evaluación heurística proporcionaron retroalimentación valiosa por parte de los usuarios, quienes destacaron la facilidad de uso de la plataforma, la utilidad del monitoreo en tiempo real y las alertas de posibles fugas, además de identificar oportunidades de mejora relacionadas con la personalización, los reportes y la experiencia de usuario.
+
+Finalmente, aunque la solución cuenta actualmente con una arquitectura backend funcional y una validación cualitativa favorable por parte de los usuarios, el proyecto aún se encuentra en una etapa de desarrollo. En las siguientes iteraciones será necesario completar la integración entre el frontend, el backend y los dispositivos IoT, así como realizar pruebas más exhaustivas que permitan validar el funcionamiento del sistema en escenarios reales.
+
+## Recomendaciones
+Para las siguientes iteraciones del proyecto se plantean las siguientes recomendaciones:
+
+1. Completar la integración entre el frontend y los servicios backend implementados, garantizando el correcto funcionamiento de todas las historias de usuario desarrolladas durante el proyecto.
+
+2. Incorporar las mejoras identificadas durante las entrevistas de validación, incluyendo una mayor personalización de alertas, reportes más detallados, tutoriales para nuevos usuarios y funcionalidades adicionales como mapas interactivos o una aplicación móvil.
+
+3. Realizar pruebas funcionales, de integración y de aceptación con usuarios finales para verificar el correcto comportamiento de los servicios implementados y recopilar métricas que permitan evaluar el desempeño de la solución.
+
+4. Integrar dispositivos IoT reales o simuladores más completos para validar el monitoreo de sensores, la generación de alertas y el control remoto de dispositivos en escenarios cercanos a un entorno de producción.
+
+5. Mantener actualizada la documentación técnica del proyecto conforme avance el desarrollo, asegurando la consistencia entre la implementación, la arquitectura del sistema y los diferentes diagramas elaborados.
 
 # Bibliografía 
 
