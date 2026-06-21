@@ -4496,6 +4496,214 @@ El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del s
 LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
+
+En esta sección se presentan los avances de implementación y evolución técnica realizados en el backend, correspondientes al repositorio **lowcortisol-platform**. Durante este ciclo de desarrollo se estructuró la fundación del proyecto en ASP.NET Core, se integró el motor de persistencia con EF Core, se implementaron los contextos de dominio para Workplace, Monitoring, Notification y Device Control, y se configuraron las estrategias de despliegue automatizado y limpieza en Render, culminando con las versiones estables v1.0.0 y v1.0.1.
+
+El desarrollo del Backend se organizó bajo la metodología Git Flow, desplegando múltiples feature branches distribuidas de forma modular para garantizar el aislamiento de características y la estabilidad del entorno de producción.
+
+### Feature Branches Utilizadas
+
+- `feature/device-control-domain-model`
+- `feature/device-control-persistence-and-acl`
+- `feature/control-valve`
+- `feature/list-valve-operations`
+- `feature/list-device-commands`
+- `feature/device-control-rest-endpoints`
+- `feature/notification-channel-domain-model`
+- `feature/notification-persistence-and-support`
+- `feature/create-alert-from-critical-anomaly`
+- `feature/list-alerts`
+- `feature/alert-actions`
+- `feature/create-incident-from-alert`
+- `feature/list-incidents`
+- `feature/incident-actions`
+- `feature/mitigate-incident`
+- `feature/manage-notification-channels`
+- `feature/get-notification-summary`
+- `feature/notification-rest-endpoints`
+- `feature/backend-audit-exports`
+
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| lowcortisol-platform | develop | 49e13ad | merge: main back into develop after platform v1.0.1 | Se sincronizó el entorno de desarrollo con los parches de la versión v1.0.1. | 2026-06-20 |
+| lowcortisol-platform | main | e420076 | release: platform v1.0.1 | Lanzamiento oficial de la versión v1.0.1 con correcciones menores en la base de datos. | 2026-06-20 |
+| lowcortisol-platform | release/v1.0.1 | 24ba0ba | merge: main back into develop after platform v1.0.1 | Integración preventiva de la rama de liberación hacia las ramas base. | 2026-06-20 |
+| lowcortisol-platform | develop | b7d1d85 | merge: use lowcortisol database name | Consolidación del cambio del identificador de la base de datos en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | fcc555e | chore(platform): use lowcortisol database name | Modificación del string de conexión para apuntar al entorno productivo unificado. | 2026-06-20 |
+| lowcortisol-platform | develop | bb688a1 | merge: feature/platform-render-deploy-cleanup into develop | Fusión de las tareas de limpieza de configuraciones e infraestructura de Render. | 2026-06-20 |
+| lowcortisol-platform | develop | 70f55c6 | chore(platform): prepare render deployment | Ajuste de variables de entorno y optimizaciones de arranque para el hosting cloud. | 2026-06-20 |
+| lowcortisol-platform | develop | 933d6a6 | merge: main back into develop after v1.0.0 | Sincronización completa tras el primer tag mayor de producción. | 2026-06-20 |
+| lowcortisol-platform | main | 3cbf78c | release: platform v1.0.0 | Despliegue e hito de la primera versión oficial estable de la plataforma backend. | 2026-06-20 |
+| lowcortisol-platform | release/v1.0.0 | d95d498 | chore(release): prepare platform v1.0.0 | Estabilización del código base, compilación limpia y cierre de metadatos de release. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-audit-exports | c9fec62 | chore(platform): add backend audit exports | Implementación de las capacidades de exportación para auditorías de telemetría. | 2026-06-20 |
+| lowcortisol-platform | develop | e923643 | merge: feature/backend-audit-exports into develop | Fusión de los servicios de exportación al flujo integrado. | 2026-06-20 |
+| lowcortisol-platform | develop | ccbbf9d | merge: feature/device-control-rest-endpoints into develop | Integración de los controladores HTTP expuestos de Device Control. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-rest-endpoints | aace169 | feat(device-control): expose device control REST endpoints | Mapeo y exposición de contratos REST para manipulación y control de dispositivos IoT. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-mitigation-summary | 411cbf0 | feat(device-control): add mitigation summary query | Construcción de consultas SQL/Linq para los resúmenes ejecutivos de mitigaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | 773da89 | merge: feature/device-control-mitigation-summary into develop | Fusión de reportes de mitigación en la rama común de desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | 3f62422 | merge: feature/list-device-commands into develop | Integración de los casos de uso para listado de instrucciones enviados. | 2026-06-20 |
+| lowcortisol-platform | feature/list-device-commands | 4b191f4 | feat(device-control): add device command queries | Implementación de queries cqrs para el histórico de comandos de hardware. | 2026-06-20 |
+| lowcortisol-platform | develop | 3a313b4 | merge: feature/list-valve-operations into develop | Fusión de flujos de control del subsistema de válvulas en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/list-valve-operations | 3412e9b | feat(device-control): add valve operation queries | Implementación del buscador de transiciones y logs de operación de válvulas. | 2026-06-20 |
+| lowcortisol-platform | develop | 54c3699 | merge: feature/control-valve into develop | Fusión del controlador directo para actuadores de válvulas de alivio. | 2026-06-20 |
+| lowcortisol-platform | feature/control-valve | bd6c1b1 | feat(device-control): add valve command use cases | Diseño de los comandos de aplicación para la apertura y cierre remoto de válvulas. | 2026-06-20 |
+| lowcortisol-platform | develop | b238ca9 | merge: feature/device-control-persistence-and-acl into develop | Integración del mapeo de persistencia y capas anti-corrupción (ACL). | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-persistence-and-acl | 2304828 | feat(device-control): add persistence and ACL support | Configuración de DbContext y traductores de contextos externos de seguridad. | 2026-06-20 |
+| lowcortisol-platform | develop | 74fe1f9 | merge: feature/device-control-domain-model into develop | Integración del núcleo de negocio para el control lógico de actuadores. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-domain-model | bd28892 | feat(device-control): add operational device domain | Diseño de entidades, agregados y reglas de negocio para el control físico. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-rest-endpoints | 53a6615 | feat(notification): expose notification REST endpoints | Publicación de endpoints HTTP de despacho, alertas y mensajería del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 3bc6dbf | merge: feature/notification-rest-endpoints into develop | Fusión de endpoints del controlador de alertas. | 2026-06-20 |
+| lowcortisol-platform | develop | cc22580 | merge: feature/get-notification-summary into develop | Fusión de consultas analíticas para notificaciones emitidas. | 2026-06-20 |
+| lowcortisol-platform | feature/get-notification-summary | a3d8566 | feat(notification): add notification summary query | Desarrollo de lógica para agrupar e indicar estados críticos de alertas enviadas. | 2026-06-20 |
+| lowcortisol-platform | feature/manage-notification-channels | e91da8a | feat(notification): add notification channel management | Alta, baja y cambio de vías de comunicación (Email, SMS, Webhooks). | 2026-06-20 |
+| lowcortisol-platform | develop | da0e575 | merge: feature/manage-notification-channels into develop | Incorporación del gestor multicanal en el entorno develop. | 2026-06-20 |
+| lowcortisol-platform | feature/mitigate-incident | 7bc1a7c | feat(notification): add incident mitigation use case | Lógica de negocio para gestionar y dar respuesta a incidentes de salud activos. | 2026-06-20 |
+| lowcortisol-platform | develop | 11e9fc2 | merge: feature/mitigate-incident into develop | Fusión de flujos de contención de crisis e incidencias. | 2026-06-20 |
+| lowcortisol-platform | develop | ac729e4 | merge: feature/incident-actions into develop | Fusión de las acciones operativas aplicadas sobre incidencias. | 2026-06-20 |
+| lowcortisol-platform | feature/incident-actions | b19bc58 | feat(notification): add incident action use cases | Orquestación de flujos de trabajo sobre fallos o anomalías críticas. | 2026-06-20 |
+| lowcortisol-platform | develop | c31553e | merge: feature/list-incidents into develop | Fusión del módulo de visualización de registros de incidencias. | 2026-06-20 |
+| lowcortisol-platform | feature/list-incidents | 34e4c9e | feat(notification): add incident query use cases | Creación del motor de consultas filtradas para el panel administrativo. | 2026-06-20 |
+| lowcortisol-platform | develop | 891e822 | merge: feature/create-incident-from-alert into develop | Integración del disparador automático Alerta -> Incidente. | 2026-06-20 |
+| lowcortisol-platform | feature/create-incident-from-alert | 2e4aee4 | feat(notification): add incident creation from alert | Regla de negocio automatizada para escalar alertas desatendidas a incidentes. | 2026-06-20 |
+| lowcortisol-platform | develop | 7b90dce | merge: feature/alert-actions into develop | Fusión de acciones reactivas del ciclo de alertas. | 2026-06-20 |
+| lowcortisol-platform | feature/alert-actions | 0c262a8 | feat(notification): add alert action use cases | Programación de handlers para el cambio de estados en alertas críticas. | 2026-06-20 |
+| lowcortisol-platform | develop | 3edc544 | merge: feature/list-alerts into develop | Fusión del listado unificado de alarmas del ecosistema. | 2026-06-20 |
+| lowcortisol-platform | feature/list-alerts | 31c2731 | feat(notification): add alert query use cases | Implementación de búsquedas paginadas de alertas por criticidad. | 2026-06-20 |
+| lowcortisol-platform | feature/create-alert-from-critical-anomaly | e416616 | feat(notification): bridge critical anomalies to alerts | Conexión del módulo de monitoreo con notificaciones ante picos anómalos. | 2026-06-20 |
+| lowcortisol-platform | develop | 159aab8 | merge: feature/create-alert-from-critical-anomaly into develop | Fusión del puente de integración entre anomalías y notificaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | b3bbb45 | merge: feature/notification-persistence-and-support into develop | Fusión de la capa de acceso a datos del bounded context de Notificaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-persistence-and-support | e7a24e5 | feat(notification): add persistence and parsing support | Mapeos relacionales de plantillas de alerta y serializadores de payloads. | 2026-06-20 |
+| lowcortisol-platform | develop | d6c33fa | merge: feature/notification-channel-domain-model into develop | Integración del modelo del canal raíz de notificaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-channel-domain-model | f0e62a3 | feat(notification): add notification channel domain | Diseño de objetos de valor y contratos funcionales para envío multicanal. | 2026-06-20 |
+| lowcortisol-platform | feature/incident-domain-model | b75e2c7 | feat(notification): add incident domain model | Definición del agregado de Incidentes con invariantes de estado del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 44d7097 | merge: feature/incident-domain-model into develop | Fusión del núcleo conceptual de incidentes de salud corporativa. | 2026-06-20 |
+| lowcortisol-platform | develop | 913c443 | merge: feature/alert-domain-model into develop | Fusión de entidades de dominio de alerta. | 2026-06-20 |
+| lowcortisol-platform | feature/alert-domain-model | 8385bcb | feat(notification): add alert domain model | Definición técnica de entidades de Alerta con rangos límites de severidad. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-rest-endpoints | c6d1344 | feat(monitoring): expose monitoring REST endpoints | Exposición de la API para captura continua de métricas y telemetría de cortisol. | 2026-06-20 |
+| lowcortisol-platform | develop | c6a7ef2 | merge: feature/monitoring-rest-endpoints into develop | Fusión de controladores de monitoreo médico e industrial en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | develop | 5306471 | merge: feature/get-monitoring-summary into develop | Fusión del procesador de resúmenes analíticos de telemetría. | 2026-06-20 |
+| lowcortisol-platform | feature/get-monitoring-summary | c10e32e | feat(monitoring): add monitoring summary query | Pipeline analítico de datos capturados para tableros de control en tiempo real. | 2026-06-20 |
+| lowcortisol-platform | feature/list-anomalies | af83e37 | feat(monitoring): add anomaly query use cases | Consultas avanzadas de desviaciones en las lecturas respecto al baseline. | 2026-06-20 |
+| lowcortisol-platform | develop | 33cf80e | merge: feature/list-anomalies into develop | Fusión del lector histórico de anomalías lógicas. | 2026-06-20 |
+| lowcortisol-platform | feature/resolve-anomaly | c087150 | feat(monitoring): add resolve anomaly use case | Mecanismo transaccional para marcar una anomalía como mitigada o justificada. | 2026-06-20 |
+| lowcortisol-platform | develop | eebf77b | merge: feature/resolve-anomaly into develop | Fusión de las acciones de resolución de métricas atípicas. | 2026-06-20 |
+| lowcortisol-platform | develop | d4d1c55 | merge: feature/list-thresholds into develop | Fusión del componente lógico de evaluación de umbrales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-thresholds | 3c993f7 | feat(monitoring): add threshold query use cases | Obtención de parámetros de límites seguros configurados por usuarios. | 2026-06-20 |
+| lowcortisol-platform | feature/create-threshold | 62c7a46 | feat(monitoring): add create threshold use case | Registro y validación de nuevas fronteras cuantitativas de alerta. | 2026-06-20 |
+| lowcortisol-platform | develop | 0a7f375 | merge: feature/create-threshold into develop | Fusión del caso de uso de parametrización de umbrales seguros. | 2026-06-20 |
+| lowcortisol-platform | develop | c6ee0c6 | merge: feature/list-consumption-readings into develop | Fusión del lector de streams de consumo/sensores. | 2026-06-20 |
+| lowcortisol-platform | feature/list-consumption-readings | 23a82e9 | feat(monitoring): add reading query use cases | Retorno secuencial de flujos de datos históricos provenientes de IoT. | 2026-06-20 |
+| lowcortisol-platform | develop | d648f33 | merge: feature/register-consumption-reading into develop | Fusión del endpoint de ingesta masiva de lecturas. | 2026-06-20 |
+| lowcortisol-platform | feature/register-consumption-reading | 49371da | feat(monitoring): add register reading use case | Ingesta, tipado y registro de lecturas directas de sensores biométricos. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-persistence-and-support | e190936 | feat(monitoring): add persistence and parsing support | Creación de índices relacionales de lecturas para optimizar queries de series de tiempo. | 2026-06-20 |
+| lowcortisol-platform | develop | f6d3c2e | merge: feature/anomaly-detection-service into develop | Fusión del motor inteligente de detección de variaciones crónicas. | 2026-06-20 |
+| lowcortisol-platform | feature/anomaly-detection-service | 4809170 | feat(monitoring): add anomaly detection service | Implementación del servicio lógico evaluador de tendencias fuera de la norma. | 2026-06-20 |
+| lowcortisol-platform | develop | 3eb5cc5 | merge: feature/anomaly-domain into develop | Fusión del modelo conceptual de la entidad Anomalía. | 2026-06-20 |
+| lowcortisol-platform | feature/anomaly-domain | 32c6103 | feat(monitoring): add anomaly domain | Estructuración matemática y de negocio para encapsular una anomalía. | 2026-06-20 |
+| lowcortisol-platform | develop | caa6de4 | merge: feature/threshold-domain into develop | Fusión de las invariantes lógicas de umbrales mínimos/máximos. | 2026-06-20 |
+| lowcortisol-platform | feature/threshold-domain | 5f289d5 | feat(monitoring): add threshold domain | Modelado del objeto de negocio Umbral de Control Biométrico. | 2026-06-20 |
+| lowcortisol-platform | develop | 3e60772 | merge: feature/consumption-reading-domain into develop | Integración estructural del dominio base de recolección de datos. | 2026-06-20 |
+| lowcortisol-platform | develop | f23d8fd | merge: feature/monitoring-persistence-and-support into develop | Consolidación de repositorios de persistencia SQL de monitoreo. | 2026-06-20 |
+| lowcortisol-platform | feature/consumption-reading-domain | 4b68662 | feat(monitoring): add consumption reading domain | Atributos de negocio y lógica de validación para entradas directas de sensores. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-rest-endpoints | 03db1cb | feat(workplace): expose physical model REST endpoints | Exposición pública de los controladores para sedes, salas y zonas físicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 521c463 | merge: feature/workplace-rest-endpoints into develop | Fusión de la API perimetral del contexto de locaciones físicas (Workplace). | 2026-06-20 |
+| lowcortisol-platform | feature/site-physical-model | d46a3ff | feat(workplace): add site physical model query | Retorno del mapeo estructural gráfico de una planta u oficina. | 2026-06-20 |
+| lowcortisol-platform | develop | eb15285 | merge: feature/site-physical-model into develop | Integración del query compositor de la arquitectura de plantas. | 2026-06-20 |
+| lowcortisol-platform | develop | 8c107b3 | merge: feature/list-device-groups into develop | Fusión de búsquedas agrupadas de hubs y dispositivos. | 2026-06-20 |
+| lowcortisol-platform | feature/list-device-groups | c9f76d7 | feat(workplace): add device group listing query | Query para paginar grupos lógicos de dispositivos mapeados en oficinas. | 2026-06-20 |
+| lowcortisol-platform | develop | f0558ea | merge: feature/create-device-group into develop | Fusión del constructor y gestor de clusters de gateways de red. | 2026-06-20 |
+| lowcortisol-platform | feature/create-device-group | df4d9f7 | feat(workplace): add create device group use case | Caso de uso de asignación grupal de sensores a un clúster físico. | 2026-06-20 |
+| lowcortisol-platform | develop | e69a754 | merge: feature/list-rooms into develop | Integración del listado espacial de ambientes empresariales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-rooms | 2ff9d47 | feat(workplace): add room listing query | Consulta relacional de salas operativas de control de cortisol. | 2026-06-20 |
+| lowcortisol-platform | develop | baf3492 | merge: feature/create-room into develop | Fusión del creador de locaciones internas de infraestructuras. | 2026-06-20 |
+| lowcortisol-platform | feature/create-room | d73a5af | feat(workplace): add create room use case | Comando de creación para sub-ambientes corporativos anexados a sedes. | 2026-06-20 |
+| lowcortisol-platform | develop | 490ef3b | merge: feature/list-sites-and-get-site into develop | Integración del catálogo global de sedes organizacionales. | 2026-06-20 |
+| lowcortisol-platform | feature/list-sites-and-get-site | 1972863 | feat(workplace): add site lookup queries | Mapeo de búsquedas individuales e índices de complejos de la empresa. | 2026-06-20 |
+| lowcortisol-platform | develop | 9a28887 | merge: feature/create-site into develop | Fusión del componente integrador de nuevas sedes empresariales. | 2026-06-20 |
+| lowcortisol-platform | feature/create-site | 517cfa1 | feat(workplace): add create site use case | Caso de uso para registrar y dar de alta instalaciones físicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 2510fbf | merge: feature/workplace-application-services into develop | Fusión de la orquestación integral del aplicativo Workplace. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-application-services | f8a1be3 | feat(workplace): add site command and query services | Capa de servicios de aplicación (CQRS Handlers) del modelo físico. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-persistence | fe64e4e | feat(workplace): add physical model persistence | Configuración Fluent API y persistencia en tablas SQL de Workplace. | 2026-06-20 |
+| lowcortisol-platform | develop | 7b1c91c | merge: feature/workplace-persistence into develop | Fusión del esquema de persistencia física de locaciones. | 2026-06-20 |
+| lowcortisol-platform | develop | 7130414 | merge: feature/workplace-domain-model into develop | Fusión de las raíces lógicas del dominio de locaciones. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-domain-model | 3b7919d | feat(workplace): add physical model domain | Creación de clases de negocio de Sedes, Salas y Dispositivos de zona. | 2026-06-20 |
+| lowcortisol-platform | develop | 92c90d0 | merge: feature/backend-ignore-build-artifacts into develop | Limpieza global de archivos temporales binarios `/bin` y `/obj`. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-ignore-build-artifacts | 098f281 | chore(platform): ignore build artifacts | Reglas avanzadas del `.gitignore` para omitir compilados de la plataforma. | 2026-06-20 |
+| lowcortisol-platform | develop | 289f6ec | merge: feature/backend-seed-and-migrations into develop | Carga unificada de datos semilla y configuraciones iniciales de tablas. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-seed-and-migrations | 6af3051 | feat(database): add seed data and migrations | Creación de scripts ef de migración inicial y llenado de datos por defecto. | 2026-06-20 |
+| lowcortisol-platform | develop | 5f94e27 | merge: feature/backend-inmemory-fallback into develop | Fusión del adaptador para entornos mock/testing en memoria. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-inmemory-fallback | 239cb94 | feat(shared): add InMemory persistence fallback | Estrategia de persistencia en memoria volátil útil para tests unitarios. | 2026-06-20 |
+| lowcortisol-platform | develop | 2ee2291 | merge: feature/backend-efcore-persistence into develop | Fusión del motor relacional core ORM al backend del sistema. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-efcore-persistence | 3ef3e6c | feat(shared): add EF Core persistence base | Abstracción base de repositorios y acoplamiento inicial de Entity Framework Core. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-shared-application-domain | d82ce20 | feat(shared): add result and domain contracts | Modelado de envoltorios de respuesta (Result Pattern) y entidades base. | 2026-06-20 |
+| lowcortisol-platform | develop | e4ffc62 | merge: feature/backend-shared-application-domain into develop | Fusión de contratos agnósticos compartidos del Kernel de software. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-api-documentation | cb9fe2c | feat(platform): add Swagger UI helpers | Configuración y enriquecimiento de documentación OpenAPI con filtros Swagger. | 2026-06-20 |
+| lowcortisol-platform | develop | a3cf1e6 | merge: feature/backend-api-documentation into develop | Fusión de la capa auto-documentada interactiva de la API. | 2026-06-20 |
+| lowcortisol-platform | develop | 2de2384 | merge: feature/backend-environment-and-docs into develop | Fusión de especificaciones e instructivos técnicos iniciales de la solución. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-environment-and-docs | abae808 | docs(platform): add backend environment and project docs | Redacción del archivo descriptivo técnico y variables de configuración. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-platform-foundation | c4723bb | feat(platform): add ASP.NET Core project foundation | Generación del andamiaje base mediante arquitectura limpia en .NET. | 2026-06-20 |
+| lowcortisol-platform | develop | 7d60872 | merge: feature/backend-platform-foundation into develop | Fusión del esqueleto de arquitectura e inyección de dependencias iniciales. | 2026-06-20 |
+| lowcortisol-platform | develop | 9f43dc8 | merge: feature/backend-repository-cleanup into develop | Remoción de librerías y códigos de prueba obsoletos de fases tempranas. | 2026-06-20 |
+| lowcortisol-platform | feature/backend-repository-cleanup | a7895b5 | chore(platform): remove legacy mock API artifacts | Purga de ficheros de mocks manuales para dar paso al motor EF Core formal. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-ignore-build-artifacts | 3f130a6 | chore(platform): ignore build artifacts | Ajustes preventivos adicionales en el rastreador Git del proyecto. | 2026-06-20 |
+| lowcortisol-platform | develop | 450cfc7 | merge: feature/platform-audit-exports into develop | Fusión del extractor de logs estructurados para auditorías regulatorias. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-audit-exports | 73e982d | chore(platform): add backend audit exports | Utilitario de volcado de datos crudos en formato plano para auditorías. | 2026-06-20 |
+| lowcortisol-platform | feature/device-control-mitigation | 7169f1e | feat(device-control): add operational mitigation context | Creación del contexto transaccional enlazado a la ejecución de actuadores. | 2026-06-20 |
+| lowcortisol-platform | develop | 34fbd92 | merge: feature/device-control-mitigation into develop | Fusión del disparador reactivo de mitigaciones de hardware en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/notification-risk-response | e1d920c | feat(notification): add risk response context | Dominio de contingencia lógica enfocado en alertar personal ante crisis médicas. | 2026-06-20 |
+| lowcortisol-platform | develop | 50ddea7 | merge: feature/notification-risk-response into develop | Fusión de flujos de control de riesgos por canales de comunicación. | 2026-06-20 |
+| lowcortisol-platform | develop | 9d5df15 | merge: feature/monitoring-risk-cycle into develop | Fusión de políticas y ciclos continuos evaluadores de salud laboral. | 2026-06-20 |
+| lowcortisol-platform | feature/monitoring-risk-cycle | 1bf1a37 | feat(monitoring): add risk cycle context | Diseño del flujo de vida de estados de riesgo continuo en el core médico. | 2026-06-20 |
+| lowcortisol-platform | develop | 0cf2397 | merge: feature/workplace-physical-model into develop | Fusión del mapa espacial inicial (Workplace Context) en desarrollo. | 2026-06-20 |
+| lowcortisol-platform | feature/workplace-physical-model | 1587912 | feat(workplace): add physical model context | Configuración inicial del mapa organizacional y delimitadores físicos de IoT. | 2026-06-20 |
+| lowcortisol-platform | feature/database-configuration | 6cd4ea3 | feat(database): add shared persistence infrastructure | Abstracción compartida del ciclo de conexiones de persistencia sql relacional. | 2026-06-20 |
+| lowcortisol-platform | develop | 6233a63 | merge: feature/database-configuration into develop | Integración de los conectores de persistencia compartidos del sistema. | 2026-06-20 |
+| lowcortisol-platform | develop | 5a1f42b | merge: feature/platform-foundation into develop | Fusión de la infraestructura perimetral base de la API web en develop. | 2026-06-20 |
+| lowcortisol-platform | feature/platform-foundation | c7689cd | feat(platform): add ASP.NET Core backend foundation | Inicialización de pipelines HTTP, manejo global de errores y middlewares. | 2026-06-20 |
+| lowcortisol-platform | main | 2caf917 | Merge release/v1.0 into main | Cierre oficial e integración productiva del release de la versión v1.0. | 2026-05-13 |
+| lowcortisol-platform | release/v1.0 | 3d475dc | Merge develop into release/v1.0 | Estabilización del código acumulado de desarrollo para la salida oficial. | 2026-05-13 |
+| lowcortisol-platform | develop | adc9ddb | Merge feature/package-lock-file into develop | Fusión de las versiones fijas de dependencias de empaquetado. | 2026-05-13 |
+| lowcortisol-platform | feature/package-lock-file | 1e400ba | Add package lock file | Inclusión del archivo de bloqueo de dependencias para asegurar Builds deterministas. | 2026-05-13 |
+| lowcortisol-platform | main | e4a8e5e | Merge release/v1.0 into main | Tag e hito formal del primer despliegue general de producción (v1.0). | 2026-05-13 |
+| lowcortisol-platform | develop | ea5f2b4 | Merge feature/repository-cleanup into develop | Fusión de la primera purga estructural de archivos innecesarios. | 2026-05-13 |
+| lowcortisol-platform | develop | 1dd79bd | Merge feature/render-cleanup into develop | Fusión de la rama encargada de corregir el manifiesto del deployer. | 2026-05-13 |
+| lowcortisol-platform | develop | 4140a0f | Merge feature/database-config into develop | Fusión de configuraciones de variables de conexión del motor de base de datos. | 2026-05-13 |
+| lowcortisol-platform | develop | cea5b27 | Merge feature/dockerfile-config into develop | Fusión del manifiesto de empaquetamiento e imagen Docker en desarrollo. | 2026-05-13 |
+| lowcortisol-platform | develop | b2407e6 | Merge feature/platform-package-config into develop | Fusión del manifiesto inicial de paquetes del ecosistema de la plataforma. | 2026-05-13 |
+| lowcortisol-platform | develop | 0c9d092 | Base Git Flow | Configuración formal de la estructura inicial de ramas en el repositorio local. | 2026-05-13 |
+| lowcortisol-platform | feature/render-cleanup | 88a711c | Delete .dockerignore | Remoción y reestructuración del archivo de exclusión para contenedores Docker. | 2026-05-09 |
+| lowcortisol-platform | feature/render-cleanup | 94e2b7c | Delete .dockerignore | Eliminación de archivos .dockerignore duplicados o mal estructurados. | 2026-05-09 |
+| lowcortisol-platform | develop | 05d7f54 | Delete render.yaml | Eliminación preventiva del archivo de orquestación en la rama común de desarrollo. | 2026-05-09 |
+| lowcortisol-platform | develop | ab2afc2 | Delete render.yaml | Limpieza de esquemas viejos de automatización e infraestructura en la nube cloud. | 2026-05-09 |
+| lowcortisol-platform | feature/database-config | eeb0b35 | Update Dockerfile | Modificación de variables de entorno internas dentro de la imagen del contenedor. | 2026-05-09 |
+| lowcortisol-platform | feature/database-config | 7544ba1 | Update Dockerfile | Inclusión de configuraciones de dependencias relacionales de datos dentro del build. | 2026-05-09 |
+| lowcortisol-platform | feature/platform-package-config | 55e9920 | Update package.json | Ajuste de metadatos de inicio, comandos script de arranque y dependencias core. | 2026-05-09 |
+| lowcortisol-platform | feature/platform-package-config | a343706 | Update package.json | Actualización de dependencias clave en los manifiestos de configuración inicial. | 2026-05-09 |
+| lowcortisol-platform | feature/dockerfile-config | 410a8f0 | Rename Dockefile to Dockerfile | Corrección de error tipográfico (*typo*) en el nombre del manifiesto Docker corporativo. | 2026-05-09 |
+| lowcortisol-platform | feature/dockerfile-config | cd7c7a9 | Rename Dockefile to Dockerfile | Ajuste de consistencia en nombres de archivos de automatización de imágenes. | 2026-05-09 |
+| lowcortisol-platform | feature/repository-cleanup | 3b7a75b | Delete .gitignore | Remoción temporal para reestructurar los criterios de exclusión globales. | 2026-05-09 |
+| lowcortisol-platform | feature/repository-cleanup | 45eb3b7 | Delete .gitignore | Limpieza de versiones previas no unificadas de exclusión de git. | 2026-05-09 |
+| lowcortisol-platform | develop | 65dc17a | Create render.yaml | Inicialización del manifiesto estructural de servicios en la plataforma cloud Render. | 2026-05-09 |
+| lowcortisol-platform | develop | 51a125a | Create render.yaml | Creación de esquemas e infraestructura básica para automatizar el ciclo CI/CD. | 2026-05-09 |
+| lowcortisol-platform | develop | 0b37b90 | Create .dockerignore | Creación del archivo de omisión de carga de binarios para optimizar builds de Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | dd80293 | Create .dockerignore | Adición del archivo perimetral de exclusión en la construcción del contenedor Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | 8591acd | Update Dockefile | Ajuste técnico dentro de las instrucciones de orquestación de capas en Docker. | 2026-05-09 |
+| lowcortisol-platform | develop | 2398de7 | Update Dockefile | Modificaciones tempranas sobre los comandos de exposición de puertos de la plataforma. | 2026-05-09 |
+| lowcortisol-platform | develop | 9211de1 | Update package.json | Adición de librerías base compartidas del sistema dentro del manifiesto técnico. | 2026-05-09 |
+| lowcortisol-platform | develop | d254e37 | Update package.json | Ajustes preliminares de versionamiento semántico dentro de los metadatos base. | 2026-05-09 |
+| lowcortisol-platform | develop | 0a700f7 | Create db.json | Inicialización de archivos mock temporales para pruebas rápidas de conectividad local. | 2026-05-09 |
+| lowcortisol-platform | develop | 9e5bfbb | Create db.json | Adición de datos estructurados de prueba JSON para prototipado del API backend. | 2026-05-09 |
+| lowcortisol-platform | develop | d7ec575 | Create .gitignore | Creación de las reglas de ignorado iniciales (ficheros de IDE, secretos y logs locales). | 2026-05-09 |
+| lowcortisol-platform | develop | 670b22f | Create .gitignore | Configuración base de exclusión de Git para iniciar el desarrollo limpio de software. | 2026-05-09 |
+| lowcortisol-platform | develop | e23f6af | Create Dockefile | Creación del primer archivo de orquestación para virtualizar el despliegue del sistema. | 2026-05-09 |
+| lowcortisol-platform | develop | d3bd3b3 | Create Dockefile | Construcción del manifiesto inicial del contenedor para entornos multi-plataforma. | 2026-05-09 |
+| lowcortisol-platform | develop | 3a594a5 | Initialize package.json for LowCortisol platform | Generación e inicialización formal de los paquetes base de la plataforma de backend. | 2026-05-09 |
+| lowcortisol-platform | develop | c8dee34 | Initialize package.json for LowCortisol platform | Apertura del repositorio con los metadatos y manifiestos descriptivos del proyecto backend. | 2026-05-09 |
+
+
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
