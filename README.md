@@ -5443,18 +5443,25 @@ El video About-the-Product presenta de manera clara y dinámica la propuesta de 
 **Video About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDsnUg9l6N3Q6Pyj_tWH91EAVbG-bCPI27Y4n36aRAWEPo?e=2Cpe4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 # Conclusiones
-El desarrollo del proyecto LowCortisol abordó de manera directa los problemas planteados en el *Problem Statement*, referidos a la detección tardía de fugas de agua y gas, las pérdidas económicas, y los riesgos a la infraestructura y la salud. Mediante el diseño y despliegue del Producto Mínimo Viable (MVP), compuesto por una Landing Page y una Web Application integrada con una Fake API, se ha demostrado la viabilidad técnica de una plataforma centralizada que permite la gestión de dispositivos IoT, la visualización de un panel de monitoreo y la administración de alertas. Respecto a los *Assumptions* iniciales, la respuesta a las entrevistas preliminares y el desarrollo de la arquitectura confirman la necesidad de ambos segmentos objetivo (usuarios residenciales y profesionales de infraestructura) de contar con una herramienta intuitiva que reemplace las revisiones manuales y reactivas.
 
-No obstante, al contrastar los *Hypothesis Statements* con los resultados de las validaciones, se evidencia que falta información cuantitativa y métricas exactas derivadas de pruebas piloto con usuarios finales en entornos reales. Por lo tanto, no es posible determinar en esta etapa qué hipótesis fueron validadas, parcialmente validadas o rechazadas, ni el grado de cumplimiento exacto de los criterios de éxito asociados (tales como el 70% de identificación temprana de incidentes en la Hipótesis 1, la reducción del 40% del tiempo de respuesta en la Hipótesis 2, o la conversión del 30% a suscripciones pagadas en la Hipótesis 7). A nivel funcional e ingenieril, los entregables y evidencias de despliegue validan la estructura para el control remoto y la gestión multi-sede (Hipótesis 4 y 5), cumpliendo con los objetivos a corto plazo del proyecto.
+El desarrollo de la segunda entrega permitió consolidar el avance del proyecto LowCortisol mediante la implementación de la arquitectura backend del sistema y la actualización de los principales artefactos de ingeniería de software. Durante este Sprint se desarrollaron los servicios REST necesarios para la gestión de usuarios, monitoreo de sensores, alertas, dispositivos y suscripciones, además de corregirse los Sprint Backlogs, los diagramas C4, el diagrama de clases y el modelo de base de datos, logrando una mayor consistencia entre la documentación y la implementación realizada.
+
+Asimismo, la ejecución del Sprint 3 permitió organizar adecuadamente las actividades del equipo mediante la planificación, asignación de responsabilidades y documentación de evidencias de desarrollo, despliegue y colaboración. Paralelamente, las entrevistas de validación y la evaluación heurística proporcionaron retroalimentación valiosa por parte de los usuarios, quienes destacaron la facilidad de uso de la plataforma, la utilidad del monitoreo en tiempo real y las alertas de posibles fugas, además de identificar oportunidades de mejora relacionadas con la personalización, los reportes y la experiencia de usuario.
+
+Finalmente, aunque la solución cuenta actualmente con una arquitectura backend funcional y una validación cualitativa favorable por parte de los usuarios, el proyecto aún se encuentra en una etapa de desarrollo. En las siguientes iteraciones será necesario completar la integración entre el frontend, el backend y los dispositivos IoT, así como realizar pruebas más exhaustivas que permitan validar el funcionamiento del sistema en escenarios reales.
 
 ## Recomendaciones
-Para los siguientes pasos en el *Roadmap* del producto digital, se formulan las siguientes recomendaciones basadas en el alcance del proyecto:
+Para las siguientes iteraciones del proyecto se plantean las siguientes recomendaciones:
 
-1. Ejecutar las pruebas piloto del MVP en entornos reales (hogares e instalaciones comerciales) para recolectar las métricas de éxito faltantes, indispensables para validar o rechazar definitivamente las siete hipótesis del modelo Lean UX.
-2. Priorizar el desarrollo e implementación del módulo de historial de consumo y reportes detallados, el cual corresponde a los objetivos a medio plazo del *Roadmap y es necesario para evaluar la Hipótesis 3 sobre la optimización del uso de recursos.
-3. Desarrollar guías de instalación claras y tutoriales de soporte integrados en la aplicación para mitigar el riesgo crítico identificado en los *Assumptions*: la posibilidad de que los usuarios no comprendan el funcionamiento del sistema o instalen de manera incorrecta los sensores.
-4. Iniciar la fase de análisis inteligente de patrones de consumo (Hipótesis 6), integrando capacidades de detección predictiva de anomalías para evolucionar el producto de un estado de alerta en tiempo real a uno de prevención automatizada.
-5. Emprender las gestiones establecidas en los objetivos a largo plazo orientadas a la formación de alianzas estratégicas con empresas de servicios (como SEDAPAL y Cálidda) y municipalidades, con el fin de facilitar la adopción masiva del producto en el segmento B2B.
+1. Completar la integración entre el frontend y los servicios backend implementados, garantizando el correcto funcionamiento de todas las historias de usuario desarrolladas durante el proyecto.
+
+2. Incorporar las mejoras identificadas durante las entrevistas de validación, incluyendo una mayor personalización de alertas, reportes más detallados, tutoriales para nuevos usuarios y funcionalidades adicionales como mapas interactivos o una aplicación móvil.
+
+3. Realizar pruebas funcionales, de integración y de aceptación con usuarios finales para verificar el correcto comportamiento de los servicios implementados y recopilar métricas que permitan evaluar el desempeño de la solución.
+
+4. Integrar dispositivos IoT reales o simuladores más completos para validar el monitoreo de sensores, la generación de alertas y el control remoto de dispositivos en escenarios cercanos a un entorno de producción.
+
+5. Mantener actualizada la documentación técnica del proyecto conforme avance el desarrollo, asegurando la consistencia entre la implementación, la arquitectura del sistema y los diferentes diagramas elaborados.
 
 # Bibliografía 
 
