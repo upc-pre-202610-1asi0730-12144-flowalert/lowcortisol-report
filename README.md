@@ -4458,27 +4458,28 @@ El Sprint 3 estuvo orientado a la consolidación funcional de LowCortisol, prior
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del sistema de monitoreo inteligente de agua y gas. Las tareas se organizaron para cubrir autenticación, monitoreo, alertas, control de dispositivos IoT, gestión de suscripciones, soporte y consolidación de la arquitectura backend.
+
 ![Sprint Backlog 3](./assets/md-images-chapter5/Sprint3.png)
 
 | User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---------------|------------------|---------|------------|-------------|-------------------|------------|--------|
-| US01-US06 | Gestión de usuarios | T31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
-| US01-US06 | Gestión de usuarios | T40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
-| US07-US09 | Monitoreo inteligente | T32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
-| US07-US09 | Monitoreo inteligente | T41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
-| US08 | Recibir alertas | T33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
-| US08 | Recibir alertas | T42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
+| US02 | Inicio de sesión | T31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
+| US02 | Inicio de sesión | T40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
+| US07 | Visualizar estado en tiempo real | T32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
+| US07 | Visualizar estado en tiempo real | T41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
+| US08 | Recibir alertas automáticas | T33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
+| US08 | Recibir alertas automáticas | T42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
 | US10 | Cerrar válvula remotamente | T34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Bruno | Done |
 | US10 | Cerrar válvula remotamente | T43 | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos. | 5 | Bruno | Done |
-| US12-US16 | Planes y suscripciones | T35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
-| US12-US16 | Planes y suscripciones | T44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
-| US17-US19 | Gestión multi-sede | T36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
-| US17-US19 | Gestión multi-sede | T45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
-| US11 | Contactar soporte | T37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
-| US11 | Contactar soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
+| US13 | Suscribirse a un plan | T35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
+| US13 | Suscribirse a un plan | T44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
+| US17 | Registrar múltiples sedes | T36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
+| US17 | Registrar múltiples sedes | T45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
+| US11 | Contactar con el equipo de soporte | T37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
+| US11 | Contactar con el equipo de soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
 | EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
 | EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
-
 LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
