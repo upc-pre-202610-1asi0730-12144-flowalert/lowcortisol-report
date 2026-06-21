@@ -4460,6 +4460,15 @@ El Sprint 3 estuvo orientado a la consolidación funcional de LowCortisol, prior
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
+Durante el Sprint 3, el equipo organizó las responsabilidades considerando los principales entregables del avance, incluyendo la validación de entrevistas, la corrección del Sprint Backlog, la documentación del proyecto, el diseño de la base de datos y el despliegue de la solución. Esta distribución permitió asignar un responsable principal para cada aspecto, mientras que el resto del equipo colaboró en las actividades necesarias para completar los entregables del Sprint.
+| Team Member | GitHub Username | Validation Interview | Sprint Backlog | Documentation | Database Design | Deployment |
+|-------------|----------------|----------------------|----------------|---------------|-----------------|------------|
+| Condori Torres, Miguel Anibal | Miguel1323z | C | C | L | C | C |
+| Delgado Perez, James Caleb | JAmsy06 | L | C | C | C | C |
+| Loa Rojas, Jean Franck | JeanLoa | C | C | C | L | L |
+| Montalvo Vasquez, Bruno Rodrigo | Bruno | L | L | C | C | C |
+| Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | C | C |
+
 #### 5.2.3.3. Sprint Backlog 3
 
 El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del sistema de monitoreo inteligente de agua y gas. Las tareas se organizaron para cubrir autenticación, monitoreo, alertas, control de dispositivos IoT, gestión de suscripciones, soporte y consolidación de la arquitectura backend.
