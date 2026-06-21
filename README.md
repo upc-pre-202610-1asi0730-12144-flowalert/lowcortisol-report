@@ -5041,6 +5041,17 @@ Al finalizar el ciclo de desarrollo del Sprint 3, el equipo de ingeniería alcan
 
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+
+Durante el Sprint 3 se realizó el despliegue de la plataforma web utilizando Render como plataforma de alojamiento en la nube. El servicio fue configurado para desplegar automáticamente la aplicación a partir del repositorio GitHub del proyecto mediante contenedores Docker.
+
+La evidencia presentada demuestra que el despliegue se completó exitosamente, generando una instancia operativa accesible mediante una URL pública. Asimismo, se verificó la integración continua entre el repositorio y el entorno de ejecución, permitiendo actualizar automáticamente la aplicación después de cada cambio aprobado.
+
+![Software Deployment Evidence](assets/md-images-chapter5/software-deployment-sprint3.jpeg)
+
+Despliegue exitoso de la plataforma LowCortisol en Render mediante Docker, mostrando la conexión con el repositorio y el registro del evento "Deploy live".
+
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 Durante este tercer Sprint, la colaboración del equipo se enfocó estratégicamente en la transición del backend simulado hacia una arquitectura de servicios real, implementada sobre ASP.NET Core. La sinergia del equipo fue vital para orquestar la integración de la lógica de persistencia de datos mediante Entity Framework Core, asegurando que cada componente del sistema no solo fuera funcional, sino que respetara rigurosamente los principios DDD (Domain-Driven Design). Nos organizamos mediante sesiones de revisión de código técnico para garantizar que la comunicación entre los Bounded Contexts fuera fluida y eficiente, cumpliendo con los estándares RESTful exigidos por la rúbrica y los principios de ingeniería de software discutidos en clase.
@@ -5250,6 +5261,170 @@ Edward señaló que la plataforma cuenta con un diseño ordenado y fácil de uti
 
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** 12144 
+**AUDITOR:** FlowAlert  
+**CLIENTE(S):** Usuarios participantes de la validación
+
+**SITE o APP A EVALUAR:**  
+LowCortisol:https://lowcortisol-webapp.onrender.com 
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la experiencia de usuario de las siguientes tareas:
+
+1. Explorar el Landing Page e identificar la propuesta de valor de LowCortisol.
+2. Navegar entre las principales secciones de la Web Application.
+3. Consultar la información de monitoreo de agua y gas.
+4. Revisar alertas relacionadas con posibles fugas o anomalías.
+5. Identificar el estado de dispositivos y sensores.
+6. Consultar el historial de consumos y reportes.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Configuración avanzada de preferencias del sistema.
+2. Gestión administrativa completa de usuarios.
+3. Integración con servicios externos en escenarios avanzados.
+4. Configuración avanzada de reglas automáticas de alertas.
+
+---
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---------|---------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. |
+| 2 | Problema menor: ocurre ocasionalmente o genera una dificultad moderada para el usuario. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta considerablemente el uso de la plataforma. |
+| 4 | Problema muy grave: impide al usuario continuar utilizando la herramienta. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+|---|---|---:|---|
+| 1 | Algunas alertas no comunican claramente su nivel de prioridad. | 3 | Usability: Visibility of System Status |
+| 2 | Existe confusión entre las secciones de historial de consumos y reportes. | 2 | Information Architecture: Is it Findable? |
+| 3 | El estado de dispositivos y sensores no siempre se identifica rápidamente. | 3 | Usability: Recognition Rather Than Recall |
+| 4 | Algunos íconos carecen de apoyo textual suficiente. | 2 | Inclusive Design: Provide Comparable Experience |
+| 5 | La navegación entre módulos puede resultar poco intuitiva para usuarios nuevos. | 2 | Information Architecture: Is it Usable? |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### Problema #1: Algunas alertas no comunican claramente su nivel de prioridad
+
+**Severidad:** 3
+
+**Heurística violada:**  
+Usabilidad – Visibilidad del estado del sistema
+
+**Problema:**  
+Durante las sesiones de validación, algunos participantes indicaron que, aunque las alertas son visibles dentro de la plataforma, no siempre resulta evidente distinguir cuáles representan situaciones críticas y cuáles corresponden únicamente a advertencias informativas.
+
+**Recomendación:**  
+Incorporar niveles de severidad claramente diferenciados mediante colores consistentes, etiquetas descriptivas e íconos representativos que permitan reconocer rápidamente la urgencia de cada alerta.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-1.PNG)
+
+---
+
+### Problema #2: Existe confusión entre las secciones de historial de consumos y reportes
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Arquitectura de Información – ¿Es fácil de encontrar?
+**Problema:**  
+Algunos usuarios mostraron dudas respecto a dónde consultar información histórica de consumos y dónde visualizar reportes consolidados, debido a la similitud conceptual entre ambas secciones.
+
+**Recomendación:**  
+Mejorar el etiquetado de navegación y agregar descripciones breves que permitan diferenciar claramente el propósito de cada sección.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-2.PNG)
+
+---
+
+### Problema #3: El estado de dispositivos y sensores no siempre se identifica rápidamente
+
+**Severidad:** 3
+
+**Heurística violada:**  
+Usabilidad – Reconocimiento antes que memorización
+
+**Problema:**  
+Durante las pruebas, algunos participantes necesitaron interpretar varios elementos antes de comprender el estado actual de un dispositivo o sensor, generando una carga cognitiva innecesaria.
+
+**Recomendación:**  
+Utilizar indicadores visuales más directos, como etiquetas textuales y estados codificados mediante colores consistentes.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-3.PNG)
+
+---
+
+### Problema #4: Algunos íconos carecen de apoyo textual suficiente
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Diseño Inclusivo – Proporcionar una experiencia equivalente para todos los usuarios
+
+**Problema:**  
+Determinados elementos de la interfaz dependen únicamente de íconos visuales, dificultando la comprensión para usuarios con menor experiencia tecnológica.
+
+**Recomendación:**  
+Complementar los íconos con etiquetas descriptivas o mensajes emergentes que expliquen claramente su función.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-4.PNG)
+
+---
+
+### Problema #5: La navegación entre módulos puede resultar poco intuitiva para usuarios nuevos
+
+**Severidad:** 2
+
+**Heurística violada:**  
+Arquitectura de Información – ¿Es fácil de usar?
+
+**Problema:**  
+Algunos usuarios que utilizaron la plataforma por primera vez manifestaron dificultades para identificar rápidamente la ruta de navegación entre los diferentes módulos.
+
+**Recomendación:**  
+Mantener una estructura de navegación consistente, resaltar la sección activa e incorporar elementos de orientación como breadcrumbs o encabezados descriptivos.
+
+**Captura:**
+
+![Evidencia de la heurística violada](assets/md-images-chapter5/Heuristica-5.PNG)
+
+---
+
+## Conclusiones
+
+La evaluación heurística permitió identificar oportunidades de mejora relacionadas principalmente con la visibilidad de la información crítica, la organización de contenidos y la accesibilidad de algunos elementos de la interfaz. En general, los usuarios lograron completar las tareas propuestas satisfactoriamente; sin embargo, la incorporación de las recomendaciones planteadas contribuirá a mejorar la experiencia de uso, la comprensión del sistema y la eficiencia en la interacción con la plataforma LowCortisol.
+
+
 
 ## 5.4. Video About-the-Product.
 
