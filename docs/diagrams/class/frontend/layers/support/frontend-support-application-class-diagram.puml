@@ -1,0 +1,82 @@
+@startuml
+title LowCortisol WebApp - Support Frontend Application Layer
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+package "Support / Application" {
+  package "Application / Commands" {
+    interface "CreateMaintenanceTicketCommand" as Frontend_service_management_CreateMaintenanceTicketCommand <<interface>> {
+      + deviceId: number
+      + deviceName: string
+      + type: MaintenanceTicketType
+      + description: string
+      + scheduledDate: string
+    }
+    interface "CreateSupportTicketCommand" as Frontend_service_management_CreateSupportTicketCommand <<interface>> {
+      + subject: string
+      + description: string
+      + priority: SupportTicketPriority
+    }
+    interface "UpdateMaintenanceTicketStatusCommand" as Frontend_service_management_UpdateMaintenanceTicketStatusCommand <<interface>> {
+      + ticketId: number
+      + status: MaintenanceTicketStatus
+    }
+    interface "UpdateSupportTicketStatusCommand" as Frontend_service_management_UpdateSupportTicketStatusCommand <<interface>> {
+      + ticketId: number
+      + status: SupportTicketStatus
+    }
+  }
+  package "Application / Facades and Services" {
+    class "SupportFacade" as Frontend_service_management_SupportFacade <<Facade>> {
+      - supportTicketAssembler
+      - maintenanceTicketAssembler
+      + get: supportTickets()
+      + get: maintenanceTickets()
+      + get: sortedSupportTickets()
+      + get: sortedMaintenanceTickets()
+      + get: loading()
+      + get: error()
+      + get: openSupportTickets()
+      + get: urgentSupportTickets()
+      + get: pendingMaintenanceTickets()
+      + get: scheduledMaintenanceTickets()
+      + get: completedMaintenanceTickets()
+      + constructor: (
+      - supportTicketsApi: SupportTicketsApiService
+      - maintenanceTicketsApi: MaintenanceTicketsApiService
+      - deviceControlFacade: DeviceControlFacade
+      - store: SupportStore
+    }
+  }
+  package "Application / Stores" {
+    class "SupportStore" as Frontend_service_management_SupportStore <<Store>> {
+      - supportTicketsSignal
+      - maintenanceTicketsSignal
+      - loadingSignal
+      - errorSignal
+      + constructor(ticketPriorityService: TicketPriorityService)
+      + setSupportTickets(value: SupportTicket[]) : void
+      + prependSupportTicket(value: SupportTicket) : void
+      + updateSupportTicket(value: SupportTicket) : void
+      + removeSupportTicket(ticketId: number) : void
+      + setMaintenanceTickets(value: MaintenanceTicket[]) : void
+      + prependMaintenanceTicket(value: MaintenanceTicket) : void
+      + updateMaintenanceTicket(value: MaintenanceTicket) : void
+      + removeMaintenanceTicket(ticketId: number) : void
+      + setLoading(value: boolean) : void
+      + setError(value: string | null) : void
+    }
+  }
+}
+
+Frontend_service_management_SupportFacade ..> Frontend_service_management_CreateMaintenanceTicketCommand
+Frontend_service_management_SupportFacade ..> Frontend_service_management_CreateSupportTicketCommand
+Frontend_service_management_SupportFacade ..> Frontend_service_management_SupportStore
+Frontend_service_management_SupportFacade ..> Frontend_service_management_UpdateMaintenanceTicketStatusCommand
+Frontend_service_management_SupportFacade ..> Frontend_service_management_UpdateSupportTicketStatusCommand
+
+
+@enduml

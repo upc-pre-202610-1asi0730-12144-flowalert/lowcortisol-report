@@ -1,0 +1,153 @@
+@startuml
+title LowCortisol WebApp - Plan Frontend Infrastructure Layer
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+package "Plan / Infrastructure" {
+  package "Infrastructure / API Services" {
+    class "InvoicesApiService" as Frontend_plan_InvoicesApiService <<API Service>> {
+      + constructor: (
+      + http: HttpClient
+      + apiBaseUrl: string
+      + findCurrentUserInvoices() : Observable<InvoiceResponse[]>
+    }
+    class "PaymentsApiService" as Frontend_plan_PaymentsApiService <<API Service>> {
+      + constructor: (
+      + http: HttpClient
+      + apiBaseUrl: string
+      + findCurrentUserPayments() : Observable<PaymentResponse[]>
+    }
+    class "PlansApiService" as Frontend_plan_PlansApiService <<API Service>> {
+      + constructor: (
+      + http: HttpClient
+      + apiBaseUrl: string
+    }
+    class "SubscriptionsApiService" as Frontend_plan_SubscriptionsApiService <<API Service>> {
+      + constructor: (
+      + http: HttpClient
+      + apiBaseUrl: string
+      + findCurrent() : Observable<SubscriptionResponse | null>
+      + cancelCurrent() : Observable<void>
+      + checkout(resource: CheckoutSubscriptionResource) : Observable<SubscriptionResponse>
+    }
+  }
+  package "Infrastructure / Assemblers" {
+    class "InvoiceAssembler" as Frontend_plan_InvoiceAssembler <<Assembler>> {
+      + override: toEntity(response: InvoiceResponse): Invoice
+      + override: toResource(entity: Invoice): InvoiceResource
+    }
+    class "PaymentAssembler" as Frontend_plan_PaymentAssembler <<Assembler>> {
+      + override: toEntity(response: PaymentResponse): Payment
+      + override: toResource(entity: Payment): PaymentResource
+    }
+    class "PlanAssembler" as Frontend_plan_PlanAssembler <<Assembler>> {
+      + override: toEntity(response: PlanResponse): Plan
+      + override: toResource(entity: Plan): PlanResource
+    }
+    class "SubscriptionAssembler" as Frontend_plan_SubscriptionAssembler <<Assembler>> {
+      + override: toEntity(response: SubscriptionResponse): Subscription
+      + override: toResource(entity: Subscription): SubscriptionResource
+    }
+  }
+  package "Infrastructure / Resources" {
+    interface "CheckoutSubscriptionResource" as Frontend_plan_CheckoutSubscriptionResource <<interface>> {
+      + planCode: PlanCode
+      + holderName: string
+      + cardNumber: string
+      + expirationDate: string
+      + cvv: string
+    }
+    interface "InvoiceResource" as Frontend_plan_InvoiceResource <<interface>> {
+      + userId: number
+      + invoiceNumber: string
+      + totalAmount: number
+      + currency: string
+      + issuedAt: string
+    }
+    interface "PaymentResource" as Frontend_plan_PaymentResource <<interface>> {
+      + userId: number
+      + subscriptionId: number
+      + holderName: string
+      + cardNumber: string
+      + expirationDate: string
+      + cvv: string
+    }
+    interface "PlanResource" as Frontend_plan_PlanResource <<interface>> {
+      + code: PlanCode
+      + name: string
+      + monthlyPrice: number
+      + currency: string
+      + maxDevices: number | null
+      + maxRoutines: number | null
+      + maxAlerts: number | null
+      + reportExportEnabled: boolean
+    }
+    interface "SubscriptionResource" as Frontend_plan_SubscriptionResource <<interface>> {
+      + userId: number
+      + planCode: PlanCode
+    }
+  }
+  package "Infrastructure / Responses" {
+    interface "InvoiceResponse" as Frontend_plan_InvoiceResponse <<interface>> {
+      + userId: number
+      + invoiceNumber: string
+      + totalAmount: number
+      + currency: string
+      + issuedAt: string
+    }
+    interface "PaymentResponse" as Frontend_plan_PaymentResponse <<interface>> {
+      + userId: number
+      + amount: number
+      + currency: string
+      + status: PaymentStatus
+      + paymentMethod: string
+    }
+    interface "PlanResponse" as Frontend_plan_PlanResponse <<interface>> {
+      + code: PlanCode
+      + name: string
+      + monthlyPrice: number
+      + currency: string
+      + maxDevices: number | null
+      + maxRoutines: number | null
+      + maxAlerts: number | null
+      + reportExportEnabled: boolean
+    }
+    interface "SubscriptionResponse" as Frontend_plan_SubscriptionResponse <<interface>> {
+      + userId: number
+      + planCode: PlanCode
+      + status: SubscriptionStatus
+      + active: boolean
+      + startDate?: string | null
+      + nextPlanDate?: string | null
+      + endDate?: string | null
+    }
+  }
+}
+
+Frontend_plan_InvoiceAssembler ..> Frontend_plan_InvoiceResource
+Frontend_plan_InvoiceAssembler ..> Frontend_plan_InvoiceResponse
+Frontend_plan_InvoicesApiService ..> Frontend_plan_InvoiceAssembler
+Frontend_plan_InvoicesApiService ..> Frontend_plan_InvoiceResource
+Frontend_plan_InvoicesApiService ..> Frontend_plan_InvoiceResponse
+Frontend_plan_PaymentAssembler ..> Frontend_plan_PaymentResource
+Frontend_plan_PaymentAssembler ..> Frontend_plan_PaymentResponse
+Frontend_plan_PaymentsApiService ..> Frontend_plan_PaymentAssembler
+Frontend_plan_PaymentsApiService ..> Frontend_plan_PaymentResource
+Frontend_plan_PaymentsApiService ..> Frontend_plan_PaymentResponse
+Frontend_plan_PlanAssembler ..> Frontend_plan_PlanResource
+Frontend_plan_PlanAssembler ..> Frontend_plan_PlanResponse
+Frontend_plan_PlansApiService ..> Frontend_plan_PlanAssembler
+Frontend_plan_PlansApiService ..> Frontend_plan_PlanResource
+Frontend_plan_PlansApiService ..> Frontend_plan_PlanResponse
+Frontend_plan_SubscriptionAssembler ..> Frontend_plan_SubscriptionResource
+Frontend_plan_SubscriptionAssembler ..> Frontend_plan_SubscriptionResponse
+Frontend_plan_SubscriptionsApiService ..> Frontend_plan_CheckoutSubscriptionResource
+Frontend_plan_SubscriptionsApiService ..> Frontend_plan_SubscriptionAssembler
+Frontend_plan_SubscriptionsApiService ..> Frontend_plan_SubscriptionResource
+Frontend_plan_SubscriptionsApiService ..> Frontend_plan_SubscriptionResponse
+
+
+@enduml

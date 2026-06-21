@@ -1,0 +1,40 @@
+@startuml
+title LowCortisol Platform - Backend Bounded Contexts
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+hide circle
+
+class "IAM" as BackendIAM <<Bounded Context>> {}
+class "Plan" as BackendPlan <<Bounded Context>> {}
+class "Workplace" as BackendWorkplace <<Bounded Context>> {}
+class "Device Control" as BackendDeviceControl <<Bounded Context>> {}
+class "Monitoring" as BackendMonitoring <<Bounded Context>> {}
+class "Notification" as BackendNotification <<Bounded Context>> {}
+class "Report" as BackendReport <<Bounded Context>> {}
+class "Support" as BackendSupport <<Bounded Context>> {}
+class "Shared" as BackendShared <<Bounded Context>> {}
+
+BackendIAM ..> BackendPlan : user account / subscription owner
+BackendIAM ..> BackendWorkplace : user owns locations
+BackendWorkplace ..> BackendDeviceControl : room-device assignments
+BackendDeviceControl ..> BackendMonitoring : device readings source
+BackendMonitoring ..> BackendNotification : reading thresholds
+BackendDeviceControl ..> BackendNotification : device state alerts
+BackendMonitoring ..> BackendReport : consumption metrics
+BackendWorkplace ..> BackendReport : site and room summaries
+BackendDeviceControl ..> BackendReport : device and routine summaries
+BackendDeviceControl ..> BackendSupport : device incidents
+BackendWorkplace ..> BackendSupport : location maintenance
+BackendIAM ..> BackendSupport : requester identity
+BackendIAM ..> BackendShared : shared value objects
+BackendPlan ..> BackendShared : shared value objects
+BackendWorkplace ..> BackendShared : shared value objects
+BackendDeviceControl ..> BackendShared : shared value objects
+BackendMonitoring ..> BackendShared : shared value objects
+BackendNotification ..> BackendShared : shared value objects
+BackendReport ..> BackendShared : shared value objects
+BackendSupport ..> BackendShared : shared value objects
+
+@enduml
