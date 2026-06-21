@@ -5434,7 +5434,7 @@ El video About-the-Product presenta de manera clara y dinámica la propuesta de 
 
 **Video About-the-Product:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413930_upc_edu_pe/IQDsnUg9l6N3Q6Pyj_tWH91EAVbG-bCPI27Y4n36aRAWEPo?e=2Cpe4P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-# Conclusiones
+git branch# Conclusiones
 
 El desarrollo de la segunda entrega permitió consolidar el avance del proyecto LowCortisol mediante la implementación de la arquitectura backend del sistema y la actualización de los principales artefactos de ingeniería de software. Durante este Sprint se desarrollaron los servicios REST necesarios para la gestión de usuarios, monitoreo de sensores, alertas, dispositivos y suscripciones, además de corregirse los Sprint Backlogs, los diagramas C4, el diagrama de clases y el modelo de base de datos, logrando una mayor consistencia entre la documentación y la implementación realizada.
 
