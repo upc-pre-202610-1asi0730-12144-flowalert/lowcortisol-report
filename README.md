@@ -5451,13 +5451,17 @@ Asimismo, la ejecución del Sprint 3 permitió organizar adecuadamente las activ
 Finalmente, aunque la solución cuenta actualmente con una arquitectura backend funcional y una validación cualitativa favorable por parte de los usuarios, el proyecto aún se encuentra en una etapa de desarrollo. En las siguientes iteraciones será necesario completar la integración entre el frontend, el backend y los dispositivos IoT, así como realizar pruebas más exhaustivas que permitan validar el funcionamiento del sistema en escenarios reales.
 
 ## Recomendaciones
-Para los siguientes pasos en el *Roadmap* del producto digital, se formulan las siguientes recomendaciones basadas en el alcance del proyecto:
+Para las siguientes iteraciones del proyecto se plantean las siguientes recomendaciones:
 
-1. Ejecutar las pruebas piloto del MVP en entornos reales (hogares e instalaciones comerciales) para recolectar las métricas de éxito faltantes, indispensables para validar o rechazar definitivamente las siete hipótesis del modelo Lean UX.
-2. Priorizar el desarrollo e implementación del módulo de historial de consumo y reportes detallados, el cual corresponde a los objetivos a medio plazo del *Roadmap y es necesario para evaluar la Hipótesis 3 sobre la optimización del uso de recursos.
-3. Desarrollar guías de instalación claras y tutoriales de soporte integrados en la aplicación para mitigar el riesgo crítico identificado en los *Assumptions*: la posibilidad de que los usuarios no comprendan el funcionamiento del sistema o instalen de manera incorrecta los sensores.
-4. Iniciar la fase de análisis inteligente de patrones de consumo (Hipótesis 6), integrando capacidades de detección predictiva de anomalías para evolucionar el producto de un estado de alerta en tiempo real a uno de prevención automatizada.
-5. Emprender las gestiones establecidas en los objetivos a largo plazo orientadas a la formación de alianzas estratégicas con empresas de servicios (como SEDAPAL y Cálidda) y municipalidades, con el fin de facilitar la adopción masiva del producto en el segmento B2B.
+1. Completar la integración entre el frontend y los servicios backend implementados, garantizando el correcto funcionamiento de todas las historias de usuario desarrolladas durante el proyecto.
+
+2. Incorporar las mejoras identificadas durante las entrevistas de validación, incluyendo una mayor personalización de alertas, reportes más detallados, tutoriales para nuevos usuarios y funcionalidades adicionales como mapas interactivos o una aplicación móvil.
+
+3. Realizar pruebas funcionales, de integración y de aceptación con usuarios finales para verificar el correcto comportamiento de los servicios implementados y recopilar métricas que permitan evaluar el desempeño de la solución.
+
+4. Integrar dispositivos IoT reales o simuladores más completos para validar el monitoreo de sensores, la generación de alertas y el control remoto de dispositivos en escenarios cercanos a un entorno de producción.
+
+5. Mantener actualizada la documentación técnica del proyecto conforme avance el desarrollo, asegurando la consistencia entre la implementación, la arquitectura del sistema y los diferentes diagramas elaborados.
 
 # Bibliografía 
 
