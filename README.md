@@ -2846,8 +2846,8 @@ comunica la robustez de un sistema de monitoreo industrial, permitiendo que los 
 audaces y capten la atención inmediata del usuario ante cualquier anomalía detectada.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/montserrat-font.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/roboto-size.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/Montserrat-Font.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/Roboto-Size.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### Colors
@@ -3187,27 +3187,26 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
   ##### Landing Page para Desktop Web Browser  
 
   <p align="center">
-    <img src="assets/md-images-chapter4/landing-page-wireframe.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-benefit.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-features.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-who-we-are-wireframe.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-segments.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-payment.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-contact.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Benefit.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Features.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Whoweare.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Segments.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Payment.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Contact.PNG" width="800"/> <br>
   </p>
 
   ##### Landing Page para Mobile Web Browser 
 
 
   <p align="center">
-    <img src="assets/md-images-chapter4/mobile-landing-page-home-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-features-who-we-are-wireframe.png" width="380"/><br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-segments-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-payment-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-contact-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Feature-Whoweare.PNG" width="380"/><br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Segments.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Payment.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Contact.PNG" width="380"/> <br>
   </p>
 
-  
 ### 4.3.2. Landing Page Mock-up
 
   En esta sección se presentan los mock-ups del Landing Page de LowCortisol para las versiones Desktop Web Browser y Mobile Web Browser. A diferencia de los wireframes, los mock-ups incorporan elementos visuales más detallados, como colores, tipografía y estilos definidos en el Design System, permitiendo representar una versión más cercana al producto final.
