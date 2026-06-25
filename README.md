@@ -323,13 +323,13 @@ Nuestros valores principales son los siguientes:
 - Calidad: Buscamos ofrecer un servicio confiable, estable y fácil de utilizar.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                          | **Conocimientos y habilidades**
-|:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------|:------------------------------------ |
-| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Miguel.png">         | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
-| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/James.jpeg">         | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
-| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Jean-loa.jpg">       | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
-| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno.png"> | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
-| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Kirk.png">           | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
+| **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                    | **Conocimientos y habilidades**
+|:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------|:------------------------------------ |
+| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Miguel.PNG">   | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
+| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/James.jpeg">   | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
+| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/jean-loa.jpg"> | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
+| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno.png">    | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
+| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Kirk.png">     | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
@@ -2846,7 +2846,7 @@ comunica la robustez de un sistema de monitoreo industrial, permitiendo que los 
 audaces y capten la atención inmediata del usuario ante cualquier anomalía detectada.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/Montserrat-Font.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/MontSerrat-Font.png" width="250" alt="Low Cortisol Logo">
   <img src="assets/md-images-chapter2/Roboto-Size.png" width="250" alt="Low Cortisol Logo">
 </p>
 
@@ -4496,6 +4496,7 @@ El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del s
 | US11 | Contactar con el equipo de soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
 | EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
 | EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
+
 LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
@@ -4715,20 +4716,20 @@ fueron nuestros avances a traves de capturas de pantalla.
 
 1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
 
-![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
-![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/landing-to-webapp-navigation.png)
+![Landing-IMG](assets/md-images-chapter5/webapp-preview.png)
 
 2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
 
-![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Inicio-IMG](assets/md-images-chapter5/home_plans.png)
 ![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
 ![Planes-IMG](assets/md-images-chapter5/English.png)
 ![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
 
 3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
 
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-1.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-2.png)
 
 4. Ubicación:
 ![Ubicacion-IMG](assets/md-images-chapter5/Ubicacion.png)
