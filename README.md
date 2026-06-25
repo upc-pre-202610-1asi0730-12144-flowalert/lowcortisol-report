@@ -4037,7 +4037,7 @@ URL desplegada
 
 https://lowcortisol-webapp.onrender.com/
 
-## 5.2. Landing Page, Services & Applications Implementation
+## .3. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
 
@@ -4721,7 +4721,7 @@ fueron nuestros avances a traves de capturas de pantalla.
 
 2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
 
-![Inicio-IMG](assets/md-images-chapter5/home_plans.png)
+![Inicio-IMG](assets/md-images-chapter5/home-plans.png)
 ![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
 ![Planes-IMG](assets/md-images-chapter5/English.png)
 ![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
