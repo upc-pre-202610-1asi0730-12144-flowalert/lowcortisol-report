@@ -323,13 +323,13 @@ Nuestros valores principales son los siguientes:
 - Calidad: Buscamos ofrecer un servicio confiable, estable y fácil de utilizar.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                                | **Conocimientos y habilidades**
-|:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------------|:------------------------------------ |
-| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/miguel.png">                                                  | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
-| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/james.jpeg">               | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
-| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/jean-loa.jpg">             | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
-| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno-montalvo.png">       | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
-| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/kirk.png">                 | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
+| **Nombre Completo del integrante** | 	**Descripcion de la carrera**                                    | **Fotografia**                                    | **Conocimientos y habilidades**
+|:-----------------------------------|:------------------------------------------------------------------|:--------------------------------------------------|:------------------------------------ |
+| Condori Torres, Miguel Anibal      | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Miguel.PNG">   | Soy Miguel Condori, estudiante de la carrera de ingeniería de software. Con conocimiento sólido en programación C ++ y conocimiento Intermedio en Java, Python, HTML, CSS y JS. Me considero creativo, cooperativo y responsable. Mi objetivo es crear una aplicación que pueda ayudar con la coyuntura del país.
+| Delgado Perez, James Caleb         | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/James.jpeg">   | Soy estudiante de Ingeniería de Software y me apasiona la creación de productos digitales que simplifiquen procesos y ayuden a las personas a ahorrar tiempo para enfocarse en lo que realmente importa. Me motiva transformar problemas en soluciones prácticas, eficientes y con impacto real. Actualmente estoy fortaleciendo mis conocimientos en C#, y tengo experiencia con C++, HTML, CSS, JavaScript y Java, este último desarrollado durante el curso de Diseño y Patrones de Software. Me interesa especialmente el área de frontend, bases de datos y aplicativos web. Lo que más me motiva de este proyecto es que representa una gran oportunidad para incorporarme al mundo laboral, adquirir nuevos conocimientos y seguir fortaleciendo mi perfil profesional. Además, me considero una persona organizada, que aprende rápido y que trabaja bien en equipo. Fuera del ámbito académico y tecnológico, me gustan los deportes, y también encuentro en la programación y la música una forma de expresión y creatividad.
+| Loa Rojas, Jean Franck             | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/jean-loa.jpg"> | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
+| Montalvo Vásquez, Bruno Rodrigo    | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/bruno.png">    | Soy Bruno Rodrigo Montalvo Vásquez, estudiante de 5 ciclo de la carrera de Ingeniería de Software, estoy curioso y a la vez extasiado por aprender más sobre los temas futuros sobre mi carrera a su vez que también abierto a poder trabajar con profesionales de mi rubro académico para mejorar mis conocimientos.
+| Quiliano Motta, Kirk Douglas       | Ingeniería de Software Universidad Peruana de Ciencias Aplicadas  | <img src="assets/md-images-members/Kirk.png">     | Soy estudiante de quinto ciclo de Ingeniería de Software, apasionado por la evolución tecnológica y con un enfoque especializado en la Inteligencia Artificial. Mi formación se basa en el aprendizaje constante de nuevos frameworks, lenguajes de programación y el diseño de arquitecturas de software robustas. Me considero un perfil autodidacta, siempre en busca de implementar las últimas tendencias del sector para crear soluciones innovadoras y eficientes.
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
@@ -911,7 +911,7 @@ En esta sección se presenta el análisis del entorno competitivo del proyecto, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
- ![Entrevistado-1](assets/md-images-chapter2/interview-yazid.png)
+ ![Entrevistado-1](assets/md-images-chapter2/Interview-Yazid.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -932,7 +932,7 @@ Yazid es un estudiante de Ingeniería Mecatrónica que habita en una vivienda co
 **Evidencia:**
 
 - Screenshot: <br> <br> 
-  ![Entrevistado-2](assets/md-images-chapter2/interview-jose.png)
+  ![Entrevistado-2](assets/md-images-chapter2/Interview-Jose.png)
 
 **<u>Resumen de la entrevista:</u>**
 Jesús es un estudiante con conocimientos técnicos previos que vive en un entorno familiar donde se presentan fugas tanto de agua como de gas, estas últimas generalmente por el uso de mangueras de baja calidad. Explica que mientras la detección de gas es casi inmediata gracias al olfato (menos de 5 minutos), las fugas de agua son más engañosas y pueden tardar hasta una semana en manifestarse mediante salitre o manchas en las paredes. Dado su perfil técnico, él mismo asume el rol de mantenimiento en el hogar para evitar gastos externos. Sin embargo, reconoce las limitaciones de la inspección manual y se muestra muy a favor de implementar sistemas basados en sensores (IoT) que alerten sobre roturas internas no visibles. Propone que este tipo de tecnología debería comercializarse bajo un modelo de suscripción atractivo y destaca que su principal valor sería la tranquilidad y la respuesta inmediata ante emergencias que podrían escalar a desastres.
@@ -952,7 +952,7 @@ Jesús es un estudiante con conocimientos técnicos previos que vive en un entor
 **Evidencia:**
 
 - Screenshot: <br> <br>
-![Entrevistado - 3](assets/md-images-chapter2/interview-frank.png)
+![Entrevistado - 3](assets/md-images-chapter2/Interview-Frank.png)
 
 **<u>Resumen de la entrevista:</u>**
 El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, que reside en un hogar donde las fugas de agua ocurren con una frecuencia de cada tres o cuatro meses. Durante la charla, menciona que suele notar el problema de manera reactiva, muchas veces ignorando las primeras señales hasta que el daño es evidente a través de charcos o humedad excesiva. Su gestión actual es mixta: intenta realizar reparaciones menores por cuenta propia, pero debe recurrir a técnicos especializados cuando el problema afecta la estructura interna, lo que ha derivado en costos elevados como el cambio de tuberías o pisos dañados. En cuanto a la tecnología, Frank se muestra muy interesado en una solución de monitoreo en tiempo real, siempre que el costo sea accesible y la interfaz permita personalizar o modelar el plano de su hogar para una mejor ubicación de las averías. Su actitud es pragmática, priorizando la prevención económica y la facilidad de uso de una aplicación móvil.
@@ -973,7 +973,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot:  <br> <br>
-  ![Entrevistado-1](assets/md-images-chapter2/interview-leonardo.png)
+  ![Entrevistado-1](assets/md-images-chapter2/Interview-Leonardo.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -993,7 +993,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
-  ![Entrevistado-2](assets/md-images-chapter2/interview-pool.png)
+  ![Entrevistado-2](assets/md-images-chapter2/Interview-Pool.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -1013,7 +1013,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br><br>
-  ![Entrevistado-3](assets/md-images-chapter2/interview-edward.png)
+  ![Entrevistado-3](assets/md-images-chapter2/Interview-Edward.png)
 
 **<u>Resumen de la entrevista:</u>**
   Edward, trabajador del área de mantenimiento en un hotel, señala que las fugas de agua son los problemas más frecuentes en las instalaciones, principalmente en tuberías internas, mientras que las fugas de gas, aunque menos comunes, representan un mayor riesgo. Indica que el monitoreo se realiza de manera manual y depende en gran parte de reportes del personal o de los huéspedes, lo que evidencia un enfoque reactivo. Estas fallas pueden afectar directamente la experiencia del cliente, generando incomodidades y posibles costos adicionales para el hotel. Por ello, destaca la importancia de contar con soluciones tecnológicas que permitan una detección temprana de fugas. Considera que la implementación de sistemas IoT ayudaría a mejorar la eficiencia del mantenimiento, reducir riesgos y optimizar la operación del servicio.
@@ -1032,7 +1032,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br> <br>
-  ![Entrevistado-4](assets/md-images-chapter2/interview-fabian.png)
+  ![Entrevistado-4](assets/md-images-chapter2/Interview-Fabian.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -1052,7 +1052,7 @@ El entrevistado es un joven de 20 años, estudiante de Ingeniería de Software, 
 **Evidencia:**
 
 - Screenshot: <br><br>
-  ![Entrevistado-5](assets/md-images-chapter2/interview-alvaro.png)
+  ![Entrevistado-5](assets/md-images-chapter2/Interview-Alvaro.png)
 
 
 **<u>Resumen de la entrevista:</u>**
@@ -2846,8 +2846,8 @@ comunica la robustez de un sistema de monitoreo industrial, permitiendo que los 
 audaces y capten la atención inmediata del usuario ante cualquier anomalía detectada.
 
 <p align="center">
-  <img src="assets/md-images-chapter2/montserrat-font.png" width="250" alt="Low Cortisol Logo">
-  <img src="assets/md-images-chapter2/roboto-size.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/MontSerrat-Font.png" width="250" alt="Low Cortisol Logo">
+  <img src="assets/md-images-chapter2/Roboto-Size.png" width="250" alt="Low Cortisol Logo">
 </p>
 
 ### Colors
@@ -3187,27 +3187,26 @@ IoT monitoring, gas leak detection, water safety sensors, smart pipeline monitor
   ##### Landing Page para Desktop Web Browser  
 
   <p align="center">
-    <img src="assets/md-images-chapter4/landing-page-wireframe.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-benefit.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-features.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-who-we-are-wireframe.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-segments.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-payment.png" width="800"/> <br>
-    <img src="assets/md-images-chapter4/landing-page-wireframe-contact.png" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Benefit.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Features.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Whoweare.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Segments.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Payment.PNG" width="800"/> <br>
+    <img src="assets/md-images-chapter4/Landing-Page-Wireframe-Contact.PNG" width="800"/> <br>
   </p>
 
   ##### Landing Page para Mobile Web Browser 
 
 
   <p align="center">
-    <img src="assets/md-images-chapter4/mobile-landing-page-home-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-features-who-we-are-wireframe.png" width="380"/><br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-segments-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-payment-wireframe.png" width="380"/> <br>
-    <img src="assets/md-images-chapter4/mobile-landing-page-contact-wireframe.png" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Feature-Whoweare.PNG" width="380"/><br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Segments.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Payment.PNG" width="380"/> <br>
+    <img src="assets/md-images-chapter4/Mobil-Landing-Page-Wireframe-Contact.PNG" width="380"/> <br>
   </p>
 
-  
 ### 4.3.2. Landing Page Mock-up
 
   En esta sección se presentan los mock-ups del Landing Page de LowCortisol para las versiones Desktop Web Browser y Mobile Web Browser. A diferencia de los wireframes, los mock-ups incorporan elementos visuales más detallados, como colores, tipografía y estilos definidos en el Design System, permitiendo representar una versión más cercana al producto final.
@@ -4038,7 +4037,7 @@ URL desplegada
 
 https://lowcortisol-webapp.onrender.com/
 
-## 5.2. Landing Page, Services & Applications Implementation
+## .3. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
 
@@ -4497,6 +4496,7 @@ El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del s
 | US11 | Contactar con el equipo de soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
 | EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
 | EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
+
 LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
@@ -4716,20 +4716,20 @@ fueron nuestros avances a traves de capturas de pantalla.
 
 1. Landing Page: En la barra de navegación de nuestra landing page, al clickear en Iniciar Sesián nos redigirá hacia la App Web deplegada
 
-![Landing-IMG](assets/md-images-chapter5/Landing_dirige_AppWeb.png)
-![Landing-IMG](assets/md-images-chapter5/AppWeb.png)
+![Landing-IMG](assets/md-images-chapter5/landing-to-webapp-navigation.png)
+![Landing-IMG](assets/md-images-chapter5/webapp-preview.png)
 
 2. Sección Inicio: Una vez iniciada sesión nos redigirá a la sección principal, donde para poder obtener todas las funciones debemos suscribirnos a un plan
 
-![Inicio-IMG](assets/md-images-chapter5/Home_Planes.png)
+![Inicio-IMG](assets/md-images-chapter5/home-plans.png)
 ![Planes-IMG](assets/md-images-chapter5/SuscribirsePlan.png)
 ![Planes-IMG](assets/md-images-chapter5/English.png)
 ![Planes-IMG](assets/md-images-chapter5/Portuguese.png)
 
 3. Editar Perfil: Para editar el perfil debemos darle click a Perfil, donde se nos mostrará los datos que queramos editar
 
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil.png)
-![Perfil-IMG](assets/md-images-chapter5/EditarPerfil2.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-1.png)
+![Perfil-IMG](assets/md-images-chapter5/edit-profile-2.png)
 
 4. Ubicación:
 ![Ubicacion-IMG](assets/md-images-chapter5/Ubicacion.png)
