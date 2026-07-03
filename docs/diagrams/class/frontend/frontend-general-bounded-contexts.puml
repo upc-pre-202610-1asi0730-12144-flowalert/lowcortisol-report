@@ -12,7 +12,7 @@ class "Workplace" as FrontendWorkplace <<Bounded Context>> {}
 class "Device Control" as FrontendDeviceControl <<Bounded Context>> {}
 class "Monitoring" as FrontendMonitoring <<Bounded Context>> {}
 class "Notification" as FrontendNotification <<Bounded Context>> {}
-class "Report" as FrontendReport <<Bounded Context>> {}
+class "Report Experience" as FrontendReport <<Feature Area>> {}
 class "Support" as FrontendSupport <<Bounded Context>> {}
 class "Shared UI / Kernel" as FrontendShared <<Bounded Context>> {}
 
@@ -21,11 +21,11 @@ FrontendPlan ..> FrontendIAM : authenticated customer
 FrontendPlan ..> FrontendShared : plan access guard
 FrontendWorkplace ..> FrontendShared : layout and state
 FrontendWorkplace ..> FrontendDeviceControl : device assignment views
-FrontendDeviceControl ..> FrontendMonitoring : device consumption context
-FrontendDeviceControl ..> FrontendNotification : alert rule targets
-FrontendMonitoring ..> FrontendReport : metrics for reports and goals
+FrontendDeviceControl ..> FrontendMonitoring : valve and sensor consumption context
+FrontendDeviceControl ..> FrontendNotification : mitigation target state
+FrontendMonitoring ..> FrontendReport : readings and report metrics
 FrontendNotification ..> FrontendShared : badges / toast feedback
-FrontendReport ..> FrontendShared : charts and cards
+FrontendReport ..> FrontendShared : date range, charts and cards
 FrontendSupport ..> FrontendWorkplace : location and device incidents
 FrontendSupport ..> FrontendShared : ticket UI primitives
 
