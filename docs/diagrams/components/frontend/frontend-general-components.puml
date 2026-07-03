@@ -38,22 +38,22 @@ title LowCortisol - Frontend General Components Diagram
 rectangle "<b>LowCortisol Operator</b>\n<i>[Person]</i>\n\nUses the SPA in a browser." as User #0B5593
 
 rectangle "<b>LowCortisol Frontend Bounded Context Map</b>\n<i>[Vue 3 SPA / Frontend Container]</i>" <<BoundedContext>> {
-  rectangle "<b>App Layout</b>\n<i>[Vue App Shell]</i>\n\nTopbar, navigation, language selector and router outlet." as Layout #3498DB
+  rectangle "<b>App Layout</b>\n<i>[Vue App Shell]</i>\n\nBottom navigation, contextual side panel, language selector and router outlet." as Layout #3498DB
   rectangle "<b>App Router</b>\n<i>[Vue Router]</i>\n\nRoutes to frontend bounded contexts." as Router #3498DB
 
-  rectangle "<b>Shared Context</b>\n<i>[Bounded Context Component]</i>\n\nSession, layout, configuration and platform services." as Shared #58A9E8
-  rectangle "<b>IAM Context</b>\n<i>[Bounded Context Component]</i>\n\nAuthentication, users, profiles and access control." as IAM #58A9E8
-  rectangle "<b>Plan Context</b>\n<i>[Bounded Context Component]</i>\n\nPlans, subscriptions, payments and invoices." as Plan #58A9E8
+  rectangle "<b>Shared Context</b>\n<i>[Bounded Context Component]</i>\n\nSession, API configuration, local fallback, UI primitives, translation, settings and dashboard services." as Shared #58A9E8
+  rectangle "<b>IAM Context</b>\n<i>[Bounded Context Component]</i>\n\nLogin, sign-up, profile, password-change modal and authenticated session state." as IAM #58A9E8
+  rectangle "<b>Plan Context</b>\n<i>[Bounded Context Component]</i>\n\nPlan catalog, subscription state, checkout screen, plan limits and feature access rules." as Plan #58A9E8
 
-  rectangle "<b>Workplace Context</b>\n<i>[Bounded Context Component]</i>\n\nLocations, rooms and device assignments." as Workplace #58A9E8
-  rectangle "<b>Device Control Context</b>\n<i>[Bounded Context Component]</i>\n\nDevices, groups, routines and operation modes." as Device #58A9E8
-  rectangle "<b>Monitoring Context</b>\n<i>[Bounded Context Component]</i>\n\nReadings, sampling, statistics and dashboards." as Consumption #58A9E8
+  rectangle "<b>Workplace Context</b>\n<i>[Bounded Context Component]</i>\n\nSites, map-based location selection, rooms, groups, members and physical model inventory." as Workplace #58A9E8
+  rectangle "<b>Device Control Context</b>\n<i>[Bounded Context Component]</i>\n\nDevices, sensors, valves, conduits, valve dial control, command history and valve operations." as Device #58A9E8
+  rectangle "<b>Monitoring Context</b>\n<i>[Bounded Context Component]</i>\n\nReal-time consumption, readings, thresholds, anomalies, savings insights and consumption reports." as Monitoring #58A9E8
 
-  rectangle "<b>Notification Context</b>\n<i>[Bounded Context Component]</i>\n\nAlerts, rules, preferences and evaluation." as Notification #58A9E8
-  rectangle "<b>Report Context</b>\n<i>[Bounded Context Component]</i>\n\nReports, goals, exports and insights." as Report #58A9E8
-  rectangle "<b>Support Context</b>\n<i>[Bounded Context Component]</i>\n\nSupport tickets, maintenance and service follow-up." as Service #58A9E8
+  rectangle "<b>Notification Context</b>\n<i>[Bounded Context Component]</i>\n\nAlerts, incidents, assignments, actions, mitigation modals and notification channels." as Notification #58A9E8
+  rectangle "<b>Report Experience</b>\n<i>[Frontend Feature Area]</i>\n\nConsumption report page, date range picker, paginated readings and generated report summaries." as Report #58A9E8
+  rectangle "<b>Support Context</b>\n<i>[Bounded Context Component]</i>\n\nSupport tickets, conversations, agents and knowledge articles." as Service #58A9E8
 
-  rectangle "<b>API Clients</b>\n<i>[Vue Infrastructure]</i>\n\nTyped services that call backend REST endpoints." as ApiClients #F39C12
+  rectangle "<b>API and Local Data Infrastructure</b>\n<i>[Vue Infrastructure]</i>\n\nTyped REST services use Render API when available and centralized local fallback when the backend is unavailable or the feature is frontend-only." as ApiClients #F39C12
 }
 
 rectangle "<b>LowCortisol Backend API</b>\n<i>[External Container]</i>\n\nASP.NET Core REST API consumed by frontend contexts." as Backend #7F8C8D
@@ -66,7 +66,7 @@ Router --> IAM : routes
 Router --> Plan : routes
 Router --> Workplace : routes
 Router --> Device : routes
-Router --> Consumption : routes
+Router --> Monitoring : routes
 Router --> Notification : routes
 Router --> Report : routes
 Router --> Service : routes
@@ -75,12 +75,12 @@ IAM --> Shared : session UI
 Plan --> IAM : account context
 Workplace --> IAM : user scope
 Device --> Workplace : spaces
-Consumption --> Device : readings
-Notification --> Consumption : conditions
+Monitoring --> Device : readings and resource usage
+Notification --> Monitoring : conditions
 Report --> Plan : plan metrics
 Report --> Workplace : workplace metrics
 Report --> Device : operation metrics
-Report --> Consumption : water and gas metrics
+Report --> Monitoring : water and gas metrics
 Service --> Device : affected devices
 
 Shared --> ApiClients : REST services
@@ -88,7 +88,7 @@ IAM --> ApiClients : REST services
 Plan --> ApiClients : REST services
 Workplace --> ApiClients : REST services
 Device --> ApiClients : REST services
-Consumption --> ApiClients : REST services
+Monitoring --> ApiClients : REST services
 Notification --> ApiClients : REST services
 Report --> ApiClients : REST services
 Service --> ApiClients : REST services
@@ -101,12 +101,12 @@ Shared -[hidden]right- IAM
 IAM -[hidden]right- Plan
 Shared -[hidden]down- Workplace
 IAM -[hidden]down- Device
-Plan -[hidden]down- Consumption
+Plan -[hidden]down- Monitoring
 Workplace -[hidden]right- Device
-Device -[hidden]right- Consumption
+Device -[hidden]right- Monitoring
 Workplace -[hidden]down- Notification
 Device -[hidden]down- Report
-Consumption -[hidden]down- Service
+Monitoring -[hidden]down- Service
 Notification -[hidden]right- Report
 Report -[hidden]right- Service
 Report -[hidden]down- ApiClients
