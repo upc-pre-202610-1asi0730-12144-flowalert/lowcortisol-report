@@ -3635,7 +3635,7 @@ El diagrama de contexto presenta una visión general del sistema **LowCortisol P
 * **IoT Sensor and Device Network:** Red externa de sensores, hubs y válvulas encargada de registrar lecturas de consumo y ejecutar comandos remotos.
 * **Render:** Plataforma cloud usada para desplegar la aplicación web y la API.
 
-![Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/context/lowcortisol-context-diagram.puml)
+![Context Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/context/lowcortisol-context-diagram.puml)
 
 ### 4.6.3. Software Architecture Container Diagram
 
@@ -3648,8 +3648,8 @@ La arquitectura considera una **Landing Page** como punto público de entrada, u
 * **Landing Page:** Página pública que presenta la propuesta de valor del producto y redirige al usuario hacia la aplicación web.
 * **WebApp:** Aplicación web desarrollada con Vue 3 y Vite, encargada de servir la interfaz frontend.
 * **Single Page Application:** Aplicación cliente que gestiona navegación, estado, vistas y comunicación con la API.
-* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints y contratos por bounded context: IAM, Workplace, DeviceControl, Monitoring, Notification, Plan, Support, Report y Shared.
-* **Database:** Base de datos relacional PostgreSQL para almacenar sedes, habitaciones, grupos, dispositivos, sensores, válvulas, comandos, operaciones, lecturas, umbrales, anomalías, alertas, incidentes y canales de notificación.
+* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints y contratos reales para IAM, Workplace, DeviceControl, Monitoring, Notification y Shared.
+* **Database:** Base de datos relacional PostgreSQL `lowcortisol_db` para almacenar usuarios, sedes, habitaciones, grupos, dispositivos, sensores, válvulas, comandos, operaciones, lecturas, umbrales, anomalías, alertas, incidentes y canales de notificación.
 
 **Relaciones principales:**
 
@@ -3658,9 +3658,9 @@ La arquitectura considera una **Landing Page** como punto público de entrada, u
 * La **WebApp** carga y renderiza la **Single Page Application**.
 * La **Single Page Application** consume los servicios expuestos por la **Backend API**.
 * La **Backend API** persiste y consulta información en la **Database**.
-* La **Backend API** puede integrarse con servicios externos como proveedor de correo, pagos y red IoT.
+* La **Backend API** mantiene persistencia PostgreSQL mediante EF Core y aplica migraciones en el despliegue de producción.
 
-![Container Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/container/lowcortisol-container-diagram.puml)
+![Container Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/container/lowcortisol-container-diagram.puml)
 
 ### 4.6.4. Software Architecture Component Diagrams
 
@@ -3668,7 +3668,7 @@ Los diagramas de componentes muestran la organización interna de la arquitectur
 
 En el frontend, la arquitectura se organiza alrededor de la **Single Page Application**, la cual integra los módulos principales de la aplicación. Cada módulo mantiene una organización modular basada en **Presentation**, **Application**, **Domain** e **Infrastructure**, permitiendo separar la interfaz visual, la coordinación de casos de uso, los conceptos del dominio y la comunicación con servicios externos.
 
-En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts actualmente implementados: **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. Los módulos **IAM**, **Plan**, **Support** y **Report** forman parte de la arquitectura documentada del producto; Workplace, DeviceControl, Monitoring y Notification son los flujos operativos principales integrados con la plataforma backend actual.
+En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts actualmente implementados: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Los módulos **Plan**, **Support** y **Report** forman parte de la experiencia de producto en la WebApp y se documentan como contextos frontend/preparados, sin declarar endpoints backend falsos para esta entrega.
 
 Esta organización permite mantener modularidad, escalabilidad, separación de responsabilidades y trazabilidad entre las funcionalidades del sistema y los componentes técnicos.
 
@@ -3678,7 +3678,7 @@ Esta organización permite mantener modularidad, escalabilidad, separación de r
 
 El diagrama general de componentes frontend muestra cómo la **Single Page Application** organiza sus módulos principales. También se muestra el uso de componentes y servicios compartidos, como navegación, layout, manejo de sesión, traducciones, guards, comunicación HTTP y fallback local centralizado.
 
-![Frontend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/frontend-general-components.puml)
+![Frontend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/frontend-general-components.puml)
 
 ---
 
@@ -3688,7 +3688,7 @@ El bounded context **IAM** gestiona la autenticación y acceso del usuario. Incl
 
 En el frontend, IAM separa sus responsabilidades en presentación de pantallas, coordinación de acciones mediante store/facade, modelos de dominio frontend y consumo de endpoints de autenticación.
 
-![IAM Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/iam-frontend-components.puml)
+![IAM Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/iam-frontend-components.puml)
 
 ---
 
@@ -3696,7 +3696,7 @@ En el frontend, IAM separa sus responsabilidades en presentación de pantallas, 
 
 El bounded context **Plan** gestiona planes, suscripciones, pagos y solicitudes de servicio. Permite visualizar planes disponibles, comprar o activar un plan, revisar pagos y administrar el estado de la suscripción.
 
-![Plan Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/plan-frontend-components.puml)
+![Plan Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/plan-frontend-components.puml)
 
 ---
 
@@ -3704,7 +3704,7 @@ El bounded context **Plan** gestiona planes, suscripciones, pagos y solicitudes 
 
 El módulo **Workplace** gestiona las sedes, habitaciones, grupos y modelo físico. Permite visualizar sedes registradas, seleccionar ubicación, revisar detalles y observar la estructura física de la operación.
 
-![Workplace Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/workplace-frontend-components.puml)
+![Workplace Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/workplace-frontend-components.puml)
 
 ---
 
@@ -3712,7 +3712,7 @@ El módulo **Workplace** gestiona las sedes, habitaciones, grupos y modelo físi
 
 El bounded context **Device Control** gestiona dispositivos, sensores, válvulas y comandos remotos. Permite visualizar dispositivos registrados, revisar sensores vinculados, controlar válvulas y ejecutar comandos asociados al monitoreo.
 
-![Device Control Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/device-control-frontend-components.puml)
+![Device Control Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/device-control-frontend-components.puml)
 
 ---
 
@@ -3720,7 +3720,7 @@ El bounded context **Device Control** gestiona dispositivos, sensores, válvulas
 
 El bounded context **Monitoring** gestiona el panel de monitoreo, lecturas recientes, sesiones activas, anomalías y reportes. Representa el núcleo visual del seguimiento de consumo de agua y gas dentro de la aplicación.
 
-![Monitoring Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/monitoring-frontend-components.puml)
+![Monitoring Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/monitoring-frontend-components.puml)
 
 ---
 
@@ -3728,7 +3728,7 @@ El bounded context **Monitoring** gestiona el panel de monitoreo, lecturas recie
 
 El bounded context **Notification** gestiona alertas, umbrales, incidentes, canales y entregas. Permite visualizar alertas activas, configurar umbrales, revisar incidentes y administrar el flujo de notificación.
 
-![Notification Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/notification-frontend-components.puml)
+![Notification Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/notification-frontend-components.puml)
 
 ---
 
@@ -3736,7 +3736,7 @@ El bounded context **Notification** gestiona alertas, umbrales, incidentes, cana
 
 El bounded context **Support** gestiona tickets, mensajes, conversaciones, agentes y artículos de ayuda. Permite registrar incidencias, revisar el detalle de tickets y mantener comunicación de soporte.
 
-![Support Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/support-frontend-components.puml)
+![Support Frontend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/bounded-contexts/support-frontend-components.puml)
 
 ---
 
@@ -3744,7 +3744,7 @@ El bounded context **Support** gestiona tickets, mensajes, conversaciones, agent
 
 El diagrama de presentación de **IAM** muestra las pantallas y componentes visuales usados en autenticación y perfil. Incluye rutas de IAM, login, registro, recuperación de contraseña, perfil y componentes visuales asociados.
 
-![IAM Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/iam-frontend-presentation-components.puml)
+![IAM Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/iam-frontend-presentation-components.puml)
 
 ---
 
@@ -3752,7 +3752,7 @@ El diagrama de presentación de **IAM** muestra las pantallas y componentes visu
 
 El diagrama de presentación de **Plan** muestra la estructura visual relacionada con planes, tarjetas de plan, formulario de pago, historial de pagos y solicitudes de servicio.
 
-![Plan Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/plan-frontend-presentation-components.puml)
+![Plan Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/plan-frontend-presentation-components.puml)
 
 ---
 
@@ -3760,7 +3760,7 @@ El diagrama de presentación de **Plan** muestra la estructura visual relacionad
 
 El diagrama de presentación de **Workplace** representa la organización visual de la pantalla de sedes, incluyendo listado, detalle, mapa, modelo físico, grupos e inventario.
 
-![Workplace Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/workplace-frontend-presentation-components.puml)
+![Workplace Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/workplace-frontend-presentation-components.puml)
 
 ---
 
@@ -3768,7 +3768,7 @@ El diagrama de presentación de **Workplace** representa la organización visual
 
 El diagrama de presentación de **Device Control** muestra los componentes visuales para administrar dispositivos, sensores, válvulas y comandos recientes.
 
-![Device Control Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/device-control-frontend-presentation-components.puml)
+![Device Control Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/device-control-frontend-presentation-components.puml)
 
 ---
 
@@ -3776,7 +3776,7 @@ El diagrama de presentación de **Device Control** muestra los componentes visua
 
 El diagrama de presentación de **Monitoring** muestra las pantallas de panel y reportes, junto con componentes como métricas, lecturas, sesiones, anomalías y reportes generados.
 
-![Monitoring Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/monitoring-frontend-presentation-components.puml)
+![Monitoring Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/monitoring-frontend-presentation-components.puml)
 
 ---
 
@@ -3784,7 +3784,7 @@ El diagrama de presentación de **Monitoring** muestra las pantallas de panel y 
 
 El diagrama de presentación de **Notification** muestra la estructura visual del módulo de alertas, incluyendo alertas activas, umbrales, incidentes y canales de notificación.
 
-![Notification Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/notification-frontend-presentation-components.puml)
+![Notification Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/notification-frontend-presentation-components.puml)
 
 ---
 
@@ -3792,15 +3792,15 @@ El diagrama de presentación de **Notification** muestra la estructura visual de
 
 El diagrama de presentación de **Support** muestra las pantallas y componentes visuales para tickets, detalle del ticket, conversación, formulario de mensaje y artículos de ayuda.
 
-![Support Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/support-frontend-presentation-components.puml)
+![Support Frontend Presentation Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/frontend/presentation/support-frontend-presentation-components.puml)
 
 ---
 
 #### Backend General Component Diagram
 
-El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts reales implementados en `lowcortisol-platform`: **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. También se incluye **Shared** como base técnica transversal para persistencia, Unit of Work, Result Pattern, Swagger, CORS y configuración común.
+El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts reales implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. También se incluye **Shared** como base técnica transversal para persistencia, Unit of Work, Result Pattern, ProblemDetails, Swagger, CORS, localización y configuración común.
 
-![Backend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/backend-general-components.puml)
+![Backend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/backend-general-components.puml)
 
 ---
 
@@ -3808,7 +3808,7 @@ El diagrama general de componentes backend muestra cómo la **Backend API** agru
 
 El bounded context **Workplace** en backend gestiona sedes, habitaciones, grupos de dispositivos y el modelo físico consultado por la WebApp. Permite mantener organizada la estructura multi-sede de la plataforma sin asumir responsabilidades de IAM, planes o soporte.
 
-![Workplace Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/workplace-backend-components.puml)
+![Workplace Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/workplace-backend-components.puml)
 
 ---
 
@@ -3816,7 +3816,7 @@ El bounded context **Workplace** en backend gestiona sedes, habitaciones, grupos
 
 El bounded context **DeviceControl** en backend expone endpoints para comandos, operaciones de válvula y mitigación operativa. Modela dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría y operaciones de válvula.
 
-![Device Control Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/device-control-backend-components.puml)
+![Device Control Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/device-control-backend-components.puml)
 
 ---
 
@@ -3824,7 +3824,7 @@ El bounded context **DeviceControl** en backend expone endpoints para comandos, 
 
 El bounded context **Monitoring** en backend gestiona lecturas de consumo, umbrales, anomalías y resumen de monitoreo. Coordina el flujo lectura -> umbral -> anomalía y emite el puente **CriticalAnomalyDetected** cuando corresponde.
 
-![Monitoring Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/monitoring-backend-components.puml)
+![Monitoring Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/monitoring-backend-components.puml)
 
 ---
 
@@ -3832,7 +3832,7 @@ El bounded context **Monitoring** en backend gestiona lecturas de consumo, umbra
 
 El bounded context **Notification** en backend gestiona alertas, incidentes, canales y entregas. Permite escalar anomalías críticas, crear incidentes y solicitar mitigación operativa hacia DeviceControl.
 
-![Notification Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/notification-backend-components.puml)
+![Notification Backend Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/bounded-contexts/notification-backend-components.puml)
 
 ## 4.7. Software Object-Oriented Design
 The object-oriented design of the LowCortisol system is represented through two class diagrams: one for the backend and another for the frontend. This separation allows a clearer view of the responsibilities of each layer of the application.
@@ -3847,33 +3847,33 @@ En el backend, los diagramas muestran las entidades del dominio, servicios de ap
 
 #### Backend Class Diagrams
 
-El diagrama general de clases del backend presenta una vista resumida de los bounded contexts implementados en `lowcortisol-platform`: **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos reales del backend.
+El diagrama general de clases del backend presenta una vista resumida de los bounded contexts implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos reales del backend.
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-general-bounded-contexts.puml?v=1)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-general-bounded-contexts.puml?v=1)
 
 ---
 
 El bounded context **Workplace** organiza las clases relacionadas con sedes, habitaciones, grupos de dispositivos y modelo físico. Este módulo permite representar la estructura operativa multi-sede de la plataforma.
 
-![Backend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-workplace-class-diagram.puml?v=1)
+![Backend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-workplace-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **DeviceControl** modela dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría y operaciones de válvula. Permite representar la administración operativa de equipos y acciones de mitigación.
 
-![Backend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-device-control-class-diagram.puml?v=1)
+![Backend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-device-control-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Monitoring** contiene las clases vinculadas con lecturas, umbrales, anomalías, detección de anomalías y resumen de monitoreo. Este módulo representa el seguimiento del consumo de agua y gas.
 
-![Backend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-monitoring-class-diagram.puml?v=1)
+![Backend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-monitoring-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Notification** agrupa las clases relacionadas con alertas, incidentes, asignaciones, acciones, canales de notificación y entregas. Este módulo permite modelar la respuesta operativa ante anomalías críticas.
 
-![Backend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/backend/backend-notification-class-diagram.puml?v=1)
+![Backend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-notification-class-diagram.puml?v=1)
 
 ---
 
@@ -3881,61 +3881,61 @@ El bounded context **Notification** agrupa las clases relacionadas con alertas, 
 
 El diagrama general de clases del frontend presenta la organización principal de la aplicación web, mostrando los bounded contexts de la **Single Page Application** y su relación con componentes compartidos como servicios de sesión, traducción, acceso por suscripción, layout, tarjetas reutilizables y cliente HTTP.
 
-![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-general-bounded-contexts.puml?v=1)
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-general-bounded-contexts.puml?v=1)
 
 ---
 
 El bounded context **IAM** en el frontend contiene los modelos, store, facade, servicio API y pantallas relacionadas con login, registro, recuperación de contraseña y perfil de usuario.
 
-![Frontend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-iam-class-diagram.puml?v=1)
+![Frontend IAM Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-iam-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Plan** en el frontend organiza las clases vinculadas con planes, características, suscripciones, pagos, solicitudes de servicio, store, facade, servicio API y formulario de pago.
 
-![Frontend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-plan-class-diagram.puml?v=1)
+![Frontend Plan Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-plan-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Workplace** en el frontend modela la gestión de sedes, miembros, asignaciones de dispositivos, store, facade, servicio API y pantalla principal de sedes.
 
-![Frontend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-workplace-class-diagram.puml?v=1)
+![Frontend Workplace Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-workplace-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Device Control** en el frontend representa la administración visual y lógica de dispositivos, sensores, válvulas y comandos, incluyendo store, facade, servicio API y pantalla de dispositivos.
 
-![Frontend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-device-control-class-diagram.puml?v=1)
+![Frontend Device Control Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-device-control-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Monitoring** en el frontend contiene las clases relacionadas con dashboard, reportes, sesiones, lecturas, anomalías, store, facade y servicio API.
 
-![Frontend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-monitoring-class-diagram.puml?v=1)
+![Frontend Monitoring Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-monitoring-class-diagram.puml?v=1)
 
 ---
 
 El bounded context **Notification** en el frontend agrupa alertas, umbrales, incidentes, canales de notificación, entregas, store, facade, servicio API y pantalla principal de alertas.
 
-![Frontend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-notification-class-diagram.puml?v=1)
+![Frontend Notification Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-notification-class-diagram.puml?v=1)
 
 El bounded context **Support** en el frontend representa tickets, mensajes, agentes, conversaciones, artículos de ayuda, store, facade, servicio API y pantalla de soporte.
 
-![Frontend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-support-class-diagram.puml?v=1)
+![Frontend Support Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/frontend/frontend-support-class-diagram.puml?v=1)
 
 ## 4.8. Database Design
 
-La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a PostgreSQL para persistir usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, conductos, lecturas de consumo, umbrales, anomalías, alertas, incidentes, planes, tickets y reportes operativos. La estructura se organiza alrededor de los bounded contexts **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan**, **Support**, **Report** y **Shared**.
+La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a PostgreSQL para persistir usuarios, sedes, ambientes, grupos de dispositivos, dispositivos, sensores, válvulas, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación y operaciones de mitigación. La estructura backend implementada se organiza alrededor de los bounded contexts **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**.
 
 Este diseño respalda funcionalidades como el registro e inicio de sesión, la gestión de dispositivos, el monitoreo de sensores, la administración de alertas y la generación de reportes. Asimismo, permite almacenar la información de forma estructurada, asegurando integridad relacional mediante claves primarias y foráneas. La base de datos fue diseñada de manera modular y escalable, de modo que pueda ampliarse fácilmente en futuras iteraciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
-El diagrama de base de datos representa la estructura de almacenamiento del sistema y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, conductos, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación, planes, tickets y reportes, las cuales permiten operar el ciclo completo de monitoreo de agua y gas.
+El diagrama de base de datos representa la estructura de almacenamiento real del backend y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación y operaciones de válvula, las cuales permiten operar el ciclo completo de monitoreo y mitigación de agua y gas.
 
 Además, el diagrama muestra cómo se conectan estas tablas mediante claves primarias y foráneas, reflejando la organización de los datos y la integridad relacional del sistema. En conjunto, esta estructura permite almacenar de forma consistente la información necesaria para el funcionamiento del backend y facilita la escalabilidad y mantenibilidad de la aplicación.
 
-![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-report/main/docs/diagrams/database/database-diagram.puml?v=1)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/database/database-diagram.puml?v=1)
 
 # Chapter V: Product Implementation, Validation & Deployment
 
@@ -4423,7 +4423,7 @@ utilizaron los siguientes servicios web:
 | EndPoint | Funciones |
 | :--- | :--- |
 | `https://upc-pre-202610-1asi0730-12144-flowalert.github.io/lowcortisol-website/` | Desplegar la Landing Page informativa del producto. |
-| `https://lowcortisol-platform.onrender.com/swagger/index.html` | Proveer acceso a la Fake API para simular integración con base de datos. |
+| `https://lowcortisol-platform.onrender.com/swagger/index.html` | Proveer acceso a la API RESTful documentada con Swagger. |
 | `https://lowcortisol-webapp.onrender.com` | Desplegar el Frontend de la aplicación web para interacción del usuario. |
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -4442,7 +4442,7 @@ El despliegue permitió comprobar la navegación entre módulos principales, el 
 **URLs del despliegue:**
 
 * Web Application: `https://lowcortisol-webapp.onrender.com`
-* Fake API: `https://lowcortisol-platform.onrender.com/swagger/index.html`
+* RESTful API Documentation: `https://lowcortisol-platform.onrender.com/swagger/index.html`
 * Website: `https://upc-pre-202610-1asi0730-12144-flowalert.github.io/lowcortisol-website/`
 
 **Capturas de evidencia:**
