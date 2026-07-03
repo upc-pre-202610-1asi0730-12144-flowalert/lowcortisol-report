@@ -2763,6 +2763,7 @@ Then el sistema oculta automáticamente el menú
 | US13 | US | Suscribirse a un plan | Contratar un plan premium | Alta | 8 | EP04 |
 | US14 | US | Cambiar de plan | Modificar suscripción activa | Media | 5 | EP04 |
 | US15 | US | Solicitar demo | Probar el servicio antes de suscribirse | Baja | 3 | EP04 |
+| US16 | US | Visualizar soluciones | Consultar soluciones según perfil residencial, empresarial o industrial | Media | 3 | EP04 |
 | EP05 | Epic | Gestión multiubicación | Manejo de múltiples ubicaciones o sedes | Media | - | - |
 | US17 | US | Registrar múltiples sedes | Crear diferentes ubicaciones | Media | 5 | EP05 |
 | US18 | US | Filtrar datos por sede | Visualizar información específica | Media | 3 | EP05 |
@@ -2800,6 +2801,47 @@ Then el sistema oculta automáticamente el menú
 | TS27 | TS | Navegación con anclas | Implementar navegación interna | Media | 2 | EP06 |
 | TS28 | TS | Scroll suave | Mejorar experiencia de navegación | Baja | 2 | EP06 |
 | TS29 | TS | Menú responsive | Implementar menú hamburguesa | Media | 3 | EP06 |
+| TS31 | TS | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles | Alta | 5 | EP01 |
+| TS32 | TS | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes | Alta | 5 | EP02 |
+| TS33 | TS | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas | Alta | 5 | EP02 |
+| TS34 | TS | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores | Alta | 5 | EP03 |
+| TS35 | TS | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan | Alta | 5 | EP04 |
+| TS36 | TS | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación | Media | 5 | EP05 |
+| TS37 | TS | Support Management | Implementar solicitudes de contacto y registro de incidencias | Media | 3 | EP03 |
+| TS38 | TS | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support | Alta | 5 | EP07 |
+| TS39 | TS | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema | Alta | 5 | EP07 |
+| TS40 | TS | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT | Alta | 3 | EP01 |
+| TS41 | TS | Integración Dashboard | Integrar información de monitoreo con los servicios utilizados por el frontend | Alta | 3 | EP02 |
+| TS42 | TS | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas | Alta | 3 | EP02 |
+| TS43 | TS | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos | Alta | 3 | EP03 |
+| TS44 | TS | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción | Alta | 3 | EP04 |
+| TS45 | TS | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada | Media | 3 | EP05 |
+| TS46 | TS | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte | Media | 3 | EP03 |
+| TS47 | TS | Ajustar despliegue de landing page | Validar publicación de la landing page en GitHub Pages | Alta | 3 | EP06 |
+| TS48 | TS | Verificar responsive final | Revisar landing page y Web Application en escritorio y resoluciones reducidas | Alta | 3 | EP06 |
+| TS49 | TS | Consolidar panel de monitoreo | Revisar métricas de agua y gas, lectura por conductos, límites y consumo en tiempo real | Alta | 5 | EP02 |
+| TS50 | TS | Validar dispositivos y válvulas | Comprobar flujo sede, habitación, grupo, sensor, válvula y conducto | Alta | 5 | EP03 |
+| TS51 | TS | Revisar centro de alertas | Validar alertas, incidentes, acciones operativas y coherencia visual | Alta | 5 | EP02 |
+| TS52 | TS | Paginación de lecturas base | Organizar lecturas base de reportes para evitar crecimiento vertical excesivo | Media | 3 | EP02 |
+| TS53 | TS | Configurar rango de reporte | Validar límites de fechas y evitar periodos inválidos | Media | 3 | EP02 |
+| TS54 | TS | Alinear planes entre landing y webapp | Sincronizar nombres, precios, límites y beneficios de planes | Alta | 5 | EP04 |
+| TS55 | TS | Verificar tickets y artículos de ayuda | Revisar tickets, agentes, artículos de ayuda y textos de soporte | Media | 3 | EP03 |
+| TS56 | TS | Verificar recuperación de contraseña | Revisar flujo de recuperación de acceso y mensajes de validación | Media | 3 | EP01 |
+| TS57 | TS | Validar cambio de plan | Confirmar selección de otro plan y aplicación de límites en la Web Application | Media | 5 | EP04 |
+| TS58 | TS | Revisar solicitud de demo | Validar flujo de solicitud de demo desde la landing page | Baja | 3 | EP04 |
+| TS59 | TS | Completar soluciones por perfil | Verificar soluciones residenciales, empresariales e industriales | Media | 3 | EP04 |
+| TS60 | TS | Verificar filtros por sede | Validar revisión de información asociada a una sede específica | Media | 3 | EP05 |
+| TS61 | TS | Consolidar resumen general | Verificar dashboard con métricas consolidadas de consumo, alertas, límites y actividad operativa | Alta | 5 | EP05 |
+| TS62 | TS | Actualizar documentación Swagger | Confirmar endpoints reales expuestos en Swagger y retirar endpoints falsos | Alta | 5 | EP07 |
+| TS63 | TS | Documentar ProblemDetails y contratos REST | Registrar recursos, assemblers, respuestas de error y contratos REST | Alta | 5 | EP07 |
+| EP08 | Epic | IAM mínimo | Autenticación mínima, usuarios y migración IAM de la versión entregable | Alta | - | - |
+| TS64 | TS | Documentar autenticación mínima | Registrar sign-up, sign-in, users y migración IAM | Alta | 3 | EP08 |
+| EP09 | Epic | Software Configuration Management | Gestión de ramas, commits, releases, tags y evidencias Gitflow | Alta | - | - |
+| TS65 | TS | Actualizar evidencias Gitflow | Documentar ramas, commits, releases, tags y flujo de integración | Alta | 3 | EP09 |
+| TS66 | TS | Corregir estados del Sprint Backlog | Normalizar estados del backlog en inglés y estimaciones de 4 a 8 horas | Alta | 3 | EP09 |
+| EP10 | Epic | Product Delivery | Cierre de entrega, despliegue final y evidencias de versión | Alta | - | - |
+| TS67 | TS | Revisar deploy frontend v4.0.0 | Validar que producción no use localhost y consuma backend desplegado | Alta | 3 | EP10 |
+| TS68 | TS | Preparar cierre de entrega | Consolidar conclusiones, recomendaciones y evidencias finales | Media | 3 | EP10 |
 
 # Capitulo IV: Product Design
 
@@ -4037,7 +4079,7 @@ URL desplegada
 
 https://lowcortisol-webapp.onrender.com/
 
-## .3. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
 En esta sección se describe el proceso de implementación, pruebas, documentación y despliegue de los productos digitales desarrollados durante los Sprints. Para el presente avance, el Sprint 1 se enfoca en el desarrollo de la Landing Page, evidenciando tanto el progreso técnico como el trabajo colaborativo del equipo.
 
@@ -4095,14 +4137,14 @@ detalla la distribución de roles para este primer ciclo:
 | Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
 | US06 | Cambiar idioma | TS21 | Sistema de traducciones | Configuración de textos multilenguaje para el landing page | 4 hrs | Miguel | Done |
-| US06 | Cambiar idioma | TS22 | Cambio dinámico idioma | Implementación del cambio dinámico de idioma sin recargar la página | 3 hrs | Miguel | Done |
+| US06 | Cambiar idioma | TS22 | Cambio dinámico idioma | Implementación del cambio dinámico de idioma sin recargar la página | 4 hrs | Miguel | Done |
 | US12 | Visualizar planes | TS23 | Sección planes frontend | Desarrollo de la estructura visual de la sección de planes | 4 hrs | Bruno | Done |
-| US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 3 hrs | Bruno | Done |
+| US12 | Visualizar planes | TS24 | Diseño de planes | Implementación de cards de precios y beneficios de cada plan | 4 hrs | Bruno | Done |
 | US20 | Acceso multidispositivo | TS25 | Responsive layout | Adaptación responsive del landing page para distintos dispositivos | 4 hrs | James | Done |
-| US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 3 hrs | James | Done |
-| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 2 hrs | Bruno | Done |
-| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 2 hrs | Bruno | Done |
-| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 3 hrs | Bruno | Done |
+| US20 | Acceso multidispositivo | TS26 | Componentes responsive | Ajuste responsive de botones, cards y componentes visuales | 4 hrs | James | Done |
+| US21 | Navegación entre secciones | TS27 | Navegación con anclas | Implementación de navegación interna mediante anchor links | 4 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS28 | Scroll suave | Implementación de smooth scrolling entre secciones | 4 hrs | Bruno | Done |
+| US21 | Navegación entre secciones | TS29 | Menú responsive | Desarrollo del menú hamburguesa adaptable a móviles | 4 hrs | Bruno | Done |
 
 LINK URL TRELLO: https://trello.com/invite/b/69eac1f8457512a2f55d9699/ATTI2db9c0acd30e87cb70a0684c70b737506825466B/sprint-backlog-1-lowcortisol 
 
@@ -4257,33 +4299,33 @@ Durante el Sprint 2, el equipo organizó las responsabilidades considerando los 
 
 | User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Priority | Status | Assigned To |
 |---------------|------------------|---------|------------|-------------|--------------------|----------|--------|-------------|
-| US01 | Registro de usuario | TS01 | API registrar usuario | Implementación del endpoint POST /users para creación de cuentas. | 4 hrs | Alta | Finalizado | Kirk |
-| US01 | Registro de usuario | TS02 | Validación de datos | Validación de campos obligatorios, formato de correo y contraseña antes del registro. | 3 hrs | Alta | Finalizado | Kirk |
-| US02 | Inicio de sesión | TS06 | API login | Implementación de autenticación mediante POST /auth/login y generación de JWT. | 3 hrs | Alta | Finalizado | Miguel |
-| US02 | Inicio de sesión | TS08 | Validación de credenciales | Verificación de usuarios y manejo de errores de autenticación. | 2 hrs | Alta | Finalizado | Miguel |
-| US04 | Cerrar sesión | TS07 | API logout | Invalidación de sesión activa mediante POST /auth/logout. | 2 hrs | Media | Finalizado | Jean |
-| US04 | Cerrar sesión | TS09 | Gestión de sesión | Eliminación del token y limpieza de la sesión del usuario. | 2 hrs | Media | Finalizado | Jean |
-| US05 | Actualizar perfil | TS34 | Servicio de Perfil | Implementación de lógica para edición de datos personales. | 3 hrs | Media | Finalizado | Bruno |
-| US05 | Actualizar perfil | TS35 | Validación de actualización | Verificación y persistencia de los cambios del perfil. | 3 hrs | Media | Finalizado | Bruno |
-| US06 | Cambiar idioma | TS21 | Configurar i18n | Configuración de bibliotecas y archivos JSON para internacionalización. | 4 hrs | Baja | Finalizado | James |
-| US06 | Cambiar idioma | TS22 | Cambio dinámico | Gestión de estado para actualizar el idioma en tiempo real. | 3 hrs | Baja | Finalizado | Miguel |
-| US07 | Visualizar estado | TS11 | API actualizar lectura | Endpoint para monitoreo de sensores en tiempo real. | 4 hrs | Alta | En progreso | Kirk |
-| US07 | Visualizar estado | TS14 | Consulta de estado | Consulta y actualización de información de sensores. | 3 hrs | Alta | En progreso | Kirk |
-| US08 | Recibir alertas | TS04 | API generar alerta | Registro automático de incidentes ante anomalías detectadas. | 3 hrs | Alta | En progreso | Jean |
-| US08 | Recibir alertas | TS13 | API listar alertas | Consulta de alertas generadas para el dashboard. | 3 hrs | Alta | En progreso | Bruno |
-| US09 | Historial de consumo | TS05 | API historial consumo | Consulta de registros históricos por periodos. | 4 hrs | Media | En progreso | Kirk |
-| US09 | Historial de consumo | TS16 | API reporte por fechas | Generación de reportes filtrados por rangos de fechas. | 4 hrs | Media | En progreso | James |
-| US10 | Cerrar válvula remotamente | TS17 | API cierre remoto | Ejecución del comando de cierre remoto de válvulas. | 3 hrs | Alta | En progreso | Kirk |
-| US10 | Cerrar válvula remotamente | TS18 | Confirmación de operación | Confirmación del cierre y actualización del estado del dispositivo. | 2 hrs | Alta | En progreso | Kirk |
-| US12 | Visualizar planes | TS23 | Estructura sección planes | Creación de componentes modulares y grid de planes. | 4 hrs | Media | Por hacer | Bruno |
-| US12 | Visualizar planes | TS24 | Cards dinámicas | Diseño de cards para mostrar precios y beneficios. | 3 hrs | Media | Por hacer | Miguel |
-| US16 | Visualizar soluciones | TS33 | Vista de soluciones | Implementación de secciones para clientes residenciales y empresariales. | 3 hrs | Media | Por hacer | Jean |
-| US16 | Visualizar soluciones | TS36 | Navegación de soluciones | Organización y navegación entre las diferentes soluciones disponibles. | 2 hrs | Media | Por hacer | Jean |
-| US20 | Acceso multidispositivo | TS25 | Arquitectura responsive | Aplicación de Grid/Flexbox para adaptación visual. | 4 hrs | Media | Por hacer | Bruno |
-| US20 | Acceso multidispositivo | TS26 | Ajuste móvil | Implementación de media queries para smartphones. | 3 hrs | Media | Por hacer | Miguel |
-| US21 | Navegación interna | TS27 | Navegación por anclas | Configuración de IDs para navegación entre secciones. | 2 hrs | Media | Por hacer | Jean |
-| US21 | Navegación interna | TS28 | Smooth Scroll | Implementación del desplazamiento fluido. | 2 hrs | Media | Por hacer | James |
-| US21 | Navegación interna | TS29 | Menú hamburguesa | Desarrollo del menú responsive para dispositivos móviles. | 3 hrs | Media | Por hacer | Bruno |
+| US01 | Registro de usuario | TS01 | API registrar usuario | Implementación del endpoint POST /users para creación de cuentas. | 4 hrs | Alta | Done | Kirk |
+| US01 | Registro de usuario | TS02 | Validación de datos | Validación de campos obligatorios, formato de correo y contraseña antes del registro. | 4 hrs | Alta | Done | Kirk |
+| US02 | Inicio de sesión | TS06 | API login | Implementación de autenticación mediante POST /auth/login y generación de JWT. | 4 hrs | Alta | Done | Miguel |
+| US02 | Inicio de sesión | TS08 | Validación de credenciales | Verificación de usuarios y manejo de errores de autenticación. | 4 hrs | Alta | Done | Miguel |
+| US04 | Cerrar sesión | TS07 | API logout | Invalidación de sesión activa mediante POST /auth/logout. | 4 hrs | Media | Done | Jean |
+| US04 | Cerrar sesión | TS09 | Gestión de sesión | Eliminación del token y limpieza de la sesión del usuario. | 4 hrs | Media | Done | Jean |
+| US05 | Actualizar perfil | TS34 | Servicio de Perfil | Implementación de lógica para edición de datos personales. | 4 hrs | Media | Done | Bruno |
+| US05 | Actualizar perfil | TS35 | Validación de actualización | Verificación y persistencia de los cambios del perfil. | 4 hrs | Media | Done | Bruno |
+| US06 | Cambiar idioma | TS21 | Configurar i18n | Configuración de bibliotecas y archivos JSON para internacionalización. | 4 hrs | Baja | Done | James |
+| US06 | Cambiar idioma | TS22 | Cambio dinámico | Gestión de estado para actualizar el idioma en tiempo real. | 4 hrs | Baja | Done | Miguel |
+| US07 | Visualizar estado | TS11 | API actualizar lectura | Endpoint para monitoreo de sensores en tiempo real. | 4 hrs | Alta | In Process | Kirk |
+| US07 | Visualizar estado | TS14 | Consulta de estado | Consulta y actualización de información de sensores. | 4 hrs | Alta | In Process | Kirk |
+| US08 | Recibir alertas | TS04 | API generar alerta | Registro automático de incidentes ante anomalías detectadas. | 4 hrs | Alta | In Process | Jean |
+| US08 | Recibir alertas | TS13 | API listar alertas | Consulta de alertas generadas para el dashboard. | 4 hrs | Alta | In Process | Bruno |
+| US09 | Historial de consumo | TS05 | API historial consumo | Consulta de registros históricos por periodos. | 4 hrs | Media | In Process | Kirk |
+| US09 | Historial de consumo | TS16 | API reporte por fechas | Generación de reportes filtrados por rangos de fechas. | 4 hrs | Media | In Process | James |
+| US10 | Cerrar válvula remotamente | TS17 | API cierre remoto | Ejecución del comando de cierre remoto de válvulas. | 4 hrs | Alta | In Process | Kirk |
+| US10 | Cerrar válvula remotamente | TS18 | Confirmación de operación | Confirmación del cierre y actualización del estado del dispositivo. | 4 hrs | Alta | In Process | Kirk |
+| US12 | Visualizar planes | TS23 | Estructura sección planes | Creación de componentes modulares y grid de planes. | 4 hrs | Media | To Do | Bruno |
+| US12 | Visualizar planes | TS24 | Cards dinámicas | Diseño de cards para mostrar precios y beneficios. | 4 hrs | Media | To Do | Miguel |
+| US16 | Visualizar soluciones | TS33 | Vista de soluciones | Implementación de secciones para clientes residenciales y empresariales. | 4 hrs | Media | To Do | Jean |
+| US16 | Visualizar soluciones | TS36 | Navegación de soluciones | Organización y navegación entre las diferentes soluciones disponibles. | 4 hrs | Media | To Do | Jean |
+| US20 | Acceso multidispositivo | TS25 | Arquitectura responsive | Aplicación de Grid/Flexbox para adaptación visual. | 4 hrs | Media | To Do | Bruno |
+| US20 | Acceso multidispositivo | TS26 | Ajuste móvil | Implementación de media queries para smartphones. | 4 hrs | Media | To Do | Miguel |
+| US21 | Navegación interna | TS27 | Navegación por anclas | Configuración de IDs para navegación entre secciones. | 4 hrs | Media | To Do | Jean |
+| US21 | Navegación interna | TS28 | Smooth Scroll | Implementación del desplazamiento fluido. | 4 hrs | Media | To Do | James |
+| US21 | Navegación interna | TS29 | Menú hamburguesa | Desarrollo del menú responsive para dispositivos móviles. | 4 hrs | Media | To Do | Bruno |
 
 LINK URL TRELLO: https://trello.com/invite/b/6a04356ecc66435e7498a638/ATTIa5ba3c43f65f4c50ffc05c6ccd764b098482BFD5/sprint-backlog-2-lowcortisol
 
@@ -4480,22 +4522,22 @@ El Sprint Backlog 3 prioriza la implementación de la arquitectura backend del s
 
 | User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---------------|------------------|---------|------------|-------------|-------------------|------------|--------|
-| US02 | Inicio de sesión | T31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
-| US02 | Inicio de sesión | T40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
-| US07 | Visualizar estado en tiempo real | T32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
-| US07 | Visualizar estado en tiempo real | T41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
-| US08 | Recibir alertas automáticas | T33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
-| US08 | Recibir alertas automáticas | T42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
-| US10 | Cerrar válvula remotamente | T34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Bruno | Done |
-| US10 | Cerrar válvula remotamente | T43 | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos. | 5 | Bruno | Done |
-| US13 | Suscribirse a un plan | T35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
-| US13 | Suscribirse a un plan | T44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
-| US17 | Registrar múltiples sedes | T36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
-| US17 | Registrar múltiples sedes | T45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
-| US11 | Contactar con el equipo de soporte | T37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
-| US11 | Contactar con el equipo de soporte | T46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
-| EP07 | Arquitectura Backend | T38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
-| EP07 | Arquitectura Backend | T39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
+| US02 | Inicio de sesión | TS31 | IAM y autenticación | Integrar registro, inicio de sesión, recuperación de contraseña y gestión de perfiles. | 8 | Miguel | Done |
+| US02 | Inicio de sesión | TS40 | Validaciones y seguridad | Configurar validaciones, manejo de errores y protección mediante JWT. | 6 | Miguel | Done |
+| US07 | Visualizar estado en tiempo real | TS32 | Monitoring y consumo | Implementar consultas de sensores, historial de consumo y reportes. | 8 | Kirk | Done |
+| US07 | Visualizar estado en tiempo real | TS41 | Integración Dashboard | Integrar la información de monitoreo con los servicios utilizados por el frontend. | 6 | Kirk | Done |
+| US08 | Recibir alertas automáticas | TS33 | Notification y alertas | Implementar generación, consulta y actualización de alertas automáticas. | 7 | Jean | Done |
+| US08 | Recibir alertas automáticas | TS42 | Gestión de estados de alerta | Implementar actualización y seguimiento del estado de las alertas. | 5 | Jean | Done |
+| US10 | Cerrar válvula remotamente | TS34 | Device Control | Implementar control remoto de válvulas y actualización de lecturas de sensores. | 8 | Bruno | Done |
+| US10 | Cerrar válvula remotamente | TS43 | Confirmación de comandos | Registrar y confirmar la ejecución de comandos enviados a los dispositivos. | 5 | Bruno | Done |
+| US13 | Suscribirse a un plan | TS35 | Gestión de planes | Implementar catálogo de planes, suscripciones y cambios de plan. | 7 | James | Done |
+| US13 | Suscribirse a un plan | TS44 | Integración de suscripciones | Asociar planes con usuarios y validar cambios de suscripción. | 6 | James | Done |
+| US17 | Registrar múltiples sedes | TS36 | Workplace y sedes | Implementar gestión de sedes y asociación de sensores por ubicación. | 7 | Miguel | Done |
+| US17 | Registrar múltiples sedes | TS45 | Gestión de dispositivos por sede | Relacionar sensores y dispositivos con cada sede registrada. | 6 | Miguel | Done |
+| US11 | Contactar con el equipo de soporte | TS37 | Support Management | Implementar solicitudes de contacto y registro de incidencias. | 5 | Jean | Done |
+| US11 | Contactar con el equipo de soporte | TS46 | Seguimiento de incidencias | Permitir consultar el estado de las solicitudes de soporte. | 4 | Jean | Done |
+| EP07 | Arquitectura Backend | TS38 | Integración de bounded contexts | Consolidar IAM, Monitoring, Notification, Device Control, Plan, Workplace y Support. | 8 | Equipo | Done |
+| EP07 | Arquitectura Backend | TS39 | Documentación técnica | Actualizar Backend Class Diagram, Database Diagram y documentación técnica del sistema. | 6 | Equipo | Done |
 
 LINK URL TRELLO: https://trello.com/b/eGpiocdf/sprint-backlog-3-lowcortisol
 
@@ -5065,6 +5107,262 @@ Asimismo, el trabajo colaborativo fue decisivo para elevar la calidad de los art
 ![Collaboration1](assets/md-images-chapter5/Collaboration-Insight1.png)
 ![Collaboration2](assets/md-images-chapter5/Collaboration-Insight2.png)
 ![Collaboration3](assets/md-images-chapter5/Collaboration-Insight3.png)
+
+### 5.2.4. Sprint 4
+
+Durante el Sprint 4, el equipo se enfocó en estabilizar la entrega final de LowCortisol, cerrar observaciones de despliegue, alinear la landing page con la Web Application, reforzar la documentación RESTful de la API y completar la evidencia de configuración de desarrollo. Este sprint no estuvo orientado a crear módulos aislados, sino a consolidar la versión entregable del producto como una solución integrada entre landing page, frontend, backend, documentación técnica y despliegue cloud.
+
+#### 5.2.4.1. Sprint Planning 4
+
+El Sprint Planning 4 permitió definir el alcance final de la entrega, priorizando la estabilización del producto, la corrección de observaciones recibidas, la consolidación de la documentación técnica y la validación de los despliegues públicos. En esta planificación, el equipo organizó las tareas necesarias para cerrar la versión entregable de LowCortisol manteniendo trazabilidad entre User Stories, Engineering Tasks, evidencias de implementación y configuración de despliegue.
+
+A continuación, se presenta la tabla resumen del Sprint Planning 4:
+
+| Campo | Descripción |
+|---|---|
+| Sprint # | Sprint 4 |
+|  | **Sprint Planning Background** |
+| Date | 2026-07-02 |
+| Time | 18:00 |
+| Location | Reunión virtual (Google Meet) |
+| Prepared By | Loa Rojas, Jean Franck |
+| Attendees | Condori Torres, Miguel Anibal / Delgado Perez, James Caleb / Loa Rojas, Jean Franck / Montalvo Vasquez, Bruno Rodrigo / Quiliano Motta, Kirk Douglas |
+| Sprint 3 Review Summary | Durante el Sprint 3 se consolidó la arquitectura backend, la documentación OpenAPI, el despliegue en Render y la integración de los bounded contexts principales. Además, se evidenció una primera versión operativa de los servicios RESTful y una Web Application conectada con los flujos centrales del producto. |
+| Sprint 3 Retrospective Summary | El equipo identificó como fortaleza la integración progresiva entre frontend, backend y documentación técnica. Como oportunidad de mejora, se reconoció la necesidad de reforzar la trazabilidad del Sprint Backlog, normalizar los estados de tareas, completar evidencias de despliegue y cerrar la consistencia entre landing page, Web Application y API pública. |
+|  | **Sprint Goal & User Stories** |
+| Sprint 4 Goal | Nuestro enfoque está en consolidar una versión final estable de LowCortisol, con landing page, Web Application y backend desplegados, contratos REST documentados, planes alineados entre la landing y la aplicación, e informe actualizado con evidencias de implementación y colaboración. Además, se cerrarán las User Stories del Product Backlog que quedaron pendientes de trazabilidad directa en sprints anteriores: recuperación de contraseña, cambio de plan, solicitud de demo, visualización de soluciones, filtrado por sede y resumen general. Creemos que esto permitirá presentar una solución más coherente, evaluable y lista para revisión académica. Esto se confirmará cuando los evaluadores puedan acceder a la landing page pública, revisar la Web Application, consultar Swagger en Render y verificar que el Sprint Backlog muestre tareas trazables, estimadas entre 4 y 8 horas, con estados de tablero en inglés. |
+| Sprint 4 Velocity | 64 Story Points |
+| Sum of Story Points | 64 Story Points |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 4, el equipo organizó el trabajo alrededor de los aspectos necesarios para cerrar la versión entregable: despliegue frontend, documentación RESTful, estabilización backend, reporte final, evidencia de colaboración y validación funcional del producto. La matriz LACX mantiene un líder por frente y colaboradores distribuidos para asegurar trazabilidad, revisión cruzada y continuidad entre implementación, documentación y despliegue.
+
+A continuación, se presenta la Matriz LACX (Leader/Collaborator) que detalla la distribución de roles para este cuarto ciclo. La letra **L** identifica al responsable principal del aspecto y la letra **C** identifica a los integrantes que colaboraron en su ejecución o revisión.
+
+| Team Member | GitHub Username | Frontend Deployment | RESTful API Documentation | Backend Stabilization | Report Documentation | Sprint Evidence | Product Validation |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Condori Torres, Miguel Anibal | Miguel1323z | C | C | C | **L** | C | C |
+| Delgado Perez, James Caleb | JAmsy06 | C | C | C | C | C | **L** |
+| Loa Rojas, Jean Franck | JeanLoa | **L** | C | **L** | C | C | C |
+| Montalvo Vasquez, Bruno Rodrigo | Bruno | C | **L** | C | C | C | C |
+| Quiliano Motta, Kirk Douglas | Kirkcito | C | C | C | C | **L** | C |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El Sprint Backlog 4 descompone las User Stories asignadas al sprint en Engineering Tasks estimadas entre 4 y 8 horas. El seguimiento se realizó con estados de tablero en inglés para mantener consistencia con el criterio de evaluación: **To Do**, **In Process**, **To Review** y **Done**.
+
+![Sprint Backlog 4](./assets/md-images-chapter5/sprint-4.png)
+
+| User Story ID | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Priority | Status | Assigned To |
+|---|---|---|---|---|---:|---|---|---|
+| US20 | Acceso multidispositivo | TS47 | Ajustar despliegue de landing page | Validar la publicación de la landing page en GitHub Pages y revisar que las rutas públicas carguen correctamente. | 4 | Alta | Done | Jean |
+| US20 | Acceso multidispositivo | TS48 | Verificar responsive final | Revisar las vistas principales de landing y Web Application en escritorio y resoluciones reducidas. | 4 | Alta | Done | James |
+| US07 | Visualizar estado en tiempo real | TS49 | Consolidar panel de monitoreo | Revisar métricas de agua y gas, lectura por conductos, límites y visualización de consumo en tiempo real. | 6 | Alta | Done | Kirk |
+| US10 | Cerrar válvula remotamente | TS50 | Validar dispositivos y válvulas | Comprobar el flujo sede, habitación, grupo, sensor, válvula y conducto sin datos desconectados. | 6 | Alta | Done | Jean |
+| US08 | Recibir alertas automáticas | TS51 | Revisar centro de alertas | Validar alertas, incidentes, acciones operativas y coherencia visual de tarjetas y estados. | 5 | Alta | Done | Bruno |
+| US09 | Historial de consumo | TS52 | Paginación de lecturas base | Organizar las lecturas base del módulo de reportes para evitar crecimiento vertical excesivo. | 5 | Media | Done | Miguel |
+| US09 | Historial de consumo | TS53 | Configurar rango de reporte | Mejorar el rango de fechas, validar límites hasta el día actual y evitar periodos inválidos. | 5 | Media | Done | Miguel |
+| US13 | Suscribirse a un plan | TS54 | Alinear planes entre landing y webapp | Actualizar nombres, precios, límites y beneficios de los planes para que no prometan funcionalidades inexistentes. | 6 | Alta | Done | Bruno |
+| US11 | Contactar con el equipo de soporte | TS55 | Verificar tickets y artículos de ayuda | Revisar creación de tickets, agentes, artículos de ayuda y consistencia de textos de soporte. | 5 | Media | Done | Kirk |
+| US03 | Recuperar contraseña | TS56 | Verificar recuperación de contraseña | Revisar el flujo de recuperación de acceso, mensajes de validación y coherencia con el contexto IAM. | 4 | Media | Done | Miguel |
+| US14 | Cambiar de plan | TS57 | Validar cambio de plan | Confirmar que el usuario pueda seleccionar otro plan y que los límites se reflejen en la Web Application. | 5 | Media | Done | James |
+| US15 | Solicitar demo | TS58 | Revisar solicitud de demo | Validar el flujo de solicitud de demo desde la landing page y su coherencia con la propuesta comercial. | 4 | Baja | Done | Jean |
+| US16 | Visualizar soluciones | TS59 | Completar soluciones por perfil | Actualizar y verificar las secciones de soluciones para perfiles residenciales, empresariales e industriales. | 4 | Media | Done | Jean |
+| US18 | Filtrar datos por sede | TS60 | Verificar filtros por sede | Validar que las vistas de monitoreo, reportes y ubicación permitan revisar información asociada a una sede específica. | 5 | Media | Done | Bruno |
+| US19 | Ver resumen general | TS61 | Consolidar resumen general | Verificar el dashboard principal con métricas consolidadas de consumo, alertas, límites y actividad operativa. | 5 | Alta | Done | Kirk |
+| EP07 | Arquitectura y documentación REST | TS62 | Actualizar documentación Swagger | Confirmar endpoints reales expuestos en Swagger y retirar referencias a endpoints falsos o no implementados. | 6 | Alta | Done | Bruno |
+| EP07 | Arquitectura y documentación REST | TS63 | Documentar ProblemDetails y contratos REST | Registrar el uso de recursos, assemblers, respuestas de error y contratos REST en el informe. | 5 | Alta | Done | Jean |
+| EP08 | IAM mínimo | TS64 | Documentar autenticación mínima | Registrar sign-up, sign-in, users y migración IAM como parte de la versión entregable. | 5 | Alta | Done | Miguel |
+| EP09 | Software Configuration Management | TS65 | Actualizar evidencias Gitflow | Documentar ramas, commits, releases, tags y flujo de integración usado para frontend, backend y reporte. | 6 | Alta | Done | Kirk |
+| EP09 | Software Configuration Management | TS66 | Corregir estados del Sprint Backlog | Normalizar estados del backlog a inglés y asegurar estimaciones de 4 a 8 horas por Engineering Task. | 4 | Alta | Done | Bruno |
+| EP10 | Product Delivery | TS67 | Revisar deploy frontend v4.0.0 | Validar que la versión entregable no use peticiones a localhost en producción y apunte al backend desplegado. | 4 | Alta | Done | Jean |
+| EP10 | Product Delivery | TS68 | Preparar cierre de entrega | Consolidar conclusiones, recomendaciones y evidencias finales para la revisión del Sprint 4. | 5 | Media | Done | Equipo |
+
+LINK URL TRELLO: https://trello.com/b/flpBtRzW
+
+**Task board status tracking**
+
+| Checkpoint | To Do | In Process | To Review | Done | Evidence |
+|---|---:|---:|---:|---:|---|
+| Sprint Planning | 22 | 0 | 0 | 0 | Asignación inicial de User Stories y Engineering Tasks. |
+| Mid Sprint Review | 6 | 10 | 3 | 3 | Avance de implementación, revisión de despliegue y documentación REST. |
+| Pre Sprint Review | 0 | 3 | 5 | 14 | Validación funcional, revisión de reporte y estabilización de evidencias. |
+| Sprint Review | 0 | 0 | 0 | 22 | Cierre de tareas funcionales y revisión final del material de entrega. |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, el desarrollo se concentró en la consolidación de la versión final de LowCortisol. En frontend, se verificó la configuración de despliegue, la alineación de planes entre landing page y Web Application, la conexión con el backend desplegado y la consistencia de los módulos de panel, ubicación, dispositivos, conductos, alertas, reportes y soporte. En backend, se reforzó la documentación de Swagger/OpenAPI, el manejo de ProblemDetails, los contratos REST y la evidencia del contexto IAM mínimo.
+
+El equipo mantuvo la arquitectura por bounded contexts y evitó introducir endpoints falsos en la documentación. Las funcionalidades documentadas corresponden a capacidades existentes o explícitamente preparadas para la versión entregable, priorizando trazabilidad entre backlog, implementación, despliegue y evidencia de revisión.
+
+El trabajo de desarrollo se organizó mediante Git Flow en los repositorios principales del producto. Las ramas feature se integraron hacia `develop`, luego se prepararon releases y finalmente se actualizaron las ramas principales correspondientes para evidenciar una versión entregable estable.
+
+### Feature Branches Utilizadas
+
+**Landing Page (`lowcortisol-website`)**
+
+- `feature/align-website-plan-benefits`
+- `release/v4.0.0`
+
+**Web Application (`lowcortisol-webapp`)**
+
+- `feature/frontend-v4-deployment-configuration`
+- `feature/fix-render-vite-api-base-url-build`
+- `release/v4.0.0`
+
+**Backend Platform (`lowcortisol-platform`)**
+
+- `feature/platform-swagger-problem-details`
+- `feature/platform-iam-context`
+- `feature/platform-iam-migration`
+- `feature/platform-localized-problem-details`
+- `feature/platform-context-status-docs`
+- `release/v2.0.0`
+
+### Commits del Proyecto
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| lowcortisol-website | feature/align-website-plan-benefits | 4cf9fc1 | chore(website): align plans with webapp benefits | Se alinearon nombres, precios, límites y beneficios de los planes de la landing page con la Web Application. | 2026-07-02 |
+| lowcortisol-website | develop | e1e5fb6 | merge: feature/align-website-plan-benefits into develop | Se integró la actualización de planes y beneficios hacia la rama de desarrollo. | 2026-07-02 |
+| lowcortisol-website | main | 8ba952c | release: website v4.0.0 | Se cerró la versión desplegable de la landing page para Sprint 4. | 2026-07-02 |
+| lowcortisol-webapp | feature/frontend-v4-deployment-configuration | 5f7473c | chore(frontend): prepare v4 deployment configuration | Se actualizó la configuración de versión y consumo de backend desplegado para la Web Application. | 2026-07-02 |
+| lowcortisol-webapp | feature/fix-render-vite-api-base-url-build | 82cc163 | fix(frontend): pass vite api base url during docker build | Se corrigió el paso de la variable `VITE_API_BASE_URL` durante el build Docker en Render. | 2026-07-02 |
+| lowcortisol-webapp | develop | fe9eb9c | merge: feature/fix-render-vite-api-base-url-build into develop | Se integró la corrección de build para evitar peticiones a `localhost` en producción. | 2026-07-02 |
+| lowcortisol-webapp | main | e561f4c | release: frontend v4.0.0 docker build configuration fix | Se cerró la versión final del frontend con configuración de despliegue corregida. | 2026-07-02 |
+| lowcortisol-platform | feature/platform-swagger-problem-details | ecf8228 | feat(platform): add swagger problem details and rest contract metadata | Se reforzó Swagger, ProblemDetails y metadatos REST para la documentación de servicios. | 2026-07-02 |
+| lowcortisol-platform | feature/platform-iam-context | addb120 | feat(platform): add minimal iam context | Se incorporó el contexto IAM mínimo con autenticación y usuarios. | 2026-07-02 |
+| lowcortisol-platform | feature/platform-iam-migration | 3146296 | chore(platform): add iam ef migration | Se agregó la migración EF Core para persistencia de usuarios IAM. | 2026-07-02 |
+| lowcortisol-platform | feature/platform-localized-problem-details | 95b733d | feat(platform): add localized problem details resources | Se agregaron recursos localizados para respuestas de error. | 2026-07-02 |
+| lowcortisol-platform | feature/platform-context-status-docs | b138f2a | docs(platform): document plan and support context status | Se documentó el estado de Plan y Support sin exponer endpoints falsos. | 2026-07-02 |
+| lowcortisol-platform | main | 54f1008 | release: platform v2.0.0 | Se cerró la versión backend desplegable con documentación REST e IAM mínimo. | 2026-07-02 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+La evidencia de ejecución del Sprint 4 corresponde a la navegación de la versión final de LowCortisol desplegada. Se revisaron los flujos principales de la aplicación: monitoreo de consumo, gestión de sedes, dispositivos, válvulas y sensores, conductos, alertas, reportes, soporte, perfil, configuración y páginas informativas. La landing page pública quedó alineada con los planes, límites y beneficios actuales de la Web Application.
+
+| Product | URL | Purpose |
+|---|---|---|
+| Landing Page | https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ | Presentar la propuesta, beneficios, planes y acceso hacia la aplicación. |
+| Web Application | https://lowcortisol-webapp.onrender.com/ | Permitir la navegación operativa por los módulos principales de LowCortisol. |
+| Backend Swagger | https://lowcortisol-platform.onrender.com/swagger/index.html | Revisar la API RESTful desplegada y los contratos disponibles. |
+
+1. **Landing Page actualizada:** Se verificó que la landing page mantenga la propuesta comercial y los planes alineados con la Web Application.
+
+![Landing Plans Sprint 4](assets/md-images-chapter5/landing-section-plans.png)
+
+2. **Acceso a la Web Application:** Se comprobó que el flujo público permita llegar a la aplicación desplegada.
+
+![WebApp Preview Sprint 4](assets/md-images-chapter5/webapp-preview.png)
+
+3. **Ubicación:** Se validó la gestión de sedes, ambientes y estructura física del sistema.
+
+![Ubicacion Sprint 4](assets/md-images-chapter5/Ubicacion.png)
+
+4. **Dispositivos:** Se revisó la organización de sensores, válvulas y elementos operativos asociados.
+
+![Dispositivos Sprint 4](assets/md-images-chapter5/Dispositivos.png)
+
+5. **Conductos:** Se verificó el registro y visualización de conductos vinculados al consumo de agua o gas.
+
+![Conductos Sprint 4](assets/md-images-chapter5/Conductos.png)
+
+6. **Alertas:** Se revisó el centro de respuesta, las alertas, incidentes y acciones operativas.
+
+![Alertas Sprint 4](assets/md-images-chapter5/Alertas.png)
+
+7. **Reportes:** Se validó la consulta de lecturas, rangos de fecha y reportes de consumo.
+
+![Reportes Sprint 4](assets/md-images-chapter5/Reportes.png)
+
+8. **Planes:** Se comprobó que los planes disponibles, límites y beneficios coincidan con la landing page.
+
+![Planes Sprint 4](assets/md-images-chapter5/Planes.png)
+
+9. **Soporte:** Se revisó la creación de tickets, agentes y artículos de ayuda.
+
+![Soporte Sprint 4](assets/md-images-chapter5/Soporte.png)
+
+10. **Configuración:** Se validó la sección de configuración operativa para costos, preferencias y parámetros generales.
+
+![Configuracion Sprint 4](assets/md-images-chapter5/Configuracion.png)
+
+11. **Acerca de:** Se verificó la sección informativa del producto dentro de la Web Application.
+
+![Acerca Sprint 4](assets/md-images-chapter5/Acerca.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+La documentacion de servicios del Sprint 4 se centra en la API RESTful expuesta mediante Swagger UI. La evidencia principal es el documento OpenAPI generado por el backend, donde se verifican los bounded contexts implementados y sus endpoints reales. Se documentan rutas asociadas a IAM, Workplace, DeviceControl, Monitoring y Notification. Los contextos Plan y Support se mantienen documentados como funcionalidad de producto en la Web Application, sin declarar endpoints backend falsos para esta version.
+
+![Swagger Sprint 4](assets/md-images-chapter5/Api.png)
+
+| Evidence | URL | Description |
+|---|---|---|
+| Swagger UI | https://lowcortisol-platform.onrender.com/swagger/index.html | Interfaz interactiva para inspeccionar y probar endpoints reales del backend. |
+| OpenAPI JSON | https://lowcortisol-platform.onrender.com/swagger/v1/swagger.json | Contrato tecnico JSON generado desde la implementacion ASP.NET Core. |
+| Landing Page | https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ | Pagina publica alineada con los planes y beneficios actuales del producto. |
+
+| Bounded Context | Documented REST resources | Sprint 4 validation purpose |
+|---|---|---|
+| IAM | `POST /api/v1/authentication/sign-up`, `POST /api/v1/authentication/sign-in`, `GET /api/v1/users` | Verificar autenticacion minima, registro de usuarios y exposicion controlada de usuarios. |
+| Workplace | `GET /api/v1/sites`, `POST /api/v1/sites`, `GET /api/v1/sites/{siteId}/physical-model`, rooms y device groups | Validar sedes, habitaciones, grupos fisicos y modelo fisico usado por la Web Application. |
+| Monitoring | readings, thresholds, anomalies y `GET /api/v1/monitoring/summary` | Validar lectura de consumo, limites, anomalias y resumen operativo. |
+| Notification | alerts, incidents, notification channels y `GET /api/v1/notifications/summary` | Validar centro de respuesta, alertas, incidentes y canales internos. |
+| DeviceControl | device commands, valve operations y mitigation summary | Validar comandos de dispositivos, operaciones de valvulas y mitigacion operacional. |
+
+Para el Sprint Review, esta evidencia permite comprobar que la documentacion REST no se limita a una descripcion manual: se genera desde la implementacion y muestra los contratos disponibles para integracion con el frontend. Tambien deja trazabilidad de que los endpoints de Plan y Support no fueron incluidos como servicios backend si no forman parte del alcance implementado en la API de esta entrega.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+El Sprint 4 consolida el despliegue publico de LowCortisol en tres frentes: Landing Page, Web Application y Backend API. La Landing Page se publica mediante GitHub Pages, mientras que la Web Application y la API RESTful se despliegan en Render. Esta separacion permite que el evaluador revise la propuesta comercial, use la aplicacion operativa y consulte la documentacion Swagger desde URLs publicas.
+
+| Component | Repository | Platform | Release / Branch | Public URL | Deployment validation |
+|---|---|---|---|---|---|
+| Landing Page | `lowcortisol-website` | GitHub Pages | `v4.0.0` / `main` | https://upc-pre-202610-1asi0730-12144-lcortisol.github.io/lowcortisol-website/ | Carga publica de la landing page y planes alineados con la Web Application. |
+| Web Application | `lowcortisol-webapp` | Render | `v4.0.0` / `main` | https://lowcortisol-webapp.onrender.com/ | Build de Vite preparado para consumir `VITE_API_BASE_URL` en tiempo de construccion. |
+| Backend API | `lowcortisol-platform` | Render | `v2.0.0` / `main` | https://lowcortisol-platform.onrender.com/swagger/index.html | API ASP.NET Core desplegada con Swagger UI y contratos OpenAPI visibles. |
+
+![Landing Page Deployment Evidence](assets/md-images-chapter5/landing-section-home.png)
+
+![Web Application Deployment Evidence](assets/md-images-chapter5/webapp-preview.png)
+
+![Backend Swagger Deployment Evidence](assets/md-images-chapter5/Api.png)
+
+El ajuste principal de despliegue en este sprint fue asegurar que la Web Application no realice peticiones a `localhost` en produccion. Para ello, el frontend mantiene `VITE_API_BASE_URL=https://lowcortisol-platform.onrender.com` en configuracion de produccion y el Dockerfile valida que dicha variable exista antes de ejecutar `npm run build`. Con esto, Render puede construir la aplicacion con la URL publica del backend y evitar fallos por configuraciones locales.
+
+| Validation item | Result |
+|---|---|
+| Landing page published on GitHub Pages | Completed |
+| Web Application deployed on Render | Completed |
+| Backend API deployed on Render | Completed |
+| Swagger UI available through public URL | Completed |
+| Production API base URL configured without `localhost` | Completed |
+| Public navigation from landing to product ecosystem | Completed |
+
+Esta evidencia de despliegue demuestra que LowCortisol no queda limitado a ejecucion local. La entrega Sprint 4 deja disponibles URLs publicas para revisar la propuesta, navegar la aplicacion y validar los servicios REST documentados.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, la colaboracion del equipo se enfoco en cerrar la version final del producto y responder las observaciones recibidas en la evaluacion anterior. A diferencia de los sprints iniciales, el trabajo no se limito a crear nuevas pantallas o servicios, sino a consolidar consistencia entre la landing page, la Web Application, el backend desplegado, Swagger, Trello y el informe.
+
+![Sprint 4 Collaboration Board](assets/md-images-chapter5/sprint-4.png)
+
+El equipo organizo el seguimiento del Sprint Backlog con estados de tablero en ingles: `To Do`, `In Process`, `To Review` y `Done`. Esta decision corrige la observacion recibida sobre el uso de estados en ingles y permite evidenciar mejor la evolucion de cada tarea desde la planificacion hasta el cierre. Asimismo, las tareas se mantuvieron dentro del rango de 4 a 8 horas, lo que mejora la trazabilidad entre User Stories, Technical Stories y evidencias de avance.
+
+| Collaboration area | Team action | Result |
+|---|---|---|
+| Backlog and Trello tracking | Se reorganizaron las tareas del Sprint 4 con estados en ingles y estimaciones validas. | Sprint Backlog trazable y alineado con la rubrica. |
+| Landing Page | Se alinearon planes, beneficios y limites con la Web Application. | La landing ya no promete funcionalidades antiguas o inconsistentes. |
+| Web Application | Se verificaron modulos de panel, ubicacion, dispositivos, conductos, alertas, reportes, planes, soporte y configuracion. | Producto navegable y coherente para Sprint Review. |
+| Backend API | Se reviso Swagger, ProblemDetails, IAM minimo y contratos REST reales. | Documentacion de servicios conectada con implementacion real. |
+| Deployment | Se revisaron URLs publicas de GitHub Pages y Render. | Entrega accesible sin depender de ejecucion local. |
+| Report | Se actualizaron Sprint Planning, Backlog, evidencias de desarrollo, ejecucion, servicios y despliegue. | Informe sincronizado con el estado actual del producto. |
+
+Tambien se reforzo la coordinacion entre repositorios. La landing page se cerro como entrega publica de presentacion, la Web Application se preparo para consumir la API de Render sin peticiones a `localhost`, y el backend mantuvo la documentacion OpenAPI alineada con endpoints existentes. Esta coordinacion redujo el riesgo de inconsistencias entre lo que el producto comunica, lo que la aplicacion permite hacer y lo que el backend expone realmente.
+
+Como aprendizaje del Sprint 4, el equipo identifico que el cierre de producto requiere tanta disciplina como la implementacion: no basta con que una funcionalidad exista, tambien debe estar correctamente versionada, desplegada, documentada y representada en el backlog. Por ello, el Sprint 4 se enfoco en cerrar la brecha entre desarrollo, evidencia y presentacion academica.
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
