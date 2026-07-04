@@ -3570,7 +3570,7 @@ Link de presentación: https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCF4TkZJDJxTLkw5gIh
 ### 4.6.1. Design-Level Event Storming
 Event Storming es una técnica de modelado que nos permite identificar y organizar los eventos relevantes del dominio de negocio, es decir, aquellos hechos importantes que ocurren dentro del sistema. A través de este modelo analizamos procesos de negocio mediante eventos, comandos, políticas, pain points, read models, aggregates y bounded contexts, lo que facilita comprender con mayor claridad la arquitectura del software.
 
-Las siguientes imágenes documentan el modelado por mapa general y por bounded context del producto.
+Las siguientes imágenes documentan el modelado por mapa general y por bounded context del producto. Cuando un bounded context requiere más detalle, se presenta en varias capturas consecutivas para conservar legibilidad.
 
 #### Mapa de bounded contexts
 
@@ -3582,31 +3582,49 @@ Las siguientes imágenes documentan el modelado por mapa general y por bounded c
 
 #### Workplace
 
-![Event Storming - Workplace](./assets/md-images-chapter4/event-storming-workplace.jpg)
+![Event Storming - Workplace 1](./assets/md-images-chapter4/event-storming-workplace-1.jpg)
+
+![Event Storming - Workplace 2](./assets/md-images-chapter4/event-storming-workplace-2.jpg)
 
 #### DeviceControl
 
-![Event Storming - DeviceControl](./assets/md-images-chapter4/event-storming-device-control.jpg)
+![Event Storming - DeviceControl 1](./assets/md-images-chapter4/event-storming-device-control-1.jpg)
+
+![Event Storming - DeviceControl 2](./assets/md-images-chapter4/event-storming-device-control-2.jpg)
 
 #### Monitoring
 
-![Event Storming - Monitoring](./assets/md-images-chapter4/event-storming-monitoring.jpg)
+![Event Storming - Monitoring 1](./assets/md-images-chapter4/event-storming-monitoring-1.jpg)
+
+![Event Storming - Monitoring 2](./assets/md-images-chapter4/event-storming-monitoring-2.jpg)
 
 #### Notification
 
-![Event Storming - Notification](./assets/md-images-chapter4/event-storming-notification.jpg)
+![Event Storming - Notification 1](./assets/md-images-chapter4/event-storming-notification-1.jpg)
+
+![Event Storming - Notification 2](./assets/md-images-chapter4/event-storming-notification-2.jpg)
+
+![Event Storming - Notification 3](./assets/md-images-chapter4/event-storming-notification-3.jpg)
+
+![Event Storming - Notification 4](./assets/md-images-chapter4/event-storming-notification-4.jpg)
+
+![Event Storming - Notification 5](./assets/md-images-chapter4/event-storming-notification-5.jpg)
 
 #### Plan
 
-![Event Storming - Plan](./assets/md-images-chapter4/event-storming-plan.jpg)
+![Event Storming - Plan 1](./assets/md-images-chapter4/event-storming-plan-1.jpg)
+
+![Event Storming - Plan 2](./assets/md-images-chapter4/event-storming-plan-2.jpg)
+
+![Event Storming - Plan 3](./assets/md-images-chapter4/event-storming-plan-3.jpg)
 
 #### Support
 
-![Event Storming - Support](./assets/md-images-chapter4/event-storming-support.jpg)
+![Event Storming - Support 1](./assets/md-images-chapter4/event-storming-support-1.jpg)
 
-#### Reports
+![Event Storming - Support 2](./assets/md-images-chapter4/event-storming-support-2.jpg)
 
-![Event Storming - Reports](./assets/md-images-chapter4/event-storming-report.jpg)
+![Event Storming - Support 3](./assets/md-images-chapter4/event-storming-support-3.jpg)
 
 #### Shared
 
