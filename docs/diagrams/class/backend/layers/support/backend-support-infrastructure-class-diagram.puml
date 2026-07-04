@@ -7,44 +7,31 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Support / Infrastructure" {
-  package "Infrastructure / EF Core" {
-    class "SupportJpaTableNames" as Backend_servicemanagement_SupportJpaTableNames <<Class>> {
-      + SUPPORT_TICKETS: String
-      + MAINTENANCE_TICKETS: String
-      - SupportJpaTableNames()
+  package "Persistence / Entity Framework Core" {
+    class "SupportEntityTypeConfigurations" as Backend_support_SupportEntityTypeConfigurations <<EF Core Configuration>> {
+      + Configure(SupportTicket)
+      + Configure(SupportMessage)
+      + Configure(SupportConversation)
+      + Configure(SupportAgent)
+      + Configure(KnowledgeArticle)
     }
-    class "SupportQueryHints" as Backend_servicemanagement_SupportQueryHints <<Class>> {
-      + FIND_SUPPORT_TICKETS_BY_USER: String
-      + FIND_MAINTENANCE_TICKETS_BY_USER: String
-      + FIND_OPEN_TICKETS: String
-      + FIND_URGENT_TICKETS: String
-      - SupportQueryHints()
-    }
+    class "SupportTicketRepository" as Backend_support_EfSupportTicketRepository <<Repository Adapter>>
+    class "SupportConversationRepository" as Backend_support_EfSupportConversationRepository <<Repository Adapter>>
+    class "SupportAgentRepository" as Backend_support_EfSupportAgentRepository <<Repository Adapter>>
+    class "KnowledgeArticleRepository" as Backend_support_EfKnowledgeArticleRepository <<Repository Adapter>>
   }
-  package "Infrastructure / EF Core Repositories" {
-    interface "JpaMaintenanceTicketRepository" as Backend_servicemanagement_JpaMaintenanceTicketRepository <<interface>> {
-    }
-    interface "JpaSupportTicketRepository" as Backend_servicemanagement_JpaSupportTicketRepository <<interface>> {
-    }
-  }
-  package "Infrastructure / Notification" {
-    class "ConsoleTicketNotificationAdapter" as Backend_servicemanagement_ConsoleTicketNotificationAdapter <<Class>> {
-      + notifyTicketCreated(Long userId, Long ticketId, String ticketType) : void
-      + notifyTicketStatusChanged(Long userId, Long ticketId, String status) : void
-    }
-    interface "TicketNotificationPort" as Backend_servicemanagement_TicketNotificationPort <<interface>> {
-    }
+
+  package "Persistence / InMemory" {
+    class "InMemorySupportTicketRepository" as Backend_support_InMemorySupportTicketRepository <<Demo Adapter>>
+    class "InMemoryKnowledgeArticleRepository" as Backend_support_InMemoryKnowledgeArticleRepository <<Demo Adapter>>
   }
 }
 
-
-
-' Layer relationship completion: every declared type participates in this layer diagram.
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_SupportJpaTableNames
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_SupportQueryHints
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_SupportJpaTableNames
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_JpaSupportTicketRepository
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_ConsoleTicketNotificationAdapter
-Backend_servicemanagement_JpaMaintenanceTicketRepository ..> Backend_servicemanagement_TicketNotificationPort
+Backend_support_EfSupportTicketRepository ..|> Backend_support_ISupportTicketRepository
+Backend_support_EfSupportConversationRepository ..|> Backend_support_ISupportConversationRepository
+Backend_support_EfSupportAgentRepository ..|> Backend_support_ISupportAgentRepository
+Backend_support_EfKnowledgeArticleRepository ..|> Backend_support_IKnowledgeArticleRepository
+Backend_support_InMemorySupportTicketRepository ..|> Backend_support_ISupportTicketRepository
+Backend_support_InMemoryKnowledgeArticleRepository ..|> Backend_support_IKnowledgeArticleRepository
 
 @enduml

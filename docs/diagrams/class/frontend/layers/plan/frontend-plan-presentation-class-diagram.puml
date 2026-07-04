@@ -6,87 +6,38 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Plan Presentation" {
-  package "Presentation / Components" {
-    class "InvoiceCardComponent" as FrontendPresentation_plan_InvoiceCardComponent <<Component>> {
-      + invoice: !: Invoice
-      + download
-      + onDownload() : void
-    }
-    class "PaymentFormComponent" as FrontendPresentation_plan_PaymentFormComponent <<Component>> {
-      + plan: !: Plan
-      + loading
-      + confirmed
-      + canceled
-      + holderName
-      + cardNumber
-      + expirationDate
-      + cvv
-      + onCardNumberChange(value: string) : void
-      + onExpirationDateChange(value: string) : void
-      + onCvvChange(value: string) : void
-      + onConfirm() : void
-      + onCancel() : void
-    }
-    class "PlanCardComponent" as FrontendPresentation_plan_PlanCardComponent <<Component>> {
-      + plan: !: Plan
-      + activePlanCode: PlanCode | null
-      + selected
-      - featureKeysByPlan: Record<PlanCode, string[]>
-      + get: isSelected(): boolean
-      + get: isRecommended(): boolean
-      + get: descriptionKey(): string
-      + get: featureKeys(): string[]
-      + get: usageKey(): string
-      + onSelect() : void
-    }
+package "Plan / Presentation" {
+  class "PlanPageComponent" as Frontend_plan_PlanPageComponent <<Page>> {
+    + loadPlans()
+    + openCheckout(plan)
+    + handleSubscribe(plan)
+    + handleCancelSubscription()
+    + getSubscriptionStatusLabel(status)
   }
-  package "Presentation / Pages" {
-    class "PlanHistoryPageComponent" as FrontendPresentation_plan_PlanHistoryPageComponent <<Component>> {
-      + constructor: (
-      + planFacade: PlanFacade
-      - toastService: ToastService
-      - confirmDialog: ConfirmDialogService
-      - translate: TranslateService
-      - uiPreferences: UiPreferencesService
-      + ngOnInit() : Promise<void>
-      + downloadInvoice(invoiceId: number) : void
-      + cancelSubscription() : Promise<void>
-      + formatMoney(amount: number | undefined, currency = 'PEN') : string
-      + formatLimit(value: number | null | undefined) : string
-      + formatDate(value: string | undefined) : string
-      + subscriptionStatusLabel(status: SubscriptionStatus | undefined) : string
-      + paymentStatusLabel(status: PaymentStatus | undefined) : string
-      + invoiceStateLabel(invoice: Invoice) : string
-      - currentLocale() : string
-      - t(key: string) : string
-    }
-    class "PlansPageComponent" as FrontendPresentation_plan_PlansPageComponent <<Component>> {
-      + selectedPlan: Plan | null
-      + constructor: (
-      + planFacade: PlanFacade
-      - toastService: ToastService
-      - confirmDialog: ConfirmDialogService
-      + ngOnInit() : Promise<void>
-      + openPayment(plan: Plan) : void
-      + closePayment() : void
-      + confirmPayment(command: PaymentFormCommand) : Promise<void>
-      + cancelSubscription() : Promise<void>
-    }
+
+  class "PlanCardComponent" as Frontend_plan_PlanCardComponent <<Component>> {
+    + plan
+    + active
+    + buy(plan)
   }
-  package "Presentation / Routes" {
-    class "BILLING_ROUTES" as FrontendPresentation_plan_BILLING_ROUTES <<Routes>> {
-      + route: /plans
-    }
+
+  class "CheckoutFormComponent" as Frontend_plan_CheckoutFormComponent <<Component>> {
+    + plan
+    + submitPayment()
+    + close()
   }
 }
 
-FrontendPresentation_plan_PlansPageComponent ..> FrontendPresentation_plan_PaymentFormComponent
-FrontendPresentation_plan_PlansPageComponent ..> FrontendPresentation_plan_PlanCardComponent
+class "Plan Routes" as Frontend_plan_Routes <<Vue Router>>
+class "Plan Store" as Frontend_plan_Store <<Store>>
+class "Shared UI" as Frontend_plan_SharedUi <<Shared>>
 
-' Relationship completion: every declared type participates in the frontend diagram.
-FrontendPresentation_plan_PlansPageComponent ..> FrontendPresentation_plan_InvoiceCardComponent
-FrontendPresentation_plan_PlansPageComponent ..> FrontendPresentation_plan_PlanHistoryPageComponent
-FrontendPresentation_plan_PlansPageComponent ..> FrontendPresentation_plan_BILLING_ROUTES
+Frontend_plan_Routes --> Frontend_plan_PlanPageComponent
+Frontend_plan_PlanPageComponent --> Frontend_plan_Store
+Frontend_plan_PlanPageComponent --> Frontend_plan_PlanCardComponent
+Frontend_plan_PlanPageComponent --> Frontend_plan_CheckoutFormComponent
+Frontend_plan_PlanPageComponent ..> Frontend_plan_SharedUi
+Frontend_plan_PlanCardComponent ..> Frontend_plan_SharedUi
+Frontend_plan_CheckoutFormComponent ..> Frontend_plan_SharedUi
 
 @enduml

@@ -7,136 +7,79 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Plan / Domain" {
-  package "Domain / Model" {
-    class "Invoice" as Frontend_plan_Invoice <<Entity>> {
-      - _userId: number
-      - _invoiceNumber: string
-      - _totalAmount: number
-      - _currency: string
-      - _issuedAt: string
-      + constructor: (props:
-      + get: userId(): number
-      + get: invoiceNumber(): string
-      + get: totalAmount(): number
-      + get: currency(): string
-      + get: issuedAt(): string
-    }
-    class "Payment" as Frontend_plan_Payment <<Entity>> {
-      - _userId: number
-      - _amount: number
-      - _currency: string
-      - _status: PaymentStatus
-      - _paymentMethod: string
-      + constructor: (props:
-      + get: userId(): number
-      + get: amount(): number
-      + get: currency(): string
-      + get: status(): PaymentStatus
-      + get: paymentMethod(): string
-      + get: isApproved(): boolean
-    }
-    class "PaymentMethod" as Frontend_plan_PaymentMethod <<type>> {
-      + 'CARD'
-    }
-    class "PaymentStatus" as Frontend_plan_PaymentStatus <<type>> {
-      + 'APPROVED' | 'REJECTED' | 'PENDING'
-    }
+  package "Domain Model" {
     class "Plan" as Frontend_plan_Plan <<Entity>> {
-      - _code: PlanCode
-      - _name: string
-      - _monthlyPrice: number
-      - _currency: string
-      - _maxDevices: number | null
-      - _maxRoutines: number | null
-      - _maxAlerts: number | null
-      - _reportExportEnabled: boolean
-      + constructor: (props:
-      + get: code(): PlanCode
-      + get: name(): string
-      + get: monthlyPrice(): number
-      + get: currency(): string
-      + get: maxDevices(): number | null
-      + get: maxRoutines(): number | null
-      + get: maxAlerts(): number | null
-      + get: reportExportEnabled(): boolean
-      + get: isStarter(): boolean
+      + id
+      + code
+      + name
+      + price
+      + currency
+      + billingPeriod
+      + maxSites
+      + maxDevices
+      + features
+      + recommended
     }
-    class "PlanCode" as Frontend_plan_PlanCode <<type>> {
-      + 'STARTER' | 'PROFESSIONAL' | 'ENTERPRISE'
+
+    class "PlanFeature" as Frontend_plan_PlanFeature <<Entity>> {
+      + id
+      + planId
+      + name
+      + description
+      + enabled
     }
+
     class "Subscription" as Frontend_plan_Subscription <<Entity>> {
-      - _userId: number
-      - _planCode: PlanCode
-      - _status: SubscriptionStatus
-      - _active: boolean
-      - _startDate: string | null
-      - _nextPlanDate: string | null
-      - _endDate: string | null
-      + constructor: (props:
-      + get: userId(): number
-      + get: planCode(): PlanCode
-      + get: status(): SubscriptionStatus
-      + get: active(): boolean
-      + get: isActive(): boolean
-      + get: startDate(): string | null
-      + get: nextPlanDate(): string | null
-      + get: endDate(): string | null
+      + id
+      + userId
+      + workplaceId
+      + planId
+      + status
+      + autoRenew
+      + changePlan(planId)
+      + cancel(reason)
     }
-    class "SubscriptionStatus" as Frontend_plan_SubscriptionStatus <<type>> {
-      + 'ACTIVE' | 'CANCELLED' | 'EXPIRED'
+
+    class "Payment" as Frontend_plan_Payment <<Entity>> {
+      + id
+      + subscriptionId
+      + amount
+      + currency
+      + status
+      + paidAt
+    }
+
+    class "ServiceRequest" as Frontend_plan_ServiceRequest <<Entity>> {
+      + id
+      + subscriptionId
+      + type
+      + description
+      + status
+      + requestedAt
     }
   }
-  package "Domain / Services" {
-    class "PaymentValidationService" as Frontend_plan_PaymentValidationService <<Domain Service>> {
-      + isValidCardNumber(cardNumber: string) : boolean
-      + isValidCvv(cvv: string) : boolean
-      + isValidHolderName(holderName: string) : boolean
-      + isValidExpirationDate(expirationDate: string) : boolean
-      + sanitizeCardNumber(cardNumber: string) : string
-      + getLastFourDigits(cardNumber: string) : string
-    }
-    interface "PlanPermissions" as Frontend_plan_PlanPermissions <<interface>> {
-      + maxDevices: number
-      + maxRoutines: number
-      + maxManualAlerts: number
-      + canExportCsv: boolean
-      + canAccessConsumptionHistory: boolean
-      + canUseAdvancedAnalytics: boolean
-      + canUseMultipleLocations: boolean
-    }
+
+  package "Domain Services" {
     class "PlanPermissionService" as Frontend_plan_PlanPermissionService <<Domain Service>> {
-      - permissions: Record<PlanCode, PlanPermissions>
-      + getPermissions(planCode: PlanCode | null) : PlanPermissions | null
-      + canCreateDevice(planCode: PlanCode | null, currentDevices: number) : boolean
-      + canCreateRoutine(planCode: PlanCode | null, currentRoutines: number) : boolean
-      + canCreateManualAlert(planCode: PlanCode | null, currentAlerts: number) : boolean
-      + canExportCsv(planCode: PlanCode | null) : boolean
-      + canAccessConsumptionHistory(planCode: PlanCode | null) : boolean
-      + canUseAdvancedAnalytics(planCode: PlanCode | null) : boolean
-      + canUseMultipleLocations(planCode: PlanCode | null) : boolean
+      + canAddSite(plan, currentSitesCount)
+      + canAddDevice(plan, currentDevicesCount)
+      + hasFeature(plan, featureName)
     }
+
     class "SubscriptionPolicyService" as Frontend_plan_SubscriptionPolicyService <<Domain Service>> {
-      + canSubscribeToPlan: (
-      + currentSubscription: Subscription | null
-      + targetPlanCode: PlanCode
-      + canCancelSubscription(subscription: Subscription | null) : boolean
+      + canSubscribe(plan)
+      + canChangePlan(subscription, plan)
+      + requiresPayment(plan)
     }
   }
 }
 
-Frontend_plan_PlanPermissionService ..> Frontend_plan_PlanCode
-Frontend_plan_PlanPermissions ..> Frontend_plan_PlanCode
-Frontend_plan_Subscription ..> Frontend_plan_PlanCode
-Frontend_plan_SubscriptionPolicyService ..> Frontend_plan_PlanCode
-Frontend_plan_SubscriptionPolicyService ..> Frontend_plan_Subscription
-Frontend_plan_SubscriptionStatus ..> Frontend_plan_PlanCode
-
-' Layer relationship completion: every declared type participates in this layer diagram.
-Frontend_plan_PlanPermissionService ..> Frontend_plan_Invoice
-Frontend_plan_PlanPermissionService ..> Frontend_plan_Payment
-Frontend_plan_PlanPermissionService ..> Frontend_plan_PaymentMethod
-Frontend_plan_PlanPermissionService ..> Frontend_plan_PaymentStatus
+Frontend_plan_Plan "1" o-- "*" Frontend_plan_PlanFeature
+Frontend_plan_Subscription --> Frontend_plan_Plan
+Frontend_plan_Payment --> Frontend_plan_Subscription
+Frontend_plan_ServiceRequest --> Frontend_plan_Subscription
 Frontend_plan_PlanPermissionService ..> Frontend_plan_Plan
-Frontend_plan_PlanPermissionService ..> Frontend_plan_PaymentValidationService
+Frontend_plan_SubscriptionPolicyService ..> Frontend_plan_Plan
+Frontend_plan_SubscriptionPolicyService ..> Frontend_plan_Subscription
 
 @enduml

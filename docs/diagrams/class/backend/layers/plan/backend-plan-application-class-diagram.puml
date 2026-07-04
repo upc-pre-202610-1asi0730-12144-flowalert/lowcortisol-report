@@ -8,42 +8,49 @@ hide circle
 
 package "Plan / Application" {
   package "Application / Command Services" {
-    interface "PlanCommandService" as Backend_plan_PlanCommandService <<interface>> {
+    interface "IPlanCommandService" as Backend_plan_IPlanCommandService <<interface>> {
+      + Handle(SubscribeToPlanCommand, CancellationToken) : Result<Subscription>
+      + Handle(ChangePlanCommand, CancellationToken) : Result<Subscription>
+      + Handle(CancelSubscriptionCommand, CancellationToken) : Result
+      + Handle(ResolveServiceRequestCommand, CancellationToken) : Result<ServiceRequest>
+      + Handle(CloseServiceRequestCommand, CancellationToken) : Result<ServiceRequest>
+    }
+    class "PlanCommandService" as Backend_plan_PlanCommandService <<Command Service>> {
+      - planRepository: IPlanRepository
+      - subscriptionRepository: ISubscriptionRepository
+      - paymentRepository: IPaymentRepository
+      - serviceRequestRepository: IServiceRequestRepository
+      - unitOfWork: IUnitOfWork
     }
   }
-  package "Application / Command Services Impl" {
-    class "PlanCommandServiceImpl" as Backend_plan_PlanCommandServiceImpl <<Command Service>> {
-      - planRepository: PlanRepository
-      - subscriptionRepository: SubscriptionRepository
-      - paymentRepository: PaymentRepository
-      - invoiceRepository: InvoiceRepository
-      - paymentValidationService: PaymentValidationService
-      + handle(CheckoutSubscriptionCommand command) : Subscription
-      + handle(CancelSubscriptionCommand command) : void
-      + handle(ProcessPaymentCommand command) : Payment
-      - validatePaymentDetails(CheckoutSubscriptionCommand command) : void
-    }
-  }
+
   package "Application / Query Services" {
-    interface "PlanQueryService" as Backend_plan_PlanQueryService <<interface>> {
+    interface "IPlanQueryService" as Backend_plan_IPlanQueryService <<interface>> {
+      + Handle(GetPlansQuery, CancellationToken) : Result<IEnumerable<Plan>>
+      + Handle(GetPlanByIdQuery, CancellationToken) : Result<Plan>
+      + Handle(GetActiveSubscriptionQuery, CancellationToken) : Result<Subscription>
+      + Handle(GetPaymentsQuery, CancellationToken) : Result<IEnumerable<Payment>>
+      + Handle(GetServiceRequestsQuery, CancellationToken) : Result<IEnumerable<ServiceRequest>>
+      + Handle(GetPlanSummaryQuery, CancellationToken) : Result<PlanSummary>
     }
-  }
-  package "Application / Query Services Impl" {
-    class "PlanQueryServiceImpl" as Backend_plan_PlanQueryServiceImpl <<Query Service>> {
-      - planRepository: PlanRepository
-      - subscriptionRepository: SubscriptionRepository
-      - paymentRepository: PaymentRepository
-      - invoiceRepository: InvoiceRepository
-      + handle(GetAllPlansQuery query) : List<Plan>
-      + handle(GetCurrentSubscriptionQuery query) : Optional<Subscription>
-      + handle(GetPaymentsByUserQuery query) : List<Payment>
-      + handle(GetInvoicesByUserQuery query) : List<Invoice>
+    class "PlanQueryService" as Backend_plan_PlanQueryService <<Query Service>> {
+      - planRepository: IPlanRepository
+      - subscriptionRepository: ISubscriptionRepository
+      - paymentRepository: IPaymentRepository
+      - serviceRequestRepository: IServiceRequestRepository
+      - workplaceFacade: Workplace usage by id
+      - deviceControlFacade: device usage by id
     }
   }
 }
 
-Backend_plan_PlanCommandServiceImpl ..> Backend_plan_PlanCommandService
-Backend_plan_PlanQueryServiceImpl ..> Backend_plan_PlanQueryService
-
+Backend_plan_PlanCommandService ..|> Backend_plan_IPlanCommandService
+Backend_plan_PlanQueryService ..|> Backend_plan_IPlanQueryService
+Backend_plan_PlanCommandService ..> Backend_plan_IPlanRepository
+Backend_plan_PlanCommandService ..> Backend_plan_ISubscriptionRepository
+Backend_plan_PlanCommandService ..> Backend_plan_IPaymentRepository
+Backend_plan_PlanCommandService ..> Backend_plan_IServiceRequestRepository
+Backend_plan_PlanQueryService ..> Backend_plan_IPlanRepository
+Backend_plan_PlanQueryService ..> Backend_plan_ISubscriptionRepository
 
 @enduml

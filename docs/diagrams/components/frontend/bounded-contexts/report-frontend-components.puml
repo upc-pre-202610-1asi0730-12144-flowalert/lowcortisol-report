@@ -51,9 +51,9 @@ skinparam databaseFontStyle plain
 hide stereotype
 left to right direction
 
-title LowCortisol - Report Frontend Components Diagram
+title LowCortisol - Report Experience Frontend Components Diagram
 
-rectangle "<b>Report Frontend Bounded Context</b>\n<i>[Vue Bounded Context Module]</i>" <<BoundedContext>> {
+rectangle "<b>Report Experience</b>\n<i>[Vue Feature Area over Monitoring]</i>" <<FeatureArea>> {
   rectangle "<b>Presentation Layer</b>\n<i>[Pages / Components / Routes]</i>\n\nRenders views, handles user interaction and delegates state changes." as Presentation #58A9E8
   rectangle "<b>Application Layer</b>\n<i>[Facades / Stores]</i>\n\nCoordinates UI state, use cases and feature workflows." as Application #58A9E8
   rectangle "<b>Domain Layer</b>\n<i>[Models / Rules]</i>\n\nDefines frontend models, view rules and local domain decisions." as Domain #58A9E8

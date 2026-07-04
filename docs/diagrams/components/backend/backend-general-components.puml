@@ -57,6 +57,8 @@ rectangle "<b>LowCortisol Backend Bounded Context Map</b>\n<i>[ASP.NET Core Modu
   rectangle "<b>Monitoring API</b>\n<i>[Bounded Context Component]</i>\n\nConsumption readings, thresholds, anomaly detection and monitoring summary." as Monitoring #58A9E8
 
   rectangle "<b>Notification API</b>\n<i>[Bounded Context Component]</i>\n\nAlerts, incidents, notification channels, deliveries, assignments, actions and mitigation request bridge." as Notification #58A9E8
+  rectangle "<b>Plan API</b>\n<i>[Bounded Context Component]</i>\n\nPlan catalog, subscriptions, payments, service requests and plan-limit summaries." as Plan #58A9E8
+  rectangle "<b>Support API</b>\n<i>[Bounded Context Component]</i>\n\nSupport tickets, conversations, messages, agents, knowledge articles and support summary." as Support #58A9E8
 
   rectangle "<b>Persistence Access</b>\n<i>[Repositories / Adapters]</i>\n\nInMemory fallback and EF Core PostgreSQL repositories used by implemented bounded contexts." as Persistence #F39C12
 }
@@ -70,12 +72,18 @@ ApiSurface --> Workplace : route
 ApiSurface --> Device : route
 ApiSurface --> Monitoring : route
 ApiSurface --> Notification : route
+ApiSurface --> Plan : route
+ApiSurface --> Support : route
 
 Workplace --> IAM : user scope
 Device --> Workplace : assigned spaces
 Monitoring --> Device : sensor and device ids
 Notification --> Monitoring : critical anomaly bridge
 Notification --> Device : incident mitigation bridge
+Plan --> Workplace : site usage count
+Plan --> Device : device usage count
+Support --> Workplace : site reference
+Support --> IAM : user reference
 
 Shared --> Persistence : persist
 IAM --> Persistence : persist
@@ -83,6 +91,8 @@ Workplace --> Persistence : persist
 Device --> Persistence : persist
 Monitoring --> Persistence : persist
 Notification --> Persistence : persist
+Plan --> Persistence : persist
+Support --> Persistence : persist
 Persistence --> Database : EF Core / SQL
 
 ' Compact board layout
@@ -94,6 +104,8 @@ Workplace -[hidden]right- Device
 Device -[hidden]right- Monitoring
 Workplace -[hidden]down- Notification
 Monitoring -[hidden]down- Notification
+Notification -[hidden]right- Plan
+Plan -[hidden]right- Support
 Notification -[hidden]down- Persistence
 Persistence -[hidden]down- Database
 

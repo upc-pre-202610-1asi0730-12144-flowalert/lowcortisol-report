@@ -3686,7 +3686,7 @@ Los diagramas de componentes muestran la organización interna de la arquitectur
 
 En el frontend, la arquitectura se organiza alrededor de la **Single Page Application**, la cual integra los módulos principales de la aplicación. Cada módulo mantiene una organización modular basada en **Presentation**, **Application**, **Domain** e **Infrastructure**, permitiendo separar la interfaz visual, la coordinación de casos de uso, los conceptos del dominio y la comunicación con servicios externos.
 
-En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts actualmente implementados: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Los módulos **Plan**, **Support** y **Report** forman parte de la experiencia de producto en la WebApp y se documentan como contextos frontend/preparados, sin declarar endpoints backend falsos para esta entrega.
+En el backend, la arquitectura se organiza alrededor de la **Backend API**, separando los bounded contexts actualmente implementados: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan**, **Support** y **Shared**. La experiencia de **Reportes** se construye sobre lecturas, métricas y consultas de Monitoring, por lo que no se declara como bounded context backend independiente ni como endpoint falso.
 
 Esta organización permite mantener modularidad, escalabilidad, separación de responsabilidades y trazabilidad entre las funcionalidades del sistema y los componentes técnicos.
 
@@ -4863,7 +4863,6 @@ A continuación, se presenta la matriz completa de trazabilidad técnica que con
 | **GET** | `/api/v1/alerts/critical` | Notification | Listar alertas críticas activas. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/alerts/critical`) | Colección ordenada de alertas de alta severidad. | 200 | `#/paths/~1api~1v1~1alerts~1critical/get` |
 | **PUT** | `/api/v1/alerts/{id}` | Notification | Modificación parcial de una alerta. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
 | **PUT** | `/api/v1/thresholds/{id}` | Notification | Configurar límites operacionales. | `id` (Path/UUID) | `TODO` | `TODO` | `TODO` | 200, 400, 404 | `TODO` |
-| **GET** | `/api/v1/reports` | Monitoring | Reporte consolidado por fechas. | `startDate`, `endDate` (Query) | Ninguno. | `TODO` | `TODO` | 200, 400 | `TODO` |
 | **GET** | `/api/v1/monitoring/summary` | Monitoring | Resumen analítico inteligente de consumo. | Ninguno. | Ninguno. | Ver Sec. 4 (GET `/monitoring/summary`) | KPIs e indicadores agregados de consumo y estados IoT. | 200 | `#/paths/~1api~1v1~1monitoring~1summary/get` |
 | **GET** | `/api/v1/plans` | Plan | Listar planes de suscripción. | Ninguno. | Ninguno. | `TODO` | `TODO` | 200 | `TODO` |
 | **POST** | `/api/v1/subscriptions` | Plan | Activar suscripción de usuario. | Ninguno. | `TODO` | `TODO` | `TODO` | 201, 400 | `TODO` |

@@ -11,6 +11,8 @@ class "Workplace" as BackendWorkplace <<Bounded Context>> {}
 class "Device Control" as BackendDeviceControl <<Bounded Context>> {}
 class "Monitoring" as BackendMonitoring <<Bounded Context>> {}
 class "Notification" as BackendNotification <<Bounded Context>> {}
+class "Plan" as BackendPlan <<Bounded Context>> {}
+class "Support" as BackendSupport <<Bounded Context>> {}
 class "Shared" as BackendShared <<Bounded Context>> {}
 
 BackendIAM ..> BackendWorkplace : user owns locations
@@ -18,15 +20,21 @@ BackendWorkplace ..> BackendDeviceControl : site / room / group ids
 BackendDeviceControl ..> BackendMonitoring : sensor and device ids
 BackendMonitoring ..> BackendNotification : CriticalAnomalyDetected bridge
 BackendNotification ..> BackendDeviceControl : RequestIncidentMitigation bridge
+BackendPlan ..> BackendWorkplace : site count by id
+BackendPlan ..> BackendDeviceControl : device / sensor / valve counts
+BackendSupport ..> BackendIAM : user scope
+BackendSupport ..> BackendWorkplace : site references
 BackendIAM ..> BackendShared : shared value objects
 BackendWorkplace ..> BackendShared : shared value objects
 BackendDeviceControl ..> BackendShared : shared value objects
 BackendMonitoring ..> BackendShared : shared value objects
 BackendNotification ..> BackendShared : shared value objects
+BackendPlan ..> BackendShared : shared value objects
+BackendSupport ..> BackendShared : shared value objects
 
 note bottom
-Backend API currently exposes IAM, Workplace, DeviceControl, Monitoring and Notification.
-Plan, Support and Report are product/frontend contexts documented outside the backend API surface for this release.
+Backend API exposes IAM, Workplace, DeviceControl, Monitoring, Notification, Plan and Support.
+Reports are delivered as product functionality over Monitoring data, not as an independent backend bounded context.
 end note
 
 @enduml

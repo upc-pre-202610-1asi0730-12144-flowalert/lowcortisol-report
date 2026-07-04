@@ -61,7 +61,7 @@ rectangle "<b>Support Backend Bounded Context</b>\n<i>[ASP.NET Core Module]</i>"
   rectangle "<b>Domain Layer</b>\n<i>[Aggregates / Policies]</i>\n\nOwns business rules, aggregates, entities, value objects, events and domain services." as Domain #58A9E8
   rectangle "<b>Infrastructure Layer</b>\n<i>[Persistence / Adapters]</i>\n\nImplements repositories, persistence mappings, ACL adapters and technical integrations." as Infrastructure #58A9E8
 }
-database "<b>LowCortisol Database</b>\n<i>[PostgreSQL]</i>\n\nStores support tickets, maintenance tickets and service follow-up." as Database
+database "<b>LowCortisol Database</b>\n<i>[PostgreSQL]</i>\n\nStores support tickets, messages, conversations, agents and knowledge articles." as Database
 
 Spa --> Interfaces : Calls REST endpoints\n[JSON / HTTPS]
 Interfaces --> Application : Delegates use cases
