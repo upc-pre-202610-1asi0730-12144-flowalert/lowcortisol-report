@@ -3659,21 +3659,21 @@ El diagrama de contexto presenta una visión general del sistema **LowCortisol P
 
 El diagrama de contenedores presenta la descomposición general de **LowCortisol Platform** en sus principales unidades ejecutables, mostrando cómo el usuario puede acceder a la solución desde la landing page o directamente desde la aplicación web.
 
-La arquitectura considera una **Landing Page** como punto público de entrada, una **WebApp** que entrega la aplicación frontend al navegador, una **Single Page Application** encargada de la navegación y la experiencia del usuario, una **Backend API** responsable de exponer los servicios del sistema y una **Database** para la persistencia de la información.
+La arquitectura considera una **Landing Page** como punto público de entrada, un **WebApp Host** que entrega la aplicación frontend al navegador, una **Single Page Application** encargada de la navegación y la experiencia del usuario, una **Backend API** responsable de exponer los servicios del sistema y una **Database** para la persistencia de la información.
 
 **Contenedores principales:**
 
 * **Landing Page:** Página pública que presenta la propuesta de valor del producto y redirige al usuario hacia la aplicación web.
-* **WebApp:** Aplicación web desarrollada con Vue 3 y Vite, encargada de servir la interfaz frontend.
-* **Single Page Application:** Aplicación cliente que gestiona navegación, estado, vistas y comunicación con la API.
-* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints y contratos reales para IAM, Workplace, DeviceControl, Monitoring, Notification y Shared.
-* **Database:** Base de datos relacional PostgreSQL `lowcortisol_db` para almacenar usuarios, sedes, habitaciones, grupos, dispositivos, sensores, válvulas, comandos, operaciones, lecturas, umbrales, anomalías, alertas, incidentes y canales de notificación.
+* **WebApp Host:** Capa de despliegue que entrega el bundle compilado de Vue/Vite, los assets estáticos y la configuración frontend necesaria para cargar la aplicación en el navegador.
+* **Single Page Application:** Aplicación cliente ejecutada en el navegador; gestiona navegación, estado, vistas, interacción del usuario y comunicación con la API.
+* **Backend API:** Servicio backend desarrollado en ASP.NET Core Web API, encargado de exponer endpoints y contratos reales para IAM, Workplace, DeviceControl, Monitoring, Notification, Plan, Support y Shared.
+* **Database:** Base de datos relacional PostgreSQL `lowcortisol_db` para almacenar usuarios, sedes, habitaciones, grupos, dispositivos, sensores, válvulas, comandos, operaciones, lecturas, umbrales, anomalías, alertas, incidentes, canales de notificación, planes, suscripciones y tickets de soporte.
 
 **Relaciones principales:**
 
-* El usuario puede ingresar mediante la **Landing Page**, que redirige hacia la **WebApp**.
-* El usuario también puede acceder directamente a la **WebApp** mediante una URL.
-* La **WebApp** carga y renderiza la **Single Page Application**.
+* El usuario puede ingresar mediante la **Landing Page**, que redirige hacia el **WebApp Host**.
+* El usuario también puede acceder directamente al **WebApp Host** mediante una URL.
+* El **WebApp Host** carga y renderiza la **Single Page Application** en el navegador del usuario.
 * La **Single Page Application** consume los servicios expuestos por la **Backend API**.
 * La **Backend API** persiste y consulta información en la **Database**.
 * La **Backend API** mantiene persistencia PostgreSQL mediante EF Core y aplica migraciones en el despliegue de producción.
@@ -3816,7 +3816,7 @@ El diagrama de presentación de **Support** muestra las pantallas y componentes 
 
 #### Backend General Component Diagram
 
-El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts reales implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring** y **Notification**. También se incluye **Shared** como base técnica transversal para persistencia, Unit of Work, Result Pattern, ProblemDetails, Swagger, CORS, localización y configuración común.
+El diagrama general de componentes backend muestra cómo la **Backend API** agrupa los bounded contexts reales implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan** y **Support**. También se incluye **Shared** como base técnica transversal para persistencia, Unit of Work, Result Pattern, ProblemDetails, Swagger, CORS, localización y configuración común.
 
 ![Backend General Component Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/components/backend/backend-general-components.puml)
 
@@ -3865,7 +3865,7 @@ En el backend, los diagramas muestran las entidades del dominio, servicios de ap
 
 #### Backend Class Diagrams
 
-El diagrama general de clases del backend presenta una vista resumida de los bounded contexts implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos reales del backend.
+El diagrama general de clases del backend presenta una vista resumida de los bounded contexts implementados en `lowcortisol-platform`: **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan**, **Support** y **Shared**. Este diagrama permite observar cómo se organizan las clases principales y cómo se relacionan los módulos reales del backend.
 
 ![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-report/main/docs/diagrams/class/backend/backend-general-bounded-contexts.puml?v=1)
 
@@ -3943,13 +3943,13 @@ El bounded context **Support** en el frontend representa tickets, mensajes, agen
 
 ## 4.8. Database Design
 
-La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a PostgreSQL para persistir usuarios, sedes, ambientes, grupos de dispositivos, dispositivos, sensores, válvulas, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación y operaciones de mitigación. La estructura backend implementada se organiza alrededor de los bounded contexts **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification** y **Shared**.
+La aplicación **LowCortisol** emplea un diseño de base de datos relacional orientado a PostgreSQL para persistir usuarios, sedes, ambientes, grupos de dispositivos, dispositivos, sensores, válvulas, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación, planes, suscripciones, pagos, solicitudes de servicio, tickets de soporte y operaciones de mitigación. La estructura backend implementada se organiza alrededor de los bounded contexts **IAM**, **Workplace**, **DeviceControl**, **Monitoring**, **Notification**, **Plan**, **Support** y **Shared**.
 
 Este diseño respalda funcionalidades como el registro e inicio de sesión, la gestión de dispositivos, el monitoreo de sensores, la administración de alertas y la generación de reportes. Asimismo, permite almacenar la información de forma estructurada, asegurando integridad relacional mediante claves primarias y foráneas. La base de datos fue diseñada de manera modular y escalable, de modo que pueda ampliarse fácilmente en futuras iteraciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
-El diagrama de base de datos representa la estructura de almacenamiento real del backend y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación y operaciones de válvula, las cuales permiten operar el ciclo completo de monitoreo y mitigación de agua y gas.
+El diagrama de base de datos representa la estructura de almacenamiento real del backend y las relaciones existentes entre las principales tablas que soportan la lógica de la aplicación. Entre las entidades más relevantes se encuentran usuarios, sedes, ambientes, grupos de dispositivos, sensores, válvulas, comandos, ejecuciones, auditoría, lecturas de consumo, umbrales, anomalías, alertas, incidentes, canales de notificación, planes, características de plan, suscripciones, pagos, solicitudes de servicio, tickets de soporte y operaciones de válvula, las cuales permiten operar el ciclo completo de monitoreo, mitigación, suscripción y soporte de agua y gas.
 
 Además, el diagrama muestra cómo se conectan estas tablas mediante claves primarias y foráneas, reflejando la organización de los datos y la integridad relacional del sistema. En conjunto, esta estructura permite almacenar de forma consistente la información necesaria para el funcionamiento del backend y facilita la escalabilidad y mantenibilidad de la aplicación.
 
