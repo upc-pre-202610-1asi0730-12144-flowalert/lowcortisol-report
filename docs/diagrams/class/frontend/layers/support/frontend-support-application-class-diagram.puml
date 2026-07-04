@@ -7,76 +7,57 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Support / Application" {
-  package "Application / Commands" {
-    interface "CreateMaintenanceTicketCommand" as Frontend_service_management_CreateMaintenanceTicketCommand <<interface>> {
-      + deviceId: number
-      + deviceName: string
-      + type: MaintenanceTicketType
-      + description: string
-      + scheduledDate: string
+  package "Application Commands" {
+    class "CreateSupportTicketDto" as Frontend_support_CreateSupportTicketDto <<Command DTO>> {
+      + title
+      + description
+      + category
+      + siteId
     }
-    interface "CreateSupportTicketCommand" as Frontend_service_management_CreateSupportTicketCommand <<interface>> {
-      + subject: string
-      + description: string
-      + priority: SupportTicketPriority
+
+    class "UpdateSupportTicketDto" as Frontend_support_UpdateSupportTicketDto <<Command DTO>> {
+      + ticketId
+      + status
     }
-    interface "UpdateMaintenanceTicketStatusCommand" as Frontend_service_management_UpdateMaintenanceTicketStatusCommand <<interface>> {
-      + ticketId: number
-      + status: MaintenanceTicketStatus
-    }
-    interface "UpdateSupportTicketStatusCommand" as Frontend_service_management_UpdateSupportTicketStatusCommand <<interface>> {
-      + ticketId: number
-      + status: SupportTicketStatus
+
+    class "SendSupportMessageDto" as Frontend_support_SendSupportMessageDto <<Command DTO>> {
+      + ticketId
+      + content
     }
   }
-  package "Application / Facades and Services" {
-    class "SupportFacade" as Frontend_service_management_SupportFacade <<Facade>> {
-      - supportTicketAssembler
-      - maintenanceTicketAssembler
-      + get: supportTickets()
-      + get: maintenanceTickets()
-      + get: sortedSupportTickets()
-      + get: sortedMaintenanceTickets()
-      + get: loading()
-      + get: error()
-      + get: openSupportTickets()
-      + get: urgentSupportTickets()
-      + get: pendingMaintenanceTickets()
-      + get: scheduledMaintenanceTickets()
-      + get: completedMaintenanceTickets()
-      + constructor: (
-      - supportTicketsApi: SupportTicketsApiService
-      - maintenanceTicketsApi: MaintenanceTicketsApiService
-      - deviceControlFacade: DeviceControlFacade
-      - store: SupportStore
+
+  package "Facade and Store" {
+    class "SupportFacade" as Frontend_support_SupportFacade <<Facade>> {
+      - supportApiService
+      + getTickets()
+      + createTicket(payload)
+      + updateTicket(payload)
+      + sendMessage(payload)
+      + getAgents()
+      + getArticles()
+      + getConversations()
+      + getConversationByTicket(ticketId)
+      + getSummary()
     }
-  }
-  package "Application / Stores" {
-    class "SupportStore" as Frontend_service_management_SupportStore <<Store>> {
-      - supportTicketsSignal
-      - maintenanceTicketsSignal
-      - loadingSignal
-      - errorSignal
-      + constructor(ticketPriorityService: TicketPriorityService)
-      + setSupportTickets(value: SupportTicket[]) : void
-      + prependSupportTicket(value: SupportTicket) : void
-      + updateSupportTicket(value: SupportTicket) : void
-      + removeSupportTicket(ticketId: number) : void
-      + setMaintenanceTickets(value: MaintenanceTicket[]) : void
-      + prependMaintenanceTicket(value: MaintenanceTicket) : void
-      + updateMaintenanceTicket(value: MaintenanceTicket) : void
-      + removeMaintenanceTicket(ticketId: number) : void
-      + setLoading(value: boolean) : void
-      + setError(value: string | null) : void
+
+    class "SupportStore" as Frontend_support_SupportStore <<Store>> {
+      + tickets
+      + agents
+      + articles
+      + conversations
+      + summary
+      + loadSupport()
+      + createTicket(payload)
+      + resolveTicket(ticket)
+      + closeTicket(ticket)
+      + sendMessage(ticket, content)
     }
   }
 }
 
-Frontend_service_management_SupportFacade ..> Frontend_service_management_CreateMaintenanceTicketCommand
-Frontend_service_management_SupportFacade ..> Frontend_service_management_CreateSupportTicketCommand
-Frontend_service_management_SupportFacade ..> Frontend_service_management_SupportStore
-Frontend_service_management_SupportFacade ..> Frontend_service_management_UpdateMaintenanceTicketStatusCommand
-Frontend_service_management_SupportFacade ..> Frontend_service_management_UpdateSupportTicketStatusCommand
-
+Frontend_support_SupportStore --> Frontend_support_SupportFacade
+Frontend_support_SupportFacade ..> Frontend_support_CreateSupportTicketDto
+Frontend_support_SupportFacade ..> Frontend_support_UpdateSupportTicketDto
+Frontend_support_SupportFacade ..> Frontend_support_SendSupportMessageDto
 
 @enduml

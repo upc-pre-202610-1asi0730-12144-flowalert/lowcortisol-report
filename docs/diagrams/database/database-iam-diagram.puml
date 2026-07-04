@@ -5,101 +5,48 @@ hide circle
 skinparam linetype ortho
 skinparam shadowing false
 skinparam packageStyle rectangle
+
 package "IAM" {
-  entity "access_profiles" as access_profiles {
-    PK id : bigint
-    created_at : timestamp
-    updated_at : timestamp
-    name : varchar
-    description : varchar
-  }
   entity "users" as users {
-    PK id : bigint
+    PK id : uuid
+    first_name : varchar(80)
+    last_name : varchar(80)
+    email : varchar(160) <<unique>>
+    password_hash : varchar(255)
+    role : varchar(40)
+    is_active : boolean
     created_at : timestamp
     updated_at : timestamp
-    full_name : varchar
-    email : varchar
-    password_hash : varchar
-    status : varchar
-    FK access_profile_id : bigint
   }
 }
 
 package "External References" {
-  entity "alert_rule_profiles" as alert_rule_profiles <<external>> {
+  entity "subscriptions" as subscriptions <<Plan>> {
     PK id
+    user_id
   }
-  entity "alert_rules" as alert_rules <<external>> {
+  entity "payments" as payments <<Plan>> {
     PK id
+    subscription_id
   }
-  entity "alerts" as alerts <<external>> {
+  entity "support_tickets" as support_tickets <<Support>> {
     PK id
+    user_id
   }
-  entity "consumption_reports" as consumption_reports <<external>> {
+  entity "alert_deliveries" as alert_deliveries <<Notification>> {
     PK id
-  }
-  entity "device_groups" as device_groups <<external>> {
-    PK id
-  }
-  entity "devices" as devices <<external>> {
-    PK id
-  }
-  entity "consumption_device_usage_states" as consumption_device_usage_states <<external>> {
-    PK id
-  }
-  entity "consumption_goals" as consumption_goals <<external>> {
-    PK id
-  }
-  entity "consumption_readings" as consumption_readings <<external>> {
-    PK id
-  }
-  entity "invoices" as invoices <<external>> {
-    PK id
-  }
-  entity "locations" as locations <<external>> {
-    PK id
-  }
-  entity "maintenance_tickets" as maintenance_tickets <<external>> {
-    PK id
-  }
-  entity "notification_preferences" as notification_preferences <<external>> {
-    PK id
-  }
-  entity "operation_modes" as operation_modes <<external>> {
-    PK id
-  }
-  entity "payments" as payments <<external>> {
-    PK id
-  }
-  entity "routines" as routines <<external>> {
-    PK id
-  }
-  entity "subscriptions" as subscriptions <<external>> {
-    PK id
-  }
-  entity "support_tickets" as support_tickets <<external>> {
-    PK id
+    recipient_user_id
   }
 }
 
-access_profiles ||--o{ users : access_profile_id
-users ||--o{ alert_rule_profiles : user_id
-users ||--o{ alert_rules : user_id
-users ||--o{ alerts : user_id
-users ||--o{ consumption_reports : user_id
-users ||--o{ device_groups : user_id
-users ||--o{ devices : user_id
-users ||--o{ consumption_device_usage_states : user_id
-users ||--o{ consumption_goals : user_id
-users ||--o{ consumption_readings : user_id
-users ||--o{ invoices : user_id
-users ||--o{ locations : user_id
-users ||--o{ maintenance_tickets : user_id
-users ||--o{ notification_preferences : user_id
-users ||--o{ operation_modes : user_id
-users ||--o{ payments : user_id
-users ||--o{ routines : user_id
-users ||--o{ subscriptions : user_id
-users ||--o{ support_tickets : user_id
+users ||..o{ subscriptions : user_id
+subscriptions ||..o{ payments : subscription_id
+users ||..o{ support_tickets : user_id
+users ||..o{ alert_deliveries : recipient_user_id
+
+note right of users
+IAM owns authentication users only.
+Authorization is not activated on existing endpoints yet.
+end note
 
 @enduml

@@ -7,40 +7,31 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Plan / Infrastructure" {
-  package "Infrastructure / Bootstrap" {
-    class "PlanPlanCatalogInitializer" as Backend_plan_PlanPlanCatalogInitializer <<Class>> {
-      - planRepository: JpaPlanRepository
-      + run(ApplicationArguments args) : void
-      - defaultPlans() : List<Plan>
+  package "Persistence / Entity Framework Core" {
+    class "PlanEntityTypeConfigurations" as Backend_plan_PlanEntityTypeConfigurations <<EF Core Configuration>> {
+      + Configure(Plan)
+      + Configure(PlanFeature)
+      + Configure(Subscription)
+      + Configure(Payment)
+      + Configure(ServiceRequest)
     }
+    class "PlanRepository" as Backend_plan_EfPlanRepository <<Repository Adapter>>
+    class "SubscriptionRepository" as Backend_plan_EfSubscriptionRepository <<Repository Adapter>>
+    class "PaymentRepository" as Backend_plan_EfPaymentRepository <<Repository Adapter>>
+    class "ServiceRequestRepository" as Backend_plan_EfServiceRequestRepository <<Repository Adapter>>
   }
-  package "Infrastructure / EF Core" {
-    class "PlanJpaTableNames" as Backend_plan_PlanJpaTableNames <<Class>> {
-      + PLANS: String
-      + SUBSCRIPTIONS: String
-      + PAYMENTS: String
-      + INVOICES: String
-      - PlanJpaTableNames()
-    }
-  }
-  package "Infrastructure / EF Core Repositories" {
-    interface "JpaInvoiceRepository" as Backend_plan_JpaInvoiceRepository <<interface>> {
-    }
-    interface "JpaPaymentRepository" as Backend_plan_JpaPaymentRepository <<interface>> {
-    }
-    interface "JpaPlanRepository" as Backend_plan_JpaPlanRepository <<interface>> {
-    }
-    interface "JpaSubscriptionRepository" as Backend_plan_JpaSubscriptionRepository <<interface>> {
-    }
+
+  package "Persistence / InMemory" {
+    class "InMemoryPlanRepository" as Backend_plan_InMemoryPlanRepository <<Demo Adapter>>
+    class "InMemorySubscriptionRepository" as Backend_plan_InMemorySubscriptionRepository <<Demo Adapter>>
   }
 }
 
-Backend_plan_PlanPlanCatalogInitializer ..> Backend_plan_JpaPlanRepository
-
-' Layer relationship completion: every declared type participates in this layer diagram.
-Backend_plan_JpaPlanRepository ..> Backend_plan_PlanJpaTableNames
-Backend_plan_JpaPlanRepository ..> Backend_plan_JpaInvoiceRepository
-Backend_plan_JpaPlanRepository ..> Backend_plan_JpaPaymentRepository
-Backend_plan_JpaPlanRepository ..> Backend_plan_JpaSubscriptionRepository
+Backend_plan_EfPlanRepository ..|> Backend_plan_IPlanRepository
+Backend_plan_EfSubscriptionRepository ..|> Backend_plan_ISubscriptionRepository
+Backend_plan_EfPaymentRepository ..|> Backend_plan_IPaymentRepository
+Backend_plan_EfServiceRequestRepository ..|> Backend_plan_IServiceRequestRepository
+Backend_plan_InMemoryPlanRepository ..|> Backend_plan_IPlanRepository
+Backend_plan_InMemorySubscriptionRepository ..|> Backend_plan_ISubscriptionRepository
 
 @enduml

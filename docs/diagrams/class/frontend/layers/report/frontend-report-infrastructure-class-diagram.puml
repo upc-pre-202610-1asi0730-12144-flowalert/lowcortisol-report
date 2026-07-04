@@ -1,12 +1,12 @@
 @startuml
-title LowCortisol WebApp - Report Frontend Infrastructure Layer
+title LowCortisol WebApp - Report Experience Infrastructure Layer
 left to right direction
 skinparam packageStyle rectangle
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Report / Infrastructure" {
+package "Report Experience / Infrastructure" {
   package "Infrastructure / API Services" {
     class "ConsumptionReportsApiService" as Frontend_report_ConsumptionReportsApiService <<API Service>> {
       + constructor: (

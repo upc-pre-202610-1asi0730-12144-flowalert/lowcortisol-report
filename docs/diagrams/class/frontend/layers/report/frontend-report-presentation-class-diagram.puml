@@ -1,12 +1,12 @@
 @startuml
-title LowCortisol WebApp - Report Frontend Presentation Layer
+title LowCortisol WebApp - Report Experience Presentation Layer
 left to right direction
 skinparam packageStyle rectangle
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Report Presentation" {
+package "Report Experience / Presentation" {
   package "Presentation / Components" {
     interface "ConsumptionGoalInsight" as FrontendPresentation_report_ConsumptionGoalInsight <<interface>> {
       + measuredKilowattHours: number

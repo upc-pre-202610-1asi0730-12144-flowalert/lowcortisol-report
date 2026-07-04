@@ -1,12 +1,12 @@
 @startuml
-title LowCortisol WebApp - Report Frontend Bounded Context Layers
+title LowCortisol WebApp - Report Experience Layers
 left to right direction
 skinparam packageStyle rectangle
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Report Frontend Bounded Context" {
+package "Report Experience Feature Area" {
   class "Domain" as Frontend_report_Domain <<layer>>
   class "Application" as Frontend_report_Application <<layer>>
   class "Infrastructure" as Frontend_report_Infrastructure <<layer>>
