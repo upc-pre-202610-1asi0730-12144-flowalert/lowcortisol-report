@@ -62,7 +62,7 @@ rectangle "<b>Plan Frontend Bounded Context</b>\n<i>[Vue Bounded Context Module]
 rectangle "<b>LowCortisol Backend API</b>\n<i>[External Container]</i>\n\nREST API consumed by this frontend context." as Backend #7F8C8D
 rectangle "<b>Shared Frontend</b>\n<i>[Shared UI / Session]</i>\n\nProvides layout, session, preferences, UI primitives and base API behavior." as Shared #7F8C8D
 rectangle "<b>IAM</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep0 #7F8C8D
-rectangle "<b>Report</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep1 #7F8C8D
+rectangle "<b>Report Experience</b>\n<i>[Frontend Feature Area]</i>\n\nConsumes monitoring data and renders report views." as Dep1 #7F8C8D
 
 Presentation --> Application : Dispatches UI actions
 Application --> Domain : Applies feature rules

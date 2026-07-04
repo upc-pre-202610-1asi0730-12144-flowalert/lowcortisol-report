@@ -1,12 +1,12 @@
 @startuml
-title LowCortisol WebApp - Report Frontend Domain Layer
+title LowCortisol WebApp - Report Experience Domain Layer
 left to right direction
 skinparam packageStyle rectangle
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Report / Domain" {
+package "Report Experience / Domain" {
   package "Domain / Model" {
     class "ConsumptionReport" as Frontend_report_ConsumptionReport <<Entity>> {
       - _userId: number

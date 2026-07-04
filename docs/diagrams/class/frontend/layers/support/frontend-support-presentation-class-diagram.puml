@@ -6,108 +6,47 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 hide circle
 
-package "Support Presentation" {
-  package "Presentation / Components" {
-    class "MaintenanceTicketCardComponent" as FrontendPresentation_service_management_MaintenanceTicketCardComponent <<Component>> {
-      + ticket: !: MaintenanceTicket
-      + statusChanged
-      + remove
-      + statuses: MaintenanceTicketStatus[]
-      + get: statusOptions(): DropdownOption[]
-      + constructor: (
-      - translate: TranslateService
-      - uiPreferences: UiPreferencesService
-      + changeStatus(status: string) : void
-      + onRemove() : void
-      + maintenanceTypeLabel(type: MaintenanceTicketType) : string
-      - maintenanceTypeLabelKey(type: MaintenanceTicketType) : string
-      + statusLabel(status: MaintenanceTicketStatus) : string
-      - statusLabelKey(status: MaintenanceTicketStatus) : string
-      + formatDate(value: string) : string
-      - t(key: string) : string
-      - currentLocale() : string
-    }
-    class "SupportTicketCardComponent" as FrontendPresentation_service_management_SupportTicketCardComponent <<Component>> {
-      + ticket: !: SupportTicket
-      + statusChanged
-      + remove
-      + statuses: SupportTicketStatus[]
-      + get: statusOptions(): DropdownOption[]
-      + constructor: (
-      - translate: TranslateService
-      - uiPreferences: UiPreferencesService
-      + changeStatus(status: string) : void
-      + onRemove() : void
-      + priorityLabel(priority: SupportTicketPriority) : string
-      - priorityLabelKey(priority: SupportTicketPriority) : string
-      + statusLabel(status: SupportTicketStatus) : string
-      - statusLabelKey(status: SupportTicketStatus) : string
-      + formatDate(value: string) : string
-      - t(key: string) : string
-      - currentLocale() : string
-    }
-    class "TicketStatusBadgeComponent" as FrontendPresentation_service_management_TicketStatusBadgeComponent <<Component>> {
-      + value: !: BadgeVariant
-      + label: string | null
-      + get: normalizedValue(): string
-      + get: displayLabel(): string
-    }
+package "Support / Presentation" {
+  class "SupportPageComponent" as Frontend_support_SupportPageComponent <<Page>> {
+    + loadSupport()
+    + openCreateTicket()
+    + selectTicket(ticket)
+    + resolveTicket(ticket)
+    + closeTicket(ticket)
+    + sendMessage()
   }
-  package "Presentation / Pages" {
-    class "MaintenanceTicketsPageComponent" as FrontendPresentation_service_management_MaintenanceTicketsPageComponent <<Component>> {
-      + deviceId: number | null
-      + type: MaintenanceTicketType
-      + description
-      + scheduledDate
-      + isMaintenanceModalOpen
-      + types: MaintenanceTicketType[]
-      + get: deviceValue(): string | null
-      + get: deviceOptions(): DropdownOption[]
-      + get: hasDevices(): boolean
-      + get: todayInput(): string
-      + get: typeOptions(): DropdownOption[]
-      + constructor: (
-      + serviceManagementFacade: SupportFacade
-      + deviceControlFacade: DeviceControlFacade
-      - toastService: ToastService
-      - confirmDialog: ConfirmDialogService
-      - translate: TranslateService
-      + ngOnInit() : Promise<void>
-    }
-    class "SupportTicketsPageComponent" as FrontendPresentation_service_management_SupportTicketsPageComponent <<Component>> {
-      + subject
-      + description
-      + priority: SupportTicketPriority
-      + isSupportModalOpen
-      + priorities: SupportTicketPriority[]
-      + get: priorityOptions(): DropdownOption[]
-      + constructor: (
-      + serviceManagementFacade: SupportFacade
-      - toastService: ToastService
-      - confirmDialog: ConfirmDialogService
-      - translate: TranslateService
-      + ngOnInit() : Promise<void>
-      + openSupportModal() : void
-      + closeSupportModal() : void
-      + createTicket() : Promise<void>
-      + selectPriority(value: string) : void
-      + priorityLabel(priority: SupportTicketPriority) : string
-      + priorityLabelKey(priority: SupportTicketPriority) : string
-    }
+
+  class "SupportTicketCardComponent" as Frontend_support_SupportTicketCardComponent <<Component>> {
+    + ticket
+    + select(ticket)
   }
-  package "Presentation / Routes" {
-    class "SERVICE_MANAGEMENT_ROUTES" as FrontendPresentation_service_management_SERVICE_MANAGEMENT_ROUTES <<Routes>> {
-      + route: /service/support
-    }
+
+  class "CreateSupportTicketModal" as Frontend_support_CreateSupportTicketModal <<Component>> {
+    + submit()
+    + close()
+  }
+
+  class "KnowledgeArticleCardComponent" as Frontend_support_KnowledgeArticleCardComponent <<Component>> {
+    + article
+    + open(article)
+  }
+
+  class "KnowledgeArticleDetailModal" as Frontend_support_KnowledgeArticleDetailModal <<Component>> {
+    + article
+    + close()
   }
 }
 
-FrontendPresentation_service_management_MaintenanceTicketCardComponent ..> FrontendPresentation_service_management_TicketStatusBadgeComponent
-FrontendPresentation_service_management_MaintenanceTicketsPageComponent ..> FrontendPresentation_service_management_MaintenanceTicketCardComponent
-FrontendPresentation_service_management_SupportTicketCardComponent ..> FrontendPresentation_service_management_TicketStatusBadgeComponent
-FrontendPresentation_service_management_SupportTicketsPageComponent ..> FrontendPresentation_service_management_SupportTicketCardComponent
+class "Support Routes" as Frontend_support_Routes <<Vue Router>>
+class "Support Store" as Frontend_support_Store <<Store>>
+class "Shared UI" as Frontend_support_SharedUi <<Shared>>
 
-' Relationship completion: every declared type participates in the frontend diagram.
-FrontendPresentation_service_management_MaintenanceTicketsPageComponent ..> FrontendPresentation_service_management_SERVICE_MANAGEMENT_ROUTES
+Frontend_support_Routes --> Frontend_support_SupportPageComponent
+Frontend_support_SupportPageComponent --> Frontend_support_Store
+Frontend_support_SupportPageComponent --> Frontend_support_SupportTicketCardComponent
+Frontend_support_SupportPageComponent --> Frontend_support_CreateSupportTicketModal
+Frontend_support_SupportPageComponent --> Frontend_support_KnowledgeArticleCardComponent
+Frontend_support_SupportPageComponent --> Frontend_support_KnowledgeArticleDetailModal
+Frontend_support_SupportPageComponent ..> Frontend_support_SharedUi
 
 @enduml

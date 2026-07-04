@@ -7,79 +7,52 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Support / Domain" {
-  package "Domain / Model" {
-    class "MaintenanceTicket" as Frontend_service_management_MaintenanceTicket <<Entity>> {
-      - _userId: number
-      - _deviceId: number
-      - _deviceName: string
-      - _type: MaintenanceTicketType
-      - _description: string
-      - _scheduledDate: string
-      - _status: MaintenanceTicketStatus
-      - _createdAt: string
-      + constructor: (props:
-      + get: userId(): number
-      + get: deviceId(): number
-      + get: deviceName(): string
-      + get: type(): MaintenanceTicketType
-      + get: description(): string
-      + get: scheduledDate(): string
-      + get: status(): MaintenanceTicketStatus
-      + get: createdAt(): string
-      + get: isPending(): boolean
+  package "Domain Model" {
+    class "SupportTicket" as Frontend_support_SupportTicket <<Entity>> {
+      + id
+      + title
+      + description
+      + category
+      + priority
+      + status
+      + messages
     }
-    class "MaintenanceTicketStatus" as Frontend_service_management_MaintenanceTicketStatus <<type>> {
-      + 'PENDING' | 'SCHEDULED' | 'COMPLETED' | 'CANCELED'
+
+    class "SupportMessage" as Frontend_support_SupportMessage <<Entity>> {
+      + id
+      + ticketId
+      + senderType
+      + senderName
+      + content
+      + sentAt
     }
-    class "MaintenanceTicketType" as Frontend_service_management_MaintenanceTicketType <<type>> {
-      + 'INSPECTION' | 'REPAIR' | 'REPLACEMENT' | 'INSTALLATION'
+
+    class "SupportConversation" as Frontend_support_SupportConversation <<Entity>> {
+      + id
+      + ticketId
+      + messages
+      + lastMessageAt
     }
-    class "SupportTicket" as Frontend_service_management_SupportTicket <<Entity>> {
-      - _userId: number
-      - _subject: string
-      - _description: string
-      - _priority: SupportTicketPriority
-      - _status: SupportTicketStatus
-      - _createdAt: string
-      + constructor: (props:
-      + get: userId(): number
-      + get: subject(): string
-      + get: description(): string
-      + get: priority(): SupportTicketPriority
-      + get: status(): SupportTicketStatus
-      + get: createdAt(): string
-      + get: isOpen(): boolean
-      + get: isInProgress(): boolean
-      + get: isResolved(): boolean
-      + get: isClosed(): boolean
-      + get: isUrgent(): boolean
+
+    class "SupportAgent" as Frontend_support_SupportAgent <<Entity>> {
+      + id
+      + name
+      + specialty
+      + status
     }
-    class "SupportTicketPriority" as Frontend_service_management_SupportTicketPriority <<type>> {
-      + 'LOW' | 'MEDIUM' | 'HIGH' | 'URGENT'
-    }
-    class "SupportTicketStatus" as Frontend_service_management_SupportTicketStatus <<type>> {
-      + 'OPEN' | 'IN_PROGRESS' | 'RESOLVED' | 'CLOSED'
-    }
-  }
-  package "Domain / Services" {
-    class "TicketPriorityService" as Frontend_service_management_TicketPriorityService <<Domain Service>> {
-      - supportPriorityWeight: Record<SupportTicketPriority, number>
-      - maintenanceStatusWeight: Record<MaintenanceTicketStatus, number>
-      + sortSupportTickets(tickets: SupportTicket[]) : SupportTicket[]
-      + sortMaintenanceTickets(tickets: MaintenanceTicket[]) : MaintenanceTicket[]
-      + getSupportPriorityWeight(priority: SupportTicketPriority) : number
-      + getMaintenanceStatusWeight(status: MaintenanceTicketStatus) : number
+
+    class "KnowledgeArticle" as Frontend_support_KnowledgeArticle <<Entity>> {
+      + id
+      + title
+      + summary
+      + category
+      + helpfulCount
     }
   }
 }
 
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_MaintenanceTicket
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_MaintenanceTicketStatus
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_SupportTicket
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_SupportTicketPriority
-
-' Layer relationship completion: every declared type participates in this layer diagram.
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_MaintenanceTicketType
-Frontend_service_management_TicketPriorityService ..> Frontend_service_management_SupportTicketStatus
+Frontend_support_SupportTicket "1" o-- "*" Frontend_support_SupportMessage
+Frontend_support_SupportConversation "1" o-- "*" Frontend_support_SupportMessage
+Frontend_support_SupportConversation --> Frontend_support_SupportTicket
 
 @enduml

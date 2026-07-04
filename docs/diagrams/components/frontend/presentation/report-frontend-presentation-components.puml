@@ -51,9 +51,9 @@ skinparam databaseFontStyle plain
 hide stereotype
 left to right direction
 
-title LowCortisol - Report Frontend Presentation Components Diagram
+title LowCortisol - Report Experience Presentation Components Diagram
 
-rectangle "<b>Report Presentation Layer</b>\n<i>[Vue Presentation Surface]</i>" <<BoundedContext>> {
+rectangle "<b>Report Experience Presentation Layer</b>\n<i>[Vue Presentation Surface]</i>" <<FeatureArea>> {
   rectangle "<b>Reports Page</b>\n<i>[Page / Routed View]</i>\n\nOwns screen-level layout and user interaction for this feature." as Page0 #58A9E8
   rectangle "<b>Consumption Goals Page</b>\n<i>[Page / Routed View]</i>\n\nOwns screen-level layout and user interaction for this feature." as Page1 #58A9E8
   rectangle "<b>Dashboard Insights View</b>\n<i>[Page / Routed View]</i>\n\nOwns screen-level layout and user interaction for this feature." as Page2 #58A9E8

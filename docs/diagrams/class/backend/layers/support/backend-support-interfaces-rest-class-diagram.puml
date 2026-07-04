@@ -7,84 +7,43 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Support / Interfaces REST" {
-  package "Interfaces / REST Assemblers" {
-    class "CreateMaintenanceTicketCommandFromResourceAssembler" as Backend_servicemanagement_CreateMaintenanceTicketCommandFromResourceAssembler <<Assembler>> {
-      + toCommandFromResource(CreateMaintenanceTicketResource resource, Long userId) : CreateMaintenanceTicketCommand
-    }
-    class "CreateSupportTicketCommandFromResourceAssembler" as Backend_servicemanagement_CreateSupportTicketCommandFromResourceAssembler <<Assembler>> {
-      + toCommandFromResource(CreateSupportTicketResource resource, Long userId) : CreateSupportTicketCommand
-    }
-    class "MaintenanceTicketResourceFromEntityAssembler" as Backend_servicemanagement_MaintenanceTicketResourceFromEntityAssembler <<Assembler>> {
-      + toResourceFromEntity(MaintenanceTicket ticket) : MaintenanceTicketResource
-    }
-    class "SupportTicketResourceFromEntityAssembler" as Backend_servicemanagement_SupportTicketResourceFromEntityAssembler <<Assembler>> {
-      + toResourceFromEntity(SupportTicket ticket) : SupportTicketResource
-    }
-    class "UpdateTicketStatusCommandFromResourceAssembler" as Backend_servicemanagement_UpdateTicketStatusCommandFromResourceAssembler <<Assembler>> {
-      + toCommandFromResource(UpdateTicketStatusResource resource) : UpdateTicketStatusCommand
+  package "Controllers" {
+    class "SupportController" as Backend_support_SupportController <<REST Controller>> {
+      + CreateTicket(resource, cancellationToken)
+      + UpdateTicket(ticketId, resource, cancellationToken)
+      + SendMessage(ticketId, resource, cancellationToken)
+      + GetTickets(userId, cancellationToken)
+      + GetAgents(cancellationToken)
+      + GetKnowledgeArticles(cancellationToken)
+      + GetConversations(cancellationToken)
+      + GetConversationByTicket(ticketId, cancellationToken)
+      + GetSummary(cancellationToken)
     }
   }
-  package "Interfaces / REST Controllers" {
-    class "SupportController" as Backend_servicemanagement_SupportController <<REST Controller>> {
-      - service: SupportApplicationService
-      - currentUserProvider: CurrentUserProvider
-      + getSupportTickets() : List<SupportTicketResource>
-      + createSupportTicket(CreateSupportTicketResource request) : SupportTicketResource
-      + updateSupportStatus(Long ticketId, UpdateTicketStatusResource request) : SupportTicketResource
-      + deleteSupportTicket(Long ticketId) : void
-      + getMaintenanceTickets() : List<MaintenanceTicketResource>
-      + createMaintenanceTicket(CreateMaintenanceTicketResource request) : MaintenanceTicketResource
-      + updateMaintenanceStatus(Long ticketId, UpdateTicketStatusResource request) : MaintenanceTicketResource
-      + deleteMaintenanceTicket(Long ticketId) : void
-    }
+
+  package "Resources" {
+    class "SupportTicketResource" as Backend_support_SupportTicketResource <<Resource>>
+    class "SupportMessageResource" as Backend_support_SupportMessageResource <<Resource>>
+    class "SupportConversationResource" as Backend_support_SupportConversationResource <<Resource>>
+    class "SupportAgentResource" as Backend_support_SupportAgentResource <<Resource>>
+    class "KnowledgeArticleResource" as Backend_support_KnowledgeArticleResource <<Resource>>
+    class "SupportSummaryResource" as Backend_support_SupportSummaryResource <<Resource>>
+    class "CreateSupportTicketResource" as Backend_support_CreateSupportTicketResource <<Resource>>
+    class "UpdateSupportTicketResource" as Backend_support_UpdateSupportTicketResource <<Resource>>
+    class "SendSupportMessageResource" as Backend_support_SendSupportMessageResource <<Resource>>
   }
-  package "Interfaces / REST Resources" {
-    class "CreateMaintenanceTicketResource" as Backend_servicemanagement_CreateMaintenanceTicketResource <<record>> {
-      + Long deviceId
-      + String deviceName
-      + String type
-      + String description
-      + LocalDate scheduledDate
-    }
-    class "CreateSupportTicketResource" as Backend_servicemanagement_CreateSupportTicketResource <<record>> {
-      + String subject
-      + String description
-      + String priority
-    }
-    class "MaintenanceTicketResource" as Backend_servicemanagement_MaintenanceTicketResource <<record>> {
-      + Long id
-      + Long userId
-      + Long deviceId
-      + String deviceName
-      + String type
-      + String description
-      + LocalDate scheduledDate
-      + String status
-      + from(MaintenanceTicket ticket) : MaintenanceTicketResource
-    }
-    class "SupportTicketResource" as Backend_servicemanagement_SupportTicketResource <<record>> {
-      + Long id
-      + Long userId
-      + String subject
-      + String description
-      + String priority
-      + String status
-      + LocalDate createdAt
-      + from(SupportTicket ticket) : SupportTicketResource
-    }
-    class "UpdateTicketStatusResource" as Backend_servicemanagement_UpdateTicketStatusResource <<record>> {
-      + String status
-    }
+
+  package "Transform" {
+    class "SupportAssemblers" as Backend_support_SupportAssemblers <<Assemblers>>
+    class "SupportActionResultAssembler" as Backend_support_SupportActionResultAssembler <<Assembler>>
   }
 }
 
-Backend_servicemanagement_CreateMaintenanceTicketCommandFromResourceAssembler ..> Backend_servicemanagement_CreateMaintenanceTicketResource
-Backend_servicemanagement_CreateSupportTicketCommandFromResourceAssembler ..> Backend_servicemanagement_CreateSupportTicketResource
-Backend_servicemanagement_MaintenanceTicketResourceFromEntityAssembler ..> Backend_servicemanagement_MaintenanceTicketResource
-Backend_servicemanagement_SupportTicketResourceFromEntityAssembler ..> Backend_servicemanagement_SupportTicketResource
-Backend_servicemanagement_UpdateTicketStatusCommandFromResourceAssembler ..> Backend_servicemanagement_UpdateTicketStatusResource
-
-' Layer relationship completion: every declared type participates in this layer diagram.
-Backend_servicemanagement_CreateMaintenanceTicketResource ..> Backend_servicemanagement_SupportController
+Backend_support_SupportController ..> Backend_support_ISupportCommandService
+Backend_support_SupportController ..> Backend_support_ISupportQueryService
+Backend_support_SupportAssemblers ..> Backend_support_SupportTicketResource
+Backend_support_SupportAssemblers ..> Backend_support_SupportMessageResource
+Backend_support_SupportAssemblers ..> Backend_support_SupportConversationResource
+Backend_support_SupportAssemblers ..> Backend_support_KnowledgeArticleResource
 
 @enduml

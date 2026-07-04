@@ -7,71 +7,60 @@ skinparam classAttributeIconSize 0
 hide circle
 
 package "Plan / Application" {
-  package "Application / Commands" {
-    interface "CancelSubscriptionCommand" as Frontend_plan_CancelSubscriptionCommand <<interface>> {
-      + subscriptionId: number
+  package "Application Commands" {
+    class "SubscribeDto" as Frontend_plan_SubscribeDto <<Command DTO>> {
+      + userId
+      + workplaceId
+      + planId
+      + isValid()
     }
-    interface "DownloadInvoiceCommand" as Frontend_plan_DownloadInvoiceCommand <<interface>> {
-      + invoiceId: number
+
+    class "CancelSubscriptionDto" as Frontend_plan_CancelSubscriptionDto <<Command DTO>> {
+      + subscriptionId
+      + reason
     }
-    interface "PaymentFormCommand" as Frontend_plan_PaymentFormCommand <<interface>> {
-      + planCode: PlanCode
-      + holderName: string
-      + cardNumber: string
-      + expirationDate: string
-      + cvv: string
+
+    class "ProcessPaymentDto" as Frontend_plan_ProcessPaymentDto <<Command DTO>> {
+      + planId
+      + holderName
+      + cardNumber
+      + expirationDate
+      + cvv
     }
   }
-  package "Application / Facades and Services" {
+
+  package "Facade and Store" {
     class "PlanFacade" as Frontend_plan_PlanFacade <<Facade>> {
-      - planAssembler
-      - subscriptionAssembler
-      - paymentAssembler
-      - invoiceAssembler
-      + get: plans()
-      + get: activeSubscription()
-      + get: payments()
-      + get: invoices()
-      + get: lastPayment()
-      + get: loading()
-      + get: error()
-      + get: hasActiveSubscription()
-      + get: activePlanCode()
-      + get: activePlan()
-      + constructor: (
-      - plansApi: PlansApiService
-      - subscriptionsApi: SubscriptionsApiService
-      - paymentsApi: PaymentsApiService
+      - planApiService
+      + getPlans()
+      + getPlanById(planId)
+      + getActiveSubscription()
+      + subscribe(payload)
+      + changePlan(payload)
+      + cancelSubscription(payload)
+      + getPayments()
+      + getServiceRequest()
+      + getSummary()
     }
-  }
-  package "Application / Stores" {
+
     class "PlanStore" as Frontend_plan_PlanStore <<Store>> {
-      - plansSignal
-      - activeSubscriptionSignal
-      - paymentsSignal
-      - invoicesSignal
-      - lastPaymentSignal
-      - loadingSignal
-      - errorSignal
-      + hasActiveSubscription
-      + setPlans(value: Plan[]) : void
-      + setActiveSubscription(value: Subscription | null) : void
-      + setPayments(value: Payment[]) : void
-      + setInvoices(value: Invoice[]) : void
-      + setLastPayment(value: Payment | null) : void
-      + prependPayment(value: Payment) : void
-      + prependInvoice(value: Invoice) : void
-      + setLoading(value: boolean) : void
-      + setError(value: string | null) : void
-      + clearMessages() : void
+      + plans
+      + subscription
+      + payments
+      + serviceRequest
+      + summary
+      + loadPlans()
+      + subscribeToPlan(planId)
+      + changePlan(planId)
+      + cancelSubscription()
+      + activePlan()
     }
   }
 }
 
-Frontend_plan_PlanFacade ..> Frontend_plan_PlanStore
-Frontend_plan_PlanFacade ..> Frontend_plan_CancelSubscriptionCommand
-Frontend_plan_PlanFacade ..> Frontend_plan_DownloadInvoiceCommand
-Frontend_plan_PlanFacade ..> Frontend_plan_PaymentFormCommand
-
+Frontend_plan_PlanStore --> Frontend_plan_PlanFacade
+Frontend_plan_PlanFacade ..> Frontend_plan_SubscribeDto
+Frontend_plan_PlanFacade ..> Frontend_plan_CancelSubscriptionDto
+Frontend_plan_PlanFacade ..> Frontend_plan_ProcessPaymentDto
 
 @enduml

@@ -64,7 +64,7 @@ rectangle "<b>Shared Frontend</b>\n<i>[Shared UI / Session]</i>\n\nProvides layo
 rectangle "<b>Workplace</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep0 #7F8C8D
 rectangle "<b>Monitoring</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep1 #7F8C8D
 rectangle "<b>Notification</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep2 #7F8C8D
-rectangle "<b>Report</b>\n<i>[Frontend Context]</i>\n\nCoordinates navigation, shared state or referenced data." as Dep3 #7F8C8D
+rectangle "<b>Report Experience</b>\n<i>[Frontend Feature Area]</i>\n\nConsumes monitoring data and renders report views." as Dep3 #7F8C8D
 
 Presentation --> Application : Dispatches UI actions
 Application --> Domain : Applies feature rules
