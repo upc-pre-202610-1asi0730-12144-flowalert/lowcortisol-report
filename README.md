@@ -4091,7 +4091,7 @@ Se ejecutó el primer despliegue de LowCortisol en Render.
 
 Repositorio
 
-https://github.com/upc-pre-202610-1asi0730-12144-lcortisol/lowcortisol-webapp
+https://github.com/upc-pre-202610-1asi0730-12144-flowalert/lowcortisol-webapp.git
 
 URL desplegada
 
