@@ -5764,8 +5764,7 @@ Mantener una estructura de navegación consistente, resaltar la sección activa 
 
 ## Conclusiones
 
-La evaluación heurística permitió identificar oportunidades de mejora relacionadas principalmente con la visibilidad de la información crítica, la organización de contenidos y la accesibilidad de algunos elementos de la interfaz. En general, los usuarios lograron completar las tareas propuestas satisfactoriamente; sin embargo, la incorporación de las recomendaciones planteadas contribuirá a mejorar la experiencia de uso, la comprensión del sistema y la eficiencia en la interacción con la plataforma LowCortisol.
-
+Durante la TB2, el equipo consolidó la versión final del proyecto LowCortisol mediante la corrección de observaciones pendientes, la actualización de la documentación técnica y funcional, la revisión de la consistencia entre la arquitectura, los diagramas y la implementación del sistema, así como la planificación y desarrollo del Sprint 4. Además, se fortalecieron las evidencias del Sprint Review, la organización del trabajo colaborativo y la documentación del proyecto, incluyendo la actualización de anexos, registros de entrevistas, conclusiones y materiales audiovisuales para la sustentación. Estas actividades permitieron presentar una solución más sólida, coherente y alineada con los objetivos del curso, demostrando una adecuada integración entre el desarrollo técnico, la validación realizada y el trabajo colaborativo del equipo.
 
 
 ## 5.4. Video About-the-Product.
