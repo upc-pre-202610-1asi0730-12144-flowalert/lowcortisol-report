@@ -5831,3 +5831,18 @@ Balamurugan, G., Harish, V. M., Giridharan, G., Stalin, C. V., & Rajarathnam, D.
 
 
 ## Anexo E. Usuarios de prueba
+
+Para la validacion de la aplicacion se definieron usuarios de prueba asociados a los entrevistados y usuarios representativos del proyecto. Estas cuentas permiten ingresar a la Webapp publicada y revisar los flujos principales del sistema: autenticacion, panel de monitoreo, sedes, dispositivos, conductos, alertas, reportes, soporte y configuracion de perfil.
+
+> Por seguridad, las contrasenas no se publican dentro del repositorio ni del informe. Deben ser compartidas por el equipo mediante un canal privado al momento de la evaluacion.
+
+| Persona | Usuario | Correo de prueba | Uso previsto |
+| ------- | ------- | ---------------- | ------------ |
+| Yazid Dumet Isaac Pinto | `YazidIsaac` | `yazid.isaac@lowcortisol.test` | Validacion de navegacion general y monitoreo de consumo. |
+| Jesus Huaman | `JeHuaman` | `jesus.huaman@lowcortisol.test` | Validacion de gestion de ubicaciones, dispositivos y conductos. |
+| Frank Serrano | `Frk_se` | `frank.serrano@lowcortisol.test` | Validacion de alertas, incidentes y acciones operativas. |
+| Leonardo Sotelo | `Leo-st` | `leonardo.sotelo@lowcortisol.test` | Validacion de reportes, historial de lecturas y resumen de consumo. |
+| Pool Guevara | `Pool321Ge` | `pool.guevara@lowcortisol.test` | Validacion de soporte, articulos de ayuda y tickets. |
+| Edward Rojas | `EdRo1123` | `edward.rojas@lowcortisol.test` | Validacion de planes, perfil y configuracion de la aplicacion. |
+
+**Enlace de acceso:** [LowCortisol Webapp](https://lowcortisol-webapp.onrender.com/)
