@@ -160,6 +160,30 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 ![Participacion-4](assets/Collaborate4.png)
 ![Participacion-5](assets/Collaborate5.png)
 
+### Entrega TB2:
+
+#### Participación por integrante:
+
+
+##### Commits en el project reportCommits en el project report de la AV1:
+
+<p align="center">
+  <img src="assets/md-images-members/tb2-commit-evidence-1.png" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/tb2-commit-evidence-2.png" alt="Commits en el project report">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/md-images-members/tb2-commit-evidence-3.png" alt="Commits en el project report">
+</p>
+
+---
 # Contenido
 
 ## Índice
