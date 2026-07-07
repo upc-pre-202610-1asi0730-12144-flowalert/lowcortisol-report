@@ -71,8 +71,7 @@
 |   AV1   | 03/04/2026 |  Todos   | Se agregó la primera versión del informe, incluyendo carátula, registro de versiones, perfiles del equipo, análisis inicial del problema, artefactos de UX, arquitectura preliminar y evidencias del Sprint 1. |
 |   TB1   | 15/05/2026 |  Todos   | Se corrigieron y ampliaron los artefactos previamente observados por el docente, se incorporó la nueva versión del Landing Page, la primera versión de la Web Application y la documentación correspondiente al Sprint 2.|
 |   AV2   | 21/06/2026 |  Todos   | Se actualizaron las secciones del informe con la evidencia del Sprint 3, incluyendo nueva versión del Landing Page, nueva versión de la Web Application, primera versión de Web Services, entrevistas de validación, evaluación heurística y Video About-the-Product.                                                           |
-|   TB2   | 06/07/2026 |  Todos   | En la TB2 se consolidó una versión final estable de LowCortisol, integrando la Landing Page, la Web Application y el Backend. Se completaron funcionalidades clave como recuperación de contraseña, cambio de plan, solicitud de demo, visualización de soluciones, filtrado por sede y resumen general. Además, se actualizaron las evidencias de implementación, colaboración y despliegue, demostrando una solución más coherente, evaluable y alineada con las necesidades de los usuarios objetivo.
-|
+|   TB2   | 06/07/2026 |  Todos   | En la TB2 se consolidó una versión final estable de LowCortisol, integrando la Landing Page, la Web Application y el Backend. Se completaron funcionalidades clave como recuperación de contraseña, cambio de plan, solicitud de demo, visualización de soluciones, filtrado por sede y resumen general. Además, se actualizaron las evidencias de implementación, colaboración y despliegue, demostrando una solución más coherente, evaluable y alineada con las necesidades de los usuarios objetivo. |
 
 <div style="page-break-after: always;"></div>
 
